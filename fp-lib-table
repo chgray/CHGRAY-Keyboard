@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name footprints)(type KiCad)(uri "$(KIPRJMOD)\\CherryKeys\\KiCAD-Keyboard-Tutorial\\footprints.pretty")(options "")(descr ""))
+  (lib (name Teensy)(type KiCad)(uri "$(KIPRJMOD)\\Teensy\\kicad_teensy\\Teensy.pretty")(options "")(descr ""))
+)
