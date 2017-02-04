@@ -1,4 +1,4 @@
-update=2/4/2017 12:33:26 PM
+update=2/4/2017 12:51:20 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -33,3 +33,5 @@ LibName1=power
 LibName2=device
 LibName3=switches
 LibName4=Teensy/kicad_teensy/teensy
+LibName5=CherryKeys/KiCAD-Keyboard-Tutorial/components
+LibName6=NXP/NXP-chgray
