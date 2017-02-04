@@ -1,0 +1,9 @@
+[submodule "Teensy/kicad_teensy"]
+	path = Teensy/kicad_teensy
+	url = https://github.com/XenGi/kicad_teensy.git
+[submodule "CherryFootprints.pretty/KiCAD-Keyboard-Tutorial"]
+	path = CherryFootprints.pretty/KiCAD-Keyboard-Tutorial
+	url = https://github.com/BathroomEpiphanies/KiCAD-Keyboard-Tutorial.git
+[submodule "CherryKeys/KiCAD-Keyboard-Tutorial"]
+	path = CherryKeys/KiCAD-Keyboard-Tutorial
+	url = https://github.com/BathroomEpiphanies/KiCAD-Keyboard-Tutorial.git
