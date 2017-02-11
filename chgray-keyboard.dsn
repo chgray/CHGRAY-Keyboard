@@ -23,10 +23,11 @@
     (boundary
       (path pcb 0  0 0  0 -145000  445000 -145000  445000 0  0 0  0 0)
     )
-    (keepout "" (polygon F.Cu 0  66040 -67310  62865 -76200  66040 -90805  83820 -85090
-            88900 -67945  71755 -62230  66040 -67310))
-    (keepout "" (polygon B.Cu 0  57150 -69850  57150 -108585  97155 -108585  108585 -97155
-            88900 -77470  69215 -57785  67310 -57785))
+    (keepout "" (polygon F.Cu 0  135890 -71120  100965 -71120  100965 -55245  135890 -55245))
+    (keepout "" (polygon F.Cu 0  108585 -74295  108585 -90170  144145 -90170  144145 -73660
+            108585 -73660  108585 -74295))
+    (keepout "" (polygon F.Cu 0  93980 -112395  76200 -112395  76200 -51435  93980 -51435
+            93980 -112395))
     (via "Via[0-1]_600:400_um")
     (rule
       (width 500)
@@ -37,60 +38,19 @@
   )
   (placement
     (component Diodes_SMD:D_0603
-      (place D1 46290 -22910 front 0 (PN D))
-      (place D2 46290 -29560 front 0 (PN D))
-      (place D3 51140 -22910 front 0 (PN D))
-      (place D4 46290 -36210 front 0 (PN D))
-      (place D5 55990 -22910 front 0 (PN D))
-      (place D6 51140 -29560 front 0 (PN D))
-      (place D7 55990 -29560 front 0 (PN D))
-      (place D8 51140 -36210 front 0 (PN D))
-      (place D9 60840 -22910 front 0 (PN D))
-      (place D10 65717.4 -22910 front 0 (PN D))
-      (place D11 56017.4 -36210 front 0 (PN D))
-      (place D12 60867.4 -29560 front 0 (PN D))
-      (place D13 70617.4 -22910 front 0 (PN D))
-      (place D14 75517.4 -22910 front 0 (PN D))
-      (place D15 65767.4 -29560 front 0 (PN D))
-      (place D16 60917.4 -36210 front 0 (PN D))
-      (place D17 70667.4 -29560 front 0 (PN D))
-      (place D18 65817.4 -36210 front 0 (PN D))
+      (place D1 102170 -90855 front 0 (PN D))
+      (place D2 102170 -97505 front 0 (PN D))
+      (place D3 102870 -85090 front 0 (PN D))
+      (place D4 102170 -104155 front 0 (PN D))
     )
     (component footprints:CHERRY_PCB_100H
-      (place SW1 114300 -52070 front 0 (PN KEY_Q))
-      (place SW2 122555 -71120 front 0 (PN KEY_A))
-      (place SW3 133350 -52070 front 0 (PN KEY_W))
-      (place SW4 141605 -71120 front 0 (PN KEY_S))
-      (place SW5 152400 -52070 front 0 (PN KEY_E))
-      (place SW6 160655 -71120 front 0 (PN KEY_D))
-      (place SW7 171450 -52070 front 0 (PN KEY_R))
-      (place SW8 179705 -71120 front 0 (PN KEY_F))
-      (place SW9 190500 -52070 front 0 (PN KEY_T))
-      (place SW10 198755 -71120 front 0 (PN KEY_G))
-      (place SW11 209550 -52070 front 0 (PN KEY_Y))
-      (place SW12 217805 -71120 front 0 (PN KEY_H))
-      (place SW13 228600 -52070 front 0 (PN KEY_U))
-      (place SW14 236855 -71120 front 0 (PN KEY_J))
-      (place SW15 247650 -52070 front 0 (PN KEY_I))
-      (place SW16 255905 -71120 front 0 (PN KEY_K))
-      (place SW17 266700 -52070 front 0 (PN KEY_O))
-      (place SW18 274955 -71120 front 0 (PN KEY_L))
+      (place SW1 108585 -62865 front 0 (PN KEY_Q))
+      (place SW2 116840 -81915 front 0 (PN KEY_A))
+      (place SW3 127635 -62865 front 0 (PN KEY_W))
+      (place SW4 135890 -81915 front 0 (PN KEY_S))
     )
     (component Teensy:Teensy35_36
-      (place U1 27305 -71755 front 270 (PN Teensy3.5))
-    )
-    (component "SMD_Packages:SOIC-24"
-      (place U2 27940 -109855 front 0 (PN PCA9532))
-    )
-    (component LEDs:LED_D3.0mm
-      (place D19 114300 -57785 front 0 (PN LED_Q))
-      (place D20 133350 -57785 front 0 (PN LED_W))
-      (place D21 152400 -57785 front 0 (PN LED_E))
-      (place D22 171450 -57785 front 0 (PN LED_R))
-      (place D23 190500 -57785 front 0 (PN LED_T))
-      (place D24 209550 -57785 front 0 (PN LED_Y))
-      (place D25 228600 -57785 front 0 (PN LED_U))
-      (place D26 247650 -57785 front 0 (PN LED_I))
+      (place U1 85090 -81915 front 270 (PN Teensy3.5))
     )
   )
   (library
@@ -269,63 +229,9 @@
       (pin Round[A]Pad_1600_um 85 -11430 2540)
       (pin Round[A]Pad_1600_um 86 -13970 2540)
     )
-    (image "SMD_Packages:SOIC-24"
-      (outline (path signal 150  7620 2794  7620 -2794))
-      (outline (path signal 150  -7620 2794  -7620 -2794))
-      (outline (path signal 150  7620 2794  -7620 2794))
-      (outline (path signal 150  -7620 635  -6350 635))
-      (outline (path signal 150  -6350 635  -6350 -635))
-      (outline (path signal 150  -6350 -635  -7620 -635))
-      (outline (path signal 150  -7620 -2794  7620 -2794))
-      (pin Rect[T]Pad_762x1524_um 1 -6985 -3810)
-      (pin Rect[T]Pad_762x1524_um 2 -5715 -3810)
-      (pin Rect[T]Pad_762x1524_um 3 -4445 -3810)
-      (pin Rect[T]Pad_762x1524_um 4 -3175 -3810)
-      (pin Rect[T]Pad_762x1524_um 5 -1905 -3810)
-      (pin Rect[T]Pad_762x1524_um 6 -635 -3810)
-      (pin Rect[T]Pad_762x1524_um 7 635 -3810)
-      (pin Rect[T]Pad_762x1524_um 8 1905 -3810)
-      (pin Rect[T]Pad_762x1524_um 9 3175 -3810)
-      (pin Rect[T]Pad_762x1524_um 10 4445 -3810)
-      (pin Rect[T]Pad_762x1524_um 11 5715 -3810)
-      (pin Rect[T]Pad_762x1524_um 12 7112 -3810)
-      (pin Rect[T]Pad_762x1524_um 24 -6985 3810)
-      (pin Rect[T]Pad_762x1524_um 23 -5715 3810)
-      (pin Rect[T]Pad_762x1524_um 22 -4445 3810)
-      (pin Rect[T]Pad_762x1524_um 21 -3175 3810)
-      (pin Rect[T]Pad_762x1524_um 20 -1905 3810)
-      (pin Rect[T]Pad_762x1524_um 19 -635 3810)
-      (pin Rect[T]Pad_762x1524_um 18 635 3810)
-      (pin Rect[T]Pad_762x1524_um 17 1905 3810)
-      (pin Rect[T]Pad_762x1524_um 16 3175 3810)
-      (pin Rect[T]Pad_762x1524_um 15 4445 3810)
-      (pin Rect[T]Pad_762x1524_um 14 5715 3810)
-      (pin Rect[T]Pad_762x1524_um 13 6985 3810)
-    )
-    (image LEDs:LED_D3.0mm
-      (outline (path signal 100  2770 0  2696.59 -463.525  2483.53 -881.678  2151.68 -1213.53
-            1733.53 -1426.59  1270 -1500  806.475 -1426.59  388.322 -1213.53
-            56.475 -881.678  -156.585 -463.525  -230 0  -156.585 463.525
-            56.475 881.678  388.322 1213.53  806.475 1426.59  1270 1500
-            1733.53 1426.59  2151.68 1213.53  2483.53 881.678  2696.59 463.525))
-      (outline (path signal 100  -230 1166.19  -230 -1166.19))
-      (outline (path signal 120  -290 1236  -290 1080))
-      (outline (path signal 120  -290 -1080  -290 -1236))
-      (outline (path signal 50  -1150 2250  -1150 -2250))
-      (outline (path signal 50  -1150 -2250  3700 -2250))
-      (outline (path signal 50  3700 -2250  3700 2250))
-      (outline (path signal 50  3700 2250  -1150 2250))
-      (pin Rect[A]Pad_1800x1800_um 1 0 0)
-      (pin Round[A]Pad_1800_um 2 2540 0)
-    )
     (padstack Round[A]Pad_1600_um
       (shape (circle F.Cu 1600))
       (shape (circle B.Cu 1600))
-      (attach off)
-    )
-    (padstack Round[A]Pad_1800_um
-      (shape (circle F.Cu 1800))
-      (shape (circle B.Cu 1800))
       (attach off)
     )
     (padstack Round[A]Pad_2286_um
@@ -337,18 +243,9 @@
       (shape (rect F.Cu -300 -400 300 400))
       (attach off)
     )
-    (padstack Rect[T]Pad_762x1524_um
-      (shape (rect F.Cu -381 -762 381 762))
-      (attach off)
-    )
     (padstack Rect[A]Pad_1600x1600_um
       (shape (rect F.Cu -800 -800 800 800))
       (shape (rect B.Cu -800 -800 800 800))
-      (attach off)
-    )
-    (padstack Rect[A]Pad_1800x1800_um
-      (shape (rect F.Cu -900 -900 900 900))
-      (shape (rect B.Cu -900 -900 900 900))
       (attach off)
     )
     (padstack "Via[0-1]_600:400_um"
@@ -359,19 +256,19 @@
   )
   (network
     (net "/Keyboard Keys/KEY_COL0"
-      (pins D1-1 U1-2 D2-1)
+      (pins D1-1 U1-11 D2-1)
     )
     (net "Net-(D1-Pad2)"
       (pins D1-2 SW1-2)
     )
     (net "/Keyboard Keys/KEY_ROW0"
-      (pins SW1-1 U1-23 SW3-1 SW5-1 SW7-1 SW9-1 SW11-1 SW13-1 SW15-1 SW17-1)
+      (pins SW1-1 U1-23 SW3-1)
     )
     (net "Net-(D2-Pad2)"
       (pins D2-2 SW2-2)
     )
     (net "/Keyboard Keys/KEY_COL1"
-      (pins U1-3 D3-1 D4-1)
+      (pins U1-12 D3-1 D4-1)
     )
     (net "Net-(D3-Pad2)"
       (pins D3-2 SW3-2)
@@ -379,136 +276,31 @@
     (net "Net-(D4-Pad2)"
       (pins D4-2 SW4-2)
     )
-    (net "/Keyboard Keys/KEY_COL2"
-      (pins U1-4 D5-1 D6-1)
-    )
-    (net "Net-(D5-Pad2)"
-      (pins D5-2 SW5-2)
-    )
-    (net "Net-(D6-Pad2)"
-      (pins D6-2 SW6-2)
-    )
-    (net "/Keyboard Keys/KEY_COL3"
-      (pins U1-5 D7-1 D8-1)
-    )
-    (net "Net-(D7-Pad2)"
-      (pins D7-2 SW7-2)
-    )
-    (net "Net-(D8-Pad2)"
-      (pins D8-2 SW8-2)
-    )
-    (net "/Keyboard Keys/KEY_COL4"
-      (pins U1-6 D9-1 D10-1)
-    )
-    (net "Net-(D9-Pad2)"
-      (pins D9-2 SW9-2)
-    )
-    (net "Net-(D10-Pad2)"
-      (pins D10-2 SW10-2)
-    )
-    (net "/Keyboard Keys/KEY_COL5"
-      (pins U1-7 D11-1 D12-1)
-    )
-    (net "Net-(D11-Pad2)"
-      (pins D11-2 SW11-2)
-    )
-    (net "Net-(D12-Pad2)"
-      (pins D12-2 SW12-2)
-    )
-    (net "/Keyboard Keys/KEY_COL6"
-      (pins U1-8 D13-1 D14-1)
-    )
-    (net "Net-(D13-Pad2)"
-      (pins D13-2 SW13-2)
-    )
-    (net "Net-(D14-Pad2)"
-      (pins D14-2 SW14-2)
-    )
-    (net "/Keyboard Keys/KEY_COL7"
-      (pins U1-9 D15-1 D16-1)
-    )
-    (net "Net-(D15-Pad2)"
-      (pins D15-2 SW15-2)
-    )
-    (net "Net-(D16-Pad2)"
-      (pins D16-2 SW16-2)
-    )
-    (net "/Keyboard Keys/KEY_COL8"
-      (pins U1-10 D17-1 D18-1)
-    )
-    (net "Net-(D17-Pad2)"
-      (pins D17-2 SW17-2)
-    )
-    (net "Net-(D18-Pad2)"
-      (pins D18-2 SW18-2)
-    )
     (net "/Keyboard Keys/KEY_ROW1"
-      (pins U1-24 SW2-1 SW4-1 SW6-1 SW8-1 SW10-1 SW12-1 SW14-1 SW16-1 SW18-1)
-    )
-    (net "Net-(D19-Pad2)"
-      (pins U2-4 D19-2)
-    )
-    (net GND
-      (pins D19-1 D20-1 D21-1 D22-1 D23-1 D24-1 D25-1 D26-1)
-    )
-    (net "Net-(D20-Pad2)"
-      (pins U2-5 D20-2)
-    )
-    (net "Net-(D21-Pad2)"
-      (pins U2-6 D21-2)
-    )
-    (net "Net-(D22-Pad2)"
-      (pins U2-7 D22-2)
-    )
-    (net "Net-(D23-Pad2)"
-      (pins U2-8 D23-2)
-    )
-    (net "Net-(D24-Pad2)"
-      (pins U2-9 D24-2)
-    )
-    (net "Net-(D25-Pad2)"
-      (pins U2-10 D25-2)
-    )
-    (net "Net-(D26-Pad2)"
-      (pins U2-11 D26-2)
-    )
-    (net "/Keyboard LEDS/I2C_CLK"
-      (pins U1-31 U2-1)
-    )
-    (net "/Keyboard LEDS/I2C_DTA"
-      (pins U1-32 U2-2)
+      (pins U1-24 SW2-1 SW4-1)
     )
     (class kicad_default "" "/Keyboard Keys/KEY_COL0" "/Keyboard Keys/KEY_COL1"
-      "/Keyboard Keys/KEY_COL2" "/Keyboard Keys/KEY_COL3" "/Keyboard Keys/KEY_COL4"
-      "/Keyboard Keys/KEY_COL5" "/Keyboard Keys/KEY_COL6" "/Keyboard Keys/KEY_COL7"
-      "/Keyboard Keys/KEY_COL8" "/Keyboard Keys/KEY_ROW0" "/Keyboard Keys/KEY_ROW1"
-      "/Keyboard LEDS/I2C_CLK" "/Keyboard LEDS/I2C_DTA" GND "Net-(D1-Pad2)"
-      "Net-(D10-Pad2)" "Net-(D11-Pad2)" "Net-(D12-Pad2)" "Net-(D13-Pad2)"
-      "Net-(D14-Pad2)" "Net-(D15-Pad2)" "Net-(D16-Pad2)" "Net-(D17-Pad2)"
-      "Net-(D18-Pad2)" "Net-(D19-Pad2)" "Net-(D2-Pad2)" "Net-(D20-Pad2)" "Net-(D21-Pad2)"
-      "Net-(D22-Pad2)" "Net-(D23-Pad2)" "Net-(D24-Pad2)" "Net-(D25-Pad2)"
-      "Net-(D26-Pad2)" "Net-(D3-Pad2)" "Net-(D4-Pad2)" "Net-(D5-Pad2)" "Net-(D6-Pad2)"
-      "Net-(D7-Pad2)" "Net-(D8-Pad2)" "Net-(D9-Pad2)" "Net-(U1-Pad1)" "Net-(U1-Pad11)"
-      "Net-(U1-Pad12)" "Net-(U1-Pad13)" "Net-(U1-Pad14)" "Net-(U1-Pad15)"
+      "/Keyboard Keys/KEY_ROW0" "/Keyboard Keys/KEY_ROW1" GND "Net-(D1-Pad2)"
+      "Net-(D2-Pad2)" "Net-(D20-Pad2)" "Net-(D21-Pad2)" "Net-(D22-Pad2)" "Net-(D23-Pad2)"
+      "Net-(D24-Pad2)" "Net-(D25-Pad2)" "Net-(D26-Pad2)" "Net-(D3-Pad2)" "Net-(D4-Pad2)"
+      "Net-(U1-Pad1)" "Net-(U1-Pad10)" "Net-(U1-Pad13)" "Net-(U1-Pad14)" "Net-(U1-Pad15)"
       "Net-(U1-Pad16)" "Net-(U1-Pad17)" "Net-(U1-Pad18)" "Net-(U1-Pad19)"
-      "Net-(U1-Pad20)" "Net-(U1-Pad21)" "Net-(U1-Pad22)" "Net-(U1-Pad25)"
+      "Net-(U1-Pad2)" "Net-(U1-Pad20)" "Net-(U1-Pad21)" "Net-(U1-Pad22)" "Net-(U1-Pad25)"
       "Net-(U1-Pad26)" "Net-(U1-Pad27)" "Net-(U1-Pad28)" "Net-(U1-Pad29)"
-      "Net-(U1-Pad30)" "Net-(U1-Pad33)" "Net-(U1-Pad34)" "Net-(U1-Pad35)"
-      "Net-(U1-Pad36)" "Net-(U1-Pad37)" "Net-(U1-Pad38)" "Net-(U1-Pad39)"
-      "Net-(U1-Pad40)" "Net-(U1-Pad41)" "Net-(U1-Pad42)" "Net-(U1-Pad43)"
-      "Net-(U1-Pad44)" "Net-(U1-Pad45)" "Net-(U1-Pad46)" "Net-(U1-Pad47)"
-      "Net-(U1-Pad48)" "Net-(U1-Pad49)" "Net-(U1-Pad50)" "Net-(U1-Pad51)"
-      "Net-(U1-Pad52)" "Net-(U1-Pad53)" "Net-(U1-Pad54)" "Net-(U1-Pad55)"
-      "Net-(U1-Pad56)" "Net-(U1-Pad57)" "Net-(U1-Pad63)" "Net-(U1-Pad64)"
-      "Net-(U1-Pad65)" "Net-(U1-Pad66)" "Net-(U1-Pad67)" "Net-(U1-Pad68)"
-      "Net-(U1-Pad69)" "Net-(U1-Pad70)" "Net-(U1-Pad71)" "Net-(U1-Pad72)"
-      "Net-(U1-Pad73)" "Net-(U1-Pad74)" "Net-(U1-Pad75)" "Net-(U1-Pad76)"
-      "Net-(U1-Pad77)" "Net-(U1-Pad78)" "Net-(U1-Pad79)" "Net-(U1-Pad80)"
-      "Net-(U1-Pad81)" "Net-(U1-Pad82)" "Net-(U1-Pad83)" "Net-(U1-Pad84)"
-      "Net-(U1-Pad85)" "Net-(U1-Pad86)" "Net-(U2-Pad12)" "Net-(U2-Pad13)"
-      "Net-(U2-Pad14)" "Net-(U2-Pad15)" "Net-(U2-Pad16)" "Net-(U2-Pad17)"
-      "Net-(U2-Pad18)" "Net-(U2-Pad19)" "Net-(U2-Pad20)" "Net-(U2-Pad21)"
-      "Net-(U2-Pad22)" "Net-(U2-Pad23)" "Net-(U2-Pad24)" "Net-(U2-Pad3)"
+      "Net-(U1-Pad3)" "Net-(U1-Pad30)" "Net-(U1-Pad31)" "Net-(U1-Pad32)" "Net-(U1-Pad33)"
+      "Net-(U1-Pad34)" "Net-(U1-Pad35)" "Net-(U1-Pad36)" "Net-(U1-Pad37)"
+      "Net-(U1-Pad38)" "Net-(U1-Pad39)" "Net-(U1-Pad4)" "Net-(U1-Pad40)" "Net-(U1-Pad41)"
+      "Net-(U1-Pad42)" "Net-(U1-Pad43)" "Net-(U1-Pad44)" "Net-(U1-Pad45)"
+      "Net-(U1-Pad46)" "Net-(U1-Pad47)" "Net-(U1-Pad48)" "Net-(U1-Pad49)"
+      "Net-(U1-Pad5)" "Net-(U1-Pad50)" "Net-(U1-Pad51)" "Net-(U1-Pad52)" "Net-(U1-Pad53)"
+      "Net-(U1-Pad54)" "Net-(U1-Pad55)" "Net-(U1-Pad56)" "Net-(U1-Pad57)"
+      "Net-(U1-Pad6)" "Net-(U1-Pad63)" "Net-(U1-Pad64)" "Net-(U1-Pad65)" "Net-(U1-Pad66)"
+      "Net-(U1-Pad67)" "Net-(U1-Pad68)" "Net-(U1-Pad69)" "Net-(U1-Pad7)" "Net-(U1-Pad70)"
+      "Net-(U1-Pad71)" "Net-(U1-Pad72)" "Net-(U1-Pad73)" "Net-(U1-Pad74)"
+      "Net-(U1-Pad75)" "Net-(U1-Pad76)" "Net-(U1-Pad77)" "Net-(U1-Pad78)"
+      "Net-(U1-Pad79)" "Net-(U1-Pad8)" "Net-(U1-Pad80)" "Net-(U1-Pad81)" "Net-(U1-Pad82)"
+      "Net-(U1-Pad83)" "Net-(U1-Pad84)" "Net-(U1-Pad85)" "Net-(U1-Pad86)"
+      "Net-(U1-Pad9)"
       (circuit
         (use_via Via[0-1]_600:400_um)
       )
