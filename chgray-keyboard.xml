@@ -541,13 +541,13 @@
   </libparts>
   <libraries>
     <library logical="components">
-      <uri>C:\Users\Chris\Desktop\chgray-keyboard\CherryKeys\KiCAD-Keyboard-Tutorial\components.lib</uri>
+      <uri>{KIPRJMOD}\CherryKeys\KiCAD-Keyboard-Tutorial\components.lib</uri>
     </library>
     <library logical="NXP-chgray">
-      <uri>C:\Users\Chris\Desktop\chgray-keyboard\NXP\NXP-chgray.lib</uri>
+      <uri>{KIPRJMOD}\NXP\NXP-chgray.lib</uri>
     </library>
     <library logical="teensy">
-      <uri>C:\Users\Chris\Desktop\chgray-keyboard\Teensy\kicad_teensy\teensy.lib</uri>
+      <uri>${KIPRJMOD}\Teensy\kicad_teensy\teensy.lib</uri>
     </library>
     <library logical="device">
       <uri>C:\Program Files\KiCad\share\kicad\library\device.lib</uri>
