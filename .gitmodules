@@ -7,3 +7,6 @@
 [submodule "submodules/Teensy_Pretty"]
 	path = submodules/Teensy_Pretty
 	url = https://github.com/XenGi/teensy.pretty.git
+[submodule "Teensy/kicad_teensy"]
+        path = Teensy/kicad_teensy
+        url = https://github.com/XenGi/kicad_teensy.git
