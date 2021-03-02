@@ -1,6 +1,6 @@
-update=2/4/2017 1:22:58 PM
+update=Monday, March 01, 2021 at 11:10:46 PM
 version=1
-last_client=eeschema
+last_client=kicad
 [general]
 version=1
 RootSch=
@@ -30,7 +30,3 @@ NetIExt=net
 [eeschema]
 version=1
 LibDir=
-[eeschema/libraries]
-LibName1=power
-LibName2=device
-LibName3=CherryKeys/KiCAD-Keyboard-Tutorial/components

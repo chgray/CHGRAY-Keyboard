@@ -1,4 +1,4 @@
-update=2/4/2017 12:51:20 PM
+update=Monday, March 01, 2021 at 11:09:43 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -28,10 +28,3 @@ version=1
 [eeschema]
 version=1
 LibDir=
-[eeschema/libraries]
-LibName1=power
-LibName2=device
-LibName3=switches
-LibName4=Teensy/kicad_teensy/teensy
-LibName5=CherryKeys/KiCAD-Keyboard-Tutorial/components
-LibName6=NXP/NXP-chgray
