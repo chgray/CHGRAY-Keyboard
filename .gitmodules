@@ -4,3 +4,6 @@
 [submodule "CherryKeys/KiCAD-Keyboard-Tutorial"]
 	path = CherryKeys/KiCAD-Keyboard-Tutorial
 	url = https://github.com/BathroomEpiphanies/KiCAD-Keyboard-Tutorial.git
+[submodule "submodules/Teensy_Pretty"]
+	path = submodules/Teensy_Pretty
+	url = https://github.com/XenGi/teensy.pretty.git
