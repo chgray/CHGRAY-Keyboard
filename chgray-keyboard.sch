@@ -93,7 +93,7 @@ NoConn ~ 4250 6950
 NoConn ~ 4250 2750
 NoConn ~ 4250 2850
 $Comp
-L chgray-keyboard-rescue:Teensy3.5- U1
+L chgray-keyboard-rescue:Teensy3.5--chgray-keyboard-rescue U1
 U 1 1 589644C0
 P 3250 4850
 F 0 "U1" H 3250 7150 60  0000 C CNN
