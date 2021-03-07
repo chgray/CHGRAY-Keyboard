@@ -4,10 +4,13 @@
 #docker build -t "chgray123/chgray_repro:arduino" .
 
 #docker run -i --rm -v ~/DevDir:/DevDir -t chgray123/chgray_repro:arduino /bin/bash
-#docker run -i --rm -v ~/DevDir:/home/runner/work/DevDir -t chgray123/chgray_repro:arduino /bin/bash
+#docker run -i --rm -v ~/DevDir:/home/runner/work/DevDir -v ~/CHGRAY-Keyboard:/CHGRAY-Keyboard -t chgray123/chgray_repro:arduino /bin/bash
 
 #https://arduino.github.io/arduino-cli/latest/getting-started/
 #arduino-cli compile --fqbn teensy:avr:teensy35 . --log-file ./logs
+#arduino-cli compile --fqbn esp8266:esp8266:thingdev .
+
+
 
 FROM ubuntu:20.04
 
@@ -82,12 +85,12 @@ RUN python get.py
 RUN apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
 # Add boards manager URL (warning, mismatch in boardsmanager vs. boards_manager in 2.6.0 coming up)
-RUN /opt/arduino/arduino \
-     --pref "boardsmanager.additional.urls=http://arduino.esp8266.com/stable/package_esp8266com_index.json" \
-     --save-prefs \
-  && /opt/arduino/arduino \
-     --install-boards esp8266:esp8266 \
-     --save-prefs
+#RUN /opt/arduino/arduino \
+#     --pref "boardsmanager.additional.urls=http://arduino.esp8266.com/stable/package_esp8266com_index.json" \
+#     --save-prefs \
+#  && /opt/arduino/arduino \
+#     --install-boards esp8266:esp8266 \
+#     --save-prefs
 
 # Teensy Loader
 WORKDIR /teensy
@@ -134,11 +137,11 @@ RUN brew update && \
     brew install arduino-cli
 
 
-WORKDIR /teensy
-RUN chmod 755 TeensyduinoInstall.linux64 &&\
-    ./TeensyduinoInstall.linux64 --dir=/opt/arduino
+#WORKDIR /teensy
+#RUN chmod 755 TeensyduinoInstall.linux64 &&\
+#    ./TeensyduinoInstall.linux64 --dir=/opt/arduino
 
-RUN cp -R /opt/arduino/hardware/teensy ~/.arduino15/packages/
+#RUN cp -R /opt/arduino/hardware/teensy ~/.arduino15/packages/
 
 #
 # Attempt to setup arduino-cli
@@ -147,6 +150,13 @@ WORKDIR /
 RUN arduino-cli sketch new test
 RUN arduino-cli core list
 RUN arduino-cli board listall
+RUN arduino-cli config init
+COPY arduino-cli.yaml /root/.arduino15/arduino-cli.yaml
+RUN arduino-cli core update-index
+RUN arduino-cli core install esp8266:esp8266
+RUN arduino-cli lib install mouse
+RUN arduino-cli lib install keyboard
+
 
 #
 # Patch up arduino-cli to work with teensy (at time of writing, teensy is not)
@@ -154,13 +164,16 @@ RUN arduino-cli board listall
 # the decision was made to align with arduino-cli for build, instead of calling directly
 # into the ARM compilers.  CMake will be used on top of this for build/dependncy checking
 #
-RUN mkdir -p /root/.arduino15/packages/tools/arm
-RUN cp -R /opt/arduino/hardware/tools /root/.arduino15/packages
+#RUN mkdir -p /root/.arduino15/packages/tools/arm
+#RUN cp -R /opt/arduino/hardware/tools /root/.arduino15/packages
 
 #
 # Tweek teensy's config such that the .hex file goes into the code directory, and do not attempt to push to the chip
 #
-COPY platform.text_modified /root/.arduino15/packages/teensy/avr/platform.txt
+#COPY platform.text_modified /root/.arduino15/packages/teensy/avr/platform.txt
 
-WORKDIR /test
-RUN arduino-cli compile --fqbn teensy:avr:teensy35 .
+#WORKDIR /test
+#RUN arduino-cli compile --fqbn teensy:avr:teensy35 .
+
+
+#arduino-cli compile --fqbn esp8266:esp8266:huzzah .
