@@ -3,8 +3,8 @@
 
 #docker build -t "chgray123/chgray_repro:arduino" .
 
-#docker run -i -v ~/DevDir:/DevDir -t chgray123/chgray_repro:arduino /bin/bash
-#docker run -i -v ~/DevDir:/home/runner/work/DevDir -t chgray123/chgray_repro:arduino /bin/bash
+#docker run -i --rm -v ~/DevDir:/DevDir -t chgray123/chgray_repro:arduino /bin/bash
+#docker run -i --rm -v ~/DevDir:/home/runner/work/DevDir -t chgray123/chgray_repro:arduino /bin/bash
 
 #https://arduino.github.io/arduino-cli/latest/getting-started/
 #arduino-cli compile --fqbn teensy:avr:teensy35 . --log-file ./logs
@@ -140,18 +140,27 @@ RUN chmod 755 TeensyduinoInstall.linux64 &&\
 
 RUN cp -R /opt/arduino/hardware/teensy ~/.arduino15/packages/
 
-
+#
+# Attempt to setup arduino-cli
+#
 WORKDIR /
 RUN arduino-cli sketch new test
 RUN arduino-cli core list
 RUN arduino-cli board listall
 
-#RUN cp -R /opt/arduino/hardware/tools/arm /root/.arduino15/packages/tools/arm
-#WORKDIR /test
-#RUN arduino-cli compile --fqbn teensy:avr:teensy35 .
+#
+# Patch up arduino-cli to work with teensy (at time of writing, teensy is not)
+# supported on arduino-cli, however it seems there could be ongoing work
+# the decision was made to align with arduino-cli for build, instead of calling directly
+# into the ARM compilers.  CMake will be used on top of this for build/dependncy checking
+#
+RUN mkdir -p /root/.arduino15/packages/tools/arm
+RUN cp -R /opt/arduino/hardware/tools /root/.arduino15/packages
 
+#
+# Tweek teensy's config such that the .hex file goes into the code directory, and do not attempt to push to the chip
+#
+COPY platform.text_modified /root/.arduino15/packages/teensy/avr/platform.txt
 
-#RUN mkdir /opt/workspace
-#WORKDIR /opt/workspace
-#COPY cmd.sh /opt/
-#CMD [ "/opt/cmd.sh" ]
+WORKDIR /test
+RUN arduino-cli compile --fqbn teensy:avr:teensy35 .
