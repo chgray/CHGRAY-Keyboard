@@ -3,9 +3,11 @@
 
 #docker build -t "chgray123/chgray_repro:arduino" .
 
-#docker run -i -v //c/DevDir:/home/runner/work/DevDir -t chgray123/chgray_repro:arduino /bin/bash
+#docker run -i -v ~/DevDir:/DevDir -t chgray123/chgray_repro:arduino /bin/bash
 #docker run -i -v ~/DevDir:/home/runner/work/DevDir -t chgray123/chgray_repro:arduino /bin/bash
 
+#https://arduino.github.io/arduino-cli/latest/getting-started/
+#arduino-cli compile --fqbn teensy:avr:teensy35 . --log-file ./logs
 
 FROM ubuntu:20.04
 
@@ -95,16 +97,61 @@ RUN wget https://www.pjrc.com/teensy/teensy_linux64.tar.gz
 WORKDIR /teensy
 RUN wget https://www.pjrc.com/teensy/td_153/TeensyduinoInstall.linux64
 
-WORKDIR /teensy
-RUN chmod 755 TeensyduinoInstall.linux64 &&\
-     ./TeensyduinoInstall.linux64 --dir=/opt/arduino
 
 RUN apt-get update
-RUN apt-get install -y -q nano
+RUN apt-get install -y -q nano cmake
+RUN apt-get install -y -q build-essential curl file git
+
 #WORKDIR /opt/arduino/hardware/teensy/avr/cores/teensy4
 #UN make
 
-RUN mkdir /opt/workspace
-WORKDIR /opt/workspace
+RUN git clone https://github.com/a9183756-gh/Arduino-CMake-Toolchain.git
+
+#
+# Brew
+#
+RUN apt-get update && \
+    apt-get install build-essential curl file git ruby-full locales --no-install-recommends -y && \
+    rm -rf /var/lib/apt/lists/*
+
+RUN localedef -i en_US -f UTF-8 en_US.UTF-8
+
+RUN useradd -m -s /bin/bash linuxbrew && \
+    echo 'linuxbrew ALL=(ALL) NOPASSWD:ALL' >>/etc/sudoers
+
+USER linuxbrew
+RUN sh -c "$(curl -fsSL https://raw.githubusercontent.com/Linuxbrew/install/master/install.sh)"
+
+USER root
+ENV PATH="/home/linuxbrew/.linuxbrew/bin:${PATH}"
+#RUN curl -fsSL https://raw.githubusercontent.com/arduino/arduino-cli/master/install.sh | sh
+
+
+#
+# Arduino CLI
+#
+RUN brew update && \
+    brew install arduino-cli
+
+
+WORKDIR /teensy
+RUN chmod 755 TeensyduinoInstall.linux64 &&\
+    ./TeensyduinoInstall.linux64 --dir=/opt/arduino
+
+RUN cp -R /opt/arduino/hardware/teensy ~/.arduino15/packages/
+
+
+WORKDIR /
+RUN arduino-cli sketch new test
+RUN arduino-cli core list
+RUN arduino-cli board listall
+
+#RUN cp -R /opt/arduino/hardware/tools/arm /root/.arduino15/packages/tools/arm
+#WORKDIR /test
+#RUN arduino-cli compile --fqbn teensy:avr:teensy35 .
+
+
+#RUN mkdir /opt/workspace
+#WORKDIR /opt/workspace
 #COPY cmd.sh /opt/
 #CMD [ "/opt/cmd.sh" ]
