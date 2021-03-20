@@ -10,3 +10,6 @@
 [submodule "Teensy/kicad_teensy"]
         path = Teensy/kicad_teensy
         url = https://github.com/XenGi/kicad_teensy.git
+[submodule "submodules/Cherry"]
+	path = submodules/Cherry
+	url = https://github.com/BathroomEpiphanies/KiCAD-Keyboard-Tutorial.git
