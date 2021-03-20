@@ -13,3 +13,9 @@
 [submodule "submodules/Cherry"]
 	path = submodules/Cherry
 	url = https://github.com/BathroomEpiphanies/KiCAD-Keyboard-Tutorial.git
+[submodule "kicad_teensy"]
+	path = kicad_teensy
+	url = https://github.com/XenGi/kicad_teensy.git
+[submodule "submodules/kicad_teensy"]
+	path = submodules/kicad_teensy
+	url = https://github.com/XenGi/kicad_teensy.git

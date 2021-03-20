@@ -24,85 +24,6 @@ F4 "KEY_ROW1" I R 9400 2150 60
 F5 "KEY_COL1" I L 7300 2150 60 
 F6 "KEY_ROW2" I R 9400 2350 50 
 $EndSheet
-NoConn ~ 2250 2750
-NoConn ~ 2250 3950
-NoConn ~ 2250 4250
-NoConn ~ 2250 4350
-NoConn ~ 2250 4450
-NoConn ~ 2250 4550
-NoConn ~ 2250 4650
-NoConn ~ 2250 4750
-NoConn ~ 2250 5150
-NoConn ~ 2250 5250
-NoConn ~ 2250 5350
-NoConn ~ 2250 5450
-NoConn ~ 2250 5550
-NoConn ~ 2250 5650
-NoConn ~ 2250 5950
-NoConn ~ 2250 6050
-NoConn ~ 2250 6150
-NoConn ~ 2250 6250
-NoConn ~ 2250 6350
-NoConn ~ 2250 6450
-NoConn ~ 2250 6550
-NoConn ~ 2250 6650
-NoConn ~ 2250 6750
-NoConn ~ 2250 6850
-NoConn ~ 2250 6950
-NoConn ~ 4250 2950
-NoConn ~ 4250 3050
-NoConn ~ 4250 3150
-NoConn ~ 4250 3250
-NoConn ~ 4250 3350
-NoConn ~ 4250 3450
-NoConn ~ 4250 3550
-NoConn ~ 4250 3650
-NoConn ~ 4250 3750
-NoConn ~ 4250 3850
-NoConn ~ 4250 3950
-NoConn ~ 4250 4050
-NoConn ~ 4250 4150
-NoConn ~ 4250 4250
-NoConn ~ 4250 4350
-NoConn ~ 4250 4450
-NoConn ~ 4250 4550
-NoConn ~ 4250 4650
-NoConn ~ 4250 4750
-NoConn ~ 4250 4850
-NoConn ~ 4250 4950
-NoConn ~ 4250 5050
-NoConn ~ 4250 5150
-NoConn ~ 4250 5250
-NoConn ~ 4250 5350
-NoConn ~ 4250 5450
-NoConn ~ 4250 5550
-NoConn ~ 4250 5650
-NoConn ~ 4250 5750
-NoConn ~ 4250 5850
-NoConn ~ 4250 5950
-NoConn ~ 4250 6050
-NoConn ~ 4250 6150
-NoConn ~ 4250 6250
-NoConn ~ 4250 6350
-NoConn ~ 4250 6450
-NoConn ~ 4250 6550
-NoConn ~ 4250 6650
-NoConn ~ 4250 6750
-NoConn ~ 4250 6850
-NoConn ~ 4250 6950
-NoConn ~ 4250 2750
-NoConn ~ 4250 2850
-$Comp
-L chgray-keyboard-rescue:Teensy3.5--chgray-keyboard-rescue U1
-U 1 1 589644C0
-P 3250 4850
-F 0 "U1" H 3250 7150 60  0000 C CNN
-F 1 "Teensy3.5" H 3250 2550 60  0000 C CNN
-F 2 "Teensy_Pretty:Teensy35_36" H 3250 4850 60  0001 C CNN
-F 3 "" H 3250 4850 60  0000 C CNN
-	1    3250 4850
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	9600 1950 9600 1500
 Wire Wire Line
@@ -115,21 +36,10 @@ Wire Wire Line
 	1150 1300 9750 1300
 Wire Wire Line
 	9750 1300 9750 2150
-NoConn ~ 2250 2850
-NoConn ~ 2250 2950
-NoConn ~ 2250 3050
-NoConn ~ 2250 3150
-NoConn ~ 2250 3250
-NoConn ~ 2250 3350
-NoConn ~ 2250 3450
-NoConn ~ 2250 3550
-NoConn ~ 2250 3650
 Wire Wire Line
 	1350 4950 2250 4950
 Wire Wire Line
 	2250 5050 1150 5050
-NoConn ~ 2250 5750
-NoConn ~ 2250 5850
 Wire Wire Line
 	7300 2000 1650 2000
 Wire Wire Line
@@ -146,8 +56,6 @@ Wire Wire Line
 	1500 3850 1500 2150
 Wire Wire Line
 	1500 2150 7300 2150
-NoConn ~ 2250 4050
-NoConn ~ 2250 4150
 Wire Wire Line
 	9400 2350 9950 2350
 Wire Wire Line
@@ -158,4 +66,16 @@ Wire Wire Line
 	1000 1000 1000 4850
 Wire Wire Line
 	1000 4850 2250 4850
+$Comp
+L Teensy:Teensy3.5 U1
+U 1 1 605697C1
+P 3400 5100
+F 0 "U1" H 3400 7733 60  0000 C CNN
+F 1 "Teensy3.5" H 3400 7627 60  0000 C CNN
+F 2 "Teensy_Pretty:Teensy35_36" H 3300 7350 60  0001 C CNN
+F 3 "https://www.pjrc.com/teensy/card8a_rev2.pdf" H 3400 7521 60  0000 C CNN
+F 4 "https://www.pjrc.com/teensy/pinout.html" H 3400 7423 50  0000 C CNN "Pinouts"
+	1    3400 5100
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
