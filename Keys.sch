@@ -208,7 +208,7 @@ Wire Wire Line
 Wire Wire Line
 	1800 3550 2100 3550
 $Comp
-L Keys-rescue:SWITCH_PUSH-Keys-rescue-chgray-keyboard-rescue-chgray-keyboard-rescue SW?
+L Cherry-Symbols:SWITCH_PUSH SW?
 U 1 1 603EBFA8
 P 3050 3250
 F 0 "SW?" H 3200 3360 50  0000 C CNN
@@ -216,17 +216,6 @@ F 1 "KEY_W" H 3050 3170 50  0000 C CNN
 F 2 "CherryKeys:CHERRY_PCB_100H" H 3050 3250 60  0000 C CNN
 F 3 "" H 3050 3250 60  0001 C CNN
 	1    3050 3250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Keys-rescue:D-Keys-rescue-chgray-keyboard-rescue-chgray-keyboard-rescue D?
-U 1 1 603EBFAE
-P 3050 3550
-F 0 "D?" H 3050 3650 50  0000 C CNN
-F 1 "D" H 3050 3450 50  0000 C CNN
-F 2 "Diode_SMD:D_0201_0603Metric" H 3050 3550 50  0001 C CNN
-F 3 "" H 3050 3550 50  0000 C CNN
-	1    3050 3550
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -283,7 +272,7 @@ Wire Wire Line
 Wire Wire Line
 	1800 4500 2100 4500
 $Comp
-L Keys-rescue:SWITCH_PUSH-Keys-rescue-chgray-keyboard-rescue-chgray-keyboard-rescue SW?
+L Cherry-Symbols:SWITCH_PUSH SW?
 U 1 1 6056C037
 P 3050 4200
 F 0 "SW?" H 3200 4310 50  0000 C CNN
@@ -477,6 +466,17 @@ F 1 "KEY_W" H 3050 5070 50  0000 C CNN
 F 2 "CherryKeys:CHERRY_PCB_100H" H 3050 5150 60  0001 C CNN
 F 3 "" H 3050 5150 60  0001 C CNN
 	1    3050 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Keys-rescue:D-Keys-rescue-chgray-keyboard-rescue-chgray-keyboard-rescue D?
+U 1 1 603EBFAE
+P 3050 3550
+F 0 "D?" H 3050 3650 50  0000 C CNN
+F 1 "D" H 3050 3450 50  0000 C CNN
+F 2 "Diode_SMD:D_0201_0603Metric" H 3050 3550 50  0001 C CNN
+F 3 "" H 3050 3550 50  0000 C CNN
+	1    3050 3550
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
