@@ -67,7 +67,7 @@ Wire Wire Line
 Wire Wire Line
 	1000 4850 2250 4850
 $Comp
-L Teensy:Teensy3.5 U1
+L Teensy-Symbols:Teensy3.5 U1
 U 1 1 605697C1
 P 3400 5100
 F 0 "U1" H 3400 7733 60  0000 C CNN
