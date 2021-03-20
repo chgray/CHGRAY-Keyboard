@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# chgray-keyboard-rescue_D-Keys-rescue
+# chgray-keyboard-rescue_D-Keys-rescue-chgray-keyboard-rescue
 #
-DEF chgray-keyboard-rescue_D-Keys-rescue D 0 40 N N 1 F N
+DEF chgray-keyboard-rescue_D-Keys-rescue-chgray-keyboard-rescue D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "chgray-keyboard-rescue_D-Keys-rescue" 0 -100 50 H V C CNN
+F1 "chgray-keyboard-rescue_D-Keys-rescue-chgray-keyboard-rescue" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
@@ -25,11 +25,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# chgray-keyboard-rescue_SWITCH_PUSH-Keys-rescue
+# chgray-keyboard-rescue_SWITCH_PUSH-Keys-rescue-chgray-keyboard-rescue
 #
-DEF chgray-keyboard-rescue_SWITCH_PUSH-Keys-rescue SW 0 40 N N 1 F N
+DEF chgray-keyboard-rescue_SWITCH_PUSH-Keys-rescue-chgray-keyboard-rescue SW 0 40 N N 1 F N
 F0 "SW" 150 110 50 H V C CNN
-F1 "chgray-keyboard-rescue_SWITCH_PUSH-Keys-rescue" 0 -80 50 H V C CNN
+F1 "chgray-keyboard-rescue_SWITCH_PUSH-Keys-rescue-chgray-keyboard-rescue" 0 -80 50 H V C CNN
 F2 "" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 DRAW
