@@ -67,15 +67,94 @@ Wire Wire Line
 Wire Wire Line
 	1000 4850 2250 4850
 $Comp
-L Teensy-Symbols:Teensy3.5 U1
+L Teensy:Teensy3.5 U1
 U 1 1 605697C1
 P 3400 5100
 F 0 "U1" H 3400 7733 60  0000 C CNN
 F 1 "Teensy3.5" H 3400 7627 60  0000 C CNN
-F 2 "Teensy_Pretty:Teensy35_36" H 3300 7350 60  0001 C CNN
+F 2 "Teensy_Pretty:Teensy35_36" H 3300 7350 60  0000 C CNN
 F 3 "https://www.pjrc.com/teensy/card8a_rev2.pdf" H 3400 7521 60  0000 C CNN
 F 4 "https://www.pjrc.com/teensy/pinout.html" H 3400 7423 50  0000 C CNN "Pinouts"
 	1    3400 5100
 	1    0    0    -1  
 $EndComp
+NoConn ~ 4550 2950
+NoConn ~ 4550 3050
+NoConn ~ 4550 3150
+NoConn ~ 4550 3250
+NoConn ~ 4550 3350
+NoConn ~ 4550 3450
+NoConn ~ 4550 3550
+NoConn ~ 4550 3650
+NoConn ~ 4550 3750
+NoConn ~ 4550 3850
+NoConn ~ 4550 3950
+NoConn ~ 4550 4050
+NoConn ~ 4550 4150
+NoConn ~ 4550 4250
+NoConn ~ 4550 4350
+NoConn ~ 4550 4450
+NoConn ~ 4550 4550
+NoConn ~ 4550 4750
+NoConn ~ 4550 4850
+NoConn ~ 4550 4950
+NoConn ~ 4550 5050
+NoConn ~ 4550 5150
+NoConn ~ 4550 5250
+NoConn ~ 4550 5350
+NoConn ~ 4550 5450
+NoConn ~ 4550 5550
+NoConn ~ 4550 5650
+NoConn ~ 4550 6050
+NoConn ~ 4550 6150
+NoConn ~ 4550 6250
+NoConn ~ 4550 6350
+NoConn ~ 4550 6450
+NoConn ~ 4550 6550
+NoConn ~ 4550 6650
+NoConn ~ 4550 6750
+NoConn ~ 4550 6850
+NoConn ~ 4550 6950
+NoConn ~ 4550 7050
+NoConn ~ 4550 7150
+NoConn ~ 4550 7250
+NoConn ~ 2250 7250
+NoConn ~ 2250 7150
+NoConn ~ 2250 7050
+NoConn ~ 2250 6950
+NoConn ~ 2250 6850
+NoConn ~ 2250 6750
+NoConn ~ 2250 6650
+NoConn ~ 2250 6550
+NoConn ~ 2250 6450
+NoConn ~ 2250 6350
+NoConn ~ 2250 6250
+NoConn ~ 2250 6150
+NoConn ~ 2250 6050
+NoConn ~ 2250 5950
+NoConn ~ 2250 5850
+NoConn ~ 2250 5750
+NoConn ~ 2250 5650
+NoConn ~ 2250 5550
+NoConn ~ 2250 5450
+NoConn ~ 2250 5350
+NoConn ~ 2250 5250
+NoConn ~ 2250 5150
+NoConn ~ 2250 4550
+NoConn ~ 2250 4650
+NoConn ~ 2250 4750
+NoConn ~ 2250 4450
+NoConn ~ 2250 4350
+NoConn ~ 2250 4250
+NoConn ~ 2250 4150
+NoConn ~ 2250 4050
+NoConn ~ 2250 3950
+NoConn ~ 2250 3650
+NoConn ~ 2250 2950
+NoConn ~ 2250 3050
+NoConn ~ 2250 3150
+NoConn ~ 2250 3250
+NoConn ~ 2250 3350
+NoConn ~ 2250 3450
+NoConn ~ 2250 3550
 $EndSCHEMATC
