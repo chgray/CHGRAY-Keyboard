@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name Chery)(type Legacy)(uri C:/Source/CHGRAY-Keyboard/submodules/Cherry/components.lib)(options "")(descr ""))
+  (lib (name Teensy)(type Legacy)(uri C:/Source/CHGRAY-Keyboard/submodules/kicad_teensy/teensy.lib)(options "")(descr ""))
+)
