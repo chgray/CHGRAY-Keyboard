@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Keys-rescue:SWITCH_PUSH-Keys-rescue-chgray-keyboard-rescue-chgray-keyboard-rescue SW?
+L Cherry-Symbols:SWITCH_PUSH SW?
 U 1 1 58964642
 P 2300 1600
 F 0 "SW?" H 2450 1710 50  0000 C CNN
@@ -40,7 +40,7 @@ KEY_COL0
 Text HLabel 1350 1300 0    60   Input ~ 0
 KEY_ROW0
 $Comp
-L Keys-rescue:SWITCH_PUSH-Keys-rescue-chgray-keyboard-rescue-chgray-keyboard-rescue SW?
+L Cherry-Symbols:SWITCH_PUSH SW?
 U 1 1 589655C0
 P 3050 1600
 F 0 "SW?" H 3200 1710 50  0000 C CNN
@@ -62,7 +62,7 @@ F 3 "" H 3050 1900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Keys-rescue:SWITCH_PUSH-Keys-rescue-chgray-keyboard-rescue-chgray-keyboard-rescue SW?
+L Cherry-Symbols:SWITCH_PUSH SW?
 U 1 1 58965EBD
 P 2300 2300
 F 0 "SW?" H 2450 2410 50  0000 C CNN
@@ -133,7 +133,7 @@ Wire Wire Line
 Wire Wire Line
 	2700 1900 2700 2600
 $Comp
-L Keys-rescue:SWITCH_PUSH-Keys-rescue-chgray-keyboard-rescue-chgray-keyboard-rescue SW?
+L Cherry-Symbols:SWITCH_PUSH SW?
 U 1 1 603DF303
 P 3050 2300
 F 0 "SW?" H 3200 2410 50  0000 C CNN
@@ -172,7 +172,7 @@ Wire Wire Line
 Wire Wire Line
 	1800 2600 1800 3550
 $Comp
-L Keys-rescue:SWITCH_PUSH-Keys-rescue-chgray-keyboard-rescue-chgray-keyboard-rescue SW?
+L Cherry-Symbols:SWITCH_PUSH SW?
 U 1 1 603E8C3D
 P 2250 3250
 F 0 "SW?" H 2400 3360 50  0000 C CNN
@@ -236,7 +236,7 @@ Wire Wire Line
 Wire Wire Line
 	1800 3550 1800 4500
 $Comp
-L Keys-rescue:SWITCH_PUSH-Keys-rescue-chgray-keyboard-rescue-chgray-keyboard-rescue SW?
+L Cherry-Symbols:SWITCH_PUSH SW?
 U 1 1 6056C022
 P 2250 4200
 F 0 "SW?" H 2400 4310 50  0000 C CNN
@@ -309,7 +309,7 @@ Wire Wire Line
 Connection ~ 1800 3550
 Connection ~ 2700 3550
 $Comp
-L Keys-rescue:SWITCH_PUSH-Keys-rescue-chgray-keyboard-rescue-chgray-keyboard-rescue SW?
+L Cherry-Symbols:SWITCH_PUSH SW?
 U 1 1 60585067
 P 2250 5150
 F 0 "SW?" H 2400 5260 50  0000 C CNN
@@ -367,7 +367,7 @@ Connection ~ 1950 4950
 Wire Wire Line
 	2700 5450 2900 5450
 $Comp
-L Keys-rescue:SWITCH_PUSH-Keys-rescue-chgray-keyboard-rescue-chgray-keyboard-rescue SW?
+L Cherry-Symbols:SWITCH_PUSH SW?
 U 1 1 605950C9
 P 2250 6050
 F 0 "SW?" H 2400 6160 50  0000 C CNN
@@ -403,7 +403,7 @@ Wire Wire Line
 Wire Wire Line
 	1800 6350 2100 6350
 $Comp
-L Keys-rescue:SWITCH_PUSH-Keys-rescue-chgray-keyboard-rescue-chgray-keyboard-rescue SW?
+L Cherry-Symbols:SWITCH_PUSH SW?
 U 1 1 605950DC
 P 3050 6050
 F 0 "SW?" H 3200 6160 50  0000 C CNN
@@ -458,7 +458,7 @@ Connection ~ 1800 6350
 Wire Wire Line
 	3000 5450 3100 5450
 $Comp
-L Keys-rescue:SWITCH_PUSH-Keys-rescue-chgray-keyboard-rescue-chgray-keyboard-rescue SW?
+L Cherry-Symbols:SWITCH_PUSH SW?
 U 1 1 6058507A
 P 3050 5150
 F 0 "SW?" H 3200 5260 50  0000 C CNN
