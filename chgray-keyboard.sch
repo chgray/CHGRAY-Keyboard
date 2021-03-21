@@ -69,18 +69,6 @@ Wire Wire Line
 	1000 1000 1000 4850
 Wire Wire Line
 	1000 4850 2250 4850
-$Comp
-L Teensy:Teensy3.5 Teensy-Part1
-U 1 1 605697C1
-P 3400 5100
-F 0 "Teensy-Part1" H 3400 7733 60  0000 C CNN
-F 1 "Teensy3.5" H 3400 7627 60  0000 C CNN
-F 2 "Teensy_Pretty:Teensy35_36" H 3300 7350 60  0000 C CNN
-F 3 "https://www.pjrc.com/teensy/card8a_rev2.pdf" H 3400 7521 60  0000 C CNN
-F 4 "https://www.pjrc.com/teensy/pinout.html" H 3400 7423 50  0000 C CNN "Pinouts"
-	1    3400 5100
-	1    0    0    -1  
-$EndComp
 NoConn ~ 4550 2950
 NoConn ~ 4550 3050
 NoConn ~ 4550 3150
@@ -107,7 +95,6 @@ NoConn ~ 4550 5250
 NoConn ~ 4550 5350
 NoConn ~ 4550 5450
 NoConn ~ 4550 5550
-NoConn ~ 4550 5650
 NoConn ~ 4550 6050
 NoConn ~ 4550 6150
 NoConn ~ 4550 6250
@@ -187,4 +174,22 @@ Wire Wire Line
 	2250 5850 700  5850
 Wire Wire Line
 	700  550  700  5850
+$Comp
+L Teensy:Teensy3.5 Teensy-Part1
+U 1 1 605697C1
+P 3400 5100
+F 0 "Teensy-Part1" H 3400 7839 60  0000 C CNN
+F 1 "Teensy3.5" H 3400 7733 60  0000 C CNN
+F 2 "Teensy_Pretty:Teensy35_36" H 3400 7627 60  0000 C CNN
+F 3 "https://www.pjrc.com/teensy/card8a_rev2.pdf" H 3400 7521 60  0000 C CNN
+F 4 "https://www.pjrc.com/teensy/pinout.html" H 3400 7423 50  0000 C CNN "Pinouts"
+	1    3400 5100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 5650 5100 5650
+Wire Wire Line
+	5100 5650 5100 5750
+Wire Wire Line
+	5100 5750 4550 5750
 $EndSCHEMATC
