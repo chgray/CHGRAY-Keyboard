@@ -23,6 +23,9 @@ F3 "KEY_ROW0" I R 9400 1950 60
 F4 "KEY_ROW1" I R 9400 2150 60 
 F5 "KEY_COL1" I L 7300 2150 60 
 F6 "KEY_ROW2" I R 9400 2350 50 
+F7 "KEY_ROW3" I R 9400 2550 50 
+F8 "KEY_ROW4" I R 9400 2750 50 
+F9 "KEY_ROW5" I R 9400 2900 50 
 $EndSheet
 Wire Wire Line
 	9600 1950 9600 1500
@@ -67,10 +70,10 @@ Wire Wire Line
 Wire Wire Line
 	1000 4850 2250 4850
 $Comp
-L Teensy:Teensy3.5 U1
+L Teensy:Teensy3.5 Teensy-Part1
 U 1 1 605697C1
 P 3400 5100
-F 0 "U1" H 3400 7733 60  0000 C CNN
+F 0 "Teensy-Part1" H 3400 7733 60  0000 C CNN
 F 1 "Teensy3.5" H 3400 7627 60  0000 C CNN
 F 2 "Teensy_Pretty:Teensy35_36" H 3300 7350 60  0000 C CNN
 F 3 "https://www.pjrc.com/teensy/card8a_rev2.pdf" H 3400 7521 60  0000 C CNN
@@ -132,14 +135,10 @@ NoConn ~ 2250 6250
 NoConn ~ 2250 6150
 NoConn ~ 2250 6050
 NoConn ~ 2250 5950
-NoConn ~ 2250 5850
 NoConn ~ 2250 5750
 NoConn ~ 2250 5650
 NoConn ~ 2250 5550
 NoConn ~ 2250 5450
-NoConn ~ 2250 5350
-NoConn ~ 2250 5250
-NoConn ~ 2250 5150
 NoConn ~ 2250 4550
 NoConn ~ 2250 4650
 NoConn ~ 2250 4750
@@ -157,4 +156,35 @@ NoConn ~ 2250 3250
 NoConn ~ 2250 3350
 NoConn ~ 2250 3450
 NoConn ~ 2250 3550
+Wire Wire Line
+	9400 2550 10050 2550
+Wire Wire Line
+	10050 2550 10050 850 
+Wire Wire Line
+	10050 850  900  850 
+Wire Wire Line
+	900  850  900  5150
+Wire Wire Line
+	800  5250 800  700 
+Wire Wire Line
+	800  700  10150 700 
+Wire Wire Line
+	10150 700  10150 2750
+Wire Wire Line
+	10150 2750 9400 2750
+Wire Wire Line
+	10250 2900 10250 550 
+Wire Wire Line
+	10250 550  700  550 
+Wire Wire Line
+	2250 5250 800  5250
+Wire Wire Line
+	900  5150 2250 5150
+Wire Wire Line
+	10250 2900 9400 2900
+NoConn ~ 2250 5350
+Wire Wire Line
+	2250 5850 700  5850
+Wire Wire Line
+	700  550  700  5850
 $EndSCHEMATC
