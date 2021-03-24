@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Cherry-Symbol_DIODE
+# chgray-keyboard-rescue_DIODE-Cherry-Symbol
 #
-DEF Cherry-Symbol_DIODE D 0 40 N N 1 F N
+DEF chgray-keyboard-rescue_DIODE-Cherry-Symbol D 0 40 N N 1 F N
 F0 "D" -100 -50 40 H V C CNN
-F1 "Cherry-Symbol_DIODE" 0 50 40 H V C CNN
+F1 "chgray-keyboard-rescue_DIODE-Cherry-Symbol" 0 50 40 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -16,11 +16,11 @@ X K 2 200 0 150 L 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Cherry-Symbol_SWITCH_PUSH
+# chgray-keyboard-rescue_SWITCH_PUSH-Cherry-Symbol
 #
-DEF Cherry-Symbol_SWITCH_PUSH SW 0 40 N N 1 F N
+DEF chgray-keyboard-rescue_SWITCH_PUSH-Cherry-Symbol SW 0 40 N N 1 F N
 F0 "SW" 150 110 50 H V C CNN
-F1 "Cherry-Symbol_SWITCH_PUSH" 0 -80 50 H V C CNN
+F1 "chgray-keyboard-rescue_SWITCH_PUSH-Cherry-Symbol" 0 -80 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -31,11 +31,11 @@ X 2 2 300 0 200 L 60 60 0 1 P I
 ENDDRAW
 ENDDEF
 #
-# Teensy_Teensy3.5
+# chgray-keyboard-rescue_Teensy3.5-Teensy
 #
-DEF Teensy_Teensy3.5 U 0 40 Y Y 1 F N
+DEF chgray-keyboard-rescue_Teensy3.5-Teensy U 0 40 Y Y 1 F N
 F0 "U" 0 2350 60 H V C CNN
-F1 "Teensy_Teensy3.5" 0 -2350 60 H V C CNN
+F1 "chgray-keyboard-rescue_Teensy3.5-Teensy" 0 -2350 60 H V C CNN
 F2 "" -100 2250 60 H V C CNN
 F3 "https://www.pjrc.com/teensy/card8a_rev2.pdf" 0 2450 60 H V C CNN
 F4 "https://www.pjrc.com/teensy/pinout.html" 0 2550 50 H V C CNN "Pinouts"

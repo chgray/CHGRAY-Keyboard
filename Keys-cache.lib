@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Cherry-Symbol_DIODE
+# chgray-keyboard-rescue_DIODE-Cherry-Symbol
 #
-DEF Cherry-Symbol_DIODE D 0 40 N N 1 F N
+DEF chgray-keyboard-rescue_DIODE-Cherry-Symbol D 0 40 N N 1 F N
 F0 "D" -100 -50 40 H V C CNN
-F1 "Cherry-Symbol_DIODE" 0 50 40 H V C CNN
+F1 "chgray-keyboard-rescue_DIODE-Cherry-Symbol" 0 50 40 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -16,11 +16,11 @@ X K 2 200 0 150 L 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Cherry-Symbol_SWITCH_PUSH
+# chgray-keyboard-rescue_SWITCH_PUSH-Cherry-Symbol
 #
-DEF Cherry-Symbol_SWITCH_PUSH SW 0 40 N N 1 F N
+DEF chgray-keyboard-rescue_SWITCH_PUSH-Cherry-Symbol SW 0 40 N N 1 F N
 F0 "SW" 150 110 50 H V C CNN
-F1 "Cherry-Symbol_SWITCH_PUSH" 0 -80 50 H V C CNN
+F1 "chgray-keyboard-rescue_SWITCH_PUSH-Cherry-Symbol" 0 -80 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
