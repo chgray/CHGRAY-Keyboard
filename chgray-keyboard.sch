@@ -185,12 +185,6 @@ F 4 "https://www.pjrc.com/teensy/pinout.html" H 3400 7423 50  0000 C CNN "Pinout
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4550 5650 5100 5650
-Wire Wire Line
-	5100 5650 5100 5750
-Wire Wire Line
-	5100 5750 4550 5750
-Wire Wire Line
 	4550 2950 5450 2950
 Wire Wire Line
 	5450 2950 5450 2300
