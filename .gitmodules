@@ -1,9 +1,21 @@
-[submodule "Teensy/kicad_teensy"]
-	path = Teensy/kicad_teensy
-	url = https://github.com/XenGi/kicad_teensy.git
 [submodule "CherryFootprints.pretty/KiCAD-Keyboard-Tutorial"]
 	path = CherryFootprints.pretty/KiCAD-Keyboard-Tutorial
 	url = https://github.com/BathroomEpiphanies/KiCAD-Keyboard-Tutorial.git
 [submodule "CherryKeys/KiCAD-Keyboard-Tutorial"]
 	path = CherryKeys/KiCAD-Keyboard-Tutorial
 	url = https://github.com/BathroomEpiphanies/KiCAD-Keyboard-Tutorial.git
+[submodule "submodules/Teensy_Pretty"]
+	path = submodules/Teensy_Pretty
+	url = https://github.com/XenGi/teensy.pretty.git
+[submodule "Teensy/kicad_teensy"]
+        path = Teensy/kicad_teensy
+        url = https://github.com/XenGi/kicad_teensy.git
+[submodule "submodules/Cherry"]
+	path = submodules/Cherry
+	url = https://github.com/BathroomEpiphanies/KiCAD-Keyboard-Tutorial.git
+[submodule "kicad_teensy"]
+	path = kicad_teensy
+	url = https://github.com/XenGi/kicad_teensy.git
+[submodule "submodules/kicad_teensy"]
+	path = submodules/kicad_teensy
+	url = https://github.com/XenGi/kicad_teensy.git

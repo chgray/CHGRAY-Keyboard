@@ -1,16 +1,9 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:switches
-LIBS:teensy
-LIBS:components
-LIBS:NXP-chgray
-LIBS:chgray-keyboard-cache
-EELAYER 25 0
+EESchema Schematic File Version 4
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 2
+Sheet 1 2
 Title ""
 Date ""
 Rev ""
@@ -21,117 +14,841 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L SWITCH_PUSH SW1
+L chgray-keyboard-rescue:SWITCH_PUSH-Cherry-Symbol SW5
 U 1 1 58964642
 P 2300 1600
-F 0 "SW1" H 2450 1710 50  0000 C CNN
-F 1 "KEY_Q" H 2300 1520 50  0000 C CNN
-F 2 "footprints:CG6_CHERRY_PCB_100H" H 2300 1600 60  0001 C CNN
+F 0 "SW5" H 2450 1710 50  0000 C CNN
+F 1 "KEY_W" H 2300 1520 50  0000 C CNN
+F 2 "CherryKeys:CHERRY_PCB_100H" H 2300 1600 60  0001 C CNN
 F 3 "" H 2300 1600 60  0001 C CNN
 	1    2300 1600
 	1    0    0    -1  
 $EndComp
-$Comp
-L D D1
-U 1 1 5896466F
-P 2300 1900
-F 0 "D1" H 2300 2000 50  0000 C CNN
-F 1 "D" H 2300 1800 50  0000 C CNN
-F 2 "Diodes_SMD:D_0603" H 2300 1900 50  0001 C CNN
-F 3 "" H 2300 1900 50  0000 C CNN
-	1    2300 1900
-	1    0    0    -1  
-$EndComp
-Text HLabel 1800 4700 3    60   Input ~ 0
+Text HLabel 1800 7050 3    60   Input ~ 0
 KEY_COL0
 Text HLabel 1350 1300 0    60   Input ~ 0
 KEY_ROW0
 $Comp
-L SWITCH_PUSH SW3
+L chgray-keyboard-rescue:SWITCH_PUSH-Cherry-Symbol SW7
 U 1 1 589655C0
 P 3050 1600
-F 0 "SW3" H 3200 1710 50  0000 C CNN
+F 0 "SW7" H 3200 1710 50  0000 C CNN
 F 1 "KEY_W" H 3050 1520 50  0000 C CNN
-F 2 "footprints:CG6_CHERRY_PCB_100H" H 3050 1600 60  0001 C CNN
+F 2 "CherryKeys:CHERRY_PCB_100H" H 3050 1600 60  0001 C CNN
 F 3 "" H 3050 1600 60  0001 C CNN
 	1    3050 1600
 	1    0    0    -1  
 $EndComp
 $Comp
-L D D3
-U 1 1 589655C6
-P 3050 1900
-F 0 "D3" H 3050 2000 50  0000 C CNN
-F 1 "D" H 3050 1800 50  0000 C CNN
-F 2 "Diodes_SMD:D_0603" H 3050 1900 50  0001 C CNN
-F 3 "" H 3050 1900 50  0000 C CNN
-	1    3050 1900
-	1    0    0    -1  
-$EndComp
-$Comp
-L SWITCH_PUSH SW2
+L chgray-keyboard-rescue:SWITCH_PUSH-Cherry-Symbol SW6
 U 1 1 58965EBD
 P 2300 2300
-F 0 "SW2" H 2450 2410 50  0000 C CNN
-F 1 "KEY_A" H 2300 2220 50  0000 C CNN
-F 2 "footprints:CG6_CHERRY_PCB_100H" H 2300 2300 60  0001 C CNN
+F 0 "SW6" H 2450 2410 50  0000 C CNN
+F 1 "KEY_W" H 2300 2220 50  0000 C CNN
+F 2 "CherryKeys:CHERRY_PCB_100H" H 2300 2300 60  0001 C CNN
 F 3 "" H 2300 2300 60  0001 C CNN
 	1    2300 2300
 	1    0    0    -1  
 $EndComp
-$Comp
-L D D2
-U 1 1 58965EC3
-P 2300 2600
-F 0 "D2" H 2300 2700 50  0000 C CNN
-F 1 "D" H 2300 2500 50  0000 C CNN
-F 2 "Diodes_SMD:D_0603" H 2300 2600 50  0001 C CNN
-F 3 "" H 2300 2600 50  0000 C CNN
-	1    2300 2600
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3350 1900 3200 1900
 Wire Wire Line
 	3350 1600 3350 1900
 Wire Wire Line
-	2600 1900 2450 1900
-Wire Wire Line
 	2600 1600 2600 1900
 Wire Wire Line
-	1800 950  1800 4700
-Wire Wire Line
-	2600 2600 2450 2600
-Wire Wire Line
 	2600 2300 2600 2600
-Wire Wire Line
-	2700 950  2700 4700
-Wire Wire Line
-	2150 1900 1800 1900
-Connection ~ 1800 1900
-Wire Wire Line
-	2150 2600 1800 2600
-Connection ~ 1800 2600
-Connection ~ 2700 2600
-Wire Wire Line
-	2900 1900 2700 1900
-Connection ~ 2700 1900
 Wire Wire Line
 	2000 1600 2000 1300
 Connection ~ 2000 1300
 Wire Wire Line
 	2750 1300 2750 1600
-Connection ~ 2750 1300
 Wire Wire Line
 	2000 2300 2000 2150
 Connection ~ 2000 2150
-Connection ~ 2750 2150
 Text HLabel 1350 2150 0    60   Input ~ 0
 KEY_ROW1
-Text HLabel 2700 4700 3    60   Input ~ 0
+Text HLabel 2700 7000 3    60   Input ~ 0
 KEY_COL1
 Wire Wire Line
-	1350 1300 2750 1300
+	1350 1300 2000 1300
 Wire Wire Line
-	1350 2150 2750 2150
+	1350 2150 2000 2150
+Wire Wire Line
+	2000 1300 2750 1300
+Wire Wire Line
+	2000 2150 2750 2150
+$Comp
+L chgray-keyboard-rescue:SWITCH_PUSH-Cherry-Symbol SW8
+U 1 1 603DF303
+P 3050 2300
+F 0 "SW8" H 3200 2410 50  0000 C CNN
+F 1 "KEY_W" H 3050 2220 50  0000 C CNN
+F 2 "CherryKeys:CHERRY_PCB_100H" H 3050 2300 60  0001 C CNN
+F 3 "" H 3050 2300 60  0001 C CNN
+	1    3050 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2750 2150 2750 2300
+Wire Wire Line
+	3350 2300 3350 2600
+$Comp
+L chgray-keyboard-rescue:SWITCH_PUSH-Cherry-Symbol SW1
+U 1 1 603E8C3D
+P 2250 3250
+F 0 "SW1" H 2400 3360 50  0000 C CNN
+F 1 "KEY_W" H 2250 3170 50  0000 C CNN
+F 2 "CherryKeys:CHERRY_PCB_100H" H 2250 3250 60  0001 C CNN
+F 3 "" H 2250 3250 60  0001 C CNN
+	1    2250 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2550 3250 2550 3550
+Text HLabel 1350 3050 0    60   Input ~ 0
+KEY_ROW2
+Wire Wire Line
+	1950 3250 1950 3050
+Wire Wire Line
+	1950 3050 1350 3050
+$Comp
+L chgray-keyboard-rescue:SWITCH_PUSH-Cherry-Symbol SW9
+U 1 1 603EBFA8
+P 3050 3250
+F 0 "SW9" H 3200 3360 50  0000 C CNN
+F 1 "KEY_W" H 3050 3170 50  0000 C CNN
+F 2 "CherryKeys:CHERRY_PCB_100H" H 3050 3250 60  0001 C CNN
+F 3 "" H 3050 3250 60  0001 C CNN
+	1    3050 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3350 3250 3350 3550
+Wire Wire Line
+	1950 3050 2750 3050
+Wire Wire Line
+	2750 3050 2750 3250
+Connection ~ 1950 3050
+$Comp
+L chgray-keyboard-rescue:SWITCH_PUSH-Cherry-Symbol SW2
+U 1 1 6056C022
+P 2250 4200
+F 0 "SW2" H 2400 4310 50  0000 C CNN
+F 1 "KEY_W" H 2250 4120 50  0000 C CNN
+F 2 "CherryKeys:CHERRY_PCB_100H" H 2250 4200 60  0001 C CNN
+F 3 "" H 2250 4200 60  0001 C CNN
+	1    2250 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2550 4200 2550 4500
+Text HLabel 1350 4000 0    60   Input ~ 0
+KEY_ROW3
+Wire Wire Line
+	1950 4200 1950 4000
+Wire Wire Line
+	1950 4000 1350 4000
+$Comp
+L chgray-keyboard-rescue:SWITCH_PUSH-Cherry-Symbol SW10
+U 1 1 6056C037
+P 3050 4200
+F 0 "SW10" H 3200 4310 50  0000 C CNN
+F 1 "KEY_W" H 3050 4120 50  0000 C CNN
+F 2 "CherryKeys:CHERRY_PCB_100H" H 3050 4200 60  0001 C CNN
+F 3 "" H 3050 4200 60  0001 C CNN
+	1    3050 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3350 4200 3350 4500
+Wire Wire Line
+	1950 4000 2750 4000
+Wire Wire Line
+	2750 4000 2750 4200
+Connection ~ 1950 4000
+$Comp
+L chgray-keyboard-rescue:SWITCH_PUSH-Cherry-Symbol SW3
+U 1 1 60585067
+P 2250 5150
+F 0 "SW3" H 2400 5260 50  0000 C CNN
+F 1 "KEY_W" H 2250 5070 50  0000 C CNN
+F 2 "CherryKeys:CHERRY_PCB_100H" H 2250 5150 60  0001 C CNN
+F 3 "" H 2250 5150 60  0001 C CNN
+	1    2250 5150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2550 5150 2550 5450
+Text HLabel 1350 4950 0    60   Input ~ 0
+KEY_ROW4
+Wire Wire Line
+	1950 5150 1950 4950
+Wire Wire Line
+	1950 4950 1350 4950
+Wire Wire Line
+	3350 5150 3350 5450
+Wire Wire Line
+	1950 4950 2750 4950
+Wire Wire Line
+	2750 4950 2750 5150
+Connection ~ 1950 4950
+$Comp
+L chgray-keyboard-rescue:SWITCH_PUSH-Cherry-Symbol SW4
+U 1 1 605950C9
+P 2250 6050
+F 0 "SW4" H 2400 6160 50  0000 C CNN
+F 1 "KEY_W" H 2250 5970 50  0000 C CNN
+F 2 "CherryKeys:CHERRY_PCB_100H" H 2250 6050 60  0001 C CNN
+F 3 "" H 2250 6050 60  0001 C CNN
+	1    2250 6050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2550 6050 2550 6350
+Text HLabel 1350 5850 0    60   Input ~ 0
+KEY_ROW5
+Wire Wire Line
+	1950 6050 1950 5850
+Wire Wire Line
+	1950 5850 1350 5850
+$Comp
+L chgray-keyboard-rescue:SWITCH_PUSH-Cherry-Symbol SW12
+U 1 1 605950DC
+P 3050 6050
+F 0 "SW12" H 3200 6160 50  0000 C CNN
+F 1 "KEY_W" H 3050 5970 50  0000 C CNN
+F 2 "CherryKeys:CHERRY_PCB_100H" H 3050 6050 60  0001 C CNN
+F 3 "" H 3050 6050 60  0001 C CNN
+	1    3050 6050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3350 6050 3350 6350
+Wire Wire Line
+	1950 5850 2750 5850
+Wire Wire Line
+	2750 5850 2750 6050
+Connection ~ 1950 5850
+$Comp
+L chgray-keyboard-rescue:SWITCH_PUSH-Cherry-Symbol SW11
+U 1 1 6058507A
+P 3050 5150
+F 0 "SW11" H 3200 5260 50  0000 C CNN
+F 1 "KEY_W" H 3050 5070 50  0000 C CNN
+F 2 "CherryKeys:CHERRY_PCB_100H" H 3050 5150 60  0001 C CNN
+F 3 "" H 3050 5150 60  0001 C CNN
+	1    3050 5150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1800 950  1800 1900
+$Comp
+L chgray-keyboard-rescue:DIODE-Cherry-Symbol D5
+U 1 1 60571A45
+P 2400 1900
+F 0 "D5" H 2400 1708 40  0000 C CNN
+F 1 "DIODE" H 2400 1784 40  0000 C CNN
+F 2 "CherryKeys:CHERRY_MX_DIODE" H 2400 1900 50  0001 C CNN
+F 3 "" H 2400 1900 50  0001 C CNN
+	1    2400 1900
+	-1   0    0    1   
+$EndComp
+$Comp
+L chgray-keyboard-rescue:DIODE-Cherry-Symbol D7
+U 1 1 6057248E
+P 3150 1900
+F 0 "D7" H 3150 1708 40  0000 C CNN
+F 1 "DIODE" H 3150 1784 40  0000 C CNN
+F 2 "CherryKeys:CHERRY_MX_DIODE" H 3150 1900 50  0001 C CNN
+F 3 "" H 3150 1900 50  0001 C CNN
+	1    3150 1900
+	-1   0    0    1   
+$EndComp
+$Comp
+L chgray-keyboard-rescue:DIODE-Cherry-Symbol D8
+U 1 1 60573139
+P 3150 2600
+F 0 "D8" H 3150 2408 40  0000 C CNN
+F 1 "DIODE" H 3150 2484 40  0000 C CNN
+F 2 "CherryKeys:CHERRY_MX_DIODE" H 3150 2600 50  0001 C CNN
+F 3 "" H 3150 2600 50  0001 C CNN
+	1    3150 2600
+	-1   0    0    1   
+$EndComp
+$Comp
+L chgray-keyboard-rescue:DIODE-Cherry-Symbol D6
+U 1 1 60573D83
+P 2400 2600
+F 0 "D6" H 2400 2408 40  0000 C CNN
+F 1 "DIODE" H 2400 2484 40  0000 C CNN
+F 2 "CherryKeys:CHERRY_MX_DIODE" H 2400 2600 50  0001 C CNN
+F 3 "" H 2400 2600 50  0001 C CNN
+	1    2400 2600
+	-1   0    0    1   
+$EndComp
+$Comp
+L chgray-keyboard-rescue:DIODE-Cherry-Symbol D9
+U 1 1 60574966
+P 3150 3550
+F 0 "D9" H 3150 3358 40  0000 C CNN
+F 1 "DIODE" H 3150 3434 40  0000 C CNN
+F 2 "CherryKeys:CHERRY_MX_DIODE" H 3150 3550 50  0001 C CNN
+F 3 "" H 3150 3550 50  0001 C CNN
+	1    3150 3550
+	-1   0    0    1   
+$EndComp
+$Comp
+L chgray-keyboard-rescue:DIODE-Cherry-Symbol D1
+U 1 1 6057538C
+P 2350 3550
+F 0 "D1" H 2350 3358 40  0000 C CNN
+F 1 "DIODE" H 2350 3434 40  0000 C CNN
+F 2 "CherryKeys:CHERRY_MX_DIODE" H 2350 3550 50  0001 C CNN
+F 3 "" H 2350 3550 50  0001 C CNN
+	1    2350 3550
+	-1   0    0    1   
+$EndComp
+$Comp
+L chgray-keyboard-rescue:DIODE-Cherry-Symbol D10
+U 1 1 60575F17
+P 3150 4500
+F 0 "D10" H 3150 4308 40  0000 C CNN
+F 1 "DIODE" H 3150 4384 40  0000 C CNN
+F 2 "CherryKeys:CHERRY_MX_DIODE" H 3150 4500 50  0001 C CNN
+F 3 "" H 3150 4500 50  0001 C CNN
+	1    3150 4500
+	-1   0    0    1   
+$EndComp
+$Comp
+L chgray-keyboard-rescue:DIODE-Cherry-Symbol D2
+U 1 1 605767D4
+P 2350 4500
+F 0 "D2" H 2350 4308 40  0000 C CNN
+F 1 "DIODE" H 2350 4384 40  0000 C CNN
+F 2 "CherryKeys:CHERRY_MX_DIODE" H 2350 4500 50  0001 C CNN
+F 3 "" H 2350 4500 50  0001 C CNN
+	1    2350 4500
+	-1   0    0    1   
+$EndComp
+$Comp
+L chgray-keyboard-rescue:DIODE-Cherry-Symbol D3
+U 1 1 605774CC
+P 2350 5450
+F 0 "D3" H 2350 5258 40  0000 C CNN
+F 1 "DIODE" H 2350 5334 40  0000 C CNN
+F 2 "CherryKeys:CHERRY_MX_DIODE" H 2350 5450 50  0001 C CNN
+F 3 "" H 2350 5450 50  0001 C CNN
+	1    2350 5450
+	-1   0    0    1   
+$EndComp
+$Comp
+L chgray-keyboard-rescue:DIODE-Cherry-Symbol D11
+U 1 1 6057802B
+P 3150 5450
+F 0 "D11" H 3150 5258 40  0000 C CNN
+F 1 "DIODE" H 3150 5334 40  0000 C CNN
+F 2 "CherryKeys:CHERRY_MX_DIODE" H 3150 5450 50  0001 C CNN
+F 3 "" H 3150 5450 50  0001 C CNN
+	1    3150 5450
+	-1   0    0    1   
+$EndComp
+$Comp
+L chgray-keyboard-rescue:DIODE-Cherry-Symbol D12
+U 1 1 60578CE3
+P 3150 6350
+F 0 "D12" H 3150 6158 40  0000 C CNN
+F 1 "DIODE" H 3150 6234 40  0000 C CNN
+F 2 "CherryKeys:CHERRY_MX_DIODE" H 3150 6350 50  0001 C CNN
+F 3 "" H 3150 6350 50  0001 C CNN
+	1    3150 6350
+	-1   0    0    1   
+$EndComp
+$Comp
+L chgray-keyboard-rescue:DIODE-Cherry-Symbol D4
+U 1 1 60579874
+P 2350 6350
+F 0 "D4" H 2350 6158 40  0000 C CNN
+F 1 "DIODE" H 2350 6234 40  0000 C CNN
+F 2 "CherryKeys:CHERRY_MX_DIODE" H 2350 6350 50  0001 C CNN
+F 3 "" H 2350 6350 50  0001 C CNN
+	1    2350 6350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2700 950  2700 1900
+Wire Wire Line
+	2950 1900 2700 1900
+Connection ~ 2700 1900
+Wire Wire Line
+	2700 1900 2700 2600
+Wire Wire Line
+	2200 1900 1800 1900
+Connection ~ 1800 1900
+Wire Wire Line
+	1800 1900 1800 2600
+Wire Wire Line
+	2200 2600 1800 2600
+Connection ~ 1800 2600
+Wire Wire Line
+	1800 2600 1800 3550
+Wire Wire Line
+	2950 2600 2700 2600
+Connection ~ 2700 2600
+Wire Wire Line
+	2700 2600 2700 3550
+Wire Wire Line
+	2950 3550 2700 3550
+Connection ~ 2700 3550
+Wire Wire Line
+	2700 3550 2700 4500
+Wire Wire Line
+	2150 3550 1800 3550
+Connection ~ 1800 3550
+Wire Wire Line
+	2950 4500 2700 4500
+Connection ~ 2700 4500
+Wire Wire Line
+	2700 4500 2700 5450
+Wire Wire Line
+	2150 4500 1800 4500
+Wire Wire Line
+	1800 3550 1800 4500
+Connection ~ 1800 4500
+Wire Wire Line
+	1800 4500 1800 5450
+Wire Wire Line
+	2150 5450 1800 5450
+Connection ~ 1800 5450
+Wire Wire Line
+	1800 5450 1800 6350
+Wire Wire Line
+	2950 5450 2700 5450
+Connection ~ 2700 5450
+Wire Wire Line
+	2700 5450 2700 6350
+Wire Wire Line
+	2950 6350 2700 6350
+Connection ~ 2700 6350
+Wire Wire Line
+	2700 6350 2700 7000
+Wire Wire Line
+	2150 6350 1800 6350
+Connection ~ 1800 6350
+Wire Wire Line
+	1800 6350 1800 7050
+$Comp
+L chgray-keyboard-rescue:SWITCH_PUSH-Cherry-Symbol SW17
+U 1 1 6062F126
+P 4150 1600
+F 0 "SW17" H 4300 1710 50  0000 C CNN
+F 1 "KEY_W" H 4150 1520 50  0000 C CNN
+F 2 "CherryKeys:CHERRY_PCB_100H" H 4150 1600 60  0001 C CNN
+F 3 "" H 4150 1600 60  0001 C CNN
+	1    4150 1600
+	1    0    0    -1  
+$EndComp
+Text HLabel 3650 7050 3    60   Input ~ 0
+KEY_COL2
+$Comp
+L chgray-keyboard-rescue:SWITCH_PUSH-Cherry-Symbol SW19
+U 1 1 6062F2EF
+P 4900 1600
+F 0 "SW19" H 5050 1710 50  0000 C CNN
+F 1 "KEY_W" H 4900 1520 50  0000 C CNN
+F 2 "CherryKeys:CHERRY_PCB_100H" H 4900 1600 60  0001 C CNN
+F 3 "" H 4900 1600 60  0001 C CNN
+	1    4900 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L chgray-keyboard-rescue:SWITCH_PUSH-Cherry-Symbol SW18
+U 1 1 6062F2F9
+P 4150 2300
+F 0 "SW18" H 4300 2410 50  0000 C CNN
+F 1 "KEY_W" H 4150 2220 50  0000 C CNN
+F 2 "CherryKeys:CHERRY_PCB_100H" H 4150 2300 60  0001 C CNN
+F 3 "" H 4150 2300 60  0001 C CNN
+	1    4150 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5200 1600 5200 1900
+Wire Wire Line
+	4450 1600 4450 1900
+Wire Wire Line
+	4450 2300 4450 2600
+Wire Wire Line
+	3850 1600 3850 1300
+Connection ~ 3850 1300
+Wire Wire Line
+	4600 1300 4600 1600
+Wire Wire Line
+	3850 2300 3850 2150
+Connection ~ 3850 2150
+Text HLabel 4550 7000 3    60   Input ~ 0
+KEY_COL3
+Wire Wire Line
+	3850 1300 4600 1300
+Wire Wire Line
+	3850 2150 4600 2150
+$Comp
+L chgray-keyboard-rescue:SWITCH_PUSH-Cherry-Symbol SW20
+U 1 1 6062F310
+P 4900 2300
+F 0 "SW20" H 5050 2410 50  0000 C CNN
+F 1 "KEY_W" H 4900 2220 50  0000 C CNN
+F 2 "CherryKeys:CHERRY_PCB_100H" H 4900 2300 60  0001 C CNN
+F 3 "" H 4900 2300 60  0001 C CNN
+	1    4900 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4600 2150 4600 2300
+Wire Wire Line
+	5200 2300 5200 2600
+$Comp
+L chgray-keyboard-rescue:SWITCH_PUSH-Cherry-Symbol SW13
+U 1 1 6062F31C
+P 4100 3250
+F 0 "SW13" H 4250 3360 50  0000 C CNN
+F 1 "KEY_W" H 4100 3170 50  0000 C CNN
+F 2 "CherryKeys:CHERRY_PCB_100H" H 4100 3250 60  0001 C CNN
+F 3 "" H 4100 3250 60  0001 C CNN
+	1    4100 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4400 3250 4400 3550
+Wire Wire Line
+	3800 3250 3800 3050
+$Comp
+L chgray-keyboard-rescue:SWITCH_PUSH-Cherry-Symbol SW21
+U 1 1 6062F329
+P 4900 3250
+F 0 "SW21" H 5050 3360 50  0000 C CNN
+F 1 "KEY_W" H 4900 3170 50  0000 C CNN
+F 2 "CherryKeys:CHERRY_PCB_100H" H 4900 3250 60  0001 C CNN
+F 3 "" H 4900 3250 60  0001 C CNN
+	1    4900 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5200 3250 5200 3550
+Wire Wire Line
+	3800 3050 4600 3050
+Wire Wire Line
+	4600 3050 4600 3250
+Connection ~ 3800 3050
+$Comp
+L chgray-keyboard-rescue:SWITCH_PUSH-Cherry-Symbol SW14
+U 1 1 6062F337
+P 4100 4200
+F 0 "SW14" H 4250 4310 50  0000 C CNN
+F 1 "KEY_W" H 4100 4120 50  0000 C CNN
+F 2 "CherryKeys:CHERRY_PCB_100H" H 4100 4200 60  0001 C CNN
+F 3 "" H 4100 4200 60  0001 C CNN
+	1    4100 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4400 4200 4400 4500
+Wire Wire Line
+	3800 4200 3800 4000
+$Comp
+L chgray-keyboard-rescue:SWITCH_PUSH-Cherry-Symbol SW22
+U 1 1 6062F344
+P 4900 4200
+F 0 "SW22" H 5050 4310 50  0000 C CNN
+F 1 "KEY_W" H 4900 4120 50  0000 C CNN
+F 2 "CherryKeys:CHERRY_PCB_100H" H 4900 4200 60  0001 C CNN
+F 3 "" H 4900 4200 60  0001 C CNN
+	1    4900 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5200 4200 5200 4500
+Wire Wire Line
+	4600 4000 4600 4200
+Connection ~ 3800 4000
+$Comp
+L chgray-keyboard-rescue:SWITCH_PUSH-Cherry-Symbol SW15
+U 1 1 6062F352
+P 4100 5150
+F 0 "SW15" H 4250 5260 50  0000 C CNN
+F 1 "KEY_W" H 4100 5070 50  0000 C CNN
+F 2 "CherryKeys:CHERRY_PCB_100H" H 4100 5150 60  0001 C CNN
+F 3 "" H 4100 5150 60  0001 C CNN
+	1    4100 5150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4400 5150 4400 5450
+Wire Wire Line
+	3800 5150 3800 4950
+Wire Wire Line
+	5200 5150 5200 5450
+Wire Wire Line
+	3800 4950 4600 4950
+Wire Wire Line
+	4600 4950 4600 5150
+Connection ~ 3800 4950
+$Comp
+L chgray-keyboard-rescue:SWITCH_PUSH-Cherry-Symbol SW16
+U 1 1 6062F363
+P 4100 6050
+F 0 "SW16" H 4250 6160 50  0000 C CNN
+F 1 "KEY_W" H 4100 5970 50  0000 C CNN
+F 2 "CherryKeys:CHERRY_PCB_100H" H 4100 6050 60  0001 C CNN
+F 3 "" H 4100 6050 60  0001 C CNN
+	1    4100 6050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4400 6050 4400 6350
+Wire Wire Line
+	3800 6050 3800 5850
+$Comp
+L chgray-keyboard-rescue:SWITCH_PUSH-Cherry-Symbol SW24
+U 1 1 6062F370
+P 4900 6050
+F 0 "SW24" H 5050 6160 50  0000 C CNN
+F 1 "KEY_W" H 4900 5970 50  0000 C CNN
+F 2 "CherryKeys:CHERRY_PCB_100H" H 4900 6050 60  0001 C CNN
+F 3 "" H 4900 6050 60  0001 C CNN
+	1    4900 6050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5200 6050 5200 6350
+Wire Wire Line
+	3800 5850 4600 5850
+Wire Wire Line
+	4600 5850 4600 6050
+Connection ~ 3800 5850
+$Comp
+L chgray-keyboard-rescue:SWITCH_PUSH-Cherry-Symbol SW23
+U 1 1 6062F37E
+P 4900 5150
+F 0 "SW23" H 5050 5260 50  0000 C CNN
+F 1 "KEY_W" H 4900 5070 50  0000 C CNN
+F 2 "CherryKeys:CHERRY_PCB_100H" H 4900 5150 60  0001 C CNN
+F 3 "" H 4900 5150 60  0001 C CNN
+	1    4900 5150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3650 950  3650 1900
+$Comp
+L chgray-keyboard-rescue:DIODE-Cherry-Symbol D17
+U 1 1 6062F389
+P 4250 1900
+F 0 "D17" H 4250 1708 40  0000 C CNN
+F 1 "DIODE" H 4250 1784 40  0000 C CNN
+F 2 "CherryKeys:CHERRY_MX_DIODE" H 4250 1900 50  0001 C CNN
+F 3 "" H 4250 1900 50  0001 C CNN
+	1    4250 1900
+	-1   0    0    1   
+$EndComp
+$Comp
+L chgray-keyboard-rescue:DIODE-Cherry-Symbol D19
+U 1 1 6062F393
+P 5000 1900
+F 0 "D19" H 5000 1708 40  0000 C CNN
+F 1 "DIODE" H 5000 1784 40  0000 C CNN
+F 2 "CherryKeys:CHERRY_MX_DIODE" H 5000 1900 50  0001 C CNN
+F 3 "" H 5000 1900 50  0001 C CNN
+	1    5000 1900
+	-1   0    0    1   
+$EndComp
+$Comp
+L chgray-keyboard-rescue:DIODE-Cherry-Symbol D20
+U 1 1 6062F39D
+P 5000 2600
+F 0 "D20" H 5000 2408 40  0000 C CNN
+F 1 "DIODE" H 5000 2484 40  0000 C CNN
+F 2 "CherryKeys:CHERRY_MX_DIODE" H 5000 2600 50  0001 C CNN
+F 3 "" H 5000 2600 50  0001 C CNN
+	1    5000 2600
+	-1   0    0    1   
+$EndComp
+$Comp
+L chgray-keyboard-rescue:DIODE-Cherry-Symbol D18
+U 1 1 6062F3A7
+P 4250 2600
+F 0 "D18" H 4250 2408 40  0000 C CNN
+F 1 "DIODE" H 4250 2484 40  0000 C CNN
+F 2 "CherryKeys:CHERRY_MX_DIODE" H 4250 2600 50  0001 C CNN
+F 3 "" H 4250 2600 50  0001 C CNN
+	1    4250 2600
+	-1   0    0    1   
+$EndComp
+$Comp
+L chgray-keyboard-rescue:DIODE-Cherry-Symbol D21
+U 1 1 6062F3B1
+P 5000 3550
+F 0 "D21" H 5000 3358 40  0000 C CNN
+F 1 "DIODE" H 5000 3434 40  0000 C CNN
+F 2 "CherryKeys:CHERRY_MX_DIODE" H 5000 3550 50  0001 C CNN
+F 3 "" H 5000 3550 50  0001 C CNN
+	1    5000 3550
+	-1   0    0    1   
+$EndComp
+$Comp
+L chgray-keyboard-rescue:DIODE-Cherry-Symbol D13
+U 1 1 6062F3BB
+P 4200 3550
+F 0 "D13" H 4200 3358 40  0000 C CNN
+F 1 "DIODE" H 4200 3434 40  0000 C CNN
+F 2 "CherryKeys:CHERRY_MX_DIODE" H 4200 3550 50  0001 C CNN
+F 3 "" H 4200 3550 50  0001 C CNN
+	1    4200 3550
+	-1   0    0    1   
+$EndComp
+$Comp
+L chgray-keyboard-rescue:DIODE-Cherry-Symbol D22
+U 1 1 6062F3C5
+P 5000 4500
+F 0 "D22" H 5000 4308 40  0000 C CNN
+F 1 "DIODE" H 5000 4384 40  0000 C CNN
+F 2 "CherryKeys:CHERRY_MX_DIODE" H 5000 4500 50  0001 C CNN
+F 3 "" H 5000 4500 50  0001 C CNN
+	1    5000 4500
+	-1   0    0    1   
+$EndComp
+$Comp
+L chgray-keyboard-rescue:DIODE-Cherry-Symbol D14
+U 1 1 6062F3CF
+P 4200 4500
+F 0 "D14" H 4200 4308 40  0000 C CNN
+F 1 "DIODE" H 4200 4384 40  0000 C CNN
+F 2 "CherryKeys:CHERRY_MX_DIODE" H 4200 4500 50  0001 C CNN
+F 3 "" H 4200 4500 50  0001 C CNN
+	1    4200 4500
+	-1   0    0    1   
+$EndComp
+$Comp
+L chgray-keyboard-rescue:DIODE-Cherry-Symbol D15
+U 1 1 6062F3D9
+P 4200 5450
+F 0 "D15" H 4200 5258 40  0000 C CNN
+F 1 "DIODE" H 4200 5334 40  0000 C CNN
+F 2 "CherryKeys:CHERRY_MX_DIODE" H 4200 5450 50  0001 C CNN
+F 3 "" H 4200 5450 50  0001 C CNN
+	1    4200 5450
+	-1   0    0    1   
+$EndComp
+$Comp
+L chgray-keyboard-rescue:DIODE-Cherry-Symbol D23
+U 1 1 6062F3E3
+P 5000 5450
+F 0 "D23" H 5000 5258 40  0000 C CNN
+F 1 "DIODE" H 5000 5334 40  0000 C CNN
+F 2 "CherryKeys:CHERRY_MX_DIODE" H 5000 5450 50  0001 C CNN
+F 3 "" H 5000 5450 50  0001 C CNN
+	1    5000 5450
+	-1   0    0    1   
+$EndComp
+$Comp
+L chgray-keyboard-rescue:DIODE-Cherry-Symbol D24
+U 1 1 6062F3ED
+P 5000 6350
+F 0 "D24" H 5000 6158 40  0000 C CNN
+F 1 "DIODE" H 5000 6234 40  0000 C CNN
+F 2 "CherryKeys:CHERRY_MX_DIODE" H 5000 6350 50  0001 C CNN
+F 3 "" H 5000 6350 50  0001 C CNN
+	1    5000 6350
+	-1   0    0    1   
+$EndComp
+$Comp
+L chgray-keyboard-rescue:DIODE-Cherry-Symbol D16
+U 1 1 6062F3F7
+P 4200 6350
+F 0 "D16" H 4200 6158 40  0000 C CNN
+F 1 "DIODE" H 4200 6234 40  0000 C CNN
+F 2 "CherryKeys:CHERRY_MX_DIODE" H 4200 6350 50  0001 C CNN
+F 3 "" H 4200 6350 50  0001 C CNN
+	1    4200 6350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4550 950  4550 1900
+Wire Wire Line
+	4800 1900 4550 1900
+Connection ~ 4550 1900
+Wire Wire Line
+	4550 1900 4550 2600
+Wire Wire Line
+	4050 1900 3650 1900
+Connection ~ 3650 1900
+Wire Wire Line
+	3650 1900 3650 2600
+Wire Wire Line
+	4050 2600 3650 2600
+Connection ~ 3650 2600
+Wire Wire Line
+	3650 2600 3650 3550
+Wire Wire Line
+	4800 2600 4550 2600
+Connection ~ 4550 2600
+Wire Wire Line
+	4550 2600 4550 3550
+Wire Wire Line
+	4800 3550 4550 3550
+Connection ~ 4550 3550
+Wire Wire Line
+	4000 3550 3650 3550
+Connection ~ 3650 3550
+Wire Wire Line
+	4800 4500 4550 4500
+Connection ~ 4550 4500
+Wire Wire Line
+	4550 4500 4550 5450
+Wire Wire Line
+	4000 4500 3650 4500
+Wire Wire Line
+	3650 3550 3650 4500
+Connection ~ 3650 4500
+Wire Wire Line
+	3650 4500 3650 5450
+Wire Wire Line
+	4000 5450 3650 5450
+Connection ~ 3650 5450
+Wire Wire Line
+	3650 5450 3650 6350
+Wire Wire Line
+	4800 5450 4550 5450
+Connection ~ 4550 5450
+Wire Wire Line
+	4550 5450 4550 6350
+Wire Wire Line
+	4800 6350 4550 6350
+Connection ~ 4550 6350
+Wire Wire Line
+	4550 6350 4550 7000
+Wire Wire Line
+	4000 6350 3650 6350
+Connection ~ 3650 6350
+Wire Wire Line
+	3650 6350 3650 7050
+Wire Wire Line
+	2750 1300 3850 1300
+Connection ~ 2750 1300
+Wire Wire Line
+	2750 2150 3850 2150
+Connection ~ 2750 2150
+Wire Wire Line
+	2750 3050 3800 3050
+Connection ~ 2750 3050
+Wire Wire Line
+	4550 3550 4550 4500
+Wire Wire Line
+	3800 4000 4600 4000
+Wire Wire Line
+	2750 4000 3800 4000
+Connection ~ 2750 4000
+Wire Wire Line
+	2750 4950 3800 4950
+Connection ~ 2750 4950
+Wire Wire Line
+	2750 5850 3800 5850
+Connection ~ 2750 5850
 $EndSCHEMATC
