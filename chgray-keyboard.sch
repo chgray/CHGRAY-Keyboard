@@ -28,37 +28,28 @@ F8 "KEY_ROW4" I R 9400 2750 50
 F9 "KEY_ROW5" I R 9400 2900 50 
 F10 "KEY_COL2" I L 7300 2300 50 
 F11 "KEY_COL3" I L 7300 2450 50 
+F12 "KEY_COL4" I L 7300 2600 50 
+F13 "KEY_COL5" I L 7300 2750 50 
+F14 "KEY_COL6" I L 7300 2900 50 
+F15 "KEY_COL7" I L 7300 3050 50 
+F16 "KEY_COL8" I L 7300 3200 50 
+F17 "KEY_COL9" I L 7300 3350 50 
+F18 "KEY_COL10" I L 7300 3500 50 
 $EndSheet
 Wire Wire Line
 	9600 1950 9600 1500
 Wire Wire Line
 	9600 1500 1350 1500
 Wire Wire Line
-	1350 1500 1350 4950
-Wire Wire Line
-	1150 5050 1150 1300
-Wire Wire Line
 	1150 1300 9750 1300
 Wire Wire Line
 	9750 1300 9750 2150
-Wire Wire Line
-	1350 4950 2250 4950
-Wire Wire Line
-	2250 5050 1150 5050
 Wire Wire Line
 	7300 2000 1650 2000
 Wire Wire Line
 	9750 2150 9400 2150
 Wire Wire Line
 	9400 1950 9600 1950
-Wire Wire Line
-	1650 2000 1650 3750
-Wire Wire Line
-	1650 3750 2250 3750
-Wire Wire Line
-	2250 3850 1500 3850
-Wire Wire Line
-	1500 3850 1500 2150
 Wire Wire Line
 	1500 2150 7300 2150
 Wire Wire Line
@@ -68,76 +59,11 @@ Wire Wire Line
 Wire Wire Line
 	9950 1000 1000 1000
 Wire Wire Line
-	1000 1000 1000 4850
-Wire Wire Line
-	1000 4850 2250 4850
-NoConn ~ 4550 3850
-NoConn ~ 4550 3950
-NoConn ~ 4550 4050
-NoConn ~ 4550 4250
-NoConn ~ 4550 4350
-NoConn ~ 4550 4450
-NoConn ~ 4550 4550
-NoConn ~ 4550 4750
-NoConn ~ 4550 4850
-NoConn ~ 4550 4950
-NoConn ~ 4550 5050
-NoConn ~ 4550 5150
-NoConn ~ 4550 5250
-NoConn ~ 4550 5550
-NoConn ~ 4550 6050
-NoConn ~ 4550 6150
-NoConn ~ 4550 6250
-NoConn ~ 4550 6350
-NoConn ~ 4550 6450
-NoConn ~ 4550 6550
-NoConn ~ 4550 6650
-NoConn ~ 4550 6750
-NoConn ~ 4550 6850
-NoConn ~ 4550 6950
-NoConn ~ 4550 7050
-NoConn ~ 4550 7150
-NoConn ~ 4550 7250
-NoConn ~ 2250 7250
-NoConn ~ 2250 7150
-NoConn ~ 2250 7050
-NoConn ~ 2250 6950
-NoConn ~ 2250 6850
-NoConn ~ 2250 6650
-NoConn ~ 2250 6550
-NoConn ~ 2250 6450
-NoConn ~ 2250 6350
-NoConn ~ 2250 6250
-NoConn ~ 2250 5950
-NoConn ~ 2250 5750
-NoConn ~ 2250 5650
-NoConn ~ 2250 5450
-NoConn ~ 2250 4550
-NoConn ~ 2250 4650
-NoConn ~ 2250 4750
-NoConn ~ 2250 4450
-NoConn ~ 2250 4350
-NoConn ~ 2250 4250
-NoConn ~ 2250 4150
-NoConn ~ 2250 4050
-NoConn ~ 2250 3950
-NoConn ~ 2250 3650
-NoConn ~ 2250 3050
-NoConn ~ 2250 3150
-NoConn ~ 2250 3250
-NoConn ~ 2250 3350
-NoConn ~ 2250 3450
-NoConn ~ 2250 3550
-Wire Wire Line
 	9400 2550 10050 2550
 Wire Wire Line
 	10050 2550 10050 850 
 Wire Wire Line
 	10050 850  900  850 
-Wire Wire Line
-	900  850  900  5150
-Wire Wire Line
-	800  5250 800  700 
 Wire Wire Line
 	800  700  10150 700 
 Wire Wire Line
@@ -149,85 +75,13 @@ Wire Wire Line
 Wire Wire Line
 	10250 550  700  550 
 Wire Wire Line
-	2250 5250 800  5250
-Wire Wire Line
-	900  5150 2250 5150
-Wire Wire Line
 	10250 2900 9400 2900
-NoConn ~ 2250 5350
 Wire Wire Line
-	2250 5850 700  5850
+	2250 5850 2150 5850
 Wire Wire Line
 	700  550  700  5850
-$Comp
-L chgray-keyboard-rescue:Teensy3.5-Teensy Teensy-Part1
-U 1 1 605697C1
-P 3400 5100
-F 0 "Teensy-Part1" H 3400 7839 60  0000 C CNN
-F 1 "Teensy3.5" H 3400 7733 60  0000 C CNN
-F 2 "Teensy_Pretty:Teensy35_36" H 3400 7627 60  0000 C CNN
-F 3 "https://www.pjrc.com/teensy/card8a_rev2.pdf" H 3400 7521 60  0000 C CNN
-F 4 "https://www.pjrc.com/teensy/pinout.html" H 3400 7423 50  0000 C CNN "Pinouts"
-	1    3400 5100
-	1    0    0    -1  
-$EndComp
-NoConn ~ 4550 3150
-NoConn ~ 4550 3250
-NoConn ~ 4550 3350
-NoConn ~ 4550 3450
-NoConn ~ 4550 3550
-NoConn ~ 4550 5650
-NoConn ~ 4550 5750
-NoConn ~ 4550 4650
-$Comp
-L power:GND #PWR0101
-U 1 1 60644219
-P 1750 7500
-F 0 "#PWR0101" H 1750 7250 50  0001 C CNN
-F 1 "GND" H 1755 7327 50  0000 C CNN
-F 2 "" H 1750 7500 50  0001 C CNN
-F 3 "" H 1750 7500 50  0001 C CNN
-	1    1750 7500
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	2250 5550 1750 5550
-Wire Wire Line
-	1750 5550 1750 6750
-Wire Wire Line
-	2250 6750 1750 6750
-Connection ~ 1750 6750
-Wire Wire Line
-	1750 6750 1750 7500
-Wire Wire Line
-	2250 2950 1750 2950
-Wire Wire Line
-	1750 2950 1750 5550
-Connection ~ 1750 5550
-Wire Wire Line
-	4550 5350 4900 5350
-Wire Wire Line
-	4900 5350 4900 5450
-Wire Wire Line
-	4900 5450 4550 5450
-$Comp
-L power:GND #PWR0102
-U 1 1 6064C2E8
-P 4900 7550
-F 0 "#PWR0102" H 4900 7300 50  0001 C CNN
-F 1 "GND" H 4905 7377 50  0000 C CNN
-F 2 "" H 4900 7550 50  0001 C CNN
-F 3 "" H 4900 7550 50  0001 C CNN
-	1    4900 7550
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4900 5450 4900 7550
-Connection ~ 4900 5450
-NoConn ~ 4550 2950
-NoConn ~ 4550 3050
-Wire Wire Line
-	2250 6050 200  6050
+	2250 6050 2150 6050
 Wire Wire Line
 	200  6050 200  2300
 Wire Wire Line
@@ -237,8 +91,125 @@ Wire Wire Line
 Wire Wire Line
 	300  2450 300  6150
 Wire Wire Line
-	300  6150 2250 6150
-NoConn ~ 4550 3650
-NoConn ~ 4550 3750
-NoConn ~ 4550 4150
+	300  6150 2150 6150
+Wire Wire Line
+	7300 2600 5200 2600
+Wire Wire Line
+	5200 2600 5200 6650
+Wire Wire Line
+	5200 6650 4550 6650
+Wire Wire Line
+	4550 6750 5350 6750
+Wire Wire Line
+	5350 6750 5350 2750
+Wire Wire Line
+	5350 2750 7300 2750
+Wire Wire Line
+	7300 2900 5500 2900
+Wire Wire Line
+	5500 2900 5500 6850
+Wire Wire Line
+	5500 6850 4550 6850
+Wire Wire Line
+	4550 6950 5600 6950
+Wire Wire Line
+	5600 6950 5600 3050
+Wire Wire Line
+	5600 3050 7300 3050
+Wire Wire Line
+	7300 3200 5800 3200
+Wire Wire Line
+	5800 3200 5800 7050
+Wire Wire Line
+	5800 7050 4550 7050
+Wire Wire Line
+	4550 7150 5900 7150
+Wire Wire Line
+	5900 7150 5900 3350
+Wire Wire Line
+	5900 3350 7300 3350
+Wire Wire Line
+	7300 3500 6150 3500
+Wire Wire Line
+	6150 3500 6150 7250
+Wire Wire Line
+	6150 7250 4550 7250
+$Comp
+L Teensy:Teensy2.0_(C) U1
+U 1 1 608F19B6
+P 3350 6500
+F 0 "U1" H 3350 7537 60  0000 C CNN
+F 1 "Teensy2.0_(C)" H 3350 7431 60  0000 C CNN
+F 2 "Teensy_Pretty:Teensy2.0" H 3450 5450 60  0000 C CNN
+F 3 "" H 3450 5450 60  0000 C CNN
+	1    3350 6500
+	1    0    0    -1  
+$EndComp
+Connection ~ 2150 5850
+Wire Wire Line
+	2150 5850 700  5850
+Connection ~ 2150 6050
+Wire Wire Line
+	2150 6050 200  6050
+Connection ~ 2150 6150
+Wire Wire Line
+	2150 6150 2250 6150
+Wire Wire Line
+	900  7250 2150 7250
+Wire Wire Line
+	900  850  900  7250
+Wire Wire Line
+	1000 1000 1000 7050
+Wire Wire Line
+	1150 6950 2150 6950
+Wire Wire Line
+	1150 1300 1150 6950
+Wire Wire Line
+	1350 6850 2150 6850
+Wire Wire Line
+	1350 1500 1350 6850
+Wire Wire Line
+	1500 6750 2150 6750
+Wire Wire Line
+	1500 2150 1500 6750
+Wire Wire Line
+	1650 6650 2150 6650
+Wire Wire Line
+	1650 2000 1650 6650
+NoConn ~ 4550 5850
+NoConn ~ 4550 5950
+NoConn ~ 4550 6050
+NoConn ~ 4550 6150
+NoConn ~ 4550 6250
+NoConn ~ 4550 6350
+NoConn ~ 4550 6450
+NoConn ~ 4550 6550
+NoConn ~ 2150 6250
+NoConn ~ 2150 6350
+NoConn ~ 2150 6450
+NoConn ~ 2150 6550
+Wire Wire Line
+	2150 5950 800  5950
+Wire Wire Line
+	800  5950 800  700 
+Wire Wire Line
+	2150 5750 2000 5750
+Wire Wire Line
+	2000 5750 2000 7150
+Wire Wire Line
+	2000 7150 2150 7150
+$Comp
+L power:GND #PWR0101
+U 1 1 6093A5EC
+P 2000 7650
+F 0 "#PWR0101" H 2000 7400 50  0001 C CNN
+F 1 "GND" H 2005 7477 50  0000 C CNN
+F 2 "" H 2000 7650 50  0001 C CNN
+F 3 "" H 2000 7650 50  0001 C CNN
+	1    2000 7650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2000 7150 2000 7650
+Connection ~ 2000 7150
 $EndSCHEMATC
