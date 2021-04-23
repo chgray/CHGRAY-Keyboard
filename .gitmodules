@@ -19,3 +19,6 @@
 [submodule "submodules/kicad_teensy"]
 	path = submodules/kicad_teensy
 	url = https://github.com/XenGi/kicad_teensy.git
+[submodule ".\\submodules\\daprice-keyswitches"]
+	path = .\\submodules\\daprice-keyswitches
+	url = https://github.com/chgray/daprice-keyswitches.git
