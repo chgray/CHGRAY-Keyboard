@@ -1,0 +1,100 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 3
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L LED:SK6812MINI D73
+U 1 1 6097030B
+P 2600 2350
+F 0 "D73" H 2944 2396 50  0000 L CNN
+F 1 "DIODE" H 2944 2305 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123" H 2650 2050 50  0001 L TNN
+F 3 "" H 2700 1975 50  0001 L TNN
+	1    2600 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C1
+U 1 1 60970F2A
+P 2600 2800
+F 0 "C1" H 2715 2846 50  0000 L CNN
+F 1 "C" H 2715 2755 50  0000 L CNN
+F 2 "Capacitor_SMD:C_01005_0402Metric" H 2638 2650 50  0001 C CNN
+F 3 "~" H 2600 2800 50  0001 C CNN
+	1    2600 2800
+	1    0    0    -1  
+$EndComp
+Text HLabel 2300 2350 0    50   Input ~ 0
+LED_INPUT
+$Comp
+L LED:SK6812MINI D74
+U 1 1 60974987
+P 4000 2350
+F 0 "D74" H 4344 2396 50  0000 L CNN
+F 1 "DIODE" H 4344 2305 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123" H 4050 2050 50  0001 L TNN
+F 3 "" H 4100 1975 50  0001 L TNN
+	1    4000 2350
+	1    0    0    -1  
+$EndComp
+Text GLabel 4000 2950 3    50   Input ~ 0
+VCC_5V
+$Comp
+L Device:C C2
+U 1 1 6097498E
+P 4000 2800
+F 0 "C2" H 4115 2846 50  0000 L CNN
+F 1 "C" H 4115 2755 50  0000 L CNN
+F 2 "Capacitor_SMD:C_01005_0402Metric" H 4038 2650 50  0001 C CNN
+F 3 "~" H 4000 2800 50  0001 C CNN
+	1    4000 2800
+	1    0    0    -1  
+$EndComp
+Text GLabel 4000 2050 1    50   Input ~ 0
+LED_VDD
+$Comp
+L LED:SK6812MINI D75
+U 1 1 609759AD
+P 5400 2350
+F 0 "D75" H 5744 2396 50  0000 L CNN
+F 1 "DIODE" H 5744 2305 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123" H 5450 2050 50  0001 L TNN
+F 3 "" H 5500 1975 50  0001 L TNN
+	1    5400 2350
+	1    0    0    -1  
+$EndComp
+Text GLabel 5400 2950 3    50   Input ~ 0
+VCC_5V
+$Comp
+L Device:C C3
+U 1 1 609759B4
+P 5400 2800
+F 0 "C3" H 5515 2846 50  0000 L CNN
+F 1 "C" H 5515 2755 50  0000 L CNN
+F 2 "Capacitor_SMD:C_01005_0402Metric" H 5438 2650 50  0001 C CNN
+F 3 "~" H 5400 2800 50  0001 C CNN
+	1    5400 2800
+	1    0    0    -1  
+$EndComp
+Text GLabel 5400 2050 1    50   Input ~ 0
+LED_VDD
+Wire Wire Line
+	2900 2350 3700 2350
+Wire Wire Line
+	4300 2350 5100 2350
+Text HLabel 2600 2050 1    50   Input ~ 0
+LED_VDD
+Text HLabel 2600 2950 3    50   Input ~ 0
+VCC_5V
+$EndSCHEMATC
