@@ -2052,17 +2052,6 @@ Wire Wire Line
 Text HLabel 10350 6750 3    60   Input ~ 0
 KEY_COL10
 $Comp
-L Cherry-Symbol:SWITCH_PUSH SW5
-U 1 1 58964642
-P 2000 1300
-F 0 "SW5" H 2150 1410 50  0000 C CNN
-F 1 "00" H 2000 1220 50  0000 C CNN
-F 2 "daprice-keyswitches:Kailh_socket_MX" H 2000 1300 60  0001 C CNN
-F 3 "" H 2000 1300 60  0001 C CNN
-	1    2000 1300
-	1    0    0    -1  
-$EndComp
-$Comp
 L Keys-rescue:DIODE-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue D61
 U 1 1 6080BE2B
 P 10800 1600
@@ -2293,7 +2282,7 @@ U 1 1 60AE6AA1
 P 11550 1300
 F 0 "ENTER1" H 11700 1410 50  0000 C CNN
 F 1 "011" H 11550 1220 50  0000 C CNN
-F 2 "daprice-keyswitches:Stabilizer_MX_2u" H 11550 1300 60  0001 C CNN
+F 2 "daprice-keyswitches:Stabilizer_MX_1.25u" H 11550 1300 60  0001 C CNN
 F 3 "" H 11550 1300 60  0001 C CNN
 	1    11550 1300
 	1    0    0    -1  
@@ -2515,4 +2504,21 @@ Wire Wire Line
 Connection ~ 10400 2750
 Wire Wire Line
 	10400 2750 11250 2750
+Wire Wire Line
+	2050 1450 2650 1450
+Wire Wire Line
+	2800 1450 3750 1450
+Wire Wire Line
+	3900 1450 4500 1450
+$Comp
+L Cherry-Symbol:SWITCH_PUSH SW5
+U 1 1 58964642
+P 2000 1300
+F 0 "SW5" H 2150 1410 50  0000 C CNN
+F 1 "00" H 2000 1220 50  0000 C CNN
+F 2 "daprice-keyswitches:Kailh_socket_MX" H 2000 1300 60  0001 C CNN
+F 3 "" H 2000 1300 60  0001 C CNN
+	1    2000 1300
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
