@@ -34,7 +34,7 @@ U 1 1 58965EBD
 P 2000 2000
 F 0 "SW6" H 2150 2110 50  0000 C CNN
 F 1 "10" H 2000 1920 50  0000 C CNN
-F 2 "daprice-keyswitches:Stabilizer_MX_1.5u" H 2000 2000 60  0001 C CNN
+F 2 "daprice-keyswitches:Kailh_socket_MX" H 2000 2000 60  0001 C CNN
 F 3 "" H 2000 2000 60  0001 C CNN
 	1    2000 2000
 	1    0    0    -1  
