@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
-Sheet 1 2
+Sheet 1 3
 Title ""
 Date ""
 Rev ""
@@ -36,6 +36,8 @@ F16 "KEY_COL8" I L 7300 3200 50
 F17 "KEY_COL9" I L 7300 3350 50 
 F18 "KEY_COL10" I L 7300 3500 50 
 F19 "KEY_COL11" I L 7300 3700 50 
+F20 "KEY_COL12" I L 7300 3950 50 
+F21 "KEY_COL13" I L 7300 4150 50 
 $EndSheet
 Wire Wire Line
 	9600 1950 9600 1500
@@ -49,10 +51,6 @@ Wire Wire Line
 	7300 2000 1650 2000
 Wire Wire Line
 	1500 2150 7300 2150
-Wire Wire Line
-	9950 2350 9950 1000
-Wire Wire Line
-	9950 1000 1000 1000
 Wire Wire Line
 	10050 2550 10050 850 
 Wire Wire Line
@@ -148,8 +146,6 @@ Wire Wire Line
 Wire Wire Line
 	900  850  900  7250
 Wire Wire Line
-	1000 1000 1000 7050
-Wire Wire Line
 	1150 6950 2150 6950
 Wire Wire Line
 	1150 1300 1150 6950
@@ -168,10 +164,6 @@ Wire Wire Line
 NoConn ~ 4550 5850
 NoConn ~ 4550 5950
 NoConn ~ 4550 6050
-NoConn ~ 4550 6150
-NoConn ~ 4550 6250
-NoConn ~ 4550 6350
-NoConn ~ 4550 6450
 NoConn ~ 2150 6250
 NoConn ~ 2150 6350
 NoConn ~ 2150 6450
@@ -211,11 +203,55 @@ Wire Wire Line
 Wire Wire Line
 	9300 2150 9750 2150
 Wire Wire Line
-	9300 2350 9950 2350
-Wire Wire Line
 	9300 2550 10050 2550
 Wire Wire Line
 	9300 2750 10150 2750
 Wire Wire Line
 	9300 2900 10250 2900
+$Sheet
+S 8250 5700 1600 600 
+U 6096EA02
+F0 "Sheet6096EA01" 50
+F1 "RGB-Circuit.sch" 50
+F2 "LED_INPUT" I L 8250 5850 50 
+F3 "LED_VDD" I L 8250 6150 50 
+$EndSheet
+Wire Wire Line
+	8250 5850 6300 5850
+Wire Wire Line
+	6300 5850 6300 6450
+Wire Wire Line
+	6300 6450 4550 6450
+Wire Wire Line
+	8250 6150 6400 6150
+Wire Wire Line
+	6400 6150 6400 7450
+Wire Wire Line
+	6400 7450 1650 7450
+Wire Wire Line
+	1650 7450 1650 7050
+Wire Wire Line
+	1650 7050 2150 7050
+Wire Wire Line
+	9300 2350 9450 2350
+Wire Wire Line
+	9450 2350 9450 5550
+Wire Wire Line
+	9450 5550 4900 5550
+Wire Wire Line
+	4900 5550 4900 6150
+Wire Wire Line
+	4900 6150 4550 6150
+Wire Wire Line
+	4550 6250 6800 6250
+Wire Wire Line
+	6800 6250 6800 3950
+Wire Wire Line
+	6800 3950 7300 3950
+Wire Wire Line
+	7300 4150 7000 4150
+Wire Wire Line
+	7000 4150 7000 6350
+Wire Wire Line
+	7000 6350 4550 6350
 $EndSCHEMATC

@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 1 1
+Sheet 1 3
 Title ""
 Date ""
 Rev ""
@@ -18,7 +18,7 @@ KEY_COL0
 Text HLabel 1050 1000 0    60   Input ~ 0
 KEY_ROW0
 $Comp
-L Keys-rescue:SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue SW7
+L chgray-keyboard-rescue:SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue SW7
 U 1 1 589655C0
 P 2750 1300
 F 0 "SW7" H 2900 1410 50  0000 C CNN
@@ -29,12 +29,12 @@ F 3 "" H 2750 1300 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Keys-rescue:SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue SW6
+L chgray-keyboard-rescue:SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue TAB1
 U 1 1 58965EBD
 P 2000 2000
-F 0 "SW6" H 2150 2110 50  0000 C CNN
+F 0 "TAB1" H 2150 2110 50  0000 C CNN
 F 1 "10" H 2000 1920 50  0000 C CNN
-F 2 "daprice-keyswitches:Stabilizer_MX_1.5u" H 2000 2000 60  0001 C CNN
+F 2 "daprice-keyswitches:Stabilizer_MX_1.25u" H 2000 2000 60  0001 C CNN
 F 3 "" H 2000 2000 60  0001 C CNN
 	1    2000 2000
 	1    0    0    -1  
@@ -66,7 +66,7 @@ Wire Wire Line
 Wire Wire Line
 	1700 1850 2450 1850
 $Comp
-L Keys-rescue:SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue SW8
+L chgray-keyboard-rescue:SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue SW8
 U 1 1 603DF303
 P 2750 2000
 F 0 "SW8" H 2900 2110 50  0000 C CNN
@@ -81,12 +81,12 @@ Wire Wire Line
 Wire Wire Line
 	3050 2000 3050 2300
 $Comp
-L Keys-rescue:SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue SW1
+L chgray-keyboard-rescue:SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue CAPS1
 U 1 1 603E8C3D
 P 1950 2950
-F 0 "SW1" H 2100 3060 50  0000 C CNN
+F 0 "CAPS1" H 2100 3060 50  0000 C CNN
 F 1 "20" H 1950 2870 50  0000 C CNN
-F 2 "daprice-keyswitches:Stabilizer_MX_1.75u" H 1950 2950 60  0000 C CNN
+F 2 "daprice-keyswitches:Stabilizer_MX_1.5u" H 1950 2950 60  0000 C CNN
 F 3 "" H 1950 2950 60  0001 C CNN
 	1    1950 2950
 	1    0    0    -1  
@@ -100,7 +100,7 @@ Wire Wire Line
 Wire Wire Line
 	1650 2750 1050 2750
 $Comp
-L Keys-rescue:SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue SW9
+L chgray-keyboard-rescue:SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue SW9
 U 1 1 603EBFA8
 P 2750 2950
 F 0 "SW9" H 2900 3060 50  0000 C CNN
@@ -118,7 +118,7 @@ Wire Wire Line
 	2450 2750 2450 2950
 Connection ~ 1650 2750
 $Comp
-L Keys-rescue:SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue SW2
+L chgray-keyboard-rescue:SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue SW2
 U 1 1 6056C022
 P 1950 3900
 F 0 "SW2" H 2100 4010 50  0000 C CNN
@@ -137,7 +137,7 @@ Wire Wire Line
 Wire Wire Line
 	1650 3700 1050 3700
 $Comp
-L Keys-rescue:SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue LEFT-SHIFT1
+L chgray-keyboard-rescue:SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue LEFT-SHIFT1
 U 1 1 6056C037
 P 2750 3900
 F 0 "LEFT-SHIFT1" H 2900 4010 50  0000 C CNN
@@ -155,7 +155,7 @@ Wire Wire Line
 	2450 3700 2450 3900
 Connection ~ 1650 3700
 $Comp
-L Keys-rescue:SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue SW3
+L chgray-keyboard-rescue:SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue SW3
 U 1 1 60585067
 P 1950 4850
 F 0 "SW3" H 2100 4960 50  0000 C CNN
@@ -181,7 +181,7 @@ Wire Wire Line
 	2450 4650 2450 4850
 Connection ~ 1650 4650
 $Comp
-L Keys-rescue:SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue SW4
+L chgray-keyboard-rescue:SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue SW4
 U 1 1 605950C9
 P 1950 5750
 F 0 "SW4" H 2100 5860 50  0000 C CNN
@@ -200,7 +200,7 @@ Wire Wire Line
 Wire Wire Line
 	1650 5550 1050 5550
 $Comp
-L Keys-rescue:SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue SW12
+L chgray-keyboard-rescue:SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue SW12
 U 1 1 605950DC
 P 2750 5750
 F 0 "SW12" H 2900 5860 50  0000 C CNN
@@ -218,7 +218,7 @@ Wire Wire Line
 	2450 5550 2450 5750
 Connection ~ 1650 5550
 $Comp
-L Keys-rescue:SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue SW11
+L chgray-keyboard-rescue:SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue SW11
 U 1 1 6058507A
 P 2750 4850
 F 0 "SW11" H 2900 4960 50  0000 C CNN
@@ -231,7 +231,7 @@ $EndComp
 Wire Wire Line
 	1500 650  1500 1600
 $Comp
-L Keys-rescue:DIODE-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue D5
+L chgray-keyboard-rescue:DIODE-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue D5
 U 1 1 60571A45
 P 2100 1600
 F 0 "D5" H 2100 1408 40  0000 C CNN
@@ -242,7 +242,7 @@ F 3 "" H 2100 1600 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Keys-rescue:DIODE-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue D7
+L chgray-keyboard-rescue:DIODE-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue D7
 U 1 1 6057248E
 P 2850 1600
 F 0 "D7" H 2850 1408 40  0000 C CNN
@@ -253,7 +253,7 @@ F 3 "" H 2850 1600 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Keys-rescue:DIODE-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue D8
+L chgray-keyboard-rescue:DIODE-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue D8
 U 1 1 60573139
 P 2850 2300
 F 0 "D8" H 2850 2108 40  0000 C CNN
@@ -264,7 +264,7 @@ F 3 "" H 2850 2300 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Keys-rescue:DIODE-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue D6
+L chgray-keyboard-rescue:DIODE-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue D6
 U 1 1 60573D83
 P 2100 2300
 F 0 "D6" H 2100 2108 40  0000 C CNN
@@ -275,7 +275,7 @@ F 3 "" H 2100 2300 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Keys-rescue:DIODE-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue D9
+L chgray-keyboard-rescue:DIODE-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue D9
 U 1 1 60574966
 P 2850 3250
 F 0 "D9" H 2850 3058 40  0000 C CNN
@@ -286,7 +286,7 @@ F 3 "" H 2850 3250 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Keys-rescue:DIODE-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue D1
+L chgray-keyboard-rescue:DIODE-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue D1
 U 1 1 6057538C
 P 2050 3250
 F 0 "D1" H 2050 3058 40  0000 C CNN
@@ -297,7 +297,7 @@ F 3 "" H 2050 3250 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Keys-rescue:DIODE-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue D10
+L chgray-keyboard-rescue:DIODE-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue D10
 U 1 1 60575F17
 P 2850 4200
 F 0 "D10" H 2850 4008 40  0000 C CNN
@@ -308,7 +308,7 @@ F 3 "" H 2850 4200 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Keys-rescue:DIODE-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue D2
+L chgray-keyboard-rescue:DIODE-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue D2
 U 1 1 605767D4
 P 2050 4200
 F 0 "D2" H 2050 4008 40  0000 C CNN
@@ -319,7 +319,7 @@ F 3 "" H 2050 4200 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Keys-rescue:DIODE-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue D3
+L chgray-keyboard-rescue:DIODE-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue D3
 U 1 1 605774CC
 P 2050 5150
 F 0 "D3" H 2050 4958 40  0000 C CNN
@@ -330,7 +330,7 @@ F 3 "" H 2050 5150 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Keys-rescue:DIODE-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue D11
+L chgray-keyboard-rescue:DIODE-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue D11
 U 1 1 6057802B
 P 2850 5150
 F 0 "D11" H 2850 4958 40  0000 C CNN
@@ -341,7 +341,7 @@ F 3 "" H 2850 5150 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Keys-rescue:DIODE-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue D12
+L chgray-keyboard-rescue:DIODE-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue D12
 U 1 1 60578CE3
 P 2850 6050
 F 0 "D12" H 2850 5858 40  0000 C CNN
@@ -352,7 +352,7 @@ F 3 "" H 2850 6050 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Keys-rescue:DIODE-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue D4
+L chgray-keyboard-rescue:DIODE-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue D4
 U 1 1 60579874
 P 2050 6050
 F 0 "D4" H 2050 5858 40  0000 C CNN
@@ -425,7 +425,7 @@ Connection ~ 1500 6050
 Wire Wire Line
 	1500 6050 1500 6750
 $Comp
-L Keys-rescue:SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue SW17
+L chgray-keyboard-rescue:SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue SW17
 U 1 1 6062F126
 P 3850 1300
 F 0 "SW17" H 4000 1410 50  0000 C CNN
@@ -438,7 +438,7 @@ $EndComp
 Text HLabel 3350 6750 3    60   Input ~ 0
 KEY_COL2
 $Comp
-L Keys-rescue:SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue SW19
+L chgray-keyboard-rescue:SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue SW19
 U 1 1 6062F2EF
 P 4600 1300
 F 0 "SW19" H 4750 1410 50  0000 C CNN
@@ -449,7 +449,7 @@ F 3 "" H 4600 1300 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Keys-rescue:SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue SW18
+L chgray-keyboard-rescue:SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue SW18
 U 1 1 6062F2F9
 P 3850 2000
 F 0 "SW18" H 4000 2110 50  0000 C CNN
@@ -476,7 +476,7 @@ Connection ~ 3550 1850
 Text HLabel 4250 6700 3    60   Input ~ 0
 KEY_COL3
 $Comp
-L Keys-rescue:SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue SW20
+L chgray-keyboard-rescue:SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue SW20
 U 1 1 6062F310
 P 4600 2000
 F 0 "SW20" H 4750 2110 50  0000 C CNN
@@ -491,7 +491,7 @@ Wire Wire Line
 Wire Wire Line
 	4900 2000 4900 2300
 $Comp
-L Keys-rescue:SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue SW13
+L chgray-keyboard-rescue:SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue SW13
 U 1 1 6062F31C
 P 3800 2950
 F 0 "SW13" H 3950 3060 50  0000 C CNN
@@ -506,7 +506,7 @@ Wire Wire Line
 Wire Wire Line
 	3500 2950 3500 2750
 $Comp
-L Keys-rescue:SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue SW21
+L chgray-keyboard-rescue:SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue SW21
 U 1 1 6062F329
 P 4600 2950
 F 0 "SW21" H 4750 3060 50  0000 C CNN
@@ -522,7 +522,7 @@ Wire Wire Line
 	4300 2750 4300 2950
 Connection ~ 3500 2750
 $Comp
-L Keys-rescue:SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue SW14
+L chgray-keyboard-rescue:SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue SW14
 U 1 1 6062F337
 P 3800 3900
 F 0 "SW14" H 3950 4010 50  0000 C CNN
@@ -537,7 +537,7 @@ Wire Wire Line
 Wire Wire Line
 	3500 3900 3500 3700
 $Comp
-L Keys-rescue:SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue SW22
+L chgray-keyboard-rescue:SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue SW22
 U 1 1 6062F344
 P 4600 3900
 F 0 "SW22" H 4750 4010 50  0000 C CNN
@@ -553,12 +553,12 @@ Wire Wire Line
 	4300 3700 4300 3900
 Connection ~ 3500 3700
 $Comp
-L Keys-rescue:SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue SW15
+L chgray-keyboard-rescue:SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue WinKey1
 U 1 1 6062F352
 P 3800 4850
-F 0 "SW15" H 3950 4960 50  0000 C CNN
+F 0 "WinKey1" H 3950 4960 50  0000 C CNN
 F 1 "42" H 3800 4770 50  0000 C CNN
-F 2 "daprice-keyswitches:Kailh_socket_MX" H 3800 4850 60  0001 C CNN
+F 2 "daprice-keyswitches:Stabilizer_MX_1.5u" H 3800 4850 60  0001 C CNN
 F 3 "" H 3800 4850 60  0001 C CNN
 	1    3800 4850
 	1    0    0    -1  
@@ -573,7 +573,7 @@ Wire Wire Line
 	4300 4650 4300 4850
 Connection ~ 3500 4650
 $Comp
-L Keys-rescue:SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue SW16
+L chgray-keyboard-rescue:SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue SW16
 U 1 1 6062F363
 P 3800 5750
 F 0 "SW16" H 3950 5860 50  0000 C CNN
@@ -588,7 +588,7 @@ Wire Wire Line
 Wire Wire Line
 	3500 5750 3500 5550
 $Comp
-L Keys-rescue:SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue SW24
+L chgray-keyboard-rescue:SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue SW24
 U 1 1 6062F370
 P 4600 5750
 F 0 "SW24" H 4750 5860 50  0000 C CNN
@@ -604,7 +604,7 @@ Wire Wire Line
 	4300 5550 4300 5750
 Connection ~ 3500 5550
 $Comp
-L Keys-rescue:SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue SW23
+L chgray-keyboard-rescue:SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue SW23
 U 1 1 6062F37E
 P 4600 4850
 F 0 "SW23" H 4750 4960 50  0000 C CNN
@@ -617,7 +617,7 @@ $EndComp
 Wire Wire Line
 	3350 650  3350 1600
 $Comp
-L Keys-rescue:DIODE-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue D17
+L chgray-keyboard-rescue:DIODE-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue D17
 U 1 1 6062F389
 P 3950 1600
 F 0 "D17" H 3950 1408 40  0000 C CNN
@@ -628,7 +628,7 @@ F 3 "" H 3950 1600 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Keys-rescue:DIODE-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue D19
+L chgray-keyboard-rescue:DIODE-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue D19
 U 1 1 6062F393
 P 4700 1600
 F 0 "D19" H 4700 1408 40  0000 C CNN
@@ -639,7 +639,7 @@ F 3 "" H 4700 1600 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Keys-rescue:DIODE-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue D20
+L chgray-keyboard-rescue:DIODE-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue D20
 U 1 1 6062F39D
 P 4700 2300
 F 0 "D20" H 4700 2108 40  0000 C CNN
@@ -650,7 +650,7 @@ F 3 "" H 4700 2300 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Keys-rescue:DIODE-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue D18
+L chgray-keyboard-rescue:DIODE-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue D18
 U 1 1 6062F3A7
 P 3950 2300
 F 0 "D18" H 3950 2108 40  0000 C CNN
@@ -661,7 +661,7 @@ F 3 "" H 3950 2300 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Keys-rescue:DIODE-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue D21
+L chgray-keyboard-rescue:DIODE-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue D21
 U 1 1 6062F3B1
 P 4700 3250
 F 0 "D21" H 4700 3058 40  0000 C CNN
@@ -672,7 +672,7 @@ F 3 "" H 4700 3250 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Keys-rescue:DIODE-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue D13
+L chgray-keyboard-rescue:DIODE-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue D13
 U 1 1 6062F3BB
 P 3900 3250
 F 0 "D13" H 3900 3058 40  0000 C CNN
@@ -683,7 +683,7 @@ F 3 "" H 3900 3250 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Keys-rescue:DIODE-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue D22
+L chgray-keyboard-rescue:DIODE-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue D22
 U 1 1 6062F3C5
 P 4700 4200
 F 0 "D22" H 4700 4008 40  0000 C CNN
@@ -694,7 +694,7 @@ F 3 "" H 4700 4200 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Keys-rescue:DIODE-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue D14
+L chgray-keyboard-rescue:DIODE-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue D14
 U 1 1 6062F3CF
 P 3900 4200
 F 0 "D14" H 3900 4008 40  0000 C CNN
@@ -705,7 +705,7 @@ F 3 "" H 3900 4200 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Keys-rescue:DIODE-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue D15
+L chgray-keyboard-rescue:DIODE-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue D15
 U 1 1 6062F3D9
 P 3900 5150
 F 0 "D15" H 3900 4958 40  0000 C CNN
@@ -716,7 +716,7 @@ F 3 "" H 3900 5150 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Keys-rescue:DIODE-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue D23
+L chgray-keyboard-rescue:DIODE-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue D23
 U 1 1 6062F3E3
 P 4700 5150
 F 0 "D23" H 4700 4958 40  0000 C CNN
@@ -727,7 +727,7 @@ F 3 "" H 4700 5150 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Keys-rescue:DIODE-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue D24
+L chgray-keyboard-rescue:DIODE-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue D24
 U 1 1 6062F3ED
 P 4700 6050
 F 0 "D24" H 4700 5858 40  0000 C CNN
@@ -738,7 +738,7 @@ F 3 "" H 4700 6050 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Keys-rescue:DIODE-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue D16
+L chgray-keyboard-rescue:DIODE-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue D16
 U 1 1 6062F3F7
 P 3900 6050
 F 0 "D16" H 3900 5858 40  0000 C CNN
@@ -829,7 +829,7 @@ Wire Wire Line
 	2450 5550 3500 5550
 Connection ~ 2450 5550
 $Comp
-L Keys-rescue:SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue SW29
+L chgray-keyboard-rescue:SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue SW29
 U 1 1 607C8268
 P 5650 1300
 F 0 "SW29" H 5800 1410 50  0000 C CNN
@@ -842,7 +842,7 @@ $EndComp
 Text HLabel 5150 6750 3    60   Input ~ 0
 KEY_COL4
 $Comp
-L Keys-rescue:SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue SW31
+L chgray-keyboard-rescue:SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue SW31
 U 1 1 607C826F
 P 6400 1300
 F 0 "SW31" H 6550 1410 50  0000 C CNN
@@ -853,7 +853,7 @@ F 3 "" H 6400 1300 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Keys-rescue:SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue SW30
+L chgray-keyboard-rescue:SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue SW30
 U 1 1 607C8275
 P 5650 2000
 F 0 "SW30" H 5800 2110 50  0000 C CNN
@@ -880,7 +880,7 @@ Connection ~ 5350 1850
 Text HLabel 6050 6700 3    60   Input ~ 0
 KEY_COL5
 $Comp
-L Keys-rescue:SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue SW32
+L chgray-keyboard-rescue:SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue SW32
 U 1 1 607C8286
 P 6400 2000
 F 0 "SW32" H 6550 2110 50  0000 C CNN
@@ -895,7 +895,7 @@ Wire Wire Line
 Wire Wire Line
 	6700 2000 6700 2300
 $Comp
-L Keys-rescue:SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue SW25
+L chgray-keyboard-rescue:SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue SW25
 U 1 1 607C828E
 P 5600 2950
 F 0 "SW25" H 5750 3060 50  0000 C CNN
@@ -910,7 +910,7 @@ Wire Wire Line
 Wire Wire Line
 	5300 2950 5300 2750
 $Comp
-L Keys-rescue:SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue SW33
+L chgray-keyboard-rescue:SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue SW33
 U 1 1 607C8296
 P 6400 2950
 F 0 "SW33" H 6550 3060 50  0000 C CNN
@@ -926,7 +926,7 @@ Wire Wire Line
 	6100 2750 6100 2950
 Connection ~ 5300 2750
 $Comp
-L Keys-rescue:SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue SW26
+L chgray-keyboard-rescue:SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue SW26
 U 1 1 607C82A0
 P 5600 3900
 F 0 "SW26" H 5750 4010 50  0000 C CNN
@@ -941,7 +941,7 @@ Wire Wire Line
 Wire Wire Line
 	5300 3900 5300 3700
 $Comp
-L Keys-rescue:SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue SW34
+L chgray-keyboard-rescue:SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue SW34
 U 1 1 607C82A8
 P 6400 3900
 F 0 "SW34" H 6550 4010 50  0000 C CNN
@@ -957,12 +957,12 @@ Wire Wire Line
 	6100 3700 6100 3900
 Connection ~ 5300 3700
 $Comp
-L Keys-rescue:SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue LEFT-SPACE1
+L chgray-keyboard-rescue:SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue LEFT-SPACE1
 U 1 1 607C82B1
 P 5600 4850
 F 0 "LEFT-SPACE1" H 5750 4960 50  0000 C CNN
 F 1 "44" H 5600 4770 50  0000 C CNN
-F 2 "daprice-keyswitches:Stabilizer_MX_2u" H 5600 4850 60  0001 C CNN
+F 2 "daprice-keyswitches:Stabilizer_MX_2.25u" H 5600 4850 60  0001 C CNN
 F 3 "" H 5600 4850 60  0001 C CNN
 	1    5600 4850
 	1    0    0    -1  
@@ -977,7 +977,7 @@ Wire Wire Line
 	6100 4650 6100 4850
 Connection ~ 5300 4650
 $Comp
-L Keys-rescue:SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue SW28
+L chgray-keyboard-rescue:SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue SW28
 U 1 1 607C82BD
 P 5600 5750
 F 0 "SW28" H 5750 5860 50  0000 C CNN
@@ -992,12 +992,12 @@ Wire Wire Line
 Wire Wire Line
 	5300 5750 5300 5550
 $Comp
-L Keys-rescue:SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue RIGHT-SHIFT1
+L chgray-keyboard-rescue:SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue RIGHT-SHIFT1
 U 1 1 607C82C5
 P 6400 5750
 F 0 "RIGHT-SHIFT1" H 6550 5860 50  0000 C CNN
 F 1 "55" H 6400 5670 50  0000 C CNN
-F 2 "daprice-keyswitches:Stabilizer_MX_2u" H 6400 5750 60  0001 C CNN
+F 2 "daprice-keyswitches:Stabilizer_MX_2.25u" H 6400 5750 60  0001 C CNN
 F 3 "" H 6400 5750 60  0001 C CNN
 	1    6400 5750
 	1    0    0    -1  
@@ -1008,7 +1008,7 @@ Wire Wire Line
 	6100 5550 6100 5750
 Connection ~ 5300 5550
 $Comp
-L Keys-rescue:SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue SW35
+L chgray-keyboard-rescue:SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue SW35
 U 1 1 607C82CF
 P 6400 4850
 F 0 "SW35" H 6550 4960 50  0000 C CNN
@@ -1021,7 +1021,7 @@ $EndComp
 Wire Wire Line
 	5150 650  5150 1600
 $Comp
-L Keys-rescue:DIODE-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue D29
+L chgray-keyboard-rescue:DIODE-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue D29
 U 1 1 607C82D6
 P 5750 1600
 F 0 "D29" H 5750 1408 40  0000 C CNN
@@ -1032,7 +1032,7 @@ F 3 "" H 5750 1600 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Keys-rescue:DIODE-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue D31
+L chgray-keyboard-rescue:DIODE-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue D31
 U 1 1 607C82DC
 P 6500 1600
 F 0 "D31" H 6500 1408 40  0000 C CNN
@@ -1043,7 +1043,7 @@ F 3 "" H 6500 1600 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Keys-rescue:DIODE-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue D32
+L chgray-keyboard-rescue:DIODE-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue D32
 U 1 1 607C82E2
 P 6500 2300
 F 0 "D32" H 6500 2108 40  0000 C CNN
@@ -1054,7 +1054,7 @@ F 3 "" H 6500 2300 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Keys-rescue:DIODE-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue D30
+L chgray-keyboard-rescue:DIODE-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue D30
 U 1 1 607C82E8
 P 5750 2300
 F 0 "D30" H 5750 2108 40  0000 C CNN
@@ -1065,7 +1065,7 @@ F 3 "" H 5750 2300 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Keys-rescue:DIODE-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue D33
+L chgray-keyboard-rescue:DIODE-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue D33
 U 1 1 607C82EE
 P 6500 3250
 F 0 "D33" H 6500 3058 40  0000 C CNN
@@ -1076,7 +1076,7 @@ F 3 "" H 6500 3250 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Keys-rescue:DIODE-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue D25
+L chgray-keyboard-rescue:DIODE-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue D25
 U 1 1 607C82F4
 P 5700 3250
 F 0 "D25" H 5700 3058 40  0000 C CNN
@@ -1087,7 +1087,7 @@ F 3 "" H 5700 3250 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Keys-rescue:DIODE-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue D34
+L chgray-keyboard-rescue:DIODE-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue D34
 U 1 1 607C82FA
 P 6500 4200
 F 0 "D34" H 6500 4008 40  0000 C CNN
@@ -1098,7 +1098,7 @@ F 3 "" H 6500 4200 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Keys-rescue:DIODE-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue D26
+L chgray-keyboard-rescue:DIODE-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue D26
 U 1 1 607C8300
 P 5700 4200
 F 0 "D26" H 5700 4008 40  0000 C CNN
@@ -1109,7 +1109,7 @@ F 3 "" H 5700 4200 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Keys-rescue:DIODE-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue D27
+L chgray-keyboard-rescue:DIODE-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue D27
 U 1 1 607C8306
 P 5700 5150
 F 0 "D27" H 5700 4958 40  0000 C CNN
@@ -1120,7 +1120,7 @@ F 3 "" H 5700 5150 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Keys-rescue:DIODE-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue D35
+L chgray-keyboard-rescue:DIODE-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue D35
 U 1 1 607C830C
 P 6500 5150
 F 0 "D35" H 6500 4958 40  0000 C CNN
@@ -1131,7 +1131,7 @@ F 3 "" H 6500 5150 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Keys-rescue:DIODE-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue D36
+L chgray-keyboard-rescue:DIODE-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue D36
 U 1 1 607C8312
 P 6500 6050
 F 0 "D36" H 6500 5858 40  0000 C CNN
@@ -1142,7 +1142,7 @@ F 3 "" H 6500 6050 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Keys-rescue:DIODE-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue D28
+L chgray-keyboard-rescue:DIODE-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue D28
 U 1 1 607C8318
 P 5700 6050
 F 0 "D28" H 5700 5858 40  0000 C CNN
@@ -1227,7 +1227,7 @@ Wire Wire Line
 Wire Wire Line
 	3500 3700 4300 3700
 $Comp
-L Keys-rescue:SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue SW41
+L chgray-keyboard-rescue:SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue SW41
 U 1 1 607D8715
 P 7450 1300
 F 0 "SW41" H 7600 1410 50  0000 C CNN
@@ -1240,7 +1240,7 @@ $EndComp
 Text HLabel 6950 6750 3    60   Input ~ 0
 KEY_COL6
 $Comp
-L Keys-rescue:SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue SW43
+L chgray-keyboard-rescue:SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue SW43
 U 1 1 607D871C
 P 8200 1300
 F 0 "SW43" H 8350 1410 50  0000 C CNN
@@ -1251,7 +1251,7 @@ F 3 "" H 8200 1300 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Keys-rescue:SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue SW42
+L chgray-keyboard-rescue:SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue SW42
 U 1 1 607D8722
 P 7450 2000
 F 0 "SW42" H 7600 2110 50  0000 C CNN
@@ -1278,7 +1278,7 @@ Connection ~ 7150 1850
 Text HLabel 7850 6700 3    60   Input ~ 0
 KEY_COL7
 $Comp
-L Keys-rescue:SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue SW44
+L chgray-keyboard-rescue:SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue SW44
 U 1 1 607D8733
 P 8200 2000
 F 0 "SW44" H 8350 2110 50  0000 C CNN
@@ -1293,7 +1293,7 @@ Wire Wire Line
 Wire Wire Line
 	8500 2000 8500 2300
 $Comp
-L Keys-rescue:SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue SW37
+L chgray-keyboard-rescue:SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue SW37
 U 1 1 607D873B
 P 7400 2950
 F 0 "SW37" H 7550 3060 50  0000 C CNN
@@ -1308,7 +1308,7 @@ Wire Wire Line
 Wire Wire Line
 	7100 2950 7100 2750
 $Comp
-L Keys-rescue:SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue SW45
+L chgray-keyboard-rescue:SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue SW45
 U 1 1 607D8743
 P 8200 2950
 F 0 "SW45" H 8350 3060 50  0000 C CNN
@@ -1324,7 +1324,7 @@ Wire Wire Line
 	7900 2750 7900 2950
 Connection ~ 7100 2750
 $Comp
-L Keys-rescue:SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue SW38
+L chgray-keyboard-rescue:SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue SW38
 U 1 1 607D874D
 P 7400 3900
 F 0 "SW38" H 7550 4010 50  0000 C CNN
@@ -1339,7 +1339,7 @@ Wire Wire Line
 Wire Wire Line
 	7100 3900 7100 3700
 $Comp
-L Keys-rescue:SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue SW46
+L chgray-keyboard-rescue:SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue SW46
 U 1 1 607D8755
 P 8200 3900
 F 0 "SW46" H 8350 4010 50  0000 C CNN
@@ -1355,7 +1355,7 @@ Wire Wire Line
 	7900 3700 7900 3900
 Connection ~ 7100 3700
 $Comp
-L Keys-rescue:SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue SW39
+L chgray-keyboard-rescue:SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue SW39
 U 1 1 607D875E
 P 7400 4850
 F 0 "SW39" H 7550 4960 50  0000 C CNN
@@ -1375,7 +1375,7 @@ Wire Wire Line
 	7900 4650 7900 4850
 Connection ~ 7100 4650
 $Comp
-L Keys-rescue:SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue SW40
+L chgray-keyboard-rescue:SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue SW40
 U 1 1 607D876A
 P 7400 5750
 F 0 "SW40" H 7550 5860 50  0000 C CNN
@@ -1390,7 +1390,7 @@ Wire Wire Line
 Wire Wire Line
 	7100 5750 7100 5550
 $Comp
-L Keys-rescue:SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue SW48
+L chgray-keyboard-rescue:SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue SW48
 U 1 1 607D8772
 P 8200 5750
 F 0 "SW48" H 8350 5860 50  0000 C CNN
@@ -1406,12 +1406,12 @@ Wire Wire Line
 	7900 5550 7900 5750
 Connection ~ 7100 5550
 $Comp
-L Keys-rescue:SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue RIGHT-SHIFT2
+L chgray-keyboard-rescue:SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue RIGHT-SPACE1
 U 1 1 607D877C
 P 8200 4850
-F 0 "RIGHT-SHIFT2" H 8350 4960 50  0000 C CNN
+F 0 "RIGHT-SPACE1" H 8350 4960 50  0000 C CNN
 F 1 "47" H 8200 4770 50  0000 C CNN
-F 2 "daprice-keyswitches:Stabilizer_MX_2u" H 8200 4850 60  0001 C CNN
+F 2 "daprice-keyswitches:Stabilizer_MX_2.25u" H 8200 4850 60  0001 C CNN
 F 3 "" H 8200 4850 60  0001 C CNN
 	1    8200 4850
 	1    0    0    -1  
@@ -1419,7 +1419,7 @@ $EndComp
 Wire Wire Line
 	6950 650  6950 1600
 $Comp
-L Keys-rescue:DIODE-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue D41
+L chgray-keyboard-rescue:DIODE-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue D41
 U 1 1 607D8783
 P 7550 1600
 F 0 "D41" H 7550 1408 40  0000 C CNN
@@ -1430,7 +1430,7 @@ F 3 "" H 7550 1600 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Keys-rescue:DIODE-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue D43
+L chgray-keyboard-rescue:DIODE-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue D43
 U 1 1 607D8789
 P 8300 1600
 F 0 "D43" H 8300 1408 40  0000 C CNN
@@ -1441,7 +1441,7 @@ F 3 "" H 8300 1600 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Keys-rescue:DIODE-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue D44
+L chgray-keyboard-rescue:DIODE-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue D44
 U 1 1 607D878F
 P 8300 2300
 F 0 "D44" H 8300 2108 40  0000 C CNN
@@ -1452,7 +1452,7 @@ F 3 "" H 8300 2300 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Keys-rescue:DIODE-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue D42
+L chgray-keyboard-rescue:DIODE-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue D42
 U 1 1 607D8795
 P 7550 2300
 F 0 "D42" H 7550 2108 40  0000 C CNN
@@ -1463,7 +1463,7 @@ F 3 "" H 7550 2300 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Keys-rescue:DIODE-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue D45
+L chgray-keyboard-rescue:DIODE-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue D45
 U 1 1 607D879B
 P 8300 3250
 F 0 "D45" H 8300 3058 40  0000 C CNN
@@ -1474,7 +1474,7 @@ F 3 "" H 8300 3250 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Keys-rescue:DIODE-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue D37
+L chgray-keyboard-rescue:DIODE-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue D37
 U 1 1 607D87A1
 P 7500 3250
 F 0 "D37" H 7500 3058 40  0000 C CNN
@@ -1485,7 +1485,7 @@ F 3 "" H 7500 3250 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Keys-rescue:DIODE-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue D46
+L chgray-keyboard-rescue:DIODE-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue D46
 U 1 1 607D87A7
 P 8300 4200
 F 0 "D46" H 8300 4008 40  0000 C CNN
@@ -1496,7 +1496,7 @@ F 3 "" H 8300 4200 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Keys-rescue:DIODE-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue D38
+L chgray-keyboard-rescue:DIODE-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue D38
 U 1 1 607D87AD
 P 7500 4200
 F 0 "D38" H 7500 4008 40  0000 C CNN
@@ -1507,7 +1507,7 @@ F 3 "" H 7500 4200 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Keys-rescue:DIODE-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue D39
+L chgray-keyboard-rescue:DIODE-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue D39
 U 1 1 607D87B3
 P 7500 5150
 F 0 "D39" H 7500 4958 40  0000 C CNN
@@ -1518,7 +1518,7 @@ F 3 "" H 7500 5150 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Keys-rescue:DIODE-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue D47
+L chgray-keyboard-rescue:DIODE-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue D47
 U 1 1 607D87B9
 P 8300 5150
 F 0 "D47" H 8300 4958 40  0000 C CNN
@@ -1529,7 +1529,7 @@ F 3 "" H 8300 5150 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Keys-rescue:DIODE-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue D48
+L chgray-keyboard-rescue:DIODE-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue D48
 U 1 1 607D87BF
 P 8300 6050
 F 0 "D48" H 8300 5858 40  0000 C CNN
@@ -1540,7 +1540,7 @@ F 3 "" H 8300 6050 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Keys-rescue:DIODE-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue D40
+L chgray-keyboard-rescue:DIODE-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue D40
 U 1 1 607D87C5
 P 7500 6050
 F 0 "D40" H 7500 5858 40  0000 C CNN
@@ -1625,7 +1625,7 @@ Wire Wire Line
 Wire Wire Line
 	5300 3700 6100 3700
 $Comp
-L Keys-rescue:SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue SW53
+L chgray-keyboard-rescue:SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue SW53
 U 1 1 607F5497
 P 9200 1300
 F 0 "SW53" H 9350 1410 50  0000 C CNN
@@ -1638,7 +1638,7 @@ $EndComp
 Text HLabel 8700 6750 3    60   Input ~ 0
 KEY_COL8
 $Comp
-L Keys-rescue:SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue SW55
+L chgray-keyboard-rescue:SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue SW55
 U 1 1 607F549E
 P 9950 1300
 F 0 "SW55" H 10100 1410 50  0000 C CNN
@@ -1649,7 +1649,7 @@ F 3 "" H 9950 1300 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Keys-rescue:SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue SW54
+L chgray-keyboard-rescue:SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue SW54
 U 1 1 607F54A4
 P 9200 2000
 F 0 "SW54" H 9350 2110 50  0000 C CNN
@@ -1680,7 +1680,7 @@ Wire Wire Line
 Wire Wire Line
 	8900 1850 9650 1850
 $Comp
-L Keys-rescue:SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue SW56
+L chgray-keyboard-rescue:SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue SW56
 U 1 1 607F54B5
 P 9950 2000
 F 0 "SW56" H 10100 2110 50  0000 C CNN
@@ -1695,7 +1695,7 @@ Wire Wire Line
 Wire Wire Line
 	10250 2000 10250 2300
 $Comp
-L Keys-rescue:SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue SW49
+L chgray-keyboard-rescue:SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue SW49
 U 1 1 607F54BD
 P 9150 2950
 F 0 "SW49" H 9300 3060 50  0000 C CNN
@@ -1710,7 +1710,7 @@ Wire Wire Line
 Wire Wire Line
 	8850 2950 8850 2750
 $Comp
-L Keys-rescue:SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue SW57
+L chgray-keyboard-rescue:SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue SW57
 U 1 1 607F54C5
 P 9950 2950
 F 0 "SW57" H 10100 3060 50  0000 C CNN
@@ -1728,7 +1728,7 @@ Wire Wire Line
 	9650 2750 9650 2950
 Connection ~ 8850 2750
 $Comp
-L Keys-rescue:SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue SW50
+L chgray-keyboard-rescue:SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue SW50
 U 1 1 607F54CF
 P 9150 3900
 F 0 "SW50" H 9300 4010 50  0000 C CNN
@@ -1743,7 +1743,7 @@ Wire Wire Line
 Wire Wire Line
 	8850 3900 8850 3700
 $Comp
-L Keys-rescue:SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue SW58
+L chgray-keyboard-rescue:SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue SW58
 U 1 1 607F54D7
 P 9950 3900
 F 0 "SW58" H 10100 4010 50  0000 C CNN
@@ -1759,7 +1759,7 @@ Wire Wire Line
 	9650 3700 9650 3900
 Connection ~ 8850 3700
 $Comp
-L Keys-rescue:SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue SW51
+L chgray-keyboard-rescue:SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue SW51
 U 1 1 607F54E0
 P 9150 4850
 F 0 "SW51" H 9300 4960 50  0000 C CNN
@@ -1781,7 +1781,7 @@ Wire Wire Line
 	9650 4650 9650 4850
 Connection ~ 8850 4650
 $Comp
-L Keys-rescue:SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue SW52
+L chgray-keyboard-rescue:SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue SW52
 U 1 1 607F54EC
 P 9150 5750
 F 0 "SW52" H 9300 5860 50  0000 C CNN
@@ -1796,12 +1796,12 @@ Wire Wire Line
 Wire Wire Line
 	8850 5750 8850 5550
 $Comp
-L Keys-rescue:SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue Backspace1
+L chgray-keyboard-rescue:SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue Backspace1
 U 1 1 607F54F4
 P 9950 5750
 F 0 "Backspace1" H 10100 5860 50  0000 C CNN
 F 1 "59" H 9950 5670 50  0000 C CNN
-F 2 "daprice-keyswitches:Stabilizer_MX_2u" H 9950 5750 60  0001 C CNN
+F 2 "daprice-keyswitches:Stabilizer_MX_1.25u" H 9950 5750 60  0001 C CNN
 F 3 "" H 9950 5750 60  0001 C CNN
 	1    9950 5750
 	1    0    0    -1  
@@ -1814,7 +1814,7 @@ Wire Wire Line
 	9650 5550 9650 5750
 Connection ~ 8850 5550
 $Comp
-L Keys-rescue:SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue SW59
+L chgray-keyboard-rescue:SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue SW59
 U 1 1 607F54FE
 P 9950 4850
 F 0 "SW59" H 10100 4960 50  0000 C CNN
@@ -1827,7 +1827,7 @@ $EndComp
 Wire Wire Line
 	8700 650  8700 1600
 $Comp
-L Keys-rescue:DIODE-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue D53
+L chgray-keyboard-rescue:DIODE-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue D53
 U 1 1 607F5505
 P 9300 1600
 F 0 "D53" H 9300 1408 40  0000 C CNN
@@ -1838,7 +1838,7 @@ F 3 "" H 9300 1600 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Keys-rescue:DIODE-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue D55
+L chgray-keyboard-rescue:DIODE-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue D55
 U 1 1 607F550B
 P 10050 1600
 F 0 "D55" H 10050 1408 40  0000 C CNN
@@ -1849,7 +1849,7 @@ F 3 "" H 10050 1600 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Keys-rescue:DIODE-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue D56
+L chgray-keyboard-rescue:DIODE-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue D56
 U 1 1 607F5511
 P 10050 2300
 F 0 "D56" H 10050 2108 40  0000 C CNN
@@ -1860,7 +1860,7 @@ F 3 "" H 10050 2300 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Keys-rescue:DIODE-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue D54
+L chgray-keyboard-rescue:DIODE-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue D54
 U 1 1 607F5517
 P 9300 2300
 F 0 "D54" H 9300 2108 40  0000 C CNN
@@ -1871,7 +1871,7 @@ F 3 "" H 9300 2300 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Keys-rescue:DIODE-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue D57
+L chgray-keyboard-rescue:DIODE-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue D57
 U 1 1 607F551D
 P 10050 3250
 F 0 "D57" H 10050 3058 40  0000 C CNN
@@ -1882,7 +1882,7 @@ F 3 "" H 10050 3250 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Keys-rescue:DIODE-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue D49
+L chgray-keyboard-rescue:DIODE-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue D49
 U 1 1 607F5523
 P 9250 3250
 F 0 "D49" H 9250 3058 40  0000 C CNN
@@ -1893,7 +1893,7 @@ F 3 "" H 9250 3250 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Keys-rescue:DIODE-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue D58
+L chgray-keyboard-rescue:DIODE-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue D58
 U 1 1 607F5529
 P 10050 4200
 F 0 "D58" H 10050 4008 40  0000 C CNN
@@ -1904,7 +1904,7 @@ F 3 "" H 10050 4200 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Keys-rescue:DIODE-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue D50
+L chgray-keyboard-rescue:DIODE-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue D50
 U 1 1 607F552F
 P 9250 4200
 F 0 "D50" H 9250 4008 40  0000 C CNN
@@ -1915,7 +1915,7 @@ F 3 "" H 9250 4200 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Keys-rescue:DIODE-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue D51
+L chgray-keyboard-rescue:DIODE-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue D51
 U 1 1 607F5535
 P 9250 5150
 F 0 "D51" H 9250 4958 40  0000 C CNN
@@ -1926,7 +1926,7 @@ F 3 "" H 9250 5150 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Keys-rescue:DIODE-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue D59
+L chgray-keyboard-rescue:DIODE-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue D59
 U 1 1 607F553B
 P 10050 5150
 F 0 "D59" H 10050 4958 40  0000 C CNN
@@ -1937,7 +1937,7 @@ F 3 "" H 10050 5150 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Keys-rescue:DIODE-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue D60
+L chgray-keyboard-rescue:DIODE-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue D60
 U 1 1 607F5541
 P 10050 6050
 F 0 "D60" H 10050 5858 40  0000 C CNN
@@ -1948,7 +1948,7 @@ F 3 "" H 10050 6050 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Keys-rescue:DIODE-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue D52
+L chgray-keyboard-rescue:DIODE-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue D52
 U 1 1 607F5547
 P 9250 6050
 F 0 "D52" H 9250 5858 40  0000 C CNN
@@ -2035,7 +2035,7 @@ Wire Wire Line
 Wire Wire Line
 	7100 3700 7900 3700
 $Comp
-L Keys-rescue:SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue SW61
+L chgray-keyboard-rescue:SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue SW61
 U 1 1 6080BE22
 P 10700 1300
 F 0 "SW61" H 10850 1410 50  0000 C CNN
@@ -2052,7 +2052,7 @@ Wire Wire Line
 Text HLabel 10350 6750 3    60   Input ~ 0
 KEY_COL10
 $Comp
-L Keys-rescue:SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue SW5
+L chgray-keyboard-rescue:SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue SW5
 U 1 1 58964642
 P 2000 1300
 F 0 "SW5" H 2150 1410 50  0000 C CNN
@@ -2063,7 +2063,7 @@ F 3 "" H 2000 1300 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Keys-rescue:DIODE-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue D61
+L chgray-keyboard-rescue:DIODE-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue D61
 U 1 1 6080BE2B
 P 10800 1600
 F 0 "D61" H 10800 1408 40  0000 C CNN
@@ -2132,7 +2132,7 @@ Connection ~ 7900 5550
 Wire Wire Line
 	7900 5550 8850 5550
 $Comp
-L Keys-rescue:SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue SW62
+L chgray-keyboard-rescue:SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue SW62
 U 1 1 60863045
 P 10700 2000
 F 0 "SW62" H 10850 2110 50  0000 C CNN
@@ -2145,7 +2145,7 @@ $EndComp
 Wire Wire Line
 	11000 2000 11000 2300
 $Comp
-L Keys-rescue:DIODE-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue D62
+L chgray-keyboard-rescue:DIODE-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue D62
 U 1 1 6086304D
 P 10800 2300
 F 0 "D62" H 10800 2108 40  0000 C CNN
@@ -2158,7 +2158,7 @@ $EndComp
 Wire Wire Line
 	10600 2300 10350 2300
 $Comp
-L Keys-rescue:SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue SW63
+L chgray-keyboard-rescue:SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue SW63
 U 1 1 60879F5B
 P 10700 2950
 F 0 "SW63" H 10850 3060 50  0000 C CNN
@@ -2171,7 +2171,7 @@ $EndComp
 Wire Wire Line
 	11000 2950 11000 3250
 $Comp
-L Keys-rescue:DIODE-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue D63
+L chgray-keyboard-rescue:DIODE-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue D63
 U 1 1 60879F63
 P 10800 3250
 F 0 "D63" H 10800 3058 40  0000 C CNN
@@ -2184,7 +2184,7 @@ $EndComp
 Wire Wire Line
 	10600 3250 10350 3250
 $Comp
-L Keys-rescue:SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue SW64
+L chgray-keyboard-rescue:SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue SW64
 U 1 1 608919CD
 P 10700 3900
 F 0 "SW64" H 10850 4010 50  0000 C CNN
@@ -2197,7 +2197,7 @@ $EndComp
 Wire Wire Line
 	11000 3900 11000 4200
 $Comp
-L Keys-rescue:DIODE-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue D64
+L chgray-keyboard-rescue:DIODE-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue D64
 U 1 1 608919D5
 P 10800 4200
 F 0 "D64" H 10800 4008 40  0000 C CNN
@@ -2210,7 +2210,7 @@ $EndComp
 Wire Wire Line
 	10600 4200 10350 4200
 $Comp
-L Keys-rescue:SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue SW65
+L chgray-keyboard-rescue:SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue SW65
 U 1 1 608A9D45
 P 10700 4850
 F 0 "SW65" H 10850 4960 50  0000 C CNN
@@ -2223,7 +2223,7 @@ $EndComp
 Wire Wire Line
 	11000 4850 11000 5150
 $Comp
-L Keys-rescue:DIODE-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue D65
+L chgray-keyboard-rescue:DIODE-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue D65
 U 1 1 608A9D4D
 P 10800 5150
 F 0 "D65" H 10800 4958 40  0000 C CNN
@@ -2236,7 +2236,7 @@ $EndComp
 Wire Wire Line
 	10600 5150 10350 5150
 $Comp
-L Keys-rescue:SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue SW66
+L chgray-keyboard-rescue:SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue SW66
 U 1 1 608C237D
 P 10700 5750
 F 0 "SW66" H 10850 5860 50  0000 C CNN
@@ -2249,7 +2249,7 @@ $EndComp
 Wire Wire Line
 	11000 5750 11000 6050
 $Comp
-L Keys-rescue:DIODE-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue D66
+L chgray-keyboard-rescue:DIODE-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue D66
 U 1 1 608C2385
 P 10800 6050
 F 0 "D66" H 10800 5858 40  0000 C CNN
@@ -2288,12 +2288,12 @@ Wire Wire Line
 Connection ~ 9650 5550
 Connection ~ 10350 2300
 $Comp
-L Keys-rescue:SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue ENTER1
+L chgray-keyboard-rescue:SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue ENTER1
 U 1 1 60AE6AA1
 P 11550 1300
 F 0 "ENTER1" H 11700 1410 50  0000 C CNN
 F 1 "011" H 11550 1220 50  0000 C CNN
-F 2 "daprice-keyswitches:Stabilizer_MX_2u" H 11550 1300 60  0001 C CNN
+F 2 "daprice-keyswitches:Stabilizer_MX_1.75u" H 11550 1300 60  0001 C CNN
 F 3 "" H 11550 1300 60  0001 C CNN
 	1    11550 1300
 	1    0    0    -1  
@@ -2301,7 +2301,7 @@ $EndComp
 Wire Wire Line
 	11850 1300 11850 1600
 $Comp
-L Keys-rescue:DIODE-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue D67
+L chgray-keyboard-rescue:DIODE-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue D67
 U 1 1 60AE6AA8
 P 11650 1600
 F 0 "D67" H 11650 1408 40  0000 C CNN
@@ -2314,7 +2314,7 @@ $EndComp
 Wire Wire Line
 	11450 1600 11200 1600
 $Comp
-L Keys-rescue:SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue SW68
+L chgray-keyboard-rescue:SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue SW68
 U 1 1 60AE6AAF
 P 11550 2000
 F 0 "SW68" H 11700 2110 50  0000 C CNN
@@ -2327,7 +2327,7 @@ $EndComp
 Wire Wire Line
 	11850 2000 11850 2300
 $Comp
-L Keys-rescue:DIODE-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue D68
+L chgray-keyboard-rescue:DIODE-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue D68
 U 1 1 60AE6AB6
 P 11650 2300
 F 0 "D68" H 11650 2108 40  0000 C CNN
@@ -2340,7 +2340,7 @@ $EndComp
 Wire Wire Line
 	11450 2300 11200 2300
 $Comp
-L Keys-rescue:SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue SW69
+L chgray-keyboard-rescue:SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue SW69
 U 1 1 60AE6ABD
 P 11550 2950
 F 0 "SW69" H 11700 3060 50  0000 C CNN
@@ -2353,7 +2353,7 @@ $EndComp
 Wire Wire Line
 	11850 2950 11850 3250
 $Comp
-L Keys-rescue:DIODE-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue D69
+L chgray-keyboard-rescue:DIODE-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue D69
 U 1 1 60AE6AC4
 P 11650 3250
 F 0 "D69" H 11650 3058 40  0000 C CNN
@@ -2366,7 +2366,7 @@ $EndComp
 Wire Wire Line
 	11450 3250 11200 3250
 $Comp
-L Keys-rescue:SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue SW70
+L chgray-keyboard-rescue:SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue SW70
 U 1 1 60AE6ACB
 P 11550 3900
 F 0 "SW70" H 11700 4010 50  0000 C CNN
@@ -2379,7 +2379,7 @@ $EndComp
 Wire Wire Line
 	11850 3900 11850 4200
 $Comp
-L Keys-rescue:DIODE-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue D70
+L chgray-keyboard-rescue:DIODE-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue D70
 U 1 1 60AE6AD2
 P 11650 4200
 F 0 "D70" H 11650 4008 40  0000 C CNN
@@ -2392,7 +2392,7 @@ $EndComp
 Wire Wire Line
 	11450 4200 11200 4200
 $Comp
-L Keys-rescue:SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue SW71
+L chgray-keyboard-rescue:SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue SW71
 U 1 1 60AE6AD9
 P 11550 4850
 F 0 "SW71" H 11700 4960 50  0000 C CNN
@@ -2405,7 +2405,7 @@ $EndComp
 Wire Wire Line
 	11850 4850 11850 5150
 $Comp
-L Keys-rescue:DIODE-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue D71
+L chgray-keyboard-rescue:DIODE-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue D71
 U 1 1 60AE6AE0
 P 11650 5150
 F 0 "D71" H 11650 4958 40  0000 C CNN
@@ -2418,7 +2418,7 @@ $EndComp
 Wire Wire Line
 	11450 5150 11200 5150
 $Comp
-L Keys-rescue:SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue SW72
+L chgray-keyboard-rescue:SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue SW72
 U 1 1 60AE6AE7
 P 11550 5750
 F 0 "SW72" H 11700 5860 50  0000 C CNN
@@ -2431,7 +2431,7 @@ $EndComp
 Wire Wire Line
 	11850 5750 11850 6050
 $Comp
-L Keys-rescue:DIODE-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue D72
+L chgray-keyboard-rescue:DIODE-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue D72
 U 1 1 60AE6AEE
 P 11650 6050
 F 0 "D72" H 11650 5858 40  0000 C CNN
@@ -2515,4 +2515,408 @@ Wire Wire Line
 Connection ~ 10400 2750
 Wire Wire Line
 	10400 2750 11250 2750
+$Comp
+L chgray-keyboard-rescue:SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue ENTER2
+U 1 1 60ADCFDF
+P 12400 1300
+F 0 "ENTER2" H 12550 1410 50  0000 C CNN
+F 1 "011" H 12400 1220 50  0000 C CNN
+F 2 "daprice-keyswitches:Stabilizer_MX_1.75u" H 12400 1300 60  0001 C CNN
+F 3 "" H 12400 1300 60  0001 C CNN
+	1    12400 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12700 1300 12700 1600
+$Comp
+L chgray-keyboard-rescue:DIODE-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue D73
+U 1 1 60ADCFE6
+P 12500 1600
+F 0 "D73" H 12500 1408 40  0000 C CNN
+F 1 "DIODE" H 12500 1484 40  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 12500 1600 50  0001 C CNN
+F 3 "" H 12500 1600 50  0001 C CNN
+	1    12500 1600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	12300 1600 12050 1600
+$Comp
+L chgray-keyboard-rescue:SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue SW1
+U 1 1 60ADCFED
+P 12400 2000
+F 0 "SW1" H 12550 2110 50  0000 C CNN
+F 1 "111" H 12400 1920 50  0000 C CNN
+F 2 "daprice-keyswitches:Kailh_socket_MX" H 12400 2000 60  0001 C CNN
+F 3 "" H 12400 2000 60  0001 C CNN
+	1    12400 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12700 2000 12700 2300
+$Comp
+L chgray-keyboard-rescue:DIODE-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue D74
+U 1 1 60ADCFF4
+P 12500 2300
+F 0 "D74" H 12500 2108 40  0000 C CNN
+F 1 "DIODE" H 12500 2184 40  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 12500 2300 50  0001 C CNN
+F 3 "" H 12500 2300 50  0001 C CNN
+	1    12500 2300
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	12300 2300 12050 2300
+$Comp
+L chgray-keyboard-rescue:SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue SW6
+U 1 1 60ADCFFB
+P 12400 2950
+F 0 "SW6" H 12550 3060 50  0000 C CNN
+F 1 "211" H 12400 2870 50  0000 C CNN
+F 2 "daprice-keyswitches:Kailh_socket_MX" H 12400 2950 60  0001 C CNN
+F 3 "" H 12400 2950 60  0001 C CNN
+	1    12400 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12700 2950 12700 3250
+$Comp
+L chgray-keyboard-rescue:DIODE-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue D75
+U 1 1 60ADD002
+P 12500 3250
+F 0 "D75" H 12500 3058 40  0000 C CNN
+F 1 "DIODE" H 12500 3134 40  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 12500 3250 50  0001 C CNN
+F 3 "" H 12500 3250 50  0001 C CNN
+	1    12500 3250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	12300 3250 12050 3250
+$Comp
+L chgray-keyboard-rescue:SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue SW10
+U 1 1 60ADD009
+P 12400 3900
+F 0 "SW10" H 12550 4010 50  0000 C CNN
+F 1 "311" H 12400 3820 50  0000 C CNN
+F 2 "daprice-keyswitches:Kailh_socket_MX" H 12400 3900 60  0001 C CNN
+F 3 "" H 12400 3900 60  0001 C CNN
+	1    12400 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12700 3900 12700 4200
+$Comp
+L chgray-keyboard-rescue:DIODE-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue D76
+U 1 1 60ADD010
+P 12500 4200
+F 0 "D76" H 12500 4008 40  0000 C CNN
+F 1 "DIODE" H 12500 4084 40  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 12500 4200 50  0001 C CNN
+F 3 "" H 12500 4200 50  0001 C CNN
+	1    12500 4200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	12300 4200 12050 4200
+$Comp
+L chgray-keyboard-rescue:SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue SW15
+U 1 1 60ADD017
+P 12400 4850
+F 0 "SW15" H 12550 4960 50  0000 C CNN
+F 1 "411" H 12400 4770 50  0000 C CNN
+F 2 "daprice-keyswitches:Kailh_socket_MX" H 12400 4850 60  0001 C CNN
+F 3 "" H 12400 4850 60  0001 C CNN
+	1    12400 4850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12700 4850 12700 5150
+$Comp
+L chgray-keyboard-rescue:DIODE-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue D77
+U 1 1 60ADD01E
+P 12500 5150
+F 0 "D77" H 12500 4958 40  0000 C CNN
+F 1 "DIODE" H 12500 5034 40  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 12500 5150 50  0001 C CNN
+F 3 "" H 12500 5150 50  0001 C CNN
+	1    12500 5150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	12300 5150 12050 5150
+$Comp
+L chgray-keyboard-rescue:SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue SW27
+U 1 1 60ADD025
+P 12400 5750
+F 0 "SW27" H 12550 5860 50  0000 C CNN
+F 1 "511" H 12400 5670 50  0000 C CNN
+F 2 "daprice-keyswitches:Kailh_socket_MX" H 12400 5750 60  0001 C CNN
+F 3 "" H 12400 5750 60  0001 C CNN
+	1    12400 5750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12700 5750 12700 6050
+$Comp
+L chgray-keyboard-rescue:DIODE-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue D78
+U 1 1 60ADD02C
+P 12500 6050
+F 0 "D78" H 12500 5858 40  0000 C CNN
+F 1 "DIODE" H 12500 5934 40  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 12500 6050 50  0001 C CNN
+F 3 "" H 12500 6050 50  0001 C CNN
+	1    12500 6050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	12300 6050 12050 6050
+Text HLabel 12050 6750 3    60   Input ~ 0
+KEY_COL12
+Wire Wire Line
+	12050 6050 12050 6750
+Wire Wire Line
+	12050 6050 12050 5150
+Connection ~ 12050 6050
+Connection ~ 12050 2300
+Wire Wire Line
+	12050 2300 12050 1600
+Connection ~ 12050 3250
+Wire Wire Line
+	12050 3250 12050 2300
+Connection ~ 12050 4200
+Wire Wire Line
+	12050 4200 12050 3250
+Connection ~ 12050 5150
+Wire Wire Line
+	12050 5150 12050 4200
+Wire Wire Line
+	12050 1600 12050 650 
+Connection ~ 12050 1600
+Wire Wire Line
+	12100 1300 12100 1000
+Wire Wire Line
+	12100 1000 11250 1000
+Wire Wire Line
+	11250 1850 12100 1850
+Wire Wire Line
+	12100 1850 12100 2000
+Wire Wire Line
+	12100 2750 12100 2950
+Wire Wire Line
+	12100 3700 12100 3900
+Wire Wire Line
+	11250 4650 12100 4650
+Wire Wire Line
+	12100 4650 12100 4850
+Wire Wire Line
+	11250 5550 12100 5550
+Wire Wire Line
+	12100 5550 12100 5750
+Wire Wire Line
+	11250 3700 12100 3700
+Wire Wire Line
+	11250 2750 12100 2750
+$Comp
+L chgray-keyboard-rescue:SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue ENTER3
+U 1 1 60B082AA
+P 13250 1300
+F 0 "ENTER3" H 13400 1410 50  0000 C CNN
+F 1 "011" H 13250 1220 50  0000 C CNN
+F 2 "daprice-keyswitches:Stabilizer_MX_1.75u" H 13250 1300 60  0001 C CNN
+F 3 "" H 13250 1300 60  0001 C CNN
+	1    13250 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13550 1300 13550 1600
+$Comp
+L chgray-keyboard-rescue:DIODE-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue D79
+U 1 1 60B082B1
+P 13350 1600
+F 0 "D79" H 13350 1408 40  0000 C CNN
+F 1 "DIODE" H 13350 1484 40  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 13350 1600 50  0001 C CNN
+F 3 "" H 13350 1600 50  0001 C CNN
+	1    13350 1600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	13150 1600 12900 1600
+$Comp
+L chgray-keyboard-rescue:SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue SW36
+U 1 1 60B082B8
+P 13250 2000
+F 0 "SW36" H 13400 2110 50  0000 C CNN
+F 1 "111" H 13250 1920 50  0000 C CNN
+F 2 "daprice-keyswitches:Kailh_socket_MX" H 13250 2000 60  0001 C CNN
+F 3 "" H 13250 2000 60  0001 C CNN
+	1    13250 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13550 2000 13550 2300
+$Comp
+L chgray-keyboard-rescue:DIODE-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue D80
+U 1 1 60B082BF
+P 13350 2300
+F 0 "D80" H 13350 2108 40  0000 C CNN
+F 1 "DIODE" H 13350 2184 40  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 13350 2300 50  0001 C CNN
+F 3 "" H 13350 2300 50  0001 C CNN
+	1    13350 2300
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	13150 2300 12900 2300
+$Comp
+L chgray-keyboard-rescue:SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue SW47
+U 1 1 60B082C6
+P 13250 2950
+F 0 "SW47" H 13400 3060 50  0000 C CNN
+F 1 "211" H 13250 2870 50  0000 C CNN
+F 2 "daprice-keyswitches:Kailh_socket_MX" H 13250 2950 60  0001 C CNN
+F 3 "" H 13250 2950 60  0001 C CNN
+	1    13250 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13550 2950 13550 3250
+$Comp
+L chgray-keyboard-rescue:DIODE-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue D81
+U 1 1 60B082CD
+P 13350 3250
+F 0 "D81" H 13350 3058 40  0000 C CNN
+F 1 "DIODE" H 13350 3134 40  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 13350 3250 50  0001 C CNN
+F 3 "" H 13350 3250 50  0001 C CNN
+	1    13350 3250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	13150 3250 12900 3250
+$Comp
+L chgray-keyboard-rescue:SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue SW60
+U 1 1 60B082D4
+P 13250 3900
+F 0 "SW60" H 13400 4010 50  0000 C CNN
+F 1 "311" H 13250 3820 50  0000 C CNN
+F 2 "daprice-keyswitches:Kailh_socket_MX" H 13250 3900 60  0001 C CNN
+F 3 "" H 13250 3900 60  0001 C CNN
+	1    13250 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13550 3900 13550 4200
+$Comp
+L chgray-keyboard-rescue:DIODE-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue D82
+U 1 1 60B082DB
+P 13350 4200
+F 0 "D82" H 13350 4008 40  0000 C CNN
+F 1 "DIODE" H 13350 4084 40  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 13350 4200 50  0001 C CNN
+F 3 "" H 13350 4200 50  0001 C CNN
+	1    13350 4200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	13150 4200 12900 4200
+$Comp
+L chgray-keyboard-rescue:SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue SW67
+U 1 1 60B082E2
+P 13250 4850
+F 0 "SW67" H 13400 4960 50  0000 C CNN
+F 1 "411" H 13250 4770 50  0000 C CNN
+F 2 "daprice-keyswitches:Kailh_socket_MX" H 13250 4850 60  0001 C CNN
+F 3 "" H 13250 4850 60  0001 C CNN
+	1    13250 4850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13550 4850 13550 5150
+$Comp
+L chgray-keyboard-rescue:DIODE-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue D83
+U 1 1 60B082E9
+P 13350 5150
+F 0 "D83" H 13350 4958 40  0000 C CNN
+F 1 "DIODE" H 13350 5034 40  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 13350 5150 50  0001 C CNN
+F 3 "" H 13350 5150 50  0001 C CNN
+	1    13350 5150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	13150 5150 12900 5150
+$Comp
+L chgray-keyboard-rescue:SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue SW73
+U 1 1 60B082F0
+P 13250 5750
+F 0 "SW73" H 13400 5860 50  0000 C CNN
+F 1 "511" H 13250 5670 50  0000 C CNN
+F 2 "daprice-keyswitches:Kailh_socket_MX" H 13250 5750 60  0001 C CNN
+F 3 "" H 13250 5750 60  0001 C CNN
+	1    13250 5750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13550 5750 13550 6050
+$Comp
+L chgray-keyboard-rescue:DIODE-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue D84
+U 1 1 60B082F7
+P 13350 6050
+F 0 "D84" H 13350 5858 40  0000 C CNN
+F 1 "DIODE" H 13350 5934 40  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 13350 6050 50  0001 C CNN
+F 3 "" H 13350 6050 50  0001 C CNN
+	1    13350 6050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	13150 6050 12900 6050
+Text HLabel 12900 6750 3    60   Input ~ 0
+KEY_COL13
+Wire Wire Line
+	12900 6050 12900 6750
+Wire Wire Line
+	12900 6050 12900 5150
+Connection ~ 12900 6050
+Connection ~ 12900 2300
+Wire Wire Line
+	12900 2300 12900 1600
+Connection ~ 12900 3250
+Wire Wire Line
+	12900 3250 12900 2300
+Connection ~ 12900 4200
+Wire Wire Line
+	12900 4200 12900 3250
+Connection ~ 12900 5150
+Wire Wire Line
+	12900 5150 12900 4200
+Wire Wire Line
+	12900 1600 12900 650 
+Connection ~ 12900 1600
+Wire Wire Line
+	12950 1300 12950 1000
+Wire Wire Line
+	12950 1000 12100 1000
+Wire Wire Line
+	12100 1850 12950 1850
+Wire Wire Line
+	12950 1850 12950 2000
+Wire Wire Line
+	12950 2750 12950 2950
+Wire Wire Line
+	12950 3700 12950 3900
+Wire Wire Line
+	12100 4650 12950 4650
+Wire Wire Line
+	12950 4650 12950 4850
+Wire Wire Line
+	12100 5550 12950 5550
+Wire Wire Line
+	12950 5550 12950 5750
+Wire Wire Line
+	12100 3700 12950 3700
+Wire Wire Line
+	12100 2750 12950 2750
 $EndSCHEMATC
