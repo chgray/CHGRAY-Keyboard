@@ -2516,10 +2516,10 @@ Connection ~ 10400 2750
 Wire Wire Line
 	10400 2750 11250 2750
 $Comp
-L chgray-keyboard-rescue:SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue S2
+L chgray-keyboard-rescue:SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue S1
 U 1 1 60ADCFDF
 P 12400 1300
-F 0 "S2" H 12550 1410 50  0000 C CNN
+F 0 "S1" H 12550 1410 50  0000 C CNN
 F 1 "011" H 12400 1220 50  0000 C CNN
 F 2 "daprice-keyswitches:Kailh_socket_MX" H 12400 1300 60  0001 C CNN
 F 3 "" H 12400 1300 60  0001 C CNN
@@ -2718,10 +2718,10 @@ Wire Wire Line
 Wire Wire Line
 	11250 2750 12100 2750
 $Comp
-L chgray-keyboard-rescue:SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue S3
+L chgray-keyboard-rescue:SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue S2
 U 1 1 60B082AA
 P 13250 1300
-F 0 "S3" H 13400 1410 50  0000 C CNN
+F 0 "S2" H 13400 1410 50  0000 C CNN
 F 1 "011" H 13250 1220 50  0000 C CNN
 F 2 "daprice-keyswitches:Kailh_socket_MX" H 13250 1300 60  0001 C CNN
 F 3 "" H 13250 1300 60  0001 C CNN

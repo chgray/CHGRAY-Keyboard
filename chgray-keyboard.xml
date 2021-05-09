@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>C:\Source\CHGRAY-Keyboard\chgray-keyboard.sch</source>
-    <date>5/9/2021 12:14:47 PM</date>
+    <date>5/9/2021 1:43:24 PM</date>
     <tool>Eeschema (5.1.9)-1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -1231,7 +1231,7 @@
     <comp ref="D85">
       <value>LED</value>
       <footprint>daprice-keyswitches:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm</footprint>
-      <libsource lib="Cherry-Symbol" part="SK6812MINI" description="RGB LED with integrated controller"/>
+      <libsource lib="chgray-keyboard-rescue" part="SK6812MINI-Cherry-Symbol" description=""/>
       <sheetpath names="/Sheet6096EA01/" tstamps="/6096EA02/"/>
       <tstamp>6097030B</tstamp>
     </comp>
@@ -1246,7 +1246,7 @@
     <comp ref="D88">
       <value>LED</value>
       <footprint>daprice-keyswitches:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm</footprint>
-      <libsource lib="Cherry-Symbol" part="SK6812MINI" description="RGB LED with integrated controller"/>
+      <libsource lib="chgray-keyboard-rescue" part="SK6812MINI-Cherry-Symbol" description=""/>
       <sheetpath names="/Sheet6096EA01/" tstamps="/6096EA02/"/>
       <tstamp>60970968</tstamp>
     </comp>
@@ -1261,7 +1261,7 @@
     <comp ref="D91">
       <value>LED</value>
       <footprint>daprice-keyswitches:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm</footprint>
-      <libsource lib="Cherry-Symbol" part="SK6812MINI" description="RGB LED with integrated controller"/>
+      <libsource lib="chgray-keyboard-rescue" part="SK6812MINI-Cherry-Symbol" description=""/>
       <sheetpath names="/Sheet6096EA01/" tstamps="/6096EA02/"/>
       <tstamp>6097199A</tstamp>
     </comp>
@@ -1275,24 +1275,6 @@
     </comp>
   </components>
   <libparts>
-    <libpart lib="Cherry-Symbol" part="SK6812MINI">
-      <description>RGB LED with integrated controller</description>
-      <docs>https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf</docs>
-      <footprints>
-        <fp>LED*SK6812MINI*PLCC*3.5x3.5mm*P1.75mm*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">D</field>
-        <field name="Value">SK6812MINI</field>
-        <field name="Footprint">LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm</field>
-      </fields>
-      <pins>
-        <pin num="1" name="VDD" type="power_in"/>
-        <pin num="2" name="DOUT" type="output"/>
-        <pin num="3" name="VSS" type="power_in"/>
-        <pin num="4" name="DIN" type="input"/>
-      </pins>
-    </libpart>
     <libpart lib="Cherry-Symbol" part="SWITCH_PUSH">
       <fields>
         <field name="Reference">SW</field>
@@ -1365,6 +1347,22 @@
       <pins>
         <pin num="1" name="A" type="passive"/>
         <pin num="2" name="K" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="chgray-keyboard-rescue" part="SK6812MINI-Cherry-Symbol">
+      <footprints>
+        <fp>LED*SK6812MINI*PLCC*3.5x3.5mm*P1.75mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">SK6812MINI-Cherry-Symbol</field>
+        <field name="Footprint">LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD" type="power_in"/>
+        <pin num="2" name="DOUT" type="output"/>
+        <pin num="3" name="VSS" type="power_in"/>
+        <pin num="4" name="DIN" type="input"/>
       </pins>
     </libpart>
     <libpart lib="chgray-keyboard-rescue" part="SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue">

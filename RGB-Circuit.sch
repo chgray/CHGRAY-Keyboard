@@ -14,9 +14,11 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Cherry-Symbol:SK6812MINI D85
+L chgray-keyboard-rescue:SK6812MINI-Cherry-Symbol D?
 U 1 1 6097030B
 P 2600 2350
+AR Path="/6097030B" Ref="D?"  Part="1" 
+AR Path="/6096EA02/6097030B" Ref="D85"  Part="1" 
 F 0 "D85" H 2944 2396 50  0000 L CNN
 F 1 "LED" H 2944 2305 50  0000 L CNN
 F 2 "daprice-keyswitches:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 2650 2050 50  0000 L TNN
@@ -38,56 +40,60 @@ $EndComp
 Text GLabel 2600 2000 1    50   Input ~ 0
 LED_VDD
 $Comp
-L Cherry-Symbol:SK6812MINI D88
+L chgray-keyboard-rescue:SK6812MINI-Cherry-Symbol D?
 U 1 1 60970968
-P 3200 2350
-F 0 "D88" H 3544 2396 50  0000 L CNN
-F 1 "LED" H 3544 2305 50  0000 L CNN
-F 2 "daprice-keyswitches:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 3250 2050 50  0000 L TNN
-F 3 "" H 3300 1975 50  0001 L TNN
-	1    3200 2350
+P 3200 2400
+AR Path="/60970968" Ref="D?"  Part="1" 
+AR Path="/6096EA02/60970968" Ref="D86"  Part="1" 
+F 0 "D86" H 3544 2446 50  0000 L CNN
+F 1 "LED" H 3544 2355 50  0000 L CNN
+F 2 "daprice-keyswitches:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 3250 2100 50  0000 L TNN
+F 3 "" H 3300 2025 50  0001 L TNN
+	1    3200 2400
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C4
+L Device:C C2
 U 1 1 6097096E
-P 3200 2900
-F 0 "C4" H 3315 2946 50  0000 L CNN
-F 1 "C" H 3315 2855 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 3238 2750 50  0001 C CNN
-F 3 "~" H 3200 2900 50  0001 C CNN
-	1    3200 2900
+P 3200 2950
+F 0 "C2" H 3315 2996 50  0000 L CNN
+F 1 "C" H 3315 2905 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 3238 2800 50  0001 C CNN
+F 3 "~" H 3200 2950 50  0001 C CNN
+	1    3200 2950
 	1    0    0    -1  
 $EndComp
-Text GLabel 3200 2000 1    50   Input ~ 0
+Text GLabel 3200 2050 1    50   Input ~ 0
 LED_VDD
-Text GLabel 3200 3050 3    50   Input ~ 0
+Text GLabel 3200 3100 3    50   Input ~ 0
 VCC_5V
 $Comp
-L Cherry-Symbol:SK6812MINI D91
+L chgray-keyboard-rescue:SK6812MINI-Cherry-Symbol D?
 U 1 1 6097199A
-P 3800 2350
-F 0 "D91" H 4144 2396 50  0000 L CNN
-F 1 "LED" H 4144 2305 50  0000 L CNN
-F 2 "daprice-keyswitches:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 3850 2050 50  0000 L TNN
-F 3 "" H 3900 1975 50  0001 L TNN
-	1    3800 2350
+P 3800 2400
+AR Path="/6097199A" Ref="D?"  Part="1" 
+AR Path="/6096EA02/6097199A" Ref="D87"  Part="1" 
+F 0 "D87" H 4144 2446 50  0000 L CNN
+F 1 "LED" H 4144 2355 50  0000 L CNN
+F 2 "daprice-keyswitches:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 3850 2100 50  0000 L TNN
+F 3 "" H 3900 2025 50  0001 L TNN
+	1    3800 2400
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C7
+L Device:C C3
 U 1 1 609719A0
-P 3800 2900
-F 0 "C7" H 3915 2946 50  0000 L CNN
-F 1 "C" H 3915 2855 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 3838 2750 50  0001 C CNN
-F 3 "~" H 3800 2900 50  0001 C CNN
-	1    3800 2900
+P 3800 2950
+F 0 "C3" H 3915 2996 50  0000 L CNN
+F 1 "C" H 3915 2905 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 3838 2800 50  0001 C CNN
+F 3 "~" H 3800 2950 50  0001 C CNN
+	1    3800 2950
 	1    0    0    -1  
 $EndComp
-Text GLabel 3800 2000 1    50   Input ~ 0
+Text GLabel 3800 2050 1    50   Input ~ 0
 LED_VDD
-Text GLabel 3800 3050 3    50   Input ~ 0
+Text GLabel 3800 3100 3    50   Input ~ 0
 VCC_5V
 Text GLabel 2600 3050 3    50   Input ~ 0
 VCC_5V
@@ -102,18 +108,2614 @@ VDD
 Text HLabel 2050 2350 0    50   Input ~ 0
 INPUT
 Wire Wire Line
-	3800 2050 3800 2000
+	3800 2100 3800 2050
 Wire Wire Line
-	3200 2050 3200 2000
+	3200 2100 3200 2050
 Wire Wire Line
 	2600 2050 2600 2000
-NoConn ~ 4100 2350
 Wire Wire Line
-	3800 2650 3800 2750
+	3800 2700 3800 2800
 Wire Wire Line
-	3200 2650 3200 2750
+	3200 2700 3200 2800
 Wire Wire Line
 	2600 2650 2600 2750
 Wire Wire Line
 	2050 2350 2300 2350
+$Comp
+L chgray-keyboard-rescue:SK6812MINI-Cherry-Symbol D?
+U 1 1 609B515C
+P 4400 2400
+AR Path="/609B515C" Ref="D?"  Part="1" 
+AR Path="/6096EA02/609B515C" Ref="D88"  Part="1" 
+F 0 "D88" H 4744 2446 50  0000 L CNN
+F 1 "LED" H 4744 2355 50  0000 L CNN
+F 2 "daprice-keyswitches:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 4450 2100 50  0000 L TNN
+F 3 "" H 4500 2025 50  0001 L TNN
+	1    4400 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C4
+U 1 1 609B5162
+P 4400 2950
+F 0 "C4" H 4515 2996 50  0000 L CNN
+F 1 "C" H 4515 2905 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 4438 2800 50  0001 C CNN
+F 3 "~" H 4400 2950 50  0001 C CNN
+	1    4400 2950
+	1    0    0    -1  
+$EndComp
+Text GLabel 4400 2050 1    50   Input ~ 0
+LED_VDD
+Text GLabel 4400 3100 3    50   Input ~ 0
+VCC_5V
+$Comp
+L chgray-keyboard-rescue:SK6812MINI-Cherry-Symbol D?
+U 1 1 609B516A
+P 5000 2400
+AR Path="/609B516A" Ref="D?"  Part="1" 
+AR Path="/6096EA02/609B516A" Ref="D89"  Part="1" 
+F 0 "D89" H 5344 2446 50  0000 L CNN
+F 1 "LED" H 5344 2355 50  0000 L CNN
+F 2 "daprice-keyswitches:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 5050 2100 50  0000 L TNN
+F 3 "" H 5100 2025 50  0001 L TNN
+	1    5000 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C5
+U 1 1 609B5170
+P 5000 2950
+F 0 "C5" H 5115 2996 50  0000 L CNN
+F 1 "C" H 5115 2905 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 5038 2800 50  0001 C CNN
+F 3 "~" H 5000 2950 50  0001 C CNN
+	1    5000 2950
+	1    0    0    -1  
+$EndComp
+Text GLabel 5000 2050 1    50   Input ~ 0
+LED_VDD
+Text GLabel 5000 3100 3    50   Input ~ 0
+VCC_5V
+Wire Wire Line
+	5000 2100 5000 2050
+Wire Wire Line
+	4400 2100 4400 2050
+Wire Wire Line
+	5000 2700 5000 2800
+Wire Wire Line
+	4400 2700 4400 2800
+$Comp
+L chgray-keyboard-rescue:SK6812MINI-Cherry-Symbol D?
+U 1 1 609B85C5
+P 5600 2400
+AR Path="/609B85C5" Ref="D?"  Part="1" 
+AR Path="/6096EA02/609B85C5" Ref="D90"  Part="1" 
+F 0 "D90" H 5944 2446 50  0000 L CNN
+F 1 "LED" H 5944 2355 50  0000 L CNN
+F 2 "daprice-keyswitches:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 5650 2100 50  0000 L TNN
+F 3 "" H 5700 2025 50  0001 L TNN
+	1    5600 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C6
+U 1 1 609B85CB
+P 5600 2950
+F 0 "C6" H 5715 2996 50  0000 L CNN
+F 1 "C" H 5715 2905 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 5638 2800 50  0001 C CNN
+F 3 "~" H 5600 2950 50  0001 C CNN
+	1    5600 2950
+	1    0    0    -1  
+$EndComp
+Text GLabel 5600 2050 1    50   Input ~ 0
+LED_VDD
+Text GLabel 5600 3100 3    50   Input ~ 0
+VCC_5V
+$Comp
+L chgray-keyboard-rescue:SK6812MINI-Cherry-Symbol D?
+U 1 1 609B85D3
+P 6200 2400
+AR Path="/609B85D3" Ref="D?"  Part="1" 
+AR Path="/6096EA02/609B85D3" Ref="D91"  Part="1" 
+F 0 "D91" H 6544 2446 50  0000 L CNN
+F 1 "LED" H 6544 2355 50  0000 L CNN
+F 2 "daprice-keyswitches:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 6250 2100 50  0000 L TNN
+F 3 "" H 6300 2025 50  0001 L TNN
+	1    6200 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C7
+U 1 1 609B85D9
+P 6200 2950
+F 0 "C7" H 6315 2996 50  0000 L CNN
+F 1 "C" H 6315 2905 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 6238 2800 50  0001 C CNN
+F 3 "~" H 6200 2950 50  0001 C CNN
+	1    6200 2950
+	1    0    0    -1  
+$EndComp
+Text GLabel 6200 2050 1    50   Input ~ 0
+LED_VDD
+Text GLabel 6200 3100 3    50   Input ~ 0
+VCC_5V
+Wire Wire Line
+	6200 2100 6200 2050
+Wire Wire Line
+	5600 2100 5600 2050
+Wire Wire Line
+	6200 2700 6200 2800
+Wire Wire Line
+	5600 2700 5600 2800
+$Comp
+L chgray-keyboard-rescue:SK6812MINI-Cherry-Symbol D?
+U 1 1 609BF497
+P 6800 2400
+AR Path="/609BF497" Ref="D?"  Part="1" 
+AR Path="/6096EA02/609BF497" Ref="D92"  Part="1" 
+F 0 "D92" H 7144 2446 50  0000 L CNN
+F 1 "LED" H 7144 2355 50  0000 L CNN
+F 2 "daprice-keyswitches:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 6850 2100 50  0000 L TNN
+F 3 "" H 6900 2025 50  0001 L TNN
+	1    6800 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C8
+U 1 1 609BF49D
+P 6800 2950
+F 0 "C8" H 6915 2996 50  0000 L CNN
+F 1 "C" H 6915 2905 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 6838 2800 50  0001 C CNN
+F 3 "~" H 6800 2950 50  0001 C CNN
+	1    6800 2950
+	1    0    0    -1  
+$EndComp
+Text GLabel 6800 2050 1    50   Input ~ 0
+LED_VDD
+Text GLabel 6800 3100 3    50   Input ~ 0
+VCC_5V
+$Comp
+L chgray-keyboard-rescue:SK6812MINI-Cherry-Symbol D?
+U 1 1 609BF4A5
+P 7400 2400
+AR Path="/609BF4A5" Ref="D?"  Part="1" 
+AR Path="/6096EA02/609BF4A5" Ref="D93"  Part="1" 
+F 0 "D93" H 7744 2446 50  0000 L CNN
+F 1 "LED" H 7744 2355 50  0000 L CNN
+F 2 "daprice-keyswitches:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 7450 2100 50  0000 L TNN
+F 3 "" H 7500 2025 50  0001 L TNN
+	1    7400 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C9
+U 1 1 609BF4AB
+P 7400 2950
+F 0 "C9" H 7515 2996 50  0000 L CNN
+F 1 "C" H 7515 2905 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 7438 2800 50  0001 C CNN
+F 3 "~" H 7400 2950 50  0001 C CNN
+	1    7400 2950
+	1    0    0    -1  
+$EndComp
+Text GLabel 7400 2050 1    50   Input ~ 0
+LED_VDD
+Text GLabel 7400 3100 3    50   Input ~ 0
+VCC_5V
+Wire Wire Line
+	7400 2100 7400 2050
+Wire Wire Line
+	6800 2100 6800 2050
+Wire Wire Line
+	7400 2700 7400 2800
+Wire Wire Line
+	6800 2700 6800 2800
+$Comp
+L chgray-keyboard-rescue:SK6812MINI-Cherry-Symbol D?
+U 1 1 609C2DAC
+P 8000 2400
+AR Path="/609C2DAC" Ref="D?"  Part="1" 
+AR Path="/6096EA02/609C2DAC" Ref="D94"  Part="1" 
+F 0 "D94" H 8344 2446 50  0000 L CNN
+F 1 "LED" H 8344 2355 50  0000 L CNN
+F 2 "daprice-keyswitches:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 8050 2100 50  0000 L TNN
+F 3 "" H 8100 2025 50  0001 L TNN
+	1    8000 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C10
+U 1 1 609C2DB2
+P 8000 2950
+F 0 "C10" H 8115 2996 50  0000 L CNN
+F 1 "C" H 8115 2905 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 8038 2800 50  0001 C CNN
+F 3 "~" H 8000 2950 50  0001 C CNN
+	1    8000 2950
+	1    0    0    -1  
+$EndComp
+Text GLabel 8000 2050 1    50   Input ~ 0
+LED_VDD
+Text GLabel 8000 3100 3    50   Input ~ 0
+VCC_5V
+$Comp
+L chgray-keyboard-rescue:SK6812MINI-Cherry-Symbol D?
+U 1 1 609C2DBA
+P 8600 2400
+AR Path="/609C2DBA" Ref="D?"  Part="1" 
+AR Path="/6096EA02/609C2DBA" Ref="D95"  Part="1" 
+F 0 "D95" H 8944 2446 50  0000 L CNN
+F 1 "LED" H 8944 2355 50  0000 L CNN
+F 2 "daprice-keyswitches:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 8650 2100 50  0000 L TNN
+F 3 "" H 8700 2025 50  0001 L TNN
+	1    8600 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C11
+U 1 1 609C2DC0
+P 8600 2950
+F 0 "C11" H 8715 2996 50  0000 L CNN
+F 1 "C" H 8715 2905 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 8638 2800 50  0001 C CNN
+F 3 "~" H 8600 2950 50  0001 C CNN
+	1    8600 2950
+	1    0    0    -1  
+$EndComp
+Text GLabel 8600 2050 1    50   Input ~ 0
+LED_VDD
+Text GLabel 8600 3100 3    50   Input ~ 0
+VCC_5V
+Wire Wire Line
+	8600 2100 8600 2050
+Wire Wire Line
+	8000 2100 8000 2050
+Wire Wire Line
+	8600 2700 8600 2800
+Wire Wire Line
+	8000 2700 8000 2800
+$Comp
+L chgray-keyboard-rescue:SK6812MINI-Cherry-Symbol D?
+U 1 1 60A149E1
+P 9200 2400
+AR Path="/60A149E1" Ref="D?"  Part="1" 
+AR Path="/6096EA02/60A149E1" Ref="D96"  Part="1" 
+F 0 "D96" H 9544 2446 50  0000 L CNN
+F 1 "LED" H 9544 2355 50  0000 L CNN
+F 2 "daprice-keyswitches:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 9250 2100 50  0000 L TNN
+F 3 "" H 9300 2025 50  0001 L TNN
+	1    9200 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C12
+U 1 1 60A149E7
+P 9200 2950
+F 0 "C12" H 9315 2996 50  0000 L CNN
+F 1 "C" H 9315 2905 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 9238 2800 50  0001 C CNN
+F 3 "~" H 9200 2950 50  0001 C CNN
+	1    9200 2950
+	1    0    0    -1  
+$EndComp
+Text GLabel 9200 2050 1    50   Input ~ 0
+LED_VDD
+Text GLabel 9200 3100 3    50   Input ~ 0
+VCC_5V
+$Comp
+L chgray-keyboard-rescue:SK6812MINI-Cherry-Symbol D?
+U 1 1 60A149EF
+P 9800 2400
+AR Path="/60A149EF" Ref="D?"  Part="1" 
+AR Path="/6096EA02/60A149EF" Ref="D97"  Part="1" 
+F 0 "D97" H 10144 2446 50  0000 L CNN
+F 1 "LED" H 10144 2355 50  0000 L CNN
+F 2 "daprice-keyswitches:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 9850 2100 50  0000 L TNN
+F 3 "" H 9900 2025 50  0001 L TNN
+	1    9800 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C13
+U 1 1 60A149F5
+P 9800 2950
+F 0 "C13" H 9915 2996 50  0000 L CNN
+F 1 "C" H 9915 2905 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 9838 2800 50  0001 C CNN
+F 3 "~" H 9800 2950 50  0001 C CNN
+	1    9800 2950
+	1    0    0    -1  
+$EndComp
+Text GLabel 9800 2050 1    50   Input ~ 0
+LED_VDD
+Text GLabel 9800 3100 3    50   Input ~ 0
+VCC_5V
+Wire Wire Line
+	9800 2100 9800 2050
+Wire Wire Line
+	9200 2100 9200 2050
+Wire Wire Line
+	9800 2700 9800 2800
+Wire Wire Line
+	9200 2700 9200 2800
+$Comp
+L chgray-keyboard-rescue:SK6812MINI-Cherry-Symbol D?
+U 1 1 60A14A01
+P 10400 2400
+AR Path="/60A14A01" Ref="D?"  Part="1" 
+AR Path="/6096EA02/60A14A01" Ref="D98"  Part="1" 
+F 0 "D98" H 10744 2446 50  0000 L CNN
+F 1 "LED" H 10744 2355 50  0000 L CNN
+F 2 "daprice-keyswitches:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 10450 2100 50  0000 L TNN
+F 3 "" H 10500 2025 50  0001 L TNN
+	1    10400 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C14
+U 1 1 60A14A07
+P 10400 2950
+F 0 "C14" H 10515 2996 50  0000 L CNN
+F 1 "C" H 10515 2905 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 10438 2800 50  0001 C CNN
+F 3 "~" H 10400 2950 50  0001 C CNN
+	1    10400 2950
+	1    0    0    -1  
+$EndComp
+Text GLabel 10400 2050 1    50   Input ~ 0
+LED_VDD
+Text GLabel 10400 3100 3    50   Input ~ 0
+VCC_5V
+$Comp
+L chgray-keyboard-rescue:SK6812MINI-Cherry-Symbol D?
+U 1 1 60A14A0F
+P 11000 2400
+AR Path="/60A14A0F" Ref="D?"  Part="1" 
+AR Path="/6096EA02/60A14A0F" Ref="D99"  Part="1" 
+F 0 "D99" H 11344 2446 50  0000 L CNN
+F 1 "LED" H 11344 2355 50  0000 L CNN
+F 2 "daprice-keyswitches:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 11050 2100 50  0000 L TNN
+F 3 "" H 11100 2025 50  0001 L TNN
+	1    11000 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C15
+U 1 1 60A14A15
+P 11000 2950
+F 0 "C15" H 11115 2996 50  0000 L CNN
+F 1 "C" H 11115 2905 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 11038 2800 50  0001 C CNN
+F 3 "~" H 11000 2950 50  0001 C CNN
+	1    11000 2950
+	1    0    0    -1  
+$EndComp
+Text GLabel 11000 2050 1    50   Input ~ 0
+LED_VDD
+Text GLabel 11000 3100 3    50   Input ~ 0
+VCC_5V
+Wire Wire Line
+	11000 2100 11000 2050
+Wire Wire Line
+	10400 2100 10400 2050
+Wire Wire Line
+	11000 2700 11000 2800
+Wire Wire Line
+	10400 2700 10400 2800
+$Comp
+L chgray-keyboard-rescue:SK6812MINI-Cherry-Symbol D?
+U 1 1 60A14A21
+P 11600 2400
+AR Path="/60A14A21" Ref="D?"  Part="1" 
+AR Path="/6096EA02/60A14A21" Ref="D100"  Part="1" 
+F 0 "D100" H 11944 2446 50  0000 L CNN
+F 1 "LED" H 11944 2355 50  0000 L CNN
+F 2 "daprice-keyswitches:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 11650 2100 50  0000 L TNN
+F 3 "" H 11700 2025 50  0001 L TNN
+	1    11600 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C16
+U 1 1 60A14A27
+P 11600 2950
+F 0 "C16" H 11715 2996 50  0000 L CNN
+F 1 "C" H 11715 2905 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 11638 2800 50  0001 C CNN
+F 3 "~" H 11600 2950 50  0001 C CNN
+	1    11600 2950
+	1    0    0    -1  
+$EndComp
+Text GLabel 11600 2050 1    50   Input ~ 0
+LED_VDD
+Text GLabel 11600 3100 3    50   Input ~ 0
+VCC_5V
+$Comp
+L chgray-keyboard-rescue:SK6812MINI-Cherry-Symbol D?
+U 1 1 60A14A2F
+P 12200 2400
+AR Path="/60A14A2F" Ref="D?"  Part="1" 
+AR Path="/6096EA02/60A14A2F" Ref="D101"  Part="1" 
+F 0 "D101" H 12544 2446 50  0000 L CNN
+F 1 "LED" H 12544 2355 50  0000 L CNN
+F 2 "daprice-keyswitches:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 12250 2100 50  0000 L TNN
+F 3 "" H 12300 2025 50  0001 L TNN
+	1    12200 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C17
+U 1 1 60A14A35
+P 12200 2950
+F 0 "C17" H 12315 2996 50  0000 L CNN
+F 1 "C" H 12315 2905 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 12238 2800 50  0001 C CNN
+F 3 "~" H 12200 2950 50  0001 C CNN
+	1    12200 2950
+	1    0    0    -1  
+$EndComp
+Text GLabel 12200 2050 1    50   Input ~ 0
+LED_VDD
+Text GLabel 12200 3100 3    50   Input ~ 0
+VCC_5V
+Wire Wire Line
+	12200 2100 12200 2050
+Wire Wire Line
+	11600 2100 11600 2050
+Wire Wire Line
+	12200 2700 12200 2800
+Wire Wire Line
+	11600 2700 11600 2800
+$Comp
+L chgray-keyboard-rescue:SK6812MINI-Cherry-Symbol D?
+U 1 1 60A14A41
+P 12800 2400
+AR Path="/60A14A41" Ref="D?"  Part="1" 
+AR Path="/6096EA02/60A14A41" Ref="D102"  Part="1" 
+F 0 "D102" H 13144 2446 50  0000 L CNN
+F 1 "LED" H 13144 2355 50  0000 L CNN
+F 2 "daprice-keyswitches:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 12850 2100 50  0000 L TNN
+F 3 "" H 12900 2025 50  0001 L TNN
+	1    12800 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C18
+U 1 1 60A14A47
+P 12800 2950
+F 0 "C18" H 12915 2996 50  0000 L CNN
+F 1 "C" H 12915 2905 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 12838 2800 50  0001 C CNN
+F 3 "~" H 12800 2950 50  0001 C CNN
+	1    12800 2950
+	1    0    0    -1  
+$EndComp
+Text GLabel 12800 2050 1    50   Input ~ 0
+LED_VDD
+Text GLabel 12800 3100 3    50   Input ~ 0
+VCC_5V
+$Comp
+L chgray-keyboard-rescue:SK6812MINI-Cherry-Symbol D?
+U 1 1 60A14A4F
+P 13400 2400
+AR Path="/60A14A4F" Ref="D?"  Part="1" 
+AR Path="/6096EA02/60A14A4F" Ref="D103"  Part="1" 
+F 0 "D103" H 13744 2446 50  0000 L CNN
+F 1 "LED" H 13744 2355 50  0000 L CNN
+F 2 "daprice-keyswitches:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 13450 2100 50  0000 L TNN
+F 3 "" H 13500 2025 50  0001 L TNN
+	1    13400 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C19
+U 1 1 60A14A55
+P 13400 2950
+F 0 "C19" H 13515 2996 50  0000 L CNN
+F 1 "C" H 13515 2905 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 13438 2800 50  0001 C CNN
+F 3 "~" H 13400 2950 50  0001 C CNN
+	1    13400 2950
+	1    0    0    -1  
+$EndComp
+Text GLabel 13400 2050 1    50   Input ~ 0
+LED_VDD
+Text GLabel 13400 3100 3    50   Input ~ 0
+VCC_5V
+Wire Wire Line
+	13400 2100 13400 2050
+Wire Wire Line
+	12800 2100 12800 2050
+Wire Wire Line
+	13400 2700 13400 2800
+Wire Wire Line
+	12800 2700 12800 2800
+$Comp
+L chgray-keyboard-rescue:SK6812MINI-Cherry-Symbol D?
+U 1 1 60A14A61
+P 14000 2400
+AR Path="/60A14A61" Ref="D?"  Part="1" 
+AR Path="/6096EA02/60A14A61" Ref="D104"  Part="1" 
+F 0 "D104" H 14344 2446 50  0000 L CNN
+F 1 "LED" H 14344 2355 50  0000 L CNN
+F 2 "daprice-keyswitches:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 14050 2100 50  0000 L TNN
+F 3 "" H 14100 2025 50  0001 L TNN
+	1    14000 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C20
+U 1 1 60A14A67
+P 14000 2950
+F 0 "C20" H 14115 2996 50  0000 L CNN
+F 1 "C" H 14115 2905 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 14038 2800 50  0001 C CNN
+F 3 "~" H 14000 2950 50  0001 C CNN
+	1    14000 2950
+	1    0    0    -1  
+$EndComp
+Text GLabel 14000 2050 1    50   Input ~ 0
+LED_VDD
+Text GLabel 14000 3100 3    50   Input ~ 0
+VCC_5V
+$Comp
+L chgray-keyboard-rescue:SK6812MINI-Cherry-Symbol D?
+U 1 1 60A14A6F
+P 14600 2400
+AR Path="/60A14A6F" Ref="D?"  Part="1" 
+AR Path="/6096EA02/60A14A6F" Ref="D105"  Part="1" 
+F 0 "D105" H 14944 2446 50  0000 L CNN
+F 1 "LED" H 14944 2355 50  0000 L CNN
+F 2 "daprice-keyswitches:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 14650 2100 50  0000 L TNN
+F 3 "" H 14700 2025 50  0001 L TNN
+	1    14600 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C21
+U 1 1 60A14A75
+P 14600 2950
+F 0 "C21" H 14715 2996 50  0000 L CNN
+F 1 "C" H 14715 2905 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 14638 2800 50  0001 C CNN
+F 3 "~" H 14600 2950 50  0001 C CNN
+	1    14600 2950
+	1    0    0    -1  
+$EndComp
+Text GLabel 14600 2050 1    50   Input ~ 0
+LED_VDD
+Text GLabel 14600 3100 3    50   Input ~ 0
+VCC_5V
+Wire Wire Line
+	14600 2100 14600 2050
+Wire Wire Line
+	14000 2100 14000 2050
+Wire Wire Line
+	14600 2700 14600 2800
+Wire Wire Line
+	14000 2700 14000 2800
+$Comp
+L chgray-keyboard-rescue:SK6812MINI-Cherry-Symbol D?
+U 1 1 60A52D81
+P 2600 4250
+AR Path="/60A52D81" Ref="D?"  Part="1" 
+AR Path="/6096EA02/60A52D81" Ref="D106"  Part="1" 
+F 0 "D106" H 2944 4296 50  0000 L CNN
+F 1 "LED" H 2944 4205 50  0000 L CNN
+F 2 "daprice-keyswitches:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 2650 3950 50  0000 L TNN
+F 3 "" H 2700 3875 50  0001 L TNN
+	1    2600 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C22
+U 1 1 60A52D87
+P 2600 4800
+F 0 "C22" H 2715 4846 50  0000 L CNN
+F 1 "C" H 2715 4755 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 2638 4650 50  0001 C CNN
+F 3 "~" H 2600 4800 50  0001 C CNN
+	1    2600 4800
+	1    0    0    -1  
+$EndComp
+Text GLabel 2600 3900 1    50   Input ~ 0
+LED_VDD
+Text GLabel 2600 4950 3    50   Input ~ 0
+VCC_5V
+$Comp
+L chgray-keyboard-rescue:SK6812MINI-Cherry-Symbol D?
+U 1 1 60A52D8F
+P 3200 4250
+AR Path="/60A52D8F" Ref="D?"  Part="1" 
+AR Path="/6096EA02/60A52D8F" Ref="D107"  Part="1" 
+F 0 "D107" H 3544 4296 50  0000 L CNN
+F 1 "LED" H 3544 4205 50  0000 L CNN
+F 2 "daprice-keyswitches:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 3250 3950 50  0000 L TNN
+F 3 "" H 3300 3875 50  0001 L TNN
+	1    3200 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C23
+U 1 1 60A52D95
+P 3200 4800
+F 0 "C23" H 3315 4846 50  0000 L CNN
+F 1 "C" H 3315 4755 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 3238 4650 50  0001 C CNN
+F 3 "~" H 3200 4800 50  0001 C CNN
+	1    3200 4800
+	1    0    0    -1  
+$EndComp
+Text GLabel 3200 3900 1    50   Input ~ 0
+LED_VDD
+Text GLabel 3200 4950 3    50   Input ~ 0
+VCC_5V
+Wire Wire Line
+	3200 3950 3200 3900
+Wire Wire Line
+	2600 3950 2600 3900
+Wire Wire Line
+	3200 4550 3200 4650
+Wire Wire Line
+	2600 4550 2600 4650
+$Comp
+L chgray-keyboard-rescue:SK6812MINI-Cherry-Symbol D?
+U 1 1 60A52DA1
+P 3800 4250
+AR Path="/60A52DA1" Ref="D?"  Part="1" 
+AR Path="/6096EA02/60A52DA1" Ref="D108"  Part="1" 
+F 0 "D108" H 4144 4296 50  0000 L CNN
+F 1 "LED" H 4144 4205 50  0000 L CNN
+F 2 "daprice-keyswitches:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 3850 3950 50  0000 L TNN
+F 3 "" H 3900 3875 50  0001 L TNN
+	1    3800 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C24
+U 1 1 60A52DA7
+P 3800 4800
+F 0 "C24" H 3915 4846 50  0000 L CNN
+F 1 "C" H 3915 4755 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 3838 4650 50  0001 C CNN
+F 3 "~" H 3800 4800 50  0001 C CNN
+	1    3800 4800
+	1    0    0    -1  
+$EndComp
+Text GLabel 3800 3900 1    50   Input ~ 0
+LED_VDD
+Text GLabel 3800 4950 3    50   Input ~ 0
+VCC_5V
+$Comp
+L chgray-keyboard-rescue:SK6812MINI-Cherry-Symbol D?
+U 1 1 60A52DAF
+P 4400 4250
+AR Path="/60A52DAF" Ref="D?"  Part="1" 
+AR Path="/6096EA02/60A52DAF" Ref="D109"  Part="1" 
+F 0 "D109" H 4744 4296 50  0000 L CNN
+F 1 "LED" H 4744 4205 50  0000 L CNN
+F 2 "daprice-keyswitches:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 4450 3950 50  0000 L TNN
+F 3 "" H 4500 3875 50  0001 L TNN
+	1    4400 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C25
+U 1 1 60A52DB5
+P 4400 4800
+F 0 "C25" H 4515 4846 50  0000 L CNN
+F 1 "C" H 4515 4755 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 4438 4650 50  0001 C CNN
+F 3 "~" H 4400 4800 50  0001 C CNN
+	1    4400 4800
+	1    0    0    -1  
+$EndComp
+Text GLabel 4400 3900 1    50   Input ~ 0
+LED_VDD
+Text GLabel 4400 4950 3    50   Input ~ 0
+VCC_5V
+Wire Wire Line
+	4400 3950 4400 3900
+Wire Wire Line
+	3800 3950 3800 3900
+Wire Wire Line
+	4400 4550 4400 4650
+Wire Wire Line
+	3800 4550 3800 4650
+$Comp
+L chgray-keyboard-rescue:SK6812MINI-Cherry-Symbol D?
+U 1 1 60A52DC1
+P 5000 4250
+AR Path="/60A52DC1" Ref="D?"  Part="1" 
+AR Path="/6096EA02/60A52DC1" Ref="D110"  Part="1" 
+F 0 "D110" H 5344 4296 50  0000 L CNN
+F 1 "LED" H 5344 4205 50  0000 L CNN
+F 2 "daprice-keyswitches:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 5050 3950 50  0000 L TNN
+F 3 "" H 5100 3875 50  0001 L TNN
+	1    5000 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C26
+U 1 1 60A52DC7
+P 5000 4800
+F 0 "C26" H 5115 4846 50  0000 L CNN
+F 1 "C" H 5115 4755 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 5038 4650 50  0001 C CNN
+F 3 "~" H 5000 4800 50  0001 C CNN
+	1    5000 4800
+	1    0    0    -1  
+$EndComp
+Text GLabel 5000 3900 1    50   Input ~ 0
+LED_VDD
+Text GLabel 5000 4950 3    50   Input ~ 0
+VCC_5V
+$Comp
+L chgray-keyboard-rescue:SK6812MINI-Cherry-Symbol D?
+U 1 1 60A52DCF
+P 5600 4250
+AR Path="/60A52DCF" Ref="D?"  Part="1" 
+AR Path="/6096EA02/60A52DCF" Ref="D111"  Part="1" 
+F 0 "D111" H 5944 4296 50  0000 L CNN
+F 1 "LED" H 5944 4205 50  0000 L CNN
+F 2 "daprice-keyswitches:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 5650 3950 50  0000 L TNN
+F 3 "" H 5700 3875 50  0001 L TNN
+	1    5600 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C27
+U 1 1 60A52DD5
+P 5600 4800
+F 0 "C27" H 5715 4846 50  0000 L CNN
+F 1 "C" H 5715 4755 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 5638 4650 50  0001 C CNN
+F 3 "~" H 5600 4800 50  0001 C CNN
+	1    5600 4800
+	1    0    0    -1  
+$EndComp
+Text GLabel 5600 3900 1    50   Input ~ 0
+LED_VDD
+Text GLabel 5600 4950 3    50   Input ~ 0
+VCC_5V
+Wire Wire Line
+	5600 3950 5600 3900
+Wire Wire Line
+	5000 3950 5000 3900
+Wire Wire Line
+	5600 4550 5600 4650
+Wire Wire Line
+	5000 4550 5000 4650
+$Comp
+L chgray-keyboard-rescue:SK6812MINI-Cherry-Symbol D?
+U 1 1 60A52DE1
+P 6200 4250
+AR Path="/60A52DE1" Ref="D?"  Part="1" 
+AR Path="/6096EA02/60A52DE1" Ref="D112"  Part="1" 
+F 0 "D112" H 6544 4296 50  0000 L CNN
+F 1 "LED" H 6544 4205 50  0000 L CNN
+F 2 "daprice-keyswitches:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 6250 3950 50  0000 L TNN
+F 3 "" H 6300 3875 50  0001 L TNN
+	1    6200 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C28
+U 1 1 60A52DE7
+P 6200 4800
+F 0 "C28" H 6315 4846 50  0000 L CNN
+F 1 "C" H 6315 4755 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 6238 4650 50  0001 C CNN
+F 3 "~" H 6200 4800 50  0001 C CNN
+	1    6200 4800
+	1    0    0    -1  
+$EndComp
+Text GLabel 6200 3900 1    50   Input ~ 0
+LED_VDD
+Text GLabel 6200 4950 3    50   Input ~ 0
+VCC_5V
+$Comp
+L chgray-keyboard-rescue:SK6812MINI-Cherry-Symbol D?
+U 1 1 60A52DEF
+P 6800 4250
+AR Path="/60A52DEF" Ref="D?"  Part="1" 
+AR Path="/6096EA02/60A52DEF" Ref="D113"  Part="1" 
+F 0 "D113" H 7144 4296 50  0000 L CNN
+F 1 "LED" H 7144 4205 50  0000 L CNN
+F 2 "daprice-keyswitches:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 6850 3950 50  0000 L TNN
+F 3 "" H 6900 3875 50  0001 L TNN
+	1    6800 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C29
+U 1 1 60A52DF5
+P 6800 4800
+F 0 "C29" H 6915 4846 50  0000 L CNN
+F 1 "C" H 6915 4755 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 6838 4650 50  0001 C CNN
+F 3 "~" H 6800 4800 50  0001 C CNN
+	1    6800 4800
+	1    0    0    -1  
+$EndComp
+Text GLabel 6800 3900 1    50   Input ~ 0
+LED_VDD
+Text GLabel 6800 4950 3    50   Input ~ 0
+VCC_5V
+Wire Wire Line
+	6800 3950 6800 3900
+Wire Wire Line
+	6200 3950 6200 3900
+Wire Wire Line
+	6800 4550 6800 4650
+Wire Wire Line
+	6200 4550 6200 4650
+$Comp
+L chgray-keyboard-rescue:SK6812MINI-Cherry-Symbol D?
+U 1 1 60A52E01
+P 7400 4250
+AR Path="/60A52E01" Ref="D?"  Part="1" 
+AR Path="/6096EA02/60A52E01" Ref="D114"  Part="1" 
+F 0 "D114" H 7744 4296 50  0000 L CNN
+F 1 "LED" H 7744 4205 50  0000 L CNN
+F 2 "daprice-keyswitches:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 7450 3950 50  0000 L TNN
+F 3 "" H 7500 3875 50  0001 L TNN
+	1    7400 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C30
+U 1 1 60A52E07
+P 7400 4800
+F 0 "C30" H 7515 4846 50  0000 L CNN
+F 1 "C" H 7515 4755 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 7438 4650 50  0001 C CNN
+F 3 "~" H 7400 4800 50  0001 C CNN
+	1    7400 4800
+	1    0    0    -1  
+$EndComp
+Text GLabel 7400 3900 1    50   Input ~ 0
+LED_VDD
+Text GLabel 7400 4950 3    50   Input ~ 0
+VCC_5V
+$Comp
+L chgray-keyboard-rescue:SK6812MINI-Cherry-Symbol D?
+U 1 1 60A52E0F
+P 8000 4250
+AR Path="/60A52E0F" Ref="D?"  Part="1" 
+AR Path="/6096EA02/60A52E0F" Ref="D115"  Part="1" 
+F 0 "D115" H 8344 4296 50  0000 L CNN
+F 1 "LED" H 8344 4205 50  0000 L CNN
+F 2 "daprice-keyswitches:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 8050 3950 50  0000 L TNN
+F 3 "" H 8100 3875 50  0001 L TNN
+	1    8000 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C31
+U 1 1 60A52E15
+P 8000 4800
+F 0 "C31" H 8115 4846 50  0000 L CNN
+F 1 "C" H 8115 4755 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 8038 4650 50  0001 C CNN
+F 3 "~" H 8000 4800 50  0001 C CNN
+	1    8000 4800
+	1    0    0    -1  
+$EndComp
+Text GLabel 8000 3900 1    50   Input ~ 0
+LED_VDD
+Text GLabel 8000 4950 3    50   Input ~ 0
+VCC_5V
+Wire Wire Line
+	8000 3950 8000 3900
+Wire Wire Line
+	7400 3950 7400 3900
+Wire Wire Line
+	8000 4550 8000 4650
+Wire Wire Line
+	7400 4550 7400 4650
+$Comp
+L chgray-keyboard-rescue:SK6812MINI-Cherry-Symbol D?
+U 1 1 60A52E21
+P 8600 4250
+AR Path="/60A52E21" Ref="D?"  Part="1" 
+AR Path="/6096EA02/60A52E21" Ref="D116"  Part="1" 
+F 0 "D116" H 8944 4296 50  0000 L CNN
+F 1 "LED" H 8944 4205 50  0000 L CNN
+F 2 "daprice-keyswitches:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 8650 3950 50  0000 L TNN
+F 3 "" H 8700 3875 50  0001 L TNN
+	1    8600 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C32
+U 1 1 60A52E27
+P 8600 4800
+F 0 "C32" H 8715 4846 50  0000 L CNN
+F 1 "C" H 8715 4755 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 8638 4650 50  0001 C CNN
+F 3 "~" H 8600 4800 50  0001 C CNN
+	1    8600 4800
+	1    0    0    -1  
+$EndComp
+Text GLabel 8600 3900 1    50   Input ~ 0
+LED_VDD
+Text GLabel 8600 4950 3    50   Input ~ 0
+VCC_5V
+$Comp
+L chgray-keyboard-rescue:SK6812MINI-Cherry-Symbol D?
+U 1 1 60A52E2F
+P 9200 4250
+AR Path="/60A52E2F" Ref="D?"  Part="1" 
+AR Path="/6096EA02/60A52E2F" Ref="D117"  Part="1" 
+F 0 "D117" H 9544 4296 50  0000 L CNN
+F 1 "LED" H 9544 4205 50  0000 L CNN
+F 2 "daprice-keyswitches:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 9250 3950 50  0000 L TNN
+F 3 "" H 9300 3875 50  0001 L TNN
+	1    9200 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C33
+U 1 1 60A52E35
+P 9200 4800
+F 0 "C33" H 9315 4846 50  0000 L CNN
+F 1 "C" H 9315 4755 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 9238 4650 50  0001 C CNN
+F 3 "~" H 9200 4800 50  0001 C CNN
+	1    9200 4800
+	1    0    0    -1  
+$EndComp
+Text GLabel 9200 3900 1    50   Input ~ 0
+LED_VDD
+Text GLabel 9200 4950 3    50   Input ~ 0
+VCC_5V
+Wire Wire Line
+	9200 3950 9200 3900
+Wire Wire Line
+	8600 3950 8600 3900
+Wire Wire Line
+	9200 4550 9200 4650
+Wire Wire Line
+	8600 4550 8600 4650
+$Comp
+L chgray-keyboard-rescue:SK6812MINI-Cherry-Symbol D?
+U 1 1 60A52E41
+P 9800 4250
+AR Path="/60A52E41" Ref="D?"  Part="1" 
+AR Path="/6096EA02/60A52E41" Ref="D118"  Part="1" 
+F 0 "D118" H 10144 4296 50  0000 L CNN
+F 1 "LED" H 10144 4205 50  0000 L CNN
+F 2 "daprice-keyswitches:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 9850 3950 50  0000 L TNN
+F 3 "" H 9900 3875 50  0001 L TNN
+	1    9800 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C34
+U 1 1 60A52E47
+P 9800 4800
+F 0 "C34" H 9915 4846 50  0000 L CNN
+F 1 "C" H 9915 4755 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 9838 4650 50  0001 C CNN
+F 3 "~" H 9800 4800 50  0001 C CNN
+	1    9800 4800
+	1    0    0    -1  
+$EndComp
+Text GLabel 9800 3900 1    50   Input ~ 0
+LED_VDD
+Text GLabel 9800 4950 3    50   Input ~ 0
+VCC_5V
+$Comp
+L chgray-keyboard-rescue:SK6812MINI-Cherry-Symbol D?
+U 1 1 60A52E4F
+P 10400 4250
+AR Path="/60A52E4F" Ref="D?"  Part="1" 
+AR Path="/6096EA02/60A52E4F" Ref="D119"  Part="1" 
+F 0 "D119" H 10744 4296 50  0000 L CNN
+F 1 "LED" H 10744 4205 50  0000 L CNN
+F 2 "daprice-keyswitches:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 10450 3950 50  0000 L TNN
+F 3 "" H 10500 3875 50  0001 L TNN
+	1    10400 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C35
+U 1 1 60A52E55
+P 10400 4800
+F 0 "C35" H 10515 4846 50  0000 L CNN
+F 1 "C" H 10515 4755 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 10438 4650 50  0001 C CNN
+F 3 "~" H 10400 4800 50  0001 C CNN
+	1    10400 4800
+	1    0    0    -1  
+$EndComp
+Text GLabel 10400 3900 1    50   Input ~ 0
+LED_VDD
+Text GLabel 10400 4950 3    50   Input ~ 0
+VCC_5V
+Wire Wire Line
+	10400 3950 10400 3900
+Wire Wire Line
+	9800 3950 9800 3900
+Wire Wire Line
+	10400 4550 10400 4650
+Wire Wire Line
+	9800 4550 9800 4650
+$Comp
+L chgray-keyboard-rescue:SK6812MINI-Cherry-Symbol D?
+U 1 1 60A52E61
+P 11000 4250
+AR Path="/60A52E61" Ref="D?"  Part="1" 
+AR Path="/6096EA02/60A52E61" Ref="D120"  Part="1" 
+F 0 "D120" H 11344 4296 50  0000 L CNN
+F 1 "LED" H 11344 4205 50  0000 L CNN
+F 2 "daprice-keyswitches:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 11050 3950 50  0000 L TNN
+F 3 "" H 11100 3875 50  0001 L TNN
+	1    11000 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C36
+U 1 1 60A52E67
+P 11000 4800
+F 0 "C36" H 11115 4846 50  0000 L CNN
+F 1 "C" H 11115 4755 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 11038 4650 50  0001 C CNN
+F 3 "~" H 11000 4800 50  0001 C CNN
+	1    11000 4800
+	1    0    0    -1  
+$EndComp
+Text GLabel 11000 3900 1    50   Input ~ 0
+LED_VDD
+Text GLabel 11000 4950 3    50   Input ~ 0
+VCC_5V
+$Comp
+L chgray-keyboard-rescue:SK6812MINI-Cherry-Symbol D?
+U 1 1 60A52E6F
+P 11600 4250
+AR Path="/60A52E6F" Ref="D?"  Part="1" 
+AR Path="/6096EA02/60A52E6F" Ref="D121"  Part="1" 
+F 0 "D121" H 11944 4296 50  0000 L CNN
+F 1 "LED" H 11944 4205 50  0000 L CNN
+F 2 "daprice-keyswitches:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 11650 3950 50  0000 L TNN
+F 3 "" H 11700 3875 50  0001 L TNN
+	1    11600 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C37
+U 1 1 60A52E75
+P 11600 4800
+F 0 "C37" H 11715 4846 50  0000 L CNN
+F 1 "C" H 11715 4755 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 11638 4650 50  0001 C CNN
+F 3 "~" H 11600 4800 50  0001 C CNN
+	1    11600 4800
+	1    0    0    -1  
+$EndComp
+Text GLabel 11600 3900 1    50   Input ~ 0
+LED_VDD
+Text GLabel 11600 4950 3    50   Input ~ 0
+VCC_5V
+Wire Wire Line
+	11600 3950 11600 3900
+Wire Wire Line
+	11000 3950 11000 3900
+Wire Wire Line
+	11600 4550 11600 4650
+Wire Wire Line
+	11000 4550 11000 4650
+$Comp
+L chgray-keyboard-rescue:SK6812MINI-Cherry-Symbol D?
+U 1 1 60A52E81
+P 12200 4250
+AR Path="/60A52E81" Ref="D?"  Part="1" 
+AR Path="/6096EA02/60A52E81" Ref="D122"  Part="1" 
+F 0 "D122" H 12544 4296 50  0000 L CNN
+F 1 "LED" H 12544 4205 50  0000 L CNN
+F 2 "daprice-keyswitches:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 12250 3950 50  0000 L TNN
+F 3 "" H 12300 3875 50  0001 L TNN
+	1    12200 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C38
+U 1 1 60A52E87
+P 12200 4800
+F 0 "C38" H 12315 4846 50  0000 L CNN
+F 1 "C" H 12315 4755 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 12238 4650 50  0001 C CNN
+F 3 "~" H 12200 4800 50  0001 C CNN
+	1    12200 4800
+	1    0    0    -1  
+$EndComp
+Text GLabel 12200 3900 1    50   Input ~ 0
+LED_VDD
+Text GLabel 12200 4950 3    50   Input ~ 0
+VCC_5V
+$Comp
+L chgray-keyboard-rescue:SK6812MINI-Cherry-Symbol D?
+U 1 1 60A52E8F
+P 12800 4250
+AR Path="/60A52E8F" Ref="D?"  Part="1" 
+AR Path="/6096EA02/60A52E8F" Ref="D123"  Part="1" 
+F 0 "D123" H 13144 4296 50  0000 L CNN
+F 1 "LED" H 13144 4205 50  0000 L CNN
+F 2 "daprice-keyswitches:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 12850 3950 50  0000 L TNN
+F 3 "" H 12900 3875 50  0001 L TNN
+	1    12800 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C39
+U 1 1 60A52E95
+P 12800 4800
+F 0 "C39" H 12915 4846 50  0000 L CNN
+F 1 "C" H 12915 4755 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 12838 4650 50  0001 C CNN
+F 3 "~" H 12800 4800 50  0001 C CNN
+	1    12800 4800
+	1    0    0    -1  
+$EndComp
+Text GLabel 12800 3900 1    50   Input ~ 0
+LED_VDD
+Text GLabel 12800 4950 3    50   Input ~ 0
+VCC_5V
+Wire Wire Line
+	12800 3950 12800 3900
+Wire Wire Line
+	12200 3950 12200 3900
+Wire Wire Line
+	12800 4550 12800 4650
+Wire Wire Line
+	12200 4550 12200 4650
+$Comp
+L chgray-keyboard-rescue:SK6812MINI-Cherry-Symbol D?
+U 1 1 60A52EA1
+P 13400 4250
+AR Path="/60A52EA1" Ref="D?"  Part="1" 
+AR Path="/6096EA02/60A52EA1" Ref="D124"  Part="1" 
+F 0 "D124" H 13744 4296 50  0000 L CNN
+F 1 "LED" H 13744 4205 50  0000 L CNN
+F 2 "daprice-keyswitches:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 13450 3950 50  0000 L TNN
+F 3 "" H 13500 3875 50  0001 L TNN
+	1    13400 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C40
+U 1 1 60A52EA7
+P 13400 4800
+F 0 "C40" H 13515 4846 50  0000 L CNN
+F 1 "C" H 13515 4755 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 13438 4650 50  0001 C CNN
+F 3 "~" H 13400 4800 50  0001 C CNN
+	1    13400 4800
+	1    0    0    -1  
+$EndComp
+Text GLabel 13400 3900 1    50   Input ~ 0
+LED_VDD
+Text GLabel 13400 4950 3    50   Input ~ 0
+VCC_5V
+$Comp
+L chgray-keyboard-rescue:SK6812MINI-Cherry-Symbol D?
+U 1 1 60A52EAF
+P 14000 4250
+AR Path="/60A52EAF" Ref="D?"  Part="1" 
+AR Path="/6096EA02/60A52EAF" Ref="D125"  Part="1" 
+F 0 "D125" H 14344 4296 50  0000 L CNN
+F 1 "LED" H 14344 4205 50  0000 L CNN
+F 2 "daprice-keyswitches:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 14050 3950 50  0000 L TNN
+F 3 "" H 14100 3875 50  0001 L TNN
+	1    14000 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C41
+U 1 1 60A52EB5
+P 14000 4800
+F 0 "C41" H 14115 4846 50  0000 L CNN
+F 1 "C" H 14115 4755 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 14038 4650 50  0001 C CNN
+F 3 "~" H 14000 4800 50  0001 C CNN
+	1    14000 4800
+	1    0    0    -1  
+$EndComp
+Text GLabel 14000 3900 1    50   Input ~ 0
+LED_VDD
+Text GLabel 14000 4950 3    50   Input ~ 0
+VCC_5V
+Wire Wire Line
+	14000 3950 14000 3900
+Wire Wire Line
+	13400 3950 13400 3900
+Wire Wire Line
+	14000 4550 14000 4650
+Wire Wire Line
+	13400 4550 13400 4650
+Wire Wire Line
+	14900 2400 14900 3450
+Wire Wire Line
+	14900 3450 2150 3450
+Wire Wire Line
+	2150 3450 2150 4250
+Wire Wire Line
+	2150 4250 2300 4250
+$Comp
+L chgray-keyboard-rescue:SK6812MINI-Cherry-Symbol D?
+U 1 1 60A92A63
+P 2600 6150
+AR Path="/60A92A63" Ref="D?"  Part="1" 
+AR Path="/6096EA02/60A92A63" Ref="D126"  Part="1" 
+F 0 "D126" H 2944 6196 50  0000 L CNN
+F 1 "LED" H 2944 6105 50  0000 L CNN
+F 2 "daprice-keyswitches:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 2650 5850 50  0000 L TNN
+F 3 "" H 2700 5775 50  0001 L TNN
+	1    2600 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C42
+U 1 1 60A92A69
+P 2600 6700
+F 0 "C42" H 2715 6746 50  0000 L CNN
+F 1 "C" H 2715 6655 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 2638 6550 50  0001 C CNN
+F 3 "~" H 2600 6700 50  0001 C CNN
+	1    2600 6700
+	1    0    0    -1  
+$EndComp
+Text GLabel 2600 5800 1    50   Input ~ 0
+LED_VDD
+Text GLabel 2600 6850 3    50   Input ~ 0
+VCC_5V
+$Comp
+L chgray-keyboard-rescue:SK6812MINI-Cherry-Symbol D?
+U 1 1 60A92A71
+P 3200 6150
+AR Path="/60A92A71" Ref="D?"  Part="1" 
+AR Path="/6096EA02/60A92A71" Ref="D127"  Part="1" 
+F 0 "D127" H 3544 6196 50  0000 L CNN
+F 1 "LED" H 3544 6105 50  0000 L CNN
+F 2 "daprice-keyswitches:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 3250 5850 50  0000 L TNN
+F 3 "" H 3300 5775 50  0001 L TNN
+	1    3200 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C43
+U 1 1 60A92A77
+P 3200 6700
+F 0 "C43" H 3315 6746 50  0000 L CNN
+F 1 "C" H 3315 6655 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 3238 6550 50  0001 C CNN
+F 3 "~" H 3200 6700 50  0001 C CNN
+	1    3200 6700
+	1    0    0    -1  
+$EndComp
+Text GLabel 3200 5800 1    50   Input ~ 0
+LED_VDD
+Text GLabel 3200 6850 3    50   Input ~ 0
+VCC_5V
+Wire Wire Line
+	3200 5850 3200 5800
+Wire Wire Line
+	2600 5850 2600 5800
+Wire Wire Line
+	3200 6450 3200 6550
+Wire Wire Line
+	2600 6450 2600 6550
+$Comp
+L chgray-keyboard-rescue:SK6812MINI-Cherry-Symbol D?
+U 1 1 60A92A83
+P 3800 6150
+AR Path="/60A92A83" Ref="D?"  Part="1" 
+AR Path="/6096EA02/60A92A83" Ref="D128"  Part="1" 
+F 0 "D128" H 4144 6196 50  0000 L CNN
+F 1 "LED" H 4144 6105 50  0000 L CNN
+F 2 "daprice-keyswitches:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 3850 5850 50  0000 L TNN
+F 3 "" H 3900 5775 50  0001 L TNN
+	1    3800 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C44
+U 1 1 60A92A89
+P 3800 6700
+F 0 "C44" H 3915 6746 50  0000 L CNN
+F 1 "C" H 3915 6655 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 3838 6550 50  0001 C CNN
+F 3 "~" H 3800 6700 50  0001 C CNN
+	1    3800 6700
+	1    0    0    -1  
+$EndComp
+Text GLabel 3800 5800 1    50   Input ~ 0
+LED_VDD
+Text GLabel 3800 6850 3    50   Input ~ 0
+VCC_5V
+$Comp
+L chgray-keyboard-rescue:SK6812MINI-Cherry-Symbol D?
+U 1 1 60A92A91
+P 4400 6150
+AR Path="/60A92A91" Ref="D?"  Part="1" 
+AR Path="/6096EA02/60A92A91" Ref="D129"  Part="1" 
+F 0 "D129" H 4744 6196 50  0000 L CNN
+F 1 "LED" H 4744 6105 50  0000 L CNN
+F 2 "daprice-keyswitches:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 4450 5850 50  0000 L TNN
+F 3 "" H 4500 5775 50  0001 L TNN
+	1    4400 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C45
+U 1 1 60A92A97
+P 4400 6700
+F 0 "C45" H 4515 6746 50  0000 L CNN
+F 1 "C" H 4515 6655 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 4438 6550 50  0001 C CNN
+F 3 "~" H 4400 6700 50  0001 C CNN
+	1    4400 6700
+	1    0    0    -1  
+$EndComp
+Text GLabel 4400 5800 1    50   Input ~ 0
+LED_VDD
+Text GLabel 4400 6850 3    50   Input ~ 0
+VCC_5V
+Wire Wire Line
+	4400 5850 4400 5800
+Wire Wire Line
+	3800 5850 3800 5800
+Wire Wire Line
+	4400 6450 4400 6550
+Wire Wire Line
+	3800 6450 3800 6550
+$Comp
+L chgray-keyboard-rescue:SK6812MINI-Cherry-Symbol D?
+U 1 1 60A92AA3
+P 5000 6150
+AR Path="/60A92AA3" Ref="D?"  Part="1" 
+AR Path="/6096EA02/60A92AA3" Ref="D130"  Part="1" 
+F 0 "D130" H 5344 6196 50  0000 L CNN
+F 1 "LED" H 5344 6105 50  0000 L CNN
+F 2 "daprice-keyswitches:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 5050 5850 50  0000 L TNN
+F 3 "" H 5100 5775 50  0001 L TNN
+	1    5000 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C46
+U 1 1 60A92AA9
+P 5000 6700
+F 0 "C46" H 5115 6746 50  0000 L CNN
+F 1 "C" H 5115 6655 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 5038 6550 50  0001 C CNN
+F 3 "~" H 5000 6700 50  0001 C CNN
+	1    5000 6700
+	1    0    0    -1  
+$EndComp
+Text GLabel 5000 5800 1    50   Input ~ 0
+LED_VDD
+Text GLabel 5000 6850 3    50   Input ~ 0
+VCC_5V
+$Comp
+L chgray-keyboard-rescue:SK6812MINI-Cherry-Symbol D?
+U 1 1 60A92AB1
+P 5600 6150
+AR Path="/60A92AB1" Ref="D?"  Part="1" 
+AR Path="/6096EA02/60A92AB1" Ref="D131"  Part="1" 
+F 0 "D131" H 5944 6196 50  0000 L CNN
+F 1 "LED" H 5944 6105 50  0000 L CNN
+F 2 "daprice-keyswitches:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 5650 5850 50  0000 L TNN
+F 3 "" H 5700 5775 50  0001 L TNN
+	1    5600 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C47
+U 1 1 60A92AB7
+P 5600 6700
+F 0 "C47" H 5715 6746 50  0000 L CNN
+F 1 "C" H 5715 6655 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 5638 6550 50  0001 C CNN
+F 3 "~" H 5600 6700 50  0001 C CNN
+	1    5600 6700
+	1    0    0    -1  
+$EndComp
+Text GLabel 5600 5800 1    50   Input ~ 0
+LED_VDD
+Text GLabel 5600 6850 3    50   Input ~ 0
+VCC_5V
+Wire Wire Line
+	5600 5850 5600 5800
+Wire Wire Line
+	5000 5850 5000 5800
+Wire Wire Line
+	5600 6450 5600 6550
+Wire Wire Line
+	5000 6450 5000 6550
+$Comp
+L chgray-keyboard-rescue:SK6812MINI-Cherry-Symbol D?
+U 1 1 60A92AC3
+P 6200 6150
+AR Path="/60A92AC3" Ref="D?"  Part="1" 
+AR Path="/6096EA02/60A92AC3" Ref="D132"  Part="1" 
+F 0 "D132" H 6544 6196 50  0000 L CNN
+F 1 "LED" H 6544 6105 50  0000 L CNN
+F 2 "daprice-keyswitches:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 6250 5850 50  0000 L TNN
+F 3 "" H 6300 5775 50  0001 L TNN
+	1    6200 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C48
+U 1 1 60A92AC9
+P 6200 6700
+F 0 "C48" H 6315 6746 50  0000 L CNN
+F 1 "C" H 6315 6655 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 6238 6550 50  0001 C CNN
+F 3 "~" H 6200 6700 50  0001 C CNN
+	1    6200 6700
+	1    0    0    -1  
+$EndComp
+Text GLabel 6200 5800 1    50   Input ~ 0
+LED_VDD
+Text GLabel 6200 6850 3    50   Input ~ 0
+VCC_5V
+$Comp
+L chgray-keyboard-rescue:SK6812MINI-Cherry-Symbol D?
+U 1 1 60A92AD1
+P 6800 6150
+AR Path="/60A92AD1" Ref="D?"  Part="1" 
+AR Path="/6096EA02/60A92AD1" Ref="D133"  Part="1" 
+F 0 "D133" H 7144 6196 50  0000 L CNN
+F 1 "LED" H 7144 6105 50  0000 L CNN
+F 2 "daprice-keyswitches:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 6850 5850 50  0000 L TNN
+F 3 "" H 6900 5775 50  0001 L TNN
+	1    6800 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C49
+U 1 1 60A92AD7
+P 6800 6700
+F 0 "C49" H 6915 6746 50  0000 L CNN
+F 1 "C" H 6915 6655 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 6838 6550 50  0001 C CNN
+F 3 "~" H 6800 6700 50  0001 C CNN
+	1    6800 6700
+	1    0    0    -1  
+$EndComp
+Text GLabel 6800 5800 1    50   Input ~ 0
+LED_VDD
+Text GLabel 6800 6850 3    50   Input ~ 0
+VCC_5V
+Wire Wire Line
+	6800 5850 6800 5800
+Wire Wire Line
+	6200 5850 6200 5800
+Wire Wire Line
+	6800 6450 6800 6550
+Wire Wire Line
+	6200 6450 6200 6550
+$Comp
+L chgray-keyboard-rescue:SK6812MINI-Cherry-Symbol D?
+U 1 1 60A92AE3
+P 7400 6150
+AR Path="/60A92AE3" Ref="D?"  Part="1" 
+AR Path="/6096EA02/60A92AE3" Ref="D134"  Part="1" 
+F 0 "D134" H 7744 6196 50  0000 L CNN
+F 1 "LED" H 7744 6105 50  0000 L CNN
+F 2 "daprice-keyswitches:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 7450 5850 50  0000 L TNN
+F 3 "" H 7500 5775 50  0001 L TNN
+	1    7400 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C50
+U 1 1 60A92AE9
+P 7400 6700
+F 0 "C50" H 7515 6746 50  0000 L CNN
+F 1 "C" H 7515 6655 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 7438 6550 50  0001 C CNN
+F 3 "~" H 7400 6700 50  0001 C CNN
+	1    7400 6700
+	1    0    0    -1  
+$EndComp
+Text GLabel 7400 5800 1    50   Input ~ 0
+LED_VDD
+Text GLabel 7400 6850 3    50   Input ~ 0
+VCC_5V
+$Comp
+L chgray-keyboard-rescue:SK6812MINI-Cherry-Symbol D?
+U 1 1 60A92AF1
+P 8000 6150
+AR Path="/60A92AF1" Ref="D?"  Part="1" 
+AR Path="/6096EA02/60A92AF1" Ref="D135"  Part="1" 
+F 0 "D135" H 8344 6196 50  0000 L CNN
+F 1 "LED" H 8344 6105 50  0000 L CNN
+F 2 "daprice-keyswitches:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 8050 5850 50  0000 L TNN
+F 3 "" H 8100 5775 50  0001 L TNN
+	1    8000 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C51
+U 1 1 60A92AF7
+P 8000 6700
+F 0 "C51" H 8115 6746 50  0000 L CNN
+F 1 "C" H 8115 6655 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 8038 6550 50  0001 C CNN
+F 3 "~" H 8000 6700 50  0001 C CNN
+	1    8000 6700
+	1    0    0    -1  
+$EndComp
+Text GLabel 8000 5800 1    50   Input ~ 0
+LED_VDD
+Text GLabel 8000 6850 3    50   Input ~ 0
+VCC_5V
+Wire Wire Line
+	8000 5850 8000 5800
+Wire Wire Line
+	7400 5850 7400 5800
+Wire Wire Line
+	8000 6450 8000 6550
+Wire Wire Line
+	7400 6450 7400 6550
+$Comp
+L chgray-keyboard-rescue:SK6812MINI-Cherry-Symbol D?
+U 1 1 60A92B03
+P 8600 6150
+AR Path="/60A92B03" Ref="D?"  Part="1" 
+AR Path="/6096EA02/60A92B03" Ref="D136"  Part="1" 
+F 0 "D136" H 8944 6196 50  0000 L CNN
+F 1 "LED" H 8944 6105 50  0000 L CNN
+F 2 "daprice-keyswitches:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 8650 5850 50  0000 L TNN
+F 3 "" H 8700 5775 50  0001 L TNN
+	1    8600 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C52
+U 1 1 60A92B09
+P 8600 6700
+F 0 "C52" H 8715 6746 50  0000 L CNN
+F 1 "C" H 8715 6655 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 8638 6550 50  0001 C CNN
+F 3 "~" H 8600 6700 50  0001 C CNN
+	1    8600 6700
+	1    0    0    -1  
+$EndComp
+Text GLabel 8600 5800 1    50   Input ~ 0
+LED_VDD
+Text GLabel 8600 6850 3    50   Input ~ 0
+VCC_5V
+$Comp
+L chgray-keyboard-rescue:SK6812MINI-Cherry-Symbol D?
+U 1 1 60A92B11
+P 9200 6150
+AR Path="/60A92B11" Ref="D?"  Part="1" 
+AR Path="/6096EA02/60A92B11" Ref="D137"  Part="1" 
+F 0 "D137" H 9544 6196 50  0000 L CNN
+F 1 "LED" H 9544 6105 50  0000 L CNN
+F 2 "daprice-keyswitches:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 9250 5850 50  0000 L TNN
+F 3 "" H 9300 5775 50  0001 L TNN
+	1    9200 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C53
+U 1 1 60A92B17
+P 9200 6700
+F 0 "C53" H 9315 6746 50  0000 L CNN
+F 1 "C" H 9315 6655 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 9238 6550 50  0001 C CNN
+F 3 "~" H 9200 6700 50  0001 C CNN
+	1    9200 6700
+	1    0    0    -1  
+$EndComp
+Text GLabel 9200 5800 1    50   Input ~ 0
+LED_VDD
+Text GLabel 9200 6850 3    50   Input ~ 0
+VCC_5V
+Wire Wire Line
+	9200 5850 9200 5800
+Wire Wire Line
+	8600 5850 8600 5800
+Wire Wire Line
+	9200 6450 9200 6550
+Wire Wire Line
+	8600 6450 8600 6550
+$Comp
+L chgray-keyboard-rescue:SK6812MINI-Cherry-Symbol D?
+U 1 1 60A92B23
+P 9800 6150
+AR Path="/60A92B23" Ref="D?"  Part="1" 
+AR Path="/6096EA02/60A92B23" Ref="D138"  Part="1" 
+F 0 "D138" H 10144 6196 50  0000 L CNN
+F 1 "LED" H 10144 6105 50  0000 L CNN
+F 2 "daprice-keyswitches:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 9850 5850 50  0000 L TNN
+F 3 "" H 9900 5775 50  0001 L TNN
+	1    9800 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C54
+U 1 1 60A92B29
+P 9800 6700
+F 0 "C54" H 9915 6746 50  0000 L CNN
+F 1 "C" H 9915 6655 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 9838 6550 50  0001 C CNN
+F 3 "~" H 9800 6700 50  0001 C CNN
+	1    9800 6700
+	1    0    0    -1  
+$EndComp
+Text GLabel 9800 5800 1    50   Input ~ 0
+LED_VDD
+Text GLabel 9800 6850 3    50   Input ~ 0
+VCC_5V
+$Comp
+L chgray-keyboard-rescue:SK6812MINI-Cherry-Symbol D?
+U 1 1 60A92B31
+P 10400 6150
+AR Path="/60A92B31" Ref="D?"  Part="1" 
+AR Path="/6096EA02/60A92B31" Ref="D139"  Part="1" 
+F 0 "D139" H 10744 6196 50  0000 L CNN
+F 1 "LED" H 10744 6105 50  0000 L CNN
+F 2 "daprice-keyswitches:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 10450 5850 50  0000 L TNN
+F 3 "" H 10500 5775 50  0001 L TNN
+	1    10400 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C55
+U 1 1 60A92B37
+P 10400 6700
+F 0 "C55" H 10515 6746 50  0000 L CNN
+F 1 "C" H 10515 6655 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 10438 6550 50  0001 C CNN
+F 3 "~" H 10400 6700 50  0001 C CNN
+	1    10400 6700
+	1    0    0    -1  
+$EndComp
+Text GLabel 10400 5800 1    50   Input ~ 0
+LED_VDD
+Text GLabel 10400 6850 3    50   Input ~ 0
+VCC_5V
+Wire Wire Line
+	10400 5850 10400 5800
+Wire Wire Line
+	9800 5850 9800 5800
+Wire Wire Line
+	10400 6450 10400 6550
+Wire Wire Line
+	9800 6450 9800 6550
+$Comp
+L chgray-keyboard-rescue:SK6812MINI-Cherry-Symbol D?
+U 1 1 60A92B43
+P 11000 6150
+AR Path="/60A92B43" Ref="D?"  Part="1" 
+AR Path="/6096EA02/60A92B43" Ref="D140"  Part="1" 
+F 0 "D140" H 11344 6196 50  0000 L CNN
+F 1 "LED" H 11344 6105 50  0000 L CNN
+F 2 "daprice-keyswitches:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 11050 5850 50  0000 L TNN
+F 3 "" H 11100 5775 50  0001 L TNN
+	1    11000 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C56
+U 1 1 60A92B49
+P 11000 6700
+F 0 "C56" H 11115 6746 50  0000 L CNN
+F 1 "C" H 11115 6655 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 11038 6550 50  0001 C CNN
+F 3 "~" H 11000 6700 50  0001 C CNN
+	1    11000 6700
+	1    0    0    -1  
+$EndComp
+Text GLabel 11000 5800 1    50   Input ~ 0
+LED_VDD
+Text GLabel 11000 6850 3    50   Input ~ 0
+VCC_5V
+$Comp
+L chgray-keyboard-rescue:SK6812MINI-Cherry-Symbol D?
+U 1 1 60A92B51
+P 11600 6150
+AR Path="/60A92B51" Ref="D?"  Part="1" 
+AR Path="/6096EA02/60A92B51" Ref="D141"  Part="1" 
+F 0 "D141" H 11944 6196 50  0000 L CNN
+F 1 "LED" H 11944 6105 50  0000 L CNN
+F 2 "daprice-keyswitches:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 11650 5850 50  0000 L TNN
+F 3 "" H 11700 5775 50  0001 L TNN
+	1    11600 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C57
+U 1 1 60A92B57
+P 11600 6700
+F 0 "C57" H 11715 6746 50  0000 L CNN
+F 1 "C" H 11715 6655 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 11638 6550 50  0001 C CNN
+F 3 "~" H 11600 6700 50  0001 C CNN
+	1    11600 6700
+	1    0    0    -1  
+$EndComp
+Text GLabel 11600 5800 1    50   Input ~ 0
+LED_VDD
+Text GLabel 11600 6850 3    50   Input ~ 0
+VCC_5V
+Wire Wire Line
+	11600 5850 11600 5800
+Wire Wire Line
+	11000 5850 11000 5800
+Wire Wire Line
+	11600 6450 11600 6550
+Wire Wire Line
+	11000 6450 11000 6550
+$Comp
+L chgray-keyboard-rescue:SK6812MINI-Cherry-Symbol D?
+U 1 1 60A92B63
+P 12200 6150
+AR Path="/60A92B63" Ref="D?"  Part="1" 
+AR Path="/6096EA02/60A92B63" Ref="D142"  Part="1" 
+F 0 "D142" H 12544 6196 50  0000 L CNN
+F 1 "LED" H 12544 6105 50  0000 L CNN
+F 2 "daprice-keyswitches:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 12250 5850 50  0000 L TNN
+F 3 "" H 12300 5775 50  0001 L TNN
+	1    12200 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C58
+U 1 1 60A92B69
+P 12200 6700
+F 0 "C58" H 12315 6746 50  0000 L CNN
+F 1 "C" H 12315 6655 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 12238 6550 50  0001 C CNN
+F 3 "~" H 12200 6700 50  0001 C CNN
+	1    12200 6700
+	1    0    0    -1  
+$EndComp
+Text GLabel 12200 5800 1    50   Input ~ 0
+LED_VDD
+Text GLabel 12200 6850 3    50   Input ~ 0
+VCC_5V
+$Comp
+L chgray-keyboard-rescue:SK6812MINI-Cherry-Symbol D?
+U 1 1 60A92B71
+P 12800 6150
+AR Path="/60A92B71" Ref="D?"  Part="1" 
+AR Path="/6096EA02/60A92B71" Ref="D143"  Part="1" 
+F 0 "D143" H 13144 6196 50  0000 L CNN
+F 1 "LED" H 13144 6105 50  0000 L CNN
+F 2 "daprice-keyswitches:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 12850 5850 50  0000 L TNN
+F 3 "" H 12900 5775 50  0001 L TNN
+	1    12800 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C59
+U 1 1 60A92B77
+P 12800 6700
+F 0 "C59" H 12915 6746 50  0000 L CNN
+F 1 "C" H 12915 6655 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 12838 6550 50  0001 C CNN
+F 3 "~" H 12800 6700 50  0001 C CNN
+	1    12800 6700
+	1    0    0    -1  
+$EndComp
+Text GLabel 12800 5800 1    50   Input ~ 0
+LED_VDD
+Text GLabel 12800 6850 3    50   Input ~ 0
+VCC_5V
+Wire Wire Line
+	12800 5850 12800 5800
+Wire Wire Line
+	12200 5850 12200 5800
+Wire Wire Line
+	12800 6450 12800 6550
+Wire Wire Line
+	12200 6450 12200 6550
+$Comp
+L chgray-keyboard-rescue:SK6812MINI-Cherry-Symbol D?
+U 1 1 60A92B83
+P 13400 6150
+AR Path="/60A92B83" Ref="D?"  Part="1" 
+AR Path="/6096EA02/60A92B83" Ref="D144"  Part="1" 
+F 0 "D144" H 13744 6196 50  0000 L CNN
+F 1 "LED" H 13744 6105 50  0000 L CNN
+F 2 "daprice-keyswitches:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 13450 5850 50  0000 L TNN
+F 3 "" H 13500 5775 50  0001 L TNN
+	1    13400 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C60
+U 1 1 60A92B89
+P 13400 6700
+F 0 "C60" H 13515 6746 50  0000 L CNN
+F 1 "C" H 13515 6655 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 13438 6550 50  0001 C CNN
+F 3 "~" H 13400 6700 50  0001 C CNN
+	1    13400 6700
+	1    0    0    -1  
+$EndComp
+Text GLabel 13400 5800 1    50   Input ~ 0
+LED_VDD
+Text GLabel 13400 6850 3    50   Input ~ 0
+VCC_5V
+$Comp
+L chgray-keyboard-rescue:SK6812MINI-Cherry-Symbol D?
+U 1 1 60A92B91
+P 14000 6150
+AR Path="/60A92B91" Ref="D?"  Part="1" 
+AR Path="/6096EA02/60A92B91" Ref="D145"  Part="1" 
+F 0 "D145" H 14344 6196 50  0000 L CNN
+F 1 "LED" H 14344 6105 50  0000 L CNN
+F 2 "daprice-keyswitches:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 14050 5850 50  0000 L TNN
+F 3 "" H 14100 5775 50  0001 L TNN
+	1    14000 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C61
+U 1 1 60A92B97
+P 14000 6700
+F 0 "C61" H 14115 6746 50  0000 L CNN
+F 1 "C" H 14115 6655 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 14038 6550 50  0001 C CNN
+F 3 "~" H 14000 6700 50  0001 C CNN
+	1    14000 6700
+	1    0    0    -1  
+$EndComp
+Text GLabel 14000 5800 1    50   Input ~ 0
+LED_VDD
+Text GLabel 14000 6850 3    50   Input ~ 0
+VCC_5V
+Wire Wire Line
+	14000 5850 14000 5800
+Wire Wire Line
+	13400 5850 13400 5800
+Wire Wire Line
+	14000 6450 14000 6550
+Wire Wire Line
+	13400 6450 13400 6550
+Wire Wire Line
+	14300 4250 14500 4250
+Wire Wire Line
+	14500 4250 14500 5350
+Wire Wire Line
+	14500 5350 2050 5350
+Wire Wire Line
+	2050 5350 2050 6150
+Wire Wire Line
+	2050 6150 2300 6150
+$Comp
+L chgray-keyboard-rescue:SK6812MINI-Cherry-Symbol D?
+U 1 1 60AE02FA
+P 2600 8150
+AR Path="/60AE02FA" Ref="D?"  Part="1" 
+AR Path="/6096EA02/60AE02FA" Ref="D146"  Part="1" 
+F 0 "D146" H 2944 8196 50  0000 L CNN
+F 1 "LED" H 2944 8105 50  0000 L CNN
+F 2 "daprice-keyswitches:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 2650 7850 50  0000 L TNN
+F 3 "" H 2700 7775 50  0001 L TNN
+	1    2600 8150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C62
+U 1 1 60AE0300
+P 2600 8700
+F 0 "C62" H 2715 8746 50  0000 L CNN
+F 1 "C" H 2715 8655 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 2638 8550 50  0001 C CNN
+F 3 "~" H 2600 8700 50  0001 C CNN
+	1    2600 8700
+	1    0    0    -1  
+$EndComp
+Text GLabel 2600 7800 1    50   Input ~ 0
+LED_VDD
+Text GLabel 2600 8850 3    50   Input ~ 0
+VCC_5V
+$Comp
+L chgray-keyboard-rescue:SK6812MINI-Cherry-Symbol D?
+U 1 1 60AE0308
+P 3200 8150
+AR Path="/60AE0308" Ref="D?"  Part="1" 
+AR Path="/6096EA02/60AE0308" Ref="D147"  Part="1" 
+F 0 "D147" H 3544 8196 50  0000 L CNN
+F 1 "LED" H 3544 8105 50  0000 L CNN
+F 2 "daprice-keyswitches:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 3250 7850 50  0000 L TNN
+F 3 "" H 3300 7775 50  0001 L TNN
+	1    3200 8150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C63
+U 1 1 60AE030E
+P 3200 8700
+F 0 "C63" H 3315 8746 50  0000 L CNN
+F 1 "C" H 3315 8655 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 3238 8550 50  0001 C CNN
+F 3 "~" H 3200 8700 50  0001 C CNN
+	1    3200 8700
+	1    0    0    -1  
+$EndComp
+Text GLabel 3200 7800 1    50   Input ~ 0
+LED_VDD
+Text GLabel 3200 8850 3    50   Input ~ 0
+VCC_5V
+Wire Wire Line
+	3200 7850 3200 7800
+Wire Wire Line
+	2600 7850 2600 7800
+Wire Wire Line
+	3200 8450 3200 8550
+Wire Wire Line
+	2600 8450 2600 8550
+$Comp
+L chgray-keyboard-rescue:SK6812MINI-Cherry-Symbol D?
+U 1 1 60AE031A
+P 3800 8150
+AR Path="/60AE031A" Ref="D?"  Part="1" 
+AR Path="/6096EA02/60AE031A" Ref="D148"  Part="1" 
+F 0 "D148" H 4144 8196 50  0000 L CNN
+F 1 "LED" H 4144 8105 50  0000 L CNN
+F 2 "daprice-keyswitches:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 3850 7850 50  0000 L TNN
+F 3 "" H 3900 7775 50  0001 L TNN
+	1    3800 8150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C64
+U 1 1 60AE0320
+P 3800 8700
+F 0 "C64" H 3915 8746 50  0000 L CNN
+F 1 "C" H 3915 8655 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 3838 8550 50  0001 C CNN
+F 3 "~" H 3800 8700 50  0001 C CNN
+	1    3800 8700
+	1    0    0    -1  
+$EndComp
+Text GLabel 3800 7800 1    50   Input ~ 0
+LED_VDD
+Text GLabel 3800 8850 3    50   Input ~ 0
+VCC_5V
+$Comp
+L chgray-keyboard-rescue:SK6812MINI-Cherry-Symbol D?
+U 1 1 60AE0328
+P 4400 8150
+AR Path="/60AE0328" Ref="D?"  Part="1" 
+AR Path="/6096EA02/60AE0328" Ref="D149"  Part="1" 
+F 0 "D149" H 4744 8196 50  0000 L CNN
+F 1 "LED" H 4744 8105 50  0000 L CNN
+F 2 "daprice-keyswitches:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 4450 7850 50  0000 L TNN
+F 3 "" H 4500 7775 50  0001 L TNN
+	1    4400 8150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C65
+U 1 1 60AE032E
+P 4400 8700
+F 0 "C65" H 4515 8746 50  0000 L CNN
+F 1 "C" H 4515 8655 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 4438 8550 50  0001 C CNN
+F 3 "~" H 4400 8700 50  0001 C CNN
+	1    4400 8700
+	1    0    0    -1  
+$EndComp
+Text GLabel 4400 7800 1    50   Input ~ 0
+LED_VDD
+Text GLabel 4400 8850 3    50   Input ~ 0
+VCC_5V
+Wire Wire Line
+	4400 7850 4400 7800
+Wire Wire Line
+	3800 7850 3800 7800
+Wire Wire Line
+	4400 8450 4400 8550
+Wire Wire Line
+	3800 8450 3800 8550
+$Comp
+L chgray-keyboard-rescue:SK6812MINI-Cherry-Symbol D?
+U 1 1 60AE033A
+P 5000 8150
+AR Path="/60AE033A" Ref="D?"  Part="1" 
+AR Path="/6096EA02/60AE033A" Ref="D150"  Part="1" 
+F 0 "D150" H 5344 8196 50  0000 L CNN
+F 1 "LED" H 5344 8105 50  0000 L CNN
+F 2 "daprice-keyswitches:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 5050 7850 50  0000 L TNN
+F 3 "" H 5100 7775 50  0001 L TNN
+	1    5000 8150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C66
+U 1 1 60AE0340
+P 5000 8700
+F 0 "C66" H 5115 8746 50  0000 L CNN
+F 1 "C" H 5115 8655 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 5038 8550 50  0001 C CNN
+F 3 "~" H 5000 8700 50  0001 C CNN
+	1    5000 8700
+	1    0    0    -1  
+$EndComp
+Text GLabel 5000 7800 1    50   Input ~ 0
+LED_VDD
+Text GLabel 5000 8850 3    50   Input ~ 0
+VCC_5V
+$Comp
+L chgray-keyboard-rescue:SK6812MINI-Cherry-Symbol D?
+U 1 1 60AE0348
+P 5600 8150
+AR Path="/60AE0348" Ref="D?"  Part="1" 
+AR Path="/6096EA02/60AE0348" Ref="D151"  Part="1" 
+F 0 "D151" H 5944 8196 50  0000 L CNN
+F 1 "LED" H 5944 8105 50  0000 L CNN
+F 2 "daprice-keyswitches:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 5650 7850 50  0000 L TNN
+F 3 "" H 5700 7775 50  0001 L TNN
+	1    5600 8150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C67
+U 1 1 60AE034E
+P 5600 8700
+F 0 "C67" H 5715 8746 50  0000 L CNN
+F 1 "C" H 5715 8655 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 5638 8550 50  0001 C CNN
+F 3 "~" H 5600 8700 50  0001 C CNN
+	1    5600 8700
+	1    0    0    -1  
+$EndComp
+Text GLabel 5600 7800 1    50   Input ~ 0
+LED_VDD
+Text GLabel 5600 8850 3    50   Input ~ 0
+VCC_5V
+Wire Wire Line
+	5600 7850 5600 7800
+Wire Wire Line
+	5000 7850 5000 7800
+Wire Wire Line
+	5600 8450 5600 8550
+Wire Wire Line
+	5000 8450 5000 8550
+$Comp
+L chgray-keyboard-rescue:SK6812MINI-Cherry-Symbol D?
+U 1 1 60AE035A
+P 6200 8150
+AR Path="/60AE035A" Ref="D?"  Part="1" 
+AR Path="/6096EA02/60AE035A" Ref="D152"  Part="1" 
+F 0 "D152" H 6544 8196 50  0000 L CNN
+F 1 "LED" H 6544 8105 50  0000 L CNN
+F 2 "daprice-keyswitches:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 6250 7850 50  0000 L TNN
+F 3 "" H 6300 7775 50  0001 L TNN
+	1    6200 8150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C68
+U 1 1 60AE0360
+P 6200 8700
+F 0 "C68" H 6315 8746 50  0000 L CNN
+F 1 "C" H 6315 8655 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 6238 8550 50  0001 C CNN
+F 3 "~" H 6200 8700 50  0001 C CNN
+	1    6200 8700
+	1    0    0    -1  
+$EndComp
+Text GLabel 6200 7800 1    50   Input ~ 0
+LED_VDD
+Text GLabel 6200 8850 3    50   Input ~ 0
+VCC_5V
+$Comp
+L chgray-keyboard-rescue:SK6812MINI-Cherry-Symbol D?
+U 1 1 60AE0368
+P 6800 8150
+AR Path="/60AE0368" Ref="D?"  Part="1" 
+AR Path="/6096EA02/60AE0368" Ref="D153"  Part="1" 
+F 0 "D153" H 7144 8196 50  0000 L CNN
+F 1 "LED" H 7144 8105 50  0000 L CNN
+F 2 "daprice-keyswitches:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 6850 7850 50  0000 L TNN
+F 3 "" H 6900 7775 50  0001 L TNN
+	1    6800 8150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C69
+U 1 1 60AE036E
+P 6800 8700
+F 0 "C69" H 6915 8746 50  0000 L CNN
+F 1 "C" H 6915 8655 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 6838 8550 50  0001 C CNN
+F 3 "~" H 6800 8700 50  0001 C CNN
+	1    6800 8700
+	1    0    0    -1  
+$EndComp
+Text GLabel 6800 7800 1    50   Input ~ 0
+LED_VDD
+Text GLabel 6800 8850 3    50   Input ~ 0
+VCC_5V
+Wire Wire Line
+	6800 7850 6800 7800
+Wire Wire Line
+	6200 7850 6200 7800
+Wire Wire Line
+	6800 8450 6800 8550
+Wire Wire Line
+	6200 8450 6200 8550
+$Comp
+L chgray-keyboard-rescue:SK6812MINI-Cherry-Symbol D?
+U 1 1 60AE037A
+P 7400 8150
+AR Path="/60AE037A" Ref="D?"  Part="1" 
+AR Path="/6096EA02/60AE037A" Ref="D154"  Part="1" 
+F 0 "D154" H 7744 8196 50  0000 L CNN
+F 1 "LED" H 7744 8105 50  0000 L CNN
+F 2 "daprice-keyswitches:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 7450 7850 50  0000 L TNN
+F 3 "" H 7500 7775 50  0001 L TNN
+	1    7400 8150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C70
+U 1 1 60AE0380
+P 7400 8700
+F 0 "C70" H 7515 8746 50  0000 L CNN
+F 1 "C" H 7515 8655 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 7438 8550 50  0001 C CNN
+F 3 "~" H 7400 8700 50  0001 C CNN
+	1    7400 8700
+	1    0    0    -1  
+$EndComp
+Text GLabel 7400 7800 1    50   Input ~ 0
+LED_VDD
+Text GLabel 7400 8850 3    50   Input ~ 0
+VCC_5V
+$Comp
+L chgray-keyboard-rescue:SK6812MINI-Cherry-Symbol D?
+U 1 1 60AE0388
+P 8000 8150
+AR Path="/60AE0388" Ref="D?"  Part="1" 
+AR Path="/6096EA02/60AE0388" Ref="D155"  Part="1" 
+F 0 "D155" H 8344 8196 50  0000 L CNN
+F 1 "LED" H 8344 8105 50  0000 L CNN
+F 2 "daprice-keyswitches:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 8050 7850 50  0000 L TNN
+F 3 "" H 8100 7775 50  0001 L TNN
+	1    8000 8150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C71
+U 1 1 60AE038E
+P 8000 8700
+F 0 "C71" H 8115 8746 50  0000 L CNN
+F 1 "C" H 8115 8655 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 8038 8550 50  0001 C CNN
+F 3 "~" H 8000 8700 50  0001 C CNN
+	1    8000 8700
+	1    0    0    -1  
+$EndComp
+Text GLabel 8000 7800 1    50   Input ~ 0
+LED_VDD
+Text GLabel 8000 8850 3    50   Input ~ 0
+VCC_5V
+Wire Wire Line
+	8000 7850 8000 7800
+Wire Wire Line
+	7400 7850 7400 7800
+Wire Wire Line
+	8000 8450 8000 8550
+Wire Wire Line
+	7400 8450 7400 8550
+$Comp
+L chgray-keyboard-rescue:SK6812MINI-Cherry-Symbol D?
+U 1 1 60AE039A
+P 8600 8150
+AR Path="/60AE039A" Ref="D?"  Part="1" 
+AR Path="/6096EA02/60AE039A" Ref="D156"  Part="1" 
+F 0 "D156" H 8944 8196 50  0000 L CNN
+F 1 "LED" H 8944 8105 50  0000 L CNN
+F 2 "daprice-keyswitches:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 8650 7850 50  0000 L TNN
+F 3 "" H 8700 7775 50  0001 L TNN
+	1    8600 8150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C72
+U 1 1 60AE03A0
+P 8600 8700
+F 0 "C72" H 8715 8746 50  0000 L CNN
+F 1 "C" H 8715 8655 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 8638 8550 50  0001 C CNN
+F 3 "~" H 8600 8700 50  0001 C CNN
+	1    8600 8700
+	1    0    0    -1  
+$EndComp
+Text GLabel 8600 7800 1    50   Input ~ 0
+LED_VDD
+Text GLabel 8600 8850 3    50   Input ~ 0
+VCC_5V
+$Comp
+L chgray-keyboard-rescue:SK6812MINI-Cherry-Symbol D?
+U 1 1 60AE03A8
+P 9200 8150
+AR Path="/60AE03A8" Ref="D?"  Part="1" 
+AR Path="/6096EA02/60AE03A8" Ref="D157"  Part="1" 
+F 0 "D157" H 9544 8196 50  0000 L CNN
+F 1 "LED" H 9544 8105 50  0000 L CNN
+F 2 "daprice-keyswitches:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 9250 7850 50  0000 L TNN
+F 3 "" H 9300 7775 50  0001 L TNN
+	1    9200 8150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C73
+U 1 1 60AE03AE
+P 9200 8700
+F 0 "C73" H 9315 8746 50  0000 L CNN
+F 1 "C" H 9315 8655 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 9238 8550 50  0001 C CNN
+F 3 "~" H 9200 8700 50  0001 C CNN
+	1    9200 8700
+	1    0    0    -1  
+$EndComp
+Text GLabel 9200 7800 1    50   Input ~ 0
+LED_VDD
+Text GLabel 9200 8850 3    50   Input ~ 0
+VCC_5V
+Wire Wire Line
+	9200 7850 9200 7800
+Wire Wire Line
+	8600 7850 8600 7800
+Wire Wire Line
+	9200 8450 9200 8550
+Wire Wire Line
+	8600 8450 8600 8550
+$Comp
+L chgray-keyboard-rescue:SK6812MINI-Cherry-Symbol D?
+U 1 1 60AE03BA
+P 9800 8150
+AR Path="/60AE03BA" Ref="D?"  Part="1" 
+AR Path="/6096EA02/60AE03BA" Ref="D158"  Part="1" 
+F 0 "D158" H 10144 8196 50  0000 L CNN
+F 1 "LED" H 10144 8105 50  0000 L CNN
+F 2 "daprice-keyswitches:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 9850 7850 50  0000 L TNN
+F 3 "" H 9900 7775 50  0001 L TNN
+	1    9800 8150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C74
+U 1 1 60AE03C0
+P 9800 8700
+F 0 "C74" H 9915 8746 50  0000 L CNN
+F 1 "C" H 9915 8655 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 9838 8550 50  0001 C CNN
+F 3 "~" H 9800 8700 50  0001 C CNN
+	1    9800 8700
+	1    0    0    -1  
+$EndComp
+Text GLabel 9800 7800 1    50   Input ~ 0
+LED_VDD
+Text GLabel 9800 8850 3    50   Input ~ 0
+VCC_5V
+$Comp
+L chgray-keyboard-rescue:SK6812MINI-Cherry-Symbol D?
+U 1 1 60AE03C8
+P 10400 8150
+AR Path="/60AE03C8" Ref="D?"  Part="1" 
+AR Path="/6096EA02/60AE03C8" Ref="D159"  Part="1" 
+F 0 "D159" H 10744 8196 50  0000 L CNN
+F 1 "LED" H 10744 8105 50  0000 L CNN
+F 2 "daprice-keyswitches:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 10450 7850 50  0000 L TNN
+F 3 "" H 10500 7775 50  0001 L TNN
+	1    10400 8150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C75
+U 1 1 60AE03CE
+P 10400 8700
+F 0 "C75" H 10515 8746 50  0000 L CNN
+F 1 "C" H 10515 8655 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 10438 8550 50  0001 C CNN
+F 3 "~" H 10400 8700 50  0001 C CNN
+	1    10400 8700
+	1    0    0    -1  
+$EndComp
+Text GLabel 10400 7800 1    50   Input ~ 0
+LED_VDD
+Text GLabel 10400 8850 3    50   Input ~ 0
+VCC_5V
+Wire Wire Line
+	10400 7850 10400 7800
+Wire Wire Line
+	9800 7850 9800 7800
+Wire Wire Line
+	10400 8450 10400 8550
+Wire Wire Line
+	9800 8450 9800 8550
+$Comp
+L chgray-keyboard-rescue:SK6812MINI-Cherry-Symbol D?
+U 1 1 60AE03DA
+P 11000 8150
+AR Path="/60AE03DA" Ref="D?"  Part="1" 
+AR Path="/6096EA02/60AE03DA" Ref="D160"  Part="1" 
+F 0 "D160" H 11344 8196 50  0000 L CNN
+F 1 "LED" H 11344 8105 50  0000 L CNN
+F 2 "daprice-keyswitches:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 11050 7850 50  0000 L TNN
+F 3 "" H 11100 7775 50  0001 L TNN
+	1    11000 8150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C76
+U 1 1 60AE03E0
+P 11000 8700
+F 0 "C76" H 11115 8746 50  0000 L CNN
+F 1 "C" H 11115 8655 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 11038 8550 50  0001 C CNN
+F 3 "~" H 11000 8700 50  0001 C CNN
+	1    11000 8700
+	1    0    0    -1  
+$EndComp
+Text GLabel 11000 7800 1    50   Input ~ 0
+LED_VDD
+Text GLabel 11000 8850 3    50   Input ~ 0
+VCC_5V
+$Comp
+L chgray-keyboard-rescue:SK6812MINI-Cherry-Symbol D?
+U 1 1 60AE03E8
+P 11600 8150
+AR Path="/60AE03E8" Ref="D?"  Part="1" 
+AR Path="/6096EA02/60AE03E8" Ref="D161"  Part="1" 
+F 0 "D161" H 11944 8196 50  0000 L CNN
+F 1 "LED" H 11944 8105 50  0000 L CNN
+F 2 "daprice-keyswitches:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 11650 7850 50  0000 L TNN
+F 3 "" H 11700 7775 50  0001 L TNN
+	1    11600 8150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C77
+U 1 1 60AE03EE
+P 11600 8700
+F 0 "C77" H 11715 8746 50  0000 L CNN
+F 1 "C" H 11715 8655 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 11638 8550 50  0001 C CNN
+F 3 "~" H 11600 8700 50  0001 C CNN
+	1    11600 8700
+	1    0    0    -1  
+$EndComp
+Text GLabel 11600 7800 1    50   Input ~ 0
+LED_VDD
+Text GLabel 11600 8850 3    50   Input ~ 0
+VCC_5V
+Wire Wire Line
+	11600 7850 11600 7800
+Wire Wire Line
+	11000 7850 11000 7800
+Wire Wire Line
+	11600 8450 11600 8550
+Wire Wire Line
+	11000 8450 11000 8550
+$Comp
+L chgray-keyboard-rescue:SK6812MINI-Cherry-Symbol D?
+U 1 1 60AE03FA
+P 12200 8150
+AR Path="/60AE03FA" Ref="D?"  Part="1" 
+AR Path="/6096EA02/60AE03FA" Ref="D162"  Part="1" 
+F 0 "D162" H 12544 8196 50  0000 L CNN
+F 1 "LED" H 12544 8105 50  0000 L CNN
+F 2 "daprice-keyswitches:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 12250 7850 50  0000 L TNN
+F 3 "" H 12300 7775 50  0001 L TNN
+	1    12200 8150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C78
+U 1 1 60AE0400
+P 12200 8700
+F 0 "C78" H 12315 8746 50  0000 L CNN
+F 1 "C" H 12315 8655 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 12238 8550 50  0001 C CNN
+F 3 "~" H 12200 8700 50  0001 C CNN
+	1    12200 8700
+	1    0    0    -1  
+$EndComp
+Text GLabel 12200 7800 1    50   Input ~ 0
+LED_VDD
+Text GLabel 12200 8850 3    50   Input ~ 0
+VCC_5V
+$Comp
+L chgray-keyboard-rescue:SK6812MINI-Cherry-Symbol D?
+U 1 1 60AE0408
+P 12800 8150
+AR Path="/60AE0408" Ref="D?"  Part="1" 
+AR Path="/6096EA02/60AE0408" Ref="D163"  Part="1" 
+F 0 "D163" H 13144 8196 50  0000 L CNN
+F 1 "LED" H 13144 8105 50  0000 L CNN
+F 2 "daprice-keyswitches:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 12850 7850 50  0000 L TNN
+F 3 "" H 12900 7775 50  0001 L TNN
+	1    12800 8150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C79
+U 1 1 60AE040E
+P 12800 8700
+F 0 "C79" H 12915 8746 50  0000 L CNN
+F 1 "C" H 12915 8655 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 12838 8550 50  0001 C CNN
+F 3 "~" H 12800 8700 50  0001 C CNN
+	1    12800 8700
+	1    0    0    -1  
+$EndComp
+Text GLabel 12800 7800 1    50   Input ~ 0
+LED_VDD
+Text GLabel 12800 8850 3    50   Input ~ 0
+VCC_5V
+Wire Wire Line
+	12800 7850 12800 7800
+Wire Wire Line
+	12200 7850 12200 7800
+Wire Wire Line
+	12800 8450 12800 8550
+Wire Wire Line
+	12200 8450 12200 8550
+$Comp
+L chgray-keyboard-rescue:SK6812MINI-Cherry-Symbol D?
+U 1 1 60AE041A
+P 13400 8150
+AR Path="/60AE041A" Ref="D?"  Part="1" 
+AR Path="/6096EA02/60AE041A" Ref="D164"  Part="1" 
+F 0 "D164" H 13744 8196 50  0000 L CNN
+F 1 "LED" H 13744 8105 50  0000 L CNN
+F 2 "daprice-keyswitches:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 13450 7850 50  0000 L TNN
+F 3 "" H 13500 7775 50  0001 L TNN
+	1    13400 8150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C80
+U 1 1 60AE0420
+P 13400 8700
+F 0 "C80" H 13515 8746 50  0000 L CNN
+F 1 "C" H 13515 8655 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 13438 8550 50  0001 C CNN
+F 3 "~" H 13400 8700 50  0001 C CNN
+	1    13400 8700
+	1    0    0    -1  
+$EndComp
+Text GLabel 13400 7800 1    50   Input ~ 0
+LED_VDD
+Text GLabel 13400 8850 3    50   Input ~ 0
+VCC_5V
+$Comp
+L chgray-keyboard-rescue:SK6812MINI-Cherry-Symbol D?
+U 1 1 60AE0428
+P 14000 8150
+AR Path="/60AE0428" Ref="D?"  Part="1" 
+AR Path="/6096EA02/60AE0428" Ref="D165"  Part="1" 
+F 0 "D165" H 14344 8196 50  0000 L CNN
+F 1 "LED" H 14344 8105 50  0000 L CNN
+F 2 "daprice-keyswitches:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 14050 7850 50  0000 L TNN
+F 3 "" H 14100 7775 50  0001 L TNN
+	1    14000 8150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C81
+U 1 1 60AE042E
+P 14000 8700
+F 0 "C81" H 14115 8746 50  0000 L CNN
+F 1 "C" H 14115 8655 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 14038 8550 50  0001 C CNN
+F 3 "~" H 14000 8700 50  0001 C CNN
+	1    14000 8700
+	1    0    0    -1  
+$EndComp
+Text GLabel 14000 7800 1    50   Input ~ 0
+LED_VDD
+Text GLabel 14000 8850 3    50   Input ~ 0
+VCC_5V
+Wire Wire Line
+	14000 7850 14000 7800
+Wire Wire Line
+	13400 7850 13400 7800
+Wire Wire Line
+	14000 8450 14000 8550
+Wire Wire Line
+	13400 8450 13400 8550
+Wire Wire Line
+	14300 6150 14300 7300
+Wire Wire Line
+	14300 7300 2100 7300
+Wire Wire Line
+	2100 7300 2100 8150
+Wire Wire Line
+	2100 8150 2300 8150
+$Comp
+L chgray-keyboard-rescue:SK6812MINI-Cherry-Symbol D?
+U 1 1 60B47D03
+P 2600 10100
+AR Path="/60B47D03" Ref="D?"  Part="1" 
+AR Path="/6096EA02/60B47D03" Ref="D166"  Part="1" 
+F 0 "D166" H 2944 10146 50  0000 L CNN
+F 1 "LED" H 2944 10055 50  0000 L CNN
+F 2 "daprice-keyswitches:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 2650 9800 50  0000 L TNN
+F 3 "" H 2700 9725 50  0001 L TNN
+	1    2600 10100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C82
+U 1 1 60B47D09
+P 2600 10650
+F 0 "C82" H 2715 10696 50  0000 L CNN
+F 1 "C" H 2715 10605 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 2638 10500 50  0001 C CNN
+F 3 "~" H 2600 10650 50  0001 C CNN
+	1    2600 10650
+	1    0    0    -1  
+$EndComp
+Text GLabel 2600 9750 1    50   Input ~ 0
+LED_VDD
+Text GLabel 2600 10800 3    50   Input ~ 0
+VCC_5V
+$Comp
+L chgray-keyboard-rescue:SK6812MINI-Cherry-Symbol D?
+U 1 1 60B47D11
+P 3200 10100
+AR Path="/60B47D11" Ref="D?"  Part="1" 
+AR Path="/6096EA02/60B47D11" Ref="D167"  Part="1" 
+F 0 "D167" H 3544 10146 50  0000 L CNN
+F 1 "LED" H 3544 10055 50  0000 L CNN
+F 2 "daprice-keyswitches:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 3250 9800 50  0000 L TNN
+F 3 "" H 3300 9725 50  0001 L TNN
+	1    3200 10100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C83
+U 1 1 60B47D17
+P 3200 10650
+F 0 "C83" H 3315 10696 50  0000 L CNN
+F 1 "C" H 3315 10605 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 3238 10500 50  0001 C CNN
+F 3 "~" H 3200 10650 50  0001 C CNN
+	1    3200 10650
+	1    0    0    -1  
+$EndComp
+Text GLabel 3200 9750 1    50   Input ~ 0
+LED_VDD
+Text GLabel 3200 10800 3    50   Input ~ 0
+VCC_5V
+Wire Wire Line
+	3200 9800 3200 9750
+Wire Wire Line
+	2600 9800 2600 9750
+Wire Wire Line
+	3200 10400 3200 10500
+Wire Wire Line
+	2600 10400 2600 10500
+Wire Wire Line
+	14300 8150 14700 8150
+Wire Wire Line
+	14700 8150 14700 9300
+Wire Wire Line
+	14700 9300 2100 9300
+Wire Wire Line
+	2100 9300 2100 10100
+Wire Wire Line
+	2100 10100 2300 10100
+NoConn ~ 3500 10100
 $EndSCHEMATC
