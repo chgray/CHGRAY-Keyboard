@@ -11,26 +11,26 @@
 
   (page A4)
   (layers
-    (0 F.Cu signal hide)
-    (31 B.Cu signal hide)
-    (32 B.Adhes user hide)
-    (33 F.Adhes user hide)
-    (34 B.Paste user hide)
-    (35 F.Paste user hide)
-    (36 B.SilkS user hide)
-    (37 F.SilkS user hide)
-    (38 B.Mask user hide)
-    (39 F.Mask user hide)
+    (0 F.Cu signal)
+    (31 B.Cu signal)
+    (32 B.Adhes user)
+    (33 F.Adhes user)
+    (34 B.Paste user)
+    (35 F.Paste user)
+    (36 B.SilkS user)
+    (37 F.SilkS user)
+    (38 B.Mask user)
+    (39 F.Mask user)
     (40 Dwgs.User user)
-    (41 Cmts.User user hide)
-    (42 Eco1.User user hide)
-    (43 Eco2.User user hide)
-    (44 Edge.Cuts user hide)
-    (45 Margin user hide)
-    (46 B.CrtYd user hide)
-    (47 F.CrtYd user hide)
-    (48 B.Fab user hide)
-    (49 F.Fab user hide)
+    (41 Cmts.User user)
+    (42 Eco1.User user)
+    (43 Eco2.User user)
+    (44 Edge.Cuts user)
+    (45 Margin user)
+    (46 B.CrtYd user)
+    (47 F.CrtYd user)
+    (48 B.Fab user)
+    (49 F.Fab user)
   )
 
   (setup
@@ -608,7 +608,7 @@
   )
 
   (module daprice-keyswitches:Kailh_socket_MX (layer F.Cu) (tedit 608319E4) (tstamp 6098A217)
-    (at 621.792 84.836)
+    (at 570.23 83.312)
     (descr "MX-style keyswitch with Kailh socket mount")
     (tags MX,cherry,gateron,kailh,pg1511,socket)
     (path /589645BF/60AE6AA1)
@@ -680,7 +680,7 @@
   )
 
   (module daprice-keyswitches:Kailh_socket_MX (layer F.Cu) (tedit 608319E4) (tstamp 60A30FEB)
-    (at 674.624 45.593)
+    (at 661.67 45.593)
     (descr "MX-style keyswitch with Kailh socket mount")
     (tags MX,cherry,gateron,kailh,pg1511,socket)
     (path /589645BF/60ADCFDF)
@@ -752,7 +752,7 @@
   )
 
   (module daprice-keyswitches:Kailh_socket_MX (layer F.Cu) (tedit 608319E4) (tstamp 60A31040)
-    (at 711.581 44.577)
+    (at 698.627 44.577)
     (descr "MX-style keyswitch with Kailh socket mount")
     (tags MX,cherry,gateron,kailh,pg1511,socket)
     (path /589645BF/60B082AA)
@@ -824,7 +824,7 @@
   )
 
   (module daprice-keyswitches:Kailh_socket_MX (layer F.Cu) (tedit 608319E4) (tstamp 60A323E1)
-    (at 693.293 64.897)
+    (at 680.339 64.897)
     (descr "MX-style keyswitch with Kailh socket mount")
     (tags MX,cherry,gateron,kailh,pg1511,socket)
     (path /589645BF/60B082F0)
@@ -896,7 +896,7 @@
   )
 
   (module daprice-keyswitches:Kailh_socket_MX (layer F.Cu) (tedit 608319E4) (tstamp 60A323A9)
-    (at 713.486 63.881)
+    (at 700.532 63.881)
     (descr "MX-style keyswitch with Kailh socket mount")
     (tags MX,cherry,gateron,kailh,pg1511,socket)
     (path /589645BF/60B082E2)
@@ -968,7 +968,7 @@
   )
 
   (module daprice-keyswitches:Kailh_socket_MX (layer F.Cu) (tedit 608319E4) (tstamp 60A32371)
-    (at 654.05 65.532)
+    (at 641.096 65.532)
     (descr "MX-style keyswitch with Kailh socket mount")
     (tags MX,cherry,gateron,kailh,pg1511,socket)
     (path /589645BF/60B082D4)
@@ -1040,7 +1040,7 @@
   )
 
   (module daprice-keyswitches:Kailh_socket_MX (layer F.Cu) (tedit 608319E4) (tstamp 60A32339)
-    (at 710.184 83.82)
+    (at 697.23 83.82)
     (descr "MX-style keyswitch with Kailh socket mount")
     (tags MX,cherry,gateron,kailh,pg1511,socket)
     (path /589645BF/60B082C6)
@@ -1112,7 +1112,7 @@
   )
 
   (module daprice-keyswitches:Kailh_socket_MX (layer F.Cu) (tedit 608319E4) (tstamp 60A32301)
-    (at 691.007 84.074)
+    (at 678.053 84.074)
     (descr "MX-style keyswitch with Kailh socket mount")
     (tags MX,cherry,gateron,kailh,pg1511,socket)
     (path /589645BF/60B082B8)
@@ -1184,7 +1184,7 @@
   )
 
   (module daprice-keyswitches:Kailh_socket_MX (layer F.Cu) (tedit 608319E4) (tstamp 60A322C9)
-    (at 693.293 46.355)
+    (at 680.339 46.355)
     (descr "MX-style keyswitch with Kailh socket mount")
     (tags MX,cherry,gateron,kailh,pg1511,socket)
     (path /589645BF/60ADD025)
@@ -1256,7 +1256,7 @@
   )
 
   (module daprice-keyswitches:Kailh_socket_MX (layer F.Cu) (tedit 608319E4) (tstamp 60A32291)
-    (at 711.073 103.378)
+    (at 698.119 103.378)
     (descr "MX-style keyswitch with Kailh socket mount")
     (tags MX,cherry,gateron,kailh,pg1511,socket)
     (path /589645BF/60ADD017)
@@ -1328,7 +1328,7 @@
   )
 
   (module daprice-keyswitches:Kailh_socket_MX (layer F.Cu) (tedit 608319E4) (tstamp 60A32259)
-    (at 673.481 66.167)
+    (at 660.527 66.167)
     (descr "MX-style keyswitch with Kailh socket mount")
     (tags MX,cherry,gateron,kailh,pg1511,socket)
     (path /589645BF/60ADD009)
@@ -1400,7 +1400,7 @@
   )
 
   (module daprice-keyswitches:Kailh_socket_MX (layer F.Cu) (tedit 608319E4) (tstamp 60AC0A7F)
-    (at 655.066 46.355)
+    (at 642.112 46.355)
     (descr "MX-style keyswitch with Kailh socket mount")
     (tags MX,cherry,gateron,kailh,pg1511,socket)
     (path /589645BF/60ADCFFB)
@@ -1472,7 +1472,7 @@
   )
 
   (module daprice-keyswitches:Kailh_socket_MX (layer F.Cu) (tedit 608319E4) (tstamp 60A321E9)
-    (at 711.581 122.809)
+    (at 698.627 122.809)
     (descr "MX-style keyswitch with Kailh socket mount")
     (tags MX,cherry,gateron,kailh,pg1511,socket)
     (path /589645BF/60ADCFED)
@@ -2072,7 +2072,7 @@
   )
 
   (module daprice-keyswitches:Stabilizer_MX_2.25u (layer F.Cu) (tedit 6096E588) (tstamp 607B42ED)
-    (at 556.631 123.327)
+    (at 511.048 121.412)
     (descr "MX-style stabilizer mount")
     (tags MX,cherry,gateron,kailh,pg1511,stabilizer,stab)
     (path /589645BF/607D877C)
@@ -2374,7 +2374,7 @@
   )
 
   (module daprice-keyswitches:Stabilizer_MX_2.25u (layer F.Cu) (tedit 6096E588) (tstamp 6086C5A7)
-    (at 616.585 103.759)
+    (at 573.024 102.362)
     (descr "MX-style stabilizer mount")
     (tags MX,cherry,gateron,kailh,pg1511,stabilizer,stab)
     (path /589645BF/607C82C5)
@@ -2525,7 +2525,7 @@
   )
 
   (module daprice-keyswitches:Stabilizer_MX_1.25u (layer F.Cu) (tedit 6091E1F3) (tstamp 607B4473)
-    (at 627.126 46.736)
+    (at 582.168 45.212)
     (descr "MX-style stabilizer mount")
     (tags MX,cherry,gateron,kailh,pg1511,stabilizer,stab)
     (path /589645BF/607F54F4)
@@ -3124,7 +3124,7 @@
   )
 
   (module daprice-keyswitches:Kailh_socket_MX (layer F.Cu) (tedit 608319E4) (tstamp 609B0F2E)
-    (at 692.15 104.648)
+    (at 679.196 104.648)
     (descr "MX-style keyswitch with Kailh socket mount")
     (tags MX,cherry,gateron,kailh,pg1511,socket)
     (path /589645BF/60AE6ABD)
@@ -3196,7 +3196,7 @@
   )
 
   (module daprice-keyswitches:Kailh_socket_MX (layer F.Cu) (tedit 608319E4) (tstamp 6084D032)
-    (at 653.415 85.09)
+    (at 640.461 85.09)
     (descr "MX-style keyswitch with Kailh socket mount")
     (tags MX,cherry,gateron,kailh,pg1511,socket)
     (path /589645BF/60AE6AE7)
@@ -3268,7 +3268,7 @@
   )
 
   (module daprice-keyswitches:Kailh_socket_MX (layer F.Cu) (tedit 608319E4) (tstamp 6084D014)
-    (at 671.703 85.598)
+    (at 658.749 85.598)
     (descr "MX-style keyswitch with Kailh socket mount")
     (tags MX,cherry,gateron,kailh,pg1511,socket)
     (path /589645BF/60AE6AD9)
@@ -3340,7 +3340,7 @@
   )
 
   (module daprice-keyswitches:Kailh_socket_MX (layer F.Cu) (tedit 608319E4) (tstamp 6084CFF6)
-    (at 627.634 122.936)
+    (at 580.136 121.412)
     (descr "MX-style keyswitch with Kailh socket mount")
     (tags MX,cherry,gateron,kailh,pg1511,socket)
     (path /589645BF/60AE6ACB)
@@ -3412,7 +3412,7 @@
   )
 
   (module daprice-keyswitches:Kailh_socket_MX (layer F.Cu) (tedit 608319E4) (tstamp 609E2980)
-    (at 629.43232 65.9892)
+    (at 584.708 64.262)
     (descr "MX-style keyswitch with Kailh socket mount")
     (tags MX,cherry,gateron,kailh,pg1511,socket)
     (path /589645BF/60AE6AAF)
@@ -3484,7 +3484,7 @@
   )
 
   (module daprice-keyswitches:Kailh_socket_MX (layer F.Cu) (tedit 608319E4) (tstamp 6084CF7E)
-    (at 594.868 85.09)
+    (at 551.18 83.312)
     (descr "MX-style keyswitch with Kailh socket mount")
     (tags MX,cherry,gateron,kailh,pg1511,socket)
     (path /589645BF/608C237D)
@@ -3556,7 +3556,7 @@
   )
 
   (module daprice-keyswitches:Kailh_socket_MX (layer F.Cu) (tedit 608319E4) (tstamp 608BD518)
-    (at 575.818 85.09)
+    (at 532.13 83.312)
     (descr "MX-style keyswitch with Kailh socket mount")
     (tags MX,cherry,gateron,kailh,pg1511,socket)
     (path /589645BF/608A9D45)
@@ -3628,7 +3628,7 @@
   )
 
   (module daprice-keyswitches:Kailh_socket_MX (layer F.Cu) (tedit 608319E4) (tstamp 6084CF42)
-    (at 693.039 123.317)
+    (at 680.085 123.317)
     (descr "MX-style keyswitch with Kailh socket mount")
     (tags MX,cherry,gateron,kailh,pg1511,socket)
     (path /589645BF/608919CD)
@@ -3700,7 +3700,7 @@
   )
 
   (module daprice-keyswitches:Kailh_socket_MX (layer F.Cu) (tedit 608319E4) (tstamp 609E2ACA)
-    (at 610.38232 65.9892)
+    (at 565.658 64.262)
     (descr "MX-style keyswitch with Kailh socket mount")
     (tags MX,cherry,gateron,kailh,pg1511,socket)
     (path /589645BF/60879F5B)
@@ -3772,7 +3772,7 @@
   )
 
   (module daprice-keyswitches:Kailh_socket_MX (layer F.Cu) (tedit 608319E4) (tstamp 60990F4D)
-    (at 653.161 104.902)
+    (at 640.207 104.902)
     (descr "MX-style keyswitch with Kailh socket mount")
     (tags MX,cherry,gateron,kailh,pg1511,socket)
     (path /589645BF/60863045)
@@ -3844,7 +3844,7 @@
   )
 
   (module daprice-keyswitches:Kailh_socket_MX (layer F.Cu) (tedit 608319E4) (tstamp 607B4491)
-    (at 566.42 46.99)
+    (at 522.732 45.212)
     (descr "MX-style keyswitch with Kailh socket mount")
     (tags MX,cherry,gateron,kailh,pg1511,socket)
     (path /589645BF/6080BE22)
@@ -3916,7 +3916,7 @@
   )
 
   (module daprice-keyswitches:Kailh_socket_MX (layer F.Cu) (tedit 608319E4) (tstamp 607B4455)
-    (at 607.314 123.19)
+    (at 561.086 121.412)
     (descr "MX-style keyswitch with Kailh socket mount")
     (tags MX,cherry,gateron,kailh,pg1511,socket)
     (path /589645BF/607F54FE)
@@ -3988,7 +3988,7 @@
   )
 
   (module daprice-keyswitches:Kailh_socket_MX (layer F.Cu) (tedit 608319E4) (tstamp 607B4437)
-    (at 547.37 104.14)
+    (at 503.936 102.362)
     (descr "MX-style keyswitch with Kailh socket mount")
     (tags MX,cherry,gateron,kailh,pg1511,socket)
     (path /589645BF/607F54D7)
@@ -4060,7 +4060,7 @@
   )
 
   (module daprice-keyswitches:Kailh_socket_MX (layer F.Cu) (tedit 608319E4) (tstamp 607B4419)
-    (at 556.768 85.09)
+    (at 513.08 83.312)
     (descr "MX-style keyswitch with Kailh socket mount")
     (tags MX,cherry,gateron,kailh,pg1511,socket)
     (path /589645BF/607F54C5)
@@ -4132,7 +4132,7 @@
   )
 
   (module daprice-keyswitches:Kailh_socket_MX (layer F.Cu) (tedit 608319E4) (tstamp 609E28DB)
-    (at 553.23232 65.9892)
+    (at 508.508 64.262)
     (descr "MX-style keyswitch with Kailh socket mount")
     (tags MX,cherry,gateron,kailh,pg1511,socket)
     (path /589645BF/607F54B5)
@@ -4204,7 +4204,7 @@
   )
 
   (module daprice-keyswitches:Kailh_socket_MX (layer F.Cu) (tedit 608319E4) (tstamp 6097C2FD)
-    (at 547.37 46.99)
+    (at 503.682 45.212)
     (descr "MX-style keyswitch with Kailh socket mount")
     (tags MX,cherry,gateron,kailh,pg1511,socket)
     (path /589645BF/607F549E)
@@ -4276,7 +4276,7 @@
   )
 
   (module daprice-keyswitches:Kailh_socket_MX (layer F.Cu) (tedit 608319E4) (tstamp 609E2A25)
-    (at 534.18232 65.9892)
+    (at 489.458 64.262)
     (descr "MX-style keyswitch with Kailh socket mount")
     (tags MX,cherry,gateron,kailh,pg1511,socket)
     (path /589645BF/607F54A4)
@@ -4348,7 +4348,7 @@
   )
 
   (module daprice-keyswitches:Kailh_socket_MX (layer F.Cu) (tedit 608319E4) (tstamp 607B43A1)
-    (at 528.32 46.99)
+    (at 484.632 45.212)
     (descr "MX-style keyswitch with Kailh socket mount")
     (tags MX,cherry,gateron,kailh,pg1511,socket)
     (path /589645BF/607F5497)
@@ -4420,7 +4420,7 @@
   )
 
   (module daprice-keyswitches:Kailh_socket_MX (layer F.Cu) (tedit 608319E4) (tstamp 607B4383)
-    (at 604.52 46.99)
+    (at 560.832 45.212)
     (descr "MX-style keyswitch with Kailh socket mount")
     (tags MX,cherry,gateron,kailh,pg1511,socket)
     (path /589645BF/607F54EC)
@@ -4492,7 +4492,7 @@
   )
 
   (module daprice-keyswitches:Kailh_socket_MX (layer F.Cu) (tedit 608319E4) (tstamp 607B4365)
-    (at 588.264 123.19)
+    (at 542.036 121.412)
     (descr "MX-style keyswitch with Kailh socket mount")
     (tags MX,cherry,gateron,kailh,pg1511,socket)
     (path /589645BF/607F54E0)
@@ -4564,7 +4564,7 @@
   )
 
   (module daprice-keyswitches:Kailh_socket_MX (layer F.Cu) (tedit 608319E4) (tstamp 607B4347)
-    (at 528.32 104.14)
+    (at 484.886 102.362)
     (descr "MX-style keyswitch with Kailh socket mount")
     (tags MX,cherry,gateron,kailh,pg1511,socket)
     (path /589645BF/607F54CF)
@@ -4636,7 +4636,7 @@
   )
 
   (module daprice-keyswitches:Kailh_socket_MX (layer F.Cu) (tedit 608319E4) (tstamp 607B4329)
-    (at 537.718 85.09)
+    (at 494.03 83.312)
     (descr "MX-style keyswitch with Kailh socket mount")
     (tags MX,cherry,gateron,kailh,pg1511,socket)
     (path /589645BF/607F54BD)
@@ -4708,7 +4708,7 @@
   )
 
   (module daprice-keyswitches:Kailh_socket_MX (layer F.Cu) (tedit 608319E4) (tstamp 607B430B)
-    (at 585.47 46.99)
+    (at 541.782 45.212)
     (descr "MX-style keyswitch with Kailh socket mount")
     (tags MX,cherry,gateron,kailh,pg1511,socket)
     (path /589645BF/607D8772)
@@ -4780,7 +4780,7 @@
   )
 
   (module daprice-keyswitches:Kailh_socket_MX (layer F.Cu) (tedit 608319E4) (tstamp 607B42CF)
-    (at 509.27 104.14)
+    (at 465.836 102.362)
     (descr "MX-style keyswitch with Kailh socket mount")
     (tags MX,cherry,gateron,kailh,pg1511,socket)
     (path /589645BF/607D8755)
@@ -4852,7 +4852,7 @@
   )
 
   (module daprice-keyswitches:Kailh_socket_MX (layer F.Cu) (tedit 608319E4) (tstamp 607B89B7)
-    (at 518.668 85.09)
+    (at 474.98 83.312)
     (descr "MX-style keyswitch with Kailh socket mount")
     (tags MX,cherry,gateron,kailh,pg1511,socket)
     (path /589645BF/607D8743)
@@ -4924,7 +4924,7 @@
   )
 
   (module daprice-keyswitches:Kailh_socket_MX (layer F.Cu) (tedit 608319E4) (tstamp 609E2E93)
-    (at 515.13232 65.9892)
+    (at 470.408 64.262)
     (descr "MX-style keyswitch with Kailh socket mount")
     (tags MX,cherry,gateron,kailh,pg1511,socket)
     (path /589645BF/607D8733)
@@ -4996,7 +4996,7 @@
   )
 
   (module daprice-keyswitches:Kailh_socket_MX (layer F.Cu) (tedit 608319E4) (tstamp 6097D577)
-    (at 509.27 46.99)
+    (at 465.582 45.212)
     (descr "MX-style keyswitch with Kailh socket mount")
     (tags MX,cherry,gateron,kailh,pg1511,socket)
     (path /589645BF/607D871C)
@@ -5068,7 +5068,7 @@
   )
 
   (module daprice-keyswitches:Kailh_socket_MX (layer F.Cu) (tedit 608319E4) (tstamp 609E2CA4)
-    (at 496.08232 65.9892)
+    (at 451.358 64.262)
     (descr "MX-style keyswitch with Kailh socket mount")
     (tags MX,cherry,gateron,kailh,pg1511,socket)
     (path /589645BF/607D8722)
@@ -5140,7 +5140,7 @@
   )
 
   (module daprice-keyswitches:Kailh_socket_MX (layer F.Cu) (tedit 608319E4) (tstamp 607B4239)
-    (at 490.22 46.99)
+    (at 446.532 45.212)
     (descr "MX-style keyswitch with Kailh socket mount")
     (tags MX,cherry,gateron,kailh,pg1511,socket)
     (path /589645BF/607D8715)
@@ -5212,7 +5212,7 @@
   )
 
   (module daprice-keyswitches:Kailh_socket_MX (layer F.Cu) (tedit 608319E4) (tstamp 60831BEF)
-    (at 585.47 104.14)
+    (at 542.036 102.362)
     (descr "MX-style keyswitch with Kailh socket mount")
     (tags MX,cherry,gateron,kailh,pg1511,socket)
     (path /589645BF/607D876A)
@@ -5284,7 +5284,7 @@
   )
 
   (module daprice-keyswitches:Kailh_socket_MX (layer F.Cu) (tedit 608319E4) (tstamp 607B41FD)
-    (at 525.145 123.444)
+    (at 480.06 121.412)
     (descr "MX-style keyswitch with Kailh socket mount")
     (tags MX,cherry,gateron,kailh,pg1511,socket)
     (path /589645BF/607D875E)
@@ -5356,7 +5356,7 @@
   )
 
   (module daprice-keyswitches:Kailh_socket_MX (layer F.Cu) (tedit 608319E4) (tstamp 607B41DF)
-    (at 490.22 104.14)
+    (at 446.786 102.362)
     (descr "MX-style keyswitch with Kailh socket mount")
     (tags MX,cherry,gateron,kailh,pg1511,socket)
     (path /589645BF/607D874D)
@@ -5428,7 +5428,7 @@
   )
 
   (module daprice-keyswitches:Kailh_socket_MX (layer F.Cu) (tedit 608319E4) (tstamp 607B41C1)
-    (at 499.618 85.09)
+    (at 455.93 83.312)
     (descr "MX-style keyswitch with Kailh socket mount")
     (tags MX,cherry,gateron,kailh,pg1511,socket)
     (path /589645BF/607D873B)
@@ -5500,7 +5500,7 @@
   )
 
   (module daprice-keyswitches:Kailh_socket_MX (layer F.Cu) (tedit 608319E4) (tstamp 607B4185)
-    (at 506.095 123.444)
+    (at 461.01 121.412)
     (descr "MX-style keyswitch with Kailh socket mount")
     (tags MX,cherry,gateron,kailh,pg1511,socket)
     (path /589645BF/607C82CF)
@@ -5572,7 +5572,7 @@
   )
 
   (module daprice-keyswitches:Kailh_socket_MX (layer F.Cu) (tedit 608319E4) (tstamp 607B4167)
-    (at 471.17 104.14)
+    (at 427.736 102.362)
     (descr "MX-style keyswitch with Kailh socket mount")
     (tags MX,cherry,gateron,kailh,pg1511,socket)
     (path /589645BF/607C82A8)
@@ -5644,7 +5644,7 @@
   )
 
   (module daprice-keyswitches:Kailh_socket_MX (layer F.Cu) (tedit 608319E4) (tstamp 607B4149)
-    (at 480.568 85.09)
+    (at 436.88 83.312)
     (descr "MX-style keyswitch with Kailh socket mount")
     (tags MX,cherry,gateron,kailh,pg1511,socket)
     (path /589645BF/607C8296)
@@ -5716,7 +5716,7 @@
   )
 
   (module daprice-keyswitches:Kailh_socket_MX (layer F.Cu) (tedit 608319E4) (tstamp 609E2DEE)
-    (at 477.03232 65.9892)
+    (at 432.308 64.262)
     (descr "MX-style keyswitch with Kailh socket mount")
     (tags MX,cherry,gateron,kailh,pg1511,socket)
     (path /589645BF/607C8286)
@@ -5788,7 +5788,7 @@
   )
 
   (module daprice-keyswitches:Kailh_socket_MX (layer F.Cu) (tedit 608319E4) (tstamp 607B410D)
-    (at 471.17 46.99)
+    (at 427.482 45.212)
     (descr "MX-style keyswitch with Kailh socket mount")
     (tags MX,cherry,gateron,kailh,pg1511,socket)
     (path /589645BF/607C826F)
@@ -6004,7 +6004,7 @@
   )
 
   (module daprice-keyswitches:Kailh_socket_MX (layer F.Cu) (tedit 608319E4) (tstamp 609E2D49)
-    (at 591.33232 65.9892)
+    (at 546.608 64.262)
     (descr "MX-style keyswitch with Kailh socket mount")
     (tags MX,cherry,gateron,kailh,pg1511,socket)
     (path /589645BF/607C82BD)
@@ -6220,7 +6220,7 @@
   )
 
   (module daprice-keyswitches:Kailh_socket_MX (layer F.Cu) (tedit 608319E4) (tstamp 6097CFDD)
-    (at 572.28232 65.9892)
+    (at 527.558 64.262)
     (descr "MX-style keyswitch with Kailh socket mount")
     (tags MX,cherry,gateron,kailh,pg1511,socket)
     (path /589645BF/6062F370)
@@ -6796,7 +6796,7 @@
   )
 
   (module daprice-keyswitches:Kailh_socket_MX (layer F.Cu) (tedit 608319E4) (tstamp 607B4DEE)
-    (at 673.862 123.317)
+    (at 660.908 123.317)
     (descr "MX-style keyswitch with Kailh socket mount")
     (tags MX,cherry,gateron,kailh,pg1511,socket)
     (path /589645BF/6062F363)
@@ -7012,7 +7012,7 @@
   )
 
   (module daprice-keyswitches:Kailh_socket_MX (layer F.Cu) (tedit 608319E4) (tstamp 60A18E20)
-    (at 653.161 123.317)
+    (at 640.207 123.317)
     (descr "MX-style keyswitch with Kailh socket mount")
     (tags MX,cherry,gateron,kailh,pg1511,socket)
     (path /589645BF/605950DC)
@@ -7444,7 +7444,7 @@
   )
 
   (module daprice-keyswitches:Kailh_socket_MX (layer F.Cu) (tedit 608319E4) (tstamp 607B3DE3)
-    (at 566.42 104.14)
+    (at 522.986 102.362)
     (descr "MX-style keyswitch with Kailh socket mount")
     (tags MX,cherry,gateron,kailh,pg1511,socket)
     (path /589645BF/605950C9)
@@ -7588,7 +7588,7 @@
   )
 
   (module daprice-keyswitches:Kailh_socket_MX (layer F.Cu) (tedit 608319E4) (tstamp 609AAAAB)
-    (at 672.338 104.521)
+    (at 659.384 104.521)
     (descr "MX-style keyswitch with Kailh socket mount")
     (tags MX,cherry,gateron,kailh,pg1511,socket)
     (path /589645BF/6056C022)

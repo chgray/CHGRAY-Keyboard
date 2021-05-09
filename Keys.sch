@@ -1764,7 +1764,7 @@ U 1 1 607F54E0
 P 9150 4850
 F 0 "SW44" H 9300 4960 50  0000 C CNN
 F 1 "48" H 9150 4770 50  0000 C CNN
-F 2 "daprice-keyswitches:Kailh_socket_MX" H 9150 4850 60  0001 C CNN
+F 2 "daprice-keyswitches:Stabilizer_MX_1.25u" H 9150 4850 60  0001 C CNN
 F 3 "" H 9150 4850 60  0001 C CNN
 	1    9150 4850
 	1    0    0    -1  
@@ -2288,12 +2288,12 @@ Wire Wire Line
 Connection ~ 9650 5550
 Connection ~ 10350 2300
 $Comp
-L chgray-keyboard-rescue:SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue S1
+L chgray-keyboard-rescue:SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue ENTER1
 U 1 1 60AE6AA1
 P 11550 1300
-F 0 "S1" H 11700 1410 50  0000 C CNN
+F 0 "ENTER1" H 11700 1410 50  0000 C CNN
 F 1 "011" H 11550 1220 50  0000 C CNN
-F 2 "daprice-keyswitches:Kailh_socket_MX" H 11550 1300 60  0001 C CNN
+F 2 "daprice-keyswitches:Stabilizer_MX_1.75u" H 11550 1300 60  0001 C CNN
 F 3 "" H 11550 1300 60  0001 C CNN
 	1    11550 1300
 	1    0    0    -1  
