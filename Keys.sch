@@ -2052,7 +2052,7 @@ Wire Wire Line
 Text HLabel 10350 6750 3    60   Input ~ 0
 KEY_COL10
 $Comp
-L chgray-keyboard-rescue:SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue SW4
+L Cherry-Symbol:SWITCH_PUSH SW4
 U 1 1 58964642
 P 2000 1300
 F 0 "SW4" H 2150 1410 50  0000 C CNN
