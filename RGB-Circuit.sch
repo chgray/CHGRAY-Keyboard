@@ -2717,5 +2717,37 @@ Wire Wire Line
 	2100 9300 2100 10100
 Wire Wire Line
 	2100 10100 2300 10100
-NoConn ~ 3500 10100
+$Comp
+L chgray-keyboard-rescue:SK6812MINI-Cherry-Symbol D?
+U 1 1 60BC5CAF
+P 3800 10100
+AR Path="/60BC5CAF" Ref="D?"  Part="1" 
+AR Path="/6096EA02/60BC5CAF" Ref="D?"  Part="1" 
+F 0 "D?" H 4144 10146 50  0000 L CNN
+F 1 "LED" H 4144 10055 50  0000 L CNN
+F 2 "daprice-keyswitches:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" H 3850 9800 50  0000 L TNN
+F 3 "" H 3900 9725 50  0001 L TNN
+	1    3800 10100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 60BC5CB5
+P 3800 10650
+F 0 "C?" H 3915 10696 50  0000 L CNN
+F 1 "C" H 3915 10605 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 3838 10500 50  0001 C CNN
+F 3 "~" H 3800 10650 50  0001 C CNN
+	1    3800 10650
+	1    0    0    -1  
+$EndComp
+Text GLabel 3800 9750 1    50   Input ~ 0
+LED_VDD
+Text GLabel 3800 10800 3    50   Input ~ 0
+VCC_5V
+Wire Wire Line
+	3800 9800 3800 9750
+Wire Wire Line
+	3800 10400 3800 10500
+NoConn ~ 4100 10100
 $EndSCHEMATC
