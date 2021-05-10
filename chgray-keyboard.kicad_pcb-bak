@@ -392,7 +392,6 @@
     (add_net "/Keyboard Keys/KEY_ROW3")
     (add_net "/Keyboard Keys/KEY_ROW4")
     (add_net "/Keyboard Keys/KEY_ROW5")
-    (add_net /Sheet6096EA01/5V)
     (add_net /Sheet6096EA01/INPUT)
     (add_net GND)
     (add_net LED_VDD)
@@ -558,7 +557,6 @@
     (add_net "Net-(D165-Pad2)")
     (add_net "Net-(D166-Pad2)")
     (add_net "Net-(D167-Pad2)")
-    (add_net "Net-(D168-Pad2)")
     (add_net "Net-(D17-Pad1)")
     (add_net "Net-(D18-Pad1)")
     (add_net "Net-(D19-Pad1)")
@@ -633,9 +631,7 @@
     (add_net "Net-(D82-Pad1)")
     (add_net "Net-(D83-Pad1)")
     (add_net "Net-(D84-Pad1)")
-    (add_net "Net-(D85-Pad2)")
     (add_net "Net-(D86-Pad2)")
-    (add_net "Net-(D86-Pad4)")
     (add_net "Net-(D87-Pad2)")
     (add_net "Net-(D88-Pad2)")
     (add_net "Net-(D89-Pad2)")
@@ -649,13 +645,6 @@
     (add_net "Net-(D96-Pad2)")
     (add_net "Net-(D97-Pad2)")
     (add_net "Net-(D98-Pad2)")
-    (add_net "Net-(U1-Pad29)")
-    (add_net "Net-(U1-Pad30)")
-    (add_net "Net-(U1-Pad31)")
-    (add_net "Net-(U1-Pad6)")
-    (add_net "Net-(U1-Pad7)")
-    (add_net "Net-(U1-Pad8)")
-    (add_net "Net-(U1-Pad9)")
     (add_net VCC_5V)
   )
 
@@ -712,7 +701,7 @@
   )
 
   (module Capacitor_SMD:C_0402_1005Metric (layer B.Cu) (tedit 5F68FEEE) (tstamp 60A115FE)
-    (at 299.085 161.69984)
+    (at 304.165 171.400801)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /6096EA02/60BC5CB5)
@@ -860,7 +849,7 @@
   )
 
   (module Capacitor_SMD:C_0402_1005Metric (layer B.Cu) (tedit 5F68FEEE) (tstamp 609CCB13)
-    (at 299.085 160.51592)
+    (at 304.165 168.717363)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /6096EA02/60B47D17)
@@ -896,7 +885,7 @@
   )
 
   (module Capacitor_SMD:C_0402_1005Metric (layer B.Cu) (tedit 5F68FEEE) (tstamp 609CCB02)
-    (at 299.085 159.92396)
+    (at 304.165 167.375644)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /6096EA02/60B47D09)
@@ -2052,7 +2041,7 @@
   )
 
   (module Capacitor_SMD:C_0402_1005Metric (layer B.Cu) (tedit 5F68FEEE) (tstamp 609C11BB)
-    (at 299.085 146.30888)
+    (at 304.165 136.516107)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /6096EA02/60AE042E)
@@ -2088,7 +2077,7 @@
   )
 
   (module Capacitor_SMD:C_0402_1005Metric (layer B.Cu) (tedit 5F68FEEE) (tstamp 609C11AA)
-    (at 299.085 124.40636)
+    (at 298.45 135.767504)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /6096EA02/60AE0420)
@@ -2124,7 +2113,7 @@
   )
 
   (module Capacitor_SMD:C_0402_1005Metric (layer B.Cu) (tedit 5F68FEEE) (tstamp 609C1199)
-    (at 299.085 114.935)
+    (at 298.45 114.3)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /6096EA02/60AE040E)
@@ -2160,7 +2149,7 @@
   )
 
   (module Capacitor_SMD:C_0402_1005Metric (layer B.Cu) (tedit 5F68FEEE) (tstamp 609C1188)
-    (at 299.085 121.44656)
+    (at 298.45 129.058909)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /6096EA02/60AE0400)
@@ -2196,7 +2185,7 @@
   )
 
   (module Capacitor_SMD:C_0402_1005Metric (layer B.Cu) (tedit 5F68FEEE) (tstamp 609C1177)
-    (at 299.085 146.90084)
+    (at 304.165 137.857826)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /6096EA02/60AE03EE)
@@ -2232,7 +2221,7 @@
   )
 
   (module Capacitor_SMD:C_0402_1005Metric (layer B.Cu) (tedit 5F68FEEE) (tstamp 609C1166)
-    (at 299.085 122.63048)
+    (at 298.45 131.742347)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /6096EA02/60AE03E0)
@@ -2268,7 +2257,7 @@
   )
 
   (module Capacitor_SMD:C_0402_1005Metric (layer B.Cu) (tedit 5F68FEEE) (tstamp 609C1155)
-    (at 299.085 124.99832)
+    (at 298.45 137.109223)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /6096EA02/60AE03CE)
@@ -2304,7 +2293,7 @@
   )
 
   (module Capacitor_SMD:C_0402_1005Metric (layer B.Cu) (tedit 5F68FEEE) (tstamp 609C1144)
-    (at 299.085 134.46968)
+    (at 298.45 158.576727)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /6096EA02/60AE03C0)
@@ -2340,7 +2329,7 @@
   )
 
   (module Capacitor_SMD:C_0402_1005Metric (layer B.Cu) (tedit 5F68FEEE) (tstamp 609C1133)
-    (at 299.085 126.7742)
+    (at 298.45 141.13438)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /6096EA02/60AE03AE)
@@ -2376,7 +2365,7 @@
   )
 
   (module Capacitor_SMD:C_0402_1005Metric (layer B.Cu) (tedit 5F68FEEE) (tstamp 609C1122)
-    (at 299.085 136.24556)
+    (at 298.45 162.601884)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /6096EA02/60AE03A0)
@@ -2412,7 +2401,7 @@
   )
 
   (module Capacitor_SMD:C_0402_1005Metric (layer B.Cu) (tedit 5F68FEEE) (tstamp 609C1111)
-    (at 299.085 135.6536)
+    (at 298.45 161.260165)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /6096EA02/60AE038E)
@@ -2448,7 +2437,7 @@
   )
 
   (module Capacitor_SMD:C_0402_1005Metric (layer B.Cu) (tedit 5F68FEEE) (tstamp 609C1100)
-    (at 299.085 117.30284)
+    (at 298.45 119.666876)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /6096EA02/60AE0380)
@@ -2484,7 +2473,7 @@
   )
 
   (module Capacitor_SMD:C_0402_1005Metric (layer B.Cu) (tedit 5F68FEEE) (tstamp 609C10EF)
-    (at 299.085 131.50988)
+    (at 298.45 151.868132)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /6096EA02/60AE036E)
@@ -2520,7 +2509,7 @@
   )
 
   (module Capacitor_SMD:C_0402_1005Metric (layer B.Cu) (tedit 5F68FEEE) (tstamp 609C10DE)
-    (at 299.085 120.26264)
+    (at 298.45 126.375471)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /6096EA02/60AE0360)
@@ -2556,7 +2545,7 @@
   )
 
   (module Capacitor_SMD:C_0402_1005Metric (layer B.Cu) (tedit 5F68FEEE) (tstamp 609C10CD)
-    (at 299.085 122.03852)
+    (at 298.45 130.400628)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /6096EA02/60AE034E)
@@ -2592,7 +2581,7 @@
   )
 
   (module Capacitor_SMD:C_0402_1005Metric (layer B.Cu) (tedit 5F68FEEE) (tstamp 609C10BC)
-    (at 299.085 141.5732)
+    (at 304.165 125.782355)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /6096EA02/60AE0340)
@@ -2628,7 +2617,7 @@
   )
 
   (module Capacitor_SMD:C_0402_1005Metric (layer B.Cu) (tedit 5F68FEEE) (tstamp 609C10AB)
-    (at 299.085 129.14204)
+    (at 298.45 146.501256)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /6096EA02/60AE032E)
@@ -2664,7 +2653,7 @@
   )
 
   (module Capacitor_SMD:C_0402_1005Metric (layer B.Cu) (tedit 5F68FEEE) (tstamp 609C109A)
-    (at 299.085 130.91792)
+    (at 298.45 150.526413)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /6096EA02/60AE0320)
@@ -2700,7 +2689,7 @@
   )
 
   (module Capacitor_SMD:C_0402_1005Metric (layer B.Cu) (tedit 5F68FEEE) (tstamp 609C1089)
-    (at 299.085 116.11892)
+    (at 298.45 116.983438)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /6096EA02/60AE030E)
@@ -2736,7 +2725,7 @@
   )
 
   (module Capacitor_SMD:C_0402_1005Metric (layer B.Cu) (tedit 5F68FEEE) (tstamp 609C1078)
-    (at 299.085 150.4526)
+    (at 304.165 145.90814)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /6096EA02/60AE0300)
@@ -3892,7 +3881,7 @@
   )
 
   (module Capacitor_SMD:C_0402_1005Metric (layer B.Cu) (tedit 5F68FEEE) (tstamp 609B61D0)
-    (at 299.085 116.71088)
+    (at 298.45 118.325157)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /6096EA02/60A92B97)
@@ -3928,7 +3917,7 @@
   )
 
   (module Capacitor_SMD:C_0402_1005Metric (layer B.Cu) (tedit 5F68FEEE) (tstamp 609B61BF)
-    (at 299.085 138.02144)
+    (at 304.165 117.732041)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /6096EA02/60A92B89)
@@ -3964,7 +3953,7 @@
   )
 
   (module Capacitor_SMD:C_0402_1005Metric (layer B.Cu) (tedit 5F68FEEE) (tstamp 609B61AE)
-    (at 299.085 130.32596)
+    (at 298.45 149.184694)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /6096EA02/60A92B77)
@@ -4000,7 +3989,7 @@
   )
 
   (module Capacitor_SMD:C_0402_1005Metric (layer B.Cu) (tedit 5F68FEEE) (tstamp 609B619D)
-    (at 299.085 133.87772)
+    (at 298.45 157.235008)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /6096EA02/60A92B69)
@@ -4036,7 +4025,7 @@
   )
 
   (module Capacitor_SMD:C_0402_1005Metric (layer B.Cu) (tedit 5F68FEEE) (tstamp 609B618C)
-    (at 299.085 117.8948)
+    (at 298.45 121.008595)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /6096EA02/60A92B57)
@@ -4072,7 +4061,7 @@
   )
 
   (module Capacitor_SMD:C_0402_1005Metric (layer B.Cu) (tedit 5F68FEEE) (tstamp 609B617B)
-    (at 299.085 132.10184)
+    (at 298.45 153.209851)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /6096EA02/60A92B49)
@@ -4108,7 +4097,7 @@
   )
 
   (module Capacitor_SMD:C_0402_1005Metric (layer B.Cu) (tedit 5F68FEEE) (tstamp 609B616A)
-    (at 299.085 139.79732)
+    (at 304.165 121.757198)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /6096EA02/60A92B37)
@@ -4144,7 +4133,7 @@
   )
 
   (module Capacitor_SMD:C_0402_1005Metric (layer B.Cu) (tedit 5F68FEEE) (tstamp 609B6159)
-    (at 299.085 164.06768)
+    (at 304.165 176.76768)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /6096EA02/60A92B29)
@@ -4180,7 +4169,7 @@
   )
 
   (module Capacitor_SMD:C_0402_1005Metric (layer B.Cu) (tedit 5F68FEEE) (tstamp 609B6148)
-    (at 299.085 138.6134)
+    (at 304.165 119.07376)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /6096EA02/60A92B17)
@@ -4216,7 +4205,7 @@
   )
 
   (module Capacitor_SMD:C_0402_1005Metric (layer B.Cu) (tedit 5F68FEEE) (tstamp 609B6137)
-    (at 299.085 162.2918)
+    (at 304.165 172.74252)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /6096EA02/60A92B09)
@@ -4252,7 +4241,7 @@
   )
 
   (module Capacitor_SMD:C_0402_1005Metric (layer B.Cu) (tedit 5F68FEEE) (tstamp 609B6126)
-    (at 299.085 162.88376)
+    (at 304.165 174.084239)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /6096EA02/60A92AF7)
@@ -4288,7 +4277,7 @@
   )
 
   (module Capacitor_SMD:C_0402_1005Metric (layer B.Cu) (tedit 5F68FEEE) (tstamp 609B6115)
-    (at 299.085 127.36616)
+    (at 298.45 142.476099)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /6096EA02/60A92AE9)
@@ -4324,7 +4313,7 @@
   )
 
   (module Capacitor_SMD:C_0402_1005Metric (layer B.Cu) (tedit 5F68FEEE) (tstamp 609B6104)
-    (at 299.085 142.16516)
+    (at 304.165 127.124074)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /6096EA02/60A92AD7)
@@ -4360,7 +4349,7 @@
   )
 
   (module Capacitor_SMD:C_0402_1005Metric (layer B.Cu) (tedit 5F68FEEE) (tstamp 609B60F3)
-    (at 299.085 129.734)
+    (at 298.45 147.842975)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /6096EA02/60A92AC9)
@@ -4396,7 +4385,7 @@
   )
 
   (module Capacitor_SMD:C_0402_1005Metric (layer B.Cu) (tedit 5F68FEEE) (tstamp 609B60E2)
-    (at 299.085 133.28576)
+    (at 298.45 155.893289)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /6096EA02/60A92AB7)
@@ -4432,7 +4421,7 @@
   )
 
   (module Capacitor_SMD:C_0402_1005Metric (layer B.Cu) (tedit 5F68FEEE) (tstamp 609B60D1)
-    (at 299.085 115.52696)
+    (at 298.45 115.641719)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /6096EA02/60A92AA9)
@@ -4468,7 +4457,7 @@
   )
 
   (module Capacitor_SMD:C_0402_1005Metric (layer B.Cu) (tedit 5F68FEEE) (tstamp 609B60C0)
-    (at 299.085 140.38928)
+    (at 304.165 123.098917)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /6096EA02/60A92A97)
@@ -4504,7 +4493,7 @@
   )
 
   (module Capacitor_SMD:C_0402_1005Metric (layer B.Cu) (tedit 5F68FEEE) (tstamp 609B60AF)
-    (at 299.085 142.75712)
+    (at 304.165 128.465793)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /6096EA02/60A92A89)
@@ -4540,7 +4529,7 @@
   )
 
   (module Capacitor_SMD:C_0402_1005Metric (layer B.Cu) (tedit 5F68FEEE) (tstamp 609B609E)
-    (at 299.085 123.22244)
+    (at 298.45 133.084066)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /6096EA02/60A92A77)
@@ -4576,7 +4565,7 @@
   )
 
   (module Capacitor_SMD:C_0402_1005Metric (layer B.Cu) (tedit 5F68FEEE) (tstamp 609B608D)
-    (at 299.085 120.8546)
+    (at 298.45 127.71719)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /6096EA02/60A92A69)
@@ -5732,7 +5721,7 @@
   )
 
   (module Capacitor_SMD:C_0402_1005Metric (layer B.Cu) (tedit 5F68FEEE) (tstamp 609ABB81)
-    (at 299.085 137.42948)
+    (at 304.165 116.390322)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /6096EA02/60A52EB5)
@@ -5768,7 +5757,7 @@
   )
 
   (module Capacitor_SMD:C_0402_1005Metric (layer B.Cu) (tedit 5F68FEEE) (tstamp 609ABB70)
-    (at 299.085 157.55612)
+    (at 304.165 162.008768)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /6096EA02/60A52EA7)
@@ -5804,7 +5793,7 @@
   )
 
   (module Capacitor_SMD:C_0402_1005Metric (layer B.Cu) (tedit 5F68FEEE) (tstamp 609ABB5F)
-    (at 299.085 151.04456)
+    (at 304.165 147.249859)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /6096EA02/60A52E95)
@@ -5840,7 +5829,7 @@
   )
 
   (module Capacitor_SMD:C_0402_1005Metric (layer B.Cu) (tedit 5F68FEEE) (tstamp 609ABB4E)
-    (at 299.085 153.4124)
+    (at 304.165 152.616735)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /6096EA02/60A52E87)
@@ -5876,7 +5865,7 @@
   )
 
   (module Capacitor_SMD:C_0402_1005Metric (layer B.Cu) (tedit 5F68FEEE) (tstamp 609ABB3D)
-    (at 299.085 140.98124)
+    (at 304.165 124.440636)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /6096EA02/60A52E75)
@@ -5912,7 +5901,7 @@
   )
 
   (module Capacitor_SMD:C_0402_1005Metric (layer B.Cu) (tedit 5F68FEEE) (tstamp 609ABB2C)
-    (at 299.085 152.82044)
+    (at 304.165 151.275016)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /6096EA02/60A52E67)
@@ -5948,7 +5937,7 @@
   )
 
   (module Capacitor_SMD:C_0402_1005Metric (layer B.Cu) (tedit 5F68FEEE) (tstamp 609ABB1B)
-    (at 299.085 156.3722)
+    (at 304.165 159.32533)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /6096EA02/60A52E55)
@@ -5984,7 +5973,7 @@
   )
 
   (module Capacitor_SMD:C_0402_1005Metric (layer B.Cu) (tedit 5F68FEEE) (tstamp 609ABB0A)
-    (at 299.085 118.48676)
+    (at 298.45 122.350314)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /6096EA02/60A52E47)
@@ -6020,7 +6009,7 @@
   )
 
   (module Capacitor_SMD:C_0402_1005Metric (layer B.Cu) (tedit 5F68FEEE) (tstamp 609ABAF9)
-    (at 299.085 156.96416)
+    (at 304.165 160.667049)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /6096EA02/60A52E35)
@@ -6056,7 +6045,7 @@
   )
 
   (module Capacitor_SMD:C_0402_1005Metric (layer B.Cu) (tedit 5F68FEEE) (tstamp 609ABAE8)
-    (at 299.085 119.07872)
+    (at 298.45 123.692033)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /6096EA02/60A52E27)
@@ -6092,7 +6081,7 @@
   )
 
   (module Capacitor_SMD:C_0402_1005Metric (layer B.Cu) (tedit 5F68FEEE) (tstamp 609ABAD7)
-    (at 299.085 119.67068)
+    (at 298.45 125.033752)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /6096EA02/60A52E15)
@@ -6128,7 +6117,7 @@
   )
 
   (module Capacitor_SMD:C_0402_1005Metric (layer B.Cu) (tedit 5F68FEEE) (tstamp 609ABAC6)
-    (at 299.085 161.10788)
+    (at 304.165 170.059082)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /6096EA02/60A52E07)
@@ -6164,7 +6153,7 @@
   )
 
   (module Capacitor_SMD:C_0402_1005Metric (layer B.Cu) (tedit 5F68FEEE) (tstamp 609ABAB5)
-    (at 299.085 155.78024)
+    (at 304.165 157.983611)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /6096EA02/60A52DF5)
@@ -6200,7 +6189,7 @@
   )
 
   (module Capacitor_SMD:C_0402_1005Metric (layer B.Cu) (tedit 5F68FEEE) (tstamp 609ABAA4)
-    (at 299.085 151.63652)
+    (at 304.165 148.591578)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /6096EA02/60A52DE7)
@@ -6236,7 +6225,7 @@
   )
 
   (module Capacitor_SMD:C_0402_1005Metric (layer B.Cu) (tedit 5F68FEEE) (tstamp 609ABA93)
-    (at 299.085 154.59632)
+    (at 304.165 155.300173)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /6096EA02/60A52DD5)
@@ -6272,7 +6261,7 @@
   )
 
   (module Capacitor_SMD:C_0402_1005Metric (layer B.Cu) (tedit 5F68FEEE) (tstamp 609ABA82)
-    (at 299.085 123.8144)
+    (at 298.45 134.425785)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /6096EA02/60A52DC7)
@@ -6308,7 +6297,7 @@
   )
 
   (module Capacitor_SMD:C_0402_1005Metric (layer B.Cu) (tedit 5F68FEEE) (tstamp 609ABA71)
-    (at 299.085 152.22848)
+    (at 304.165 149.933297)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /6096EA02/60A52DB5)
@@ -6344,7 +6333,7 @@
   )
 
   (module Capacitor_SMD:C_0402_1005Metric (layer B.Cu) (tedit 5F68FEEE) (tstamp 609ABA60)
-    (at 299.085 155.18828)
+    (at 304.165 156.641892)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /6096EA02/60A52DA7)
@@ -6380,7 +6369,7 @@
   )
 
   (module Capacitor_SMD:C_0402_1005Metric (layer B.Cu) (tedit 5F68FEEE) (tstamp 609ABA4F)
-    (at 299.085 158.14808)
+    (at 304.165 163.350487)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /6096EA02/60A52D95)
@@ -6416,7 +6405,7 @@
   )
 
   (module Capacitor_SMD:C_0402_1005Metric (layer B.Cu) (tedit 5F68FEEE) (tstamp 609ABA3E)
-    (at 299.085 145.71692)
+    (at 304.165 135.174388)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /6096EA02/60A52D87)
@@ -7012,7 +7001,7 @@
   )
 
   (module Capacitor_SMD:C_0402_1005Metric (layer B.Cu) (tedit 5F68FEEE) (tstamp 609A2691)
-    (at 299.085 159.332)
+    (at 304.165 166.033925)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /6096EA02/60A14A75)
@@ -7048,7 +7037,7 @@
   )
 
   (module Capacitor_SMD:C_0402_1005Metric (layer B.Cu) (tedit 5F68FEEE) (tstamp 609A2680)
-    (at 299.085 144.533)
+    (at 304.165 132.49095)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /6096EA02/60A14A67)
@@ -7084,7 +7073,7 @@
   )
 
   (module Capacitor_SMD:C_0402_1005Metric (layer B.Cu) (tedit 5F68FEEE) (tstamp 609A266F)
-    (at 299.085 149.86064)
+    (at 304.165 144.566421)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /6096EA02/60A14A55)
@@ -7120,7 +7109,7 @@
   )
 
   (module Capacitor_SMD:C_0402_1005Metric (layer B.Cu) (tedit 5F68FEEE) (tstamp 609A265E)
-    (at 299.085 145.12496)
+    (at 304.165 133.832669)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /6096EA02/60A14A47)
@@ -7156,7 +7145,7 @@
   )
 
   (module Capacitor_SMD:C_0402_1005Metric (layer B.Cu) (tedit 5F68FEEE) (tstamp 609A264D)
-    (at 299.085 147.4928)
+    (at 304.165 139.199545)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /6096EA02/60A14A35)
@@ -7192,7 +7181,7 @@
   )
 
   (module Capacitor_SMD:C_0402_1005Metric (layer B.Cu) (tedit 5F68FEEE) (tstamp 609A263C)
-    (at 299.085 143.94104)
+    (at 304.165 131.149231)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /6096EA02/60A14A27)
@@ -7228,7 +7217,7 @@
   )
 
   (module Capacitor_SMD:C_0402_1005Metric (layer B.Cu) (tedit 5F68FEEE) (tstamp 609A262B)
-    (at 299.085 143.34908)
+    (at 304.165 129.807512)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /6096EA02/60A14A15)
@@ -7264,7 +7253,7 @@
   )
 
   (module Capacitor_SMD:C_0402_1005Metric (layer B.Cu) (tedit 5F68FEEE) (tstamp 609A261A)
-    (at 299.085 148.08476)
+    (at 304.165 140.541264)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /6096EA02/60A14A07)
@@ -7300,7 +7289,7 @@
   )
 
   (module Capacitor_SMD:C_0402_1005Metric (layer B.Cu) (tedit 5F68FEEE) (tstamp 609A2609)
-    (at 299.085 148.67672)
+    (at 304.165 141.882983)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /6096EA02/60A149F5)
@@ -7336,7 +7325,7 @@
   )
 
   (module Capacitor_SMD:C_0402_1005Metric (layer B.Cu) (tedit 5F68FEEE) (tstamp 609A25F8)
-    (at 299.085 149.26868)
+    (at 304.165 143.224702)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /6096EA02/60A149E7)
@@ -7820,7 +7809,7 @@
   )
 
   (module Capacitor_SMD:C_0402_1005Metric (layer B.Cu) (tedit 5F68FEEE) (tstamp 60992514)
-    (at 299.085 132.6938)
+    (at 298.45 154.55157)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /6096EA02/609C2DC0)
@@ -7856,7 +7845,7 @@
   )
 
   (module Capacitor_SMD:C_0402_1005Metric (layer B.Cu) (tedit 5F68FEEE) (tstamp 60992503)
-    (at 299.085 126.18224)
+    (at 298.45 139.792661)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /6096EA02/609C2DB2)
@@ -7892,7 +7881,7 @@
   )
 
   (module Capacitor_SMD:C_0402_1005Metric (layer B.Cu) (tedit 5F68FEEE) (tstamp 609924F2)
-    (at 299.085 125.59028)
+    (at 298.45 138.450942)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /6096EA02/609BF4AB)
@@ -7928,7 +7917,7 @@
   )
 
   (module Capacitor_SMD:C_0402_1005Metric (layer B.Cu) (tedit 5F68FEEE) (tstamp 609924E1)
-    (at 299.085 135.06164)
+    (at 298.45 159.918446)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /6096EA02/609BF49D)
@@ -7964,7 +7953,7 @@
   )
 
   (module Capacitor_SMD:C_0402_1005Metric (layer B.Cu) (tedit 5F68FEEE) (tstamp 609924B0)
-    (at 299.085 128.55008)
+    (at 298.45 145.159537)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /6096EA02/609B85D9)
@@ -8000,7 +7989,7 @@
   )
 
   (module Capacitor_SMD:C_0402_1005Metric (layer B.Cu) (tedit 5F68FEEE) (tstamp 6099249F)
-    (at 299.085 136.83752)
+    (at 304.165 115.048603)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /6096EA02/609B85CB)
@@ -8036,7 +8025,7 @@
   )
 
   (module Capacitor_SMD:C_0402_1005Metric (layer B.Cu) (tedit 5F68FEEE) (tstamp 6099246E)
-    (at 299.085 127.95812)
+    (at 298.45 143.817818)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /6096EA02/609B5170)
@@ -8072,7 +8061,7 @@
   )
 
   (module Capacitor_SMD:C_0402_1005Metric (layer B.Cu) (tedit 5F68FEEE) (tstamp 6099245D)
-    (at 299.085 139.20536)
+    (at 304.165 120.415479)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /6096EA02/609B5162)
@@ -8725,7 +8714,7 @@
   )
 
   (module Capacitor_SMD:C_0402_1005Metric (layer B.Cu) (tedit 5F68FEEE) (tstamp 6099DC49)
-    (at 299.085 154.00436)
+    (at 304.165 153.958454)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /6096EA02/609719A0)
@@ -8761,7 +8750,7 @@
   )
 
   (module Capacitor_SMD:C_0402_1005Metric (layer B.Cu) (tedit 5F68FEEE) (tstamp 6099DC19)
-    (at 299.085 158.74004)
+    (at 304.165 164.692206)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /6096EA02/6097096E)
@@ -8797,7 +8786,7 @@
   )
 
   (module Capacitor_SMD:C_0402_1005Metric (layer B.Cu) (tedit 5F68FEEE) (tstamp 6099D766)
-    (at 299.085 163.47572)
+    (at 304.165 175.425958)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /6096EA02/60970F2A)
@@ -9901,7 +9890,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 6099DCC9)
-    (at 310.976 174.77621)
+    (at 311.611 173.801351)
     (descr SOD-123)
     (tags SOD-123)
     (path /589645BF/60B082CD)
@@ -9945,7 +9934,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 6099E14F)
-    (at 310.976 115.7478)
+    (at 311.611 116.3828)
     (descr SOD-123)
     (tags SOD-123)
     (path /589645BF/60B082BF)
@@ -9989,7 +9978,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 6099E3A4)
-    (at 310.976 162.127265)
+    (at 311.611 158.691206)
     (descr SOD-123)
     (tags SOD-123)
     (path /589645BF/60B082B1)
@@ -10033,7 +10022,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 6099E314)
-    (at 310.976 119.964115)
+    (at 311.611 119.404829)
     (descr SOD-123)
     (tags SOD-123)
     (path /589645BF/60ADD02C)
@@ -10121,7 +10110,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 6099DDB6)
-    (at 310.976 178.992525)
+    (at 311.611 176.82338)
     (descr SOD-123)
     (tags SOD-123)
     (path /589645BF/60ADD010)
@@ -10165,7 +10154,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 6099E284)
-    (at 310.976 124.18043)
+    (at 311.611 122.426858)
     (descr SOD-123)
     (tags SOD-123)
     (path /589645BF/60ADD002)
@@ -10209,7 +10198,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 6099E197)
-    (at 310.976 128.396745)
+    (at 311.611 125.448887)
     (descr SOD-123)
     (tags SOD-123)
     (path /589645BF/60ADCFF4)
@@ -15956,7 +15945,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 60999CA9)
-    (at 310.976 157.91095)
+    (at 311.611 152.647148)
     (descr SOD-123)
     (tags SOD-123)
     (path /589645BF/60AE6AEE)
@@ -16000,7 +15989,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 60A19D43)
-    (at 302.387 176.571822)
+    (at 311.611 170.779322)
     (descr SOD-123)
     (tags SOD-123)
     (path /589645BF/60AE6AE0)
@@ -16044,7 +16033,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 6099D354)
-    (at 310.976 141.04569)
+    (at 311.611 134.514974)
     (descr SOD-123)
     (tags SOD-123)
     (path /589645BF/60AE6AD2)
@@ -16088,7 +16077,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 6099D30C)
-    (at 310.976 166.34358)
+    (at 311.611 167.757293)
     (descr SOD-123)
     (tags SOD-123)
     (path /589645BF/60AE6AC4)
@@ -16132,7 +16121,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 6099D624)
-    (at 310.976 149.47832)
+    (at 311.611 143.581061)
     (descr SOD-123)
     (tags SOD-123)
     (path /589645BF/60AE6AB6)
@@ -16176,7 +16165,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 60A19D8B)
-    (at 302.387 180.7972)
+    (at 311.611 161.713235)
     (descr SOD-123)
     (tags SOD-123)
     (path /589645BF/60AE6AA8)
@@ -16220,7 +16209,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 6099D2C4)
-    (at 310.976 145.262005)
+    (at 311.611 140.559032)
     (descr SOD-123)
     (tags SOD-123)
     (path /589645BF/608C2385)
@@ -16264,7 +16253,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 60A19CFB)
-    (at 302.387 168.12107)
+    (at 311.611 155.669177)
     (descr SOD-123)
     (tags SOD-123)
     (path /589645BF/608A9D4D)
@@ -16308,7 +16297,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 6099D54C)
-    (at 310.976 153.694635)
+    (at 311.611 149.625119)
     (descr SOD-123)
     (tags SOD-123)
     (path /589645BF/608919D5)
@@ -16352,7 +16341,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 60A19DD3)
-    (at 302.387 172.346446)
+    (at 311.611 164.735264)
     (descr SOD-123)
     (tags SOD-123)
     (path /589645BF/60879F63)
@@ -16396,7 +16385,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 6099D4BC)
-    (at 310.976 132.61306)
+    (at 311.611 128.470916)
     (descr SOD-123)
     (tags SOD-123)
     (path /589645BF/6086304D)
@@ -16836,7 +16825,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 6099CDFC)
-    (at 305.815 115.57)
+    (at 311.611 137.537003)
     (descr SOD-123)
     (tags SOD-123)
     (path /589645BF/607F5547)
@@ -16880,7 +16869,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 6099CED4)
-    (at 310.976 170.559895)
+    (at 311.611 179.845418)
     (descr SOD-123)
     (tags SOD-123)
     (path /589645BF/607F5535)
@@ -17540,7 +17529,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 6099CF64)
-    (at 310.976 136.829375)
+    (at 311.611 131.492945)
     (descr SOD-123)
     (tags SOD-123)
     (path /589645BF/607C8312)
@@ -18420,7 +18409,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 6099C48A)
-    (at 316.865 144.907)
+    (at 311.611 146.60309)
     (descr SOD-123)
     (tags SOD-123)
     (path /589645BF/6062F3F7)
