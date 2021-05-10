@@ -748,7 +748,7 @@
   )
 
   (module daprice-keyswitches:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm (layer F.Cu) (tedit 60987553) (tstamp 609CED71)
-    (at 382.016 176.784)
+    (at 382.1176 176.4652)
     (descr https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf)
     (tags "LED RGB NeoPixel Mini")
     (path /6096EA02/60B47D11)
@@ -804,7 +804,7 @@
   )
 
   (module daprice-keyswitches:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm (layer F.Cu) (tedit 60987553) (tstamp 609CED54)
-    (at 362.966 177.546)
+    (at 363.093 176.4652)
     (descr https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf)
     (tags "LED RGB NeoPixel Mini")
     (path /6096EA02/60B47D03)
@@ -932,7 +932,7 @@
   )
 
   (module daprice-keyswitches:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm (layer F.Cu) (tedit 60987553) (tstamp 609C31C3)
-    (at 344.17 177.038)
+    (at 344.043 176.4906)
     (descr https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf)
     (tags "LED RGB NeoPixel Mini")
     (path /6096EA02/60AE0428)
@@ -988,7 +988,7 @@
   )
 
   (module daprice-keyswitches:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm (layer F.Cu) (tedit 60987553) (tstamp 609C31A6)
-    (at 324.866 177.038)
+    (at 324.993 176.4906)
     (descr https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf)
     (tags "LED RGB NeoPixel Mini")
     (path /6096EA02/60AE041A)
@@ -1044,7 +1044,7 @@
   )
 
   (module daprice-keyswitches:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm (layer F.Cu) (tedit 60987553) (tstamp 609C3189)
-    (at 286.766 177.546)
+    (at 286.9184 176.2874)
     (descr https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf)
     (tags "LED RGB NeoPixel Mini")
     (path /6096EA02/60AE0408)
@@ -1100,7 +1100,7 @@
   )
 
   (module daprice-keyswitches:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm (layer F.Cu) (tedit 60987553) (tstamp 609C316C)
-    (at 268.478 177.546)
+    (at 267.843 176.276)
     (descr https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf)
     (tags "LED RGB NeoPixel Mini")
     (path /6096EA02/60AE03FA)
@@ -1156,7 +1156,7 @@
   )
 
   (module daprice-keyswitches:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm (layer F.Cu) (tedit 60987553) (tstamp 609C314F)
-    (at 245.872 177.8)
+    (at 246.253 176.8462)
     (descr https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf)
     (tags "LED RGB NeoPixel Mini")
     (path /6096EA02/60AE03E8)
@@ -1212,7 +1212,7 @@
   )
 
   (module daprice-keyswitches:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm (layer F.Cu) (tedit 60987553) (tstamp 609C3132)
-    (at 212.852 177.546)
+    (at 213.1822 176.9348)
     (descr https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf)
     (tags "LED RGB NeoPixel Mini")
     (path /6096EA02/60AE03DA)
@@ -1268,7 +1268,7 @@
   )
 
   (module daprice-keyswitches:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm (layer F.Cu) (tedit 60987553) (tstamp 609C3115)
-    (at 181.61 177.8)
+    (at 181.991 176.2366)
     (descr https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf)
     (tags "LED RGB NeoPixel Mini")
     (path /6096EA02/60AE03C8)
@@ -1324,7 +1324,7 @@
   )
 
   (module daprice-keyswitches:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm (layer F.Cu) (tedit 60987553) (tstamp 609C30F8)
-    (at 162.56 177.8)
+    (at 162.9664 176.276)
     (descr https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf)
     (tags "LED RGB NeoPixel Mini")
     (path /6096EA02/60AE03BA)
@@ -1380,7 +1380,7 @@
   )
 
   (module daprice-keyswitches:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm (layer F.Cu) (tedit 60987553) (tstamp 609C30DB)
-    (at 131.572 177.546)
+    (at 131.9784 176.77)
     (descr https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf)
     (tags "LED RGB NeoPixel Mini")
     (path /6096EA02/60AE03A8)
@@ -1436,7 +1436,7 @@
   )
 
   (module daprice-keyswitches:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm (layer F.Cu) (tedit 60987553) (tstamp 609C30BE)
-    (at 100.838 177.546)
+    (at 100.965 176.2874)
     (descr https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf)
     (tags "LED RGB NeoPixel Mini")
     (path /6096EA02/60AE039A)
@@ -1548,7 +1548,7 @@
   )
 
   (module daprice-keyswitches:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm (layer F.Cu) (tedit 60987553) (tstamp 609C3084)
-    (at 53.086 177.546)
+    (at 53.213 176.1858)
     (descr https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf)
     (tags "LED RGB NeoPixel Mini")
     (path /6096EA02/60AE037A)
@@ -1604,7 +1604,7 @@
   )
 
   (module daprice-keyswitches:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm (layer F.Cu) (tedit 60987553) (tstamp 609C3067)
-    (at 34.544 177.8)
+    (at 34.163 176.3128)
     (descr https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf)
     (tags "LED RGB NeoPixel Mini")
     (path /6096EA02/60AE0368)
@@ -1716,7 +1716,7 @@
   )
 
   (module daprice-keyswitches:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm (layer F.Cu) (tedit 60987553) (tstamp 609C302D)
-    (at 72.898 158.242)
+    (at 72.517 157.2006)
     (descr https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf)
     (tags "LED RGB NeoPixel Mini")
     (path /6096EA02/60AE0348)
@@ -1772,7 +1772,7 @@
   )
 
   (module daprice-keyswitches:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm (layer F.Cu) (tedit 60987553) (tstamp 609C3010)
-    (at 92.456 158.496)
+    (at 91.567 157.2006)
     (descr https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf)
     (tags "LED RGB NeoPixel Mini")
     (path /6096EA02/60AE033A)
@@ -1828,7 +1828,7 @@
   )
 
   (module daprice-keyswitches:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm (layer F.Cu) (tedit 60987553) (tstamp 609C2FF3)
-    (at 110.49 158.496)
+    (at 110.617 157.226)
     (descr https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf)
     (tags "LED RGB NeoPixel Mini")
     (path /6096EA02/60AE0328)
@@ -1884,7 +1884,7 @@
   )
 
   (module daprice-keyswitches:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm (layer F.Cu) (tedit 60987553) (tstamp 609C2FD6)
-    (at 130.302 159.004)
+    (at 129.667 157.226)
     (descr https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf)
     (tags "LED RGB NeoPixel Mini")
     (path /6096EA02/60AE031A)
@@ -1940,7 +1940,7 @@
   )
 
   (module daprice-keyswitches:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm (layer F.Cu) (tedit 60987553) (tstamp 609C2FB9)
-    (at 149.098 159.004)
+    (at 148.6916 157.226)
     (descr https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf)
     (tags "LED RGB NeoPixel Mini")
     (path /6096EA02/60AE0308)
@@ -1996,7 +1996,7 @@
   )
 
   (module daprice-keyswitches:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm (layer F.Cu) (tedit 60987553) (tstamp 609C2F9C)
-    (at 167.64 159.004)
+    (at 167.767 157.226)
     (descr https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf)
     (tags "LED RGB NeoPixel Mini")
     (path /6096EA02/60AE02FA)
@@ -2772,7 +2772,7 @@
   )
 
   (module daprice-keyswitches:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm (layer F.Cu) (tedit 60987553) (tstamp 609B7D78)
-    (at 186.944 157.988)
+    (at 186.817 157.2006)
     (descr https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf)
     (tags "LED RGB NeoPixel Mini")
     (path /6096EA02/60A92B91)
@@ -2828,7 +2828,7 @@
   )
 
   (module daprice-keyswitches:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm (layer F.Cu) (tedit 60987553) (tstamp 609B7D5B)
-    (at 205.994 158.596)
+    (at 205.8416 157.226)
     (descr https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf)
     (tags "LED RGB NeoPixel Mini")
     (path /6096EA02/60A92B83)
@@ -2884,7 +2884,7 @@
   )
 
   (module daprice-keyswitches:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm (layer F.Cu) (tedit 60987553) (tstamp 609B7D3E)
-    (at 225.298 158.75)
+    (at 224.917 157.226)
     (descr https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf)
     (tags "LED RGB NeoPixel Mini")
     (path /6096EA02/60A92B71)
@@ -2940,7 +2940,7 @@
   )
 
   (module daprice-keyswitches:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm (layer F.Cu) (tedit 60987553) (tstamp 609B7D21)
-    (at 243.586 157.988)
+    (at 243.967 157.2006)
     (descr https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf)
     (tags "LED RGB NeoPixel Mini")
     (path /6096EA02/60A92B63)
@@ -3052,7 +3052,7 @@
   )
 
   (module daprice-keyswitches:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm (layer F.Cu) (tedit 60987553) (tstamp 609B7CE7)
-    (at 325.374 159.004)
+    (at 324.9422 157.4406)
     (descr https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf)
     (tags "LED RGB NeoPixel Mini")
     (path /6096EA02/60A92B43)
@@ -3108,7 +3108,7 @@
   )
 
   (module daprice-keyswitches:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm (layer F.Cu) (tedit 60987553) (tstamp 609B7CCA)
-    (at 343.916 158.75)
+    (at 344.043 157.4152)
     (descr https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf)
     (tags "LED RGB NeoPixel Mini")
     (path /6096EA02/60A92B31)
@@ -3164,7 +3164,7 @@
   )
 
   (module daprice-keyswitches:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm (layer F.Cu) (tedit 60987553) (tstamp 609B7CAD)
-    (at 363.474 158.342)
+    (at 363.093 157.4914)
     (descr https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf)
     (tags "LED RGB NeoPixel Mini")
     (path /6096EA02/60A92B23)
@@ -3220,7 +3220,7 @@
   )
 
   (module daprice-keyswitches:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm (layer F.Cu) (tedit 60987553) (tstamp 609B7C90)
-    (at 381.762 158.242)
+    (at 382.0922 157.4406)
     (descr https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf)
     (tags "LED RGB NeoPixel Mini")
     (path /6096EA02/60A92B11)
@@ -3276,7 +3276,7 @@
   )
 
   (module daprice-keyswitches:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm (layer F.Cu) (tedit 60987553) (tstamp 609B7C73)
-    (at 382.524 139.954)
+    (at 382.0922 138.4046)
     (descr https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf)
     (tags "LED RGB NeoPixel Mini")
     (path /6096EA02/60A92B03)
@@ -3332,7 +3332,7 @@
   )
 
   (module daprice-keyswitches:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm (layer F.Cu) (tedit 60987553) (tstamp 609B7C56)
-    (at 362.966 140.208)
+    (at 363.093 138.416)
     (descr https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf)
     (tags "LED RGB NeoPixel Mini")
     (path /6096EA02/60A92AF1)
@@ -3388,7 +3388,7 @@
   )
 
   (module daprice-keyswitches:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm (layer F.Cu) (tedit 60987553) (tstamp 609B7C39)
-    (at 344.17 140.208)
+    (at 344.0684 138.4414)
     (descr https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf)
     (tags "LED RGB NeoPixel Mini")
     (path /6096EA02/60A92AE3)
@@ -3444,7 +3444,7 @@
   )
 
   (module daprice-keyswitches:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm (layer F.Cu) (tedit 60987553) (tstamp 609B7C1C)
-    (at 324.612 139.546)
+    (at 325.0438 138.3906)
     (descr https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf)
     (tags "LED RGB NeoPixel Mini")
     (path /6096EA02/60A92AD1)
@@ -3500,7 +3500,7 @@
   )
 
   (module daprice-keyswitches:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm (layer F.Cu) (tedit 60987553) (tstamp 609B7BFF)
-    (at 279.146 139.192)
+    (at 279.5778 138.5938)
     (descr https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf)
     (tags "LED RGB NeoPixel Mini")
     (path /6096EA02/60A92AC3)
@@ -3556,7 +3556,7 @@
   )
 
   (module daprice-keyswitches:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm (layer F.Cu) (tedit 60987553) (tstamp 609B7BE2)
-    (at 253.492 139.446)
+    (at 253.111 138.162)
     (descr https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf)
     (tags "LED RGB NeoPixel Mini")
     (path /6096EA02/60A92AB1)
@@ -3612,7 +3612,7 @@
   )
 
   (module daprice-keyswitches:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm (layer F.Cu) (tedit 60987553) (tstamp 609B7BC5)
-    (at 234.442 139.8)
+    (at 234.061 138.176)
     (descr https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf)
     (tags "LED RGB NeoPixel Mini")
     (path /6096EA02/60A92AA3)
@@ -3668,7 +3668,7 @@
   )
 
   (module daprice-keyswitches:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm (layer F.Cu) (tedit 60987553) (tstamp 609B7BA8)
-    (at 215.392 140.208)
+    (at 215.0364 138.1506)
     (descr https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf)
     (tags "LED RGB NeoPixel Mini")
     (path /6096EA02/60A92A91)
@@ -3724,7 +3724,7 @@
   )
 
   (module daprice-keyswitches:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm (layer F.Cu) (tedit 60987553) (tstamp 609B7B8B)
-    (at 195.834 140.208)
+    (at 195.9356 138.2014)
     (descr https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf)
     (tags "LED RGB NeoPixel Mini")
     (path /6096EA02/60A92A83)
@@ -3780,7 +3780,7 @@
   )
 
   (module daprice-keyswitches:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm (layer F.Cu) (tedit 60987553) (tstamp 609B7B6E)
-    (at 176.53 139.7)
+    (at 176.911 138.1874)
     (descr https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf)
     (tags "LED RGB NeoPixel Mini")
     (path /6096EA02/60A92A71)
@@ -3836,7 +3836,7 @@
   )
 
   (module daprice-keyswitches:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm (layer F.Cu) (tedit 60987553) (tstamp 609B7B51)
-    (at 157.988 139.192)
+    (at 157.8864 138.2014)
     (descr https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf)
     (tags "LED RGB NeoPixel Mini")
     (path /6096EA02/60A92A63)
@@ -4612,7 +4612,7 @@
   )
 
   (module daprice-keyswitches:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm (layer F.Cu) (tedit 60987553) (tstamp 609AD2C9)
-    (at 138.938 138.684)
+    (at 138.8364 138.176)
     (descr https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf)
     (tags "LED RGB NeoPixel Mini")
     (path /6096EA02/60A52EAF)
@@ -4668,7 +4668,7 @@
   )
 
   (module daprice-keyswitches:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm (layer F.Cu) (tedit 60987553) (tstamp 609B0D57)
-    (at 120.142 138.784)
+    (at 120.015 138.176)
     (descr https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf)
     (tags "LED RGB NeoPixel Mini")
     (path /6096EA02/60A52EA1)
@@ -4724,7 +4724,7 @@
   )
 
   (module daprice-keyswitches:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm (layer F.Cu) (tedit 60987553) (tstamp 609AD28F)
-    (at 100.838 138.176)
+    (at 100.9396 138.1506)
     (descr https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf)
     (tags "LED RGB NeoPixel Mini")
     (path /6096EA02/60A52E8F)
@@ -4780,7 +4780,7 @@
   )
 
   (module daprice-keyswitches:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm (layer F.Cu) (tedit 60987553) (tstamp 609AD272)
-    (at 82.042 138.53)
+    (at 81.915 138.176)
     (descr https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf)
     (tags "LED RGB NeoPixel Mini")
     (path /6096EA02/60A52E81)
@@ -4836,7 +4836,7 @@
   )
 
   (module daprice-keyswitches:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm (layer F.Cu) (tedit 60987553) (tstamp 609AD255)
-    (at 62.23 138.43)
+    (at 62.865 138.176)
     (descr https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf)
     (tags "LED RGB NeoPixel Mini")
     (path /6096EA02/60A52E6F)
@@ -4948,7 +4948,7 @@
   )
 
   (module daprice-keyswitches:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm (layer F.Cu) (tedit 60987553) (tstamp 609AD21B)
-    (at 36.322 121.792001)
+    (at 36.449 119.126)
     (descr https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf)
     (tags "LED RGB NeoPixel Mini")
     (path /6096EA02/60A52E4F)
@@ -5004,7 +5004,7 @@
   )
 
   (module daprice-keyswitches:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm (layer F.Cu) (tedit 60987553) (tstamp 609AD1FE)
-    (at 58.42 121.412)
+    (at 58.0136 119.126)
     (descr https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf)
     (tags "LED RGB NeoPixel Mini")
     (path /6096EA02/60A52E41)
@@ -5060,7 +5060,7 @@
   )
 
   (module daprice-keyswitches:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm (layer F.Cu) (tedit 60987553) (tstamp 609AD1E1)
-    (at 77.47 121.792001)
+    (at 77.089 119.1006)
     (descr https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf)
     (tags "LED RGB NeoPixel Mini")
     (path /6096EA02/60A52E2F)
@@ -5116,7 +5116,7 @@
   )
 
   (module daprice-keyswitches:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm (layer F.Cu) (tedit 60987553) (tstamp 609AD1C4)
-    (at 95.25 121.792001)
+    (at 96.139 119.0498)
     (descr https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf)
     (tags "LED RGB NeoPixel Mini")
     (path /6096EA02/60A52E21)
@@ -5172,7 +5172,7 @@
   )
 
   (module daprice-keyswitches:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm (layer F.Cu) (tedit 60987553) (tstamp 609AD1A7)
-    (at 114.808 121.792001)
+    (at 115.1636 119.0612)
     (descr https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf)
     (tags "LED RGB NeoPixel Mini")
     (path /6096EA02/60A52E0F)
@@ -5228,7 +5228,7 @@
   )
 
   (module daprice-keyswitches:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm (layer F.Cu) (tedit 60987553) (tstamp 609AD18A)
-    (at 133.858 121.792001)
+    (at 134.239 119.0866)
     (descr https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf)
     (tags "LED RGB NeoPixel Mini")
     (path /6096EA02/60A52E01)
@@ -5284,7 +5284,7 @@
   )
 
   (module daprice-keyswitches:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm (layer F.Cu) (tedit 60987553) (tstamp 609AD16D)
-    (at 152.908 121.792001)
+    (at 153.289 119.0752)
     (descr https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf)
     (tags "LED RGB NeoPixel Mini")
     (path /6096EA02/60A52DEF)
@@ -5340,7 +5340,7 @@
   )
 
   (module daprice-keyswitches:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm (layer F.Cu) (tedit 60987553) (tstamp 609AD150)
-    (at 173.228 121.792001)
+    (at 172.3644 119.0866)
     (descr https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf)
     (tags "LED RGB NeoPixel Mini")
     (path /6096EA02/60A52DE1)
@@ -5396,7 +5396,7 @@
   )
 
   (module daprice-keyswitches:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm (layer F.Cu) (tedit 60987553) (tstamp 609AD133)
-    (at 191.516 121.412)
+    (at 191.4144 119.0358)
     (descr https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf)
     (tags "LED RGB NeoPixel Mini")
     (path /6096EA02/60A52DCF)
@@ -5452,7 +5452,7 @@
   )
 
   (module daprice-keyswitches:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm (layer F.Cu) (tedit 60987553) (tstamp 609AD116)
-    (at 210.82 121.792001)
+    (at 210.439 119.0612)
     (descr https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf)
     (tags "LED RGB NeoPixel Mini")
     (path /6096EA02/60A52DC1)
@@ -5508,7 +5508,7 @@
   )
 
   (module daprice-keyswitches:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm (layer F.Cu) (tedit 60987553) (tstamp 609AD0F9)
-    (at 229.108 121.412)
+    (at 229.489 119.112)
     (descr https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf)
     (tags "LED RGB NeoPixel Mini")
     (path /6096EA02/60A52DAF)
@@ -5564,7 +5564,7 @@
   )
 
   (module daprice-keyswitches:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm (layer F.Cu) (tedit 60987553) (tstamp 609AD0DC)
-    (at 248.666 121.412)
+    (at 248.539 119.0866)
     (descr https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf)
     (tags "LED RGB NeoPixel Mini")
     (path /6096EA02/60A52DA1)
@@ -5620,7 +5620,7 @@
   )
 
   (module daprice-keyswitches:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm (layer F.Cu) (tedit 60987553) (tstamp 609AD0BF)
-    (at 265.684 121.792001)
+    (at 267.589 119.112)
     (descr https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf)
     (tags "LED RGB NeoPixel Mini")
     (path /6096EA02/60A52D8F)
@@ -5676,7 +5676,7 @@
   )
 
   (module daprice-keyswitches:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm (layer F.Cu) (tedit 60987553) (tstamp 609AD0A2)
-    (at 286.512 121.792001)
+    (at 286.639 119.112)
     (descr https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf)
     (tags "LED RGB NeoPixel Mini")
     (path /6096EA02/60A52D81)
@@ -19232,7 +19232,7 @@
   (gr_line (start 19.05 186.817) (end 19.05 81.28) (layer Edge.Cuts) (width 0.1))
   (gr_line (start 396.494 186.817) (end 19.05 186.817) (layer Edge.Cuts) (width 0.1) (tstamp 60A19CE1))
   (gr_line (start 396.494 83.312) (end 396.494 186.817) (layer Edge.Cuts) (width 0.1))
-  (gr_text LOG0.Key.2 (at 323.85 180.975) (layer F.SilkS) (tstamp 60990A84)
+  (gr_text LOG0.Key.2 (at 382.0414 184.3024) (layer F.SilkS) (tstamp 60990A84)
     (effects (font (size 3 3) (thickness 0.15)))
   )
 
