@@ -97,9 +97,9 @@ Text GLabel 3800 3100 3    50   Input ~ 0
 VCC_5V
 Text GLabel 2600 3050 3    50   Input ~ 0
 VCC_5V
-Text GLabel 1300 950  2    50   Input ~ 0
+Text GLabel 1600 950  2    50   Input ~ 0
 LED_VDD
-Text GLabel 1300 800  2    50   Input ~ 0
+Text GLabel 1600 800  2    50   Input ~ 0
 VCC_5V
 Text HLabel 1300 800  0    50   Input ~ 0
 5V
@@ -2750,4 +2750,8 @@ Wire Wire Line
 Wire Wire Line
 	3800 10400 3800 10500
 NoConn ~ 4100 10100
+Wire Wire Line
+	1300 950  1600 950 
+Wire Wire Line
+	1300 800  1600 800 
 $EndSCHEMATC
