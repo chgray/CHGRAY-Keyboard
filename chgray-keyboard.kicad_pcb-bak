@@ -3527,7 +3527,7 @@
   )
 
   (module Connector_PinHeader_1.27mm:PinHeader_2x07_P1.27mm_Vertical (layer F.Cu) (tedit 59FED6E3) (tstamp 609E8541)
-    (at 299.085 182.245 90)
+    (at 299.085 179.07 90)
     (descr "Through hole straight pin header, 2x07, 1.27mm pitch, double rows")
     (tags "Through hole pin header THT 2x07 1.27mm double row")
     (path /609EE309)
@@ -10163,7 +10163,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 6099E062)
-    (at 300.355 170.18)
+    (at 300.735 170.18)
     (descr SOD-123)
     (tags SOD-123)
     (path /589645BF/60ADCFE6)
@@ -16438,7 +16438,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 6099D42C)
-    (at 300.355 167.005)
+    (at 300.735 167.005)
     (descr SOD-123)
     (tags SOD-123)
     (path /589645BF/607F553B)
@@ -16790,7 +16790,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 6099CED4)
-    (at 311.611 179.845)
+    (at 300.735 173.355)
     (descr SOD-123)
     (tags SOD-123)
     (path /589645BF/607F5535)
@@ -16966,7 +16966,7 @@
   )
 
   (module Diode_SMD:D_SOD-123 (layer B.Cu) (tedit 58645DC7) (tstamp 60A142EE)
-    (at 300.355 164.465)
+    (at 300.735 164.465)
     (descr SOD-123)
     (tags SOD-123)
     (path /589645BF/607D87B9)
