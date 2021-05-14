@@ -1,0 +1,28 @@
+Drill report for C:\Source\CHGRAY-Keyboard\chgray-keyboard.kicad_pcb
+Created on 5/14/2021 10:53:05 AM
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  B.Cu                      back
+
+
+Drill file 'chgray-keyboard-PTH.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0.40mm  0.016"  (366 holes)
+    T2  0.65mm  0.026"  (14 holes)
+    T3  1.10mm  0.043"  (31 holes)
+
+    Total plated holes count 411
+
+
+Drill file 'chgray-keyboard-NPTH.drl' contains
+    unplated through holes:
+    =============================================================
+    T1  1.70mm  0.067"  (168 holes)
+    T2  3.00mm  0.118"  (252 holes)  (with 84 slots)
+    T3  3.05mm  0.120"  (8 holes)
+    T4  3.99mm  0.157"  (92 holes)
+
+    Total unplated holes count 520
