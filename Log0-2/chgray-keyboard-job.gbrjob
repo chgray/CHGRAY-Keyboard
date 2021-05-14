@@ -7,7 +7,7 @@
       "Application": "Pcbnew",
       "Version":     "(5.1.9)-1"
     },
-    "CreationDate":  "2021-05-14T10:19:55-07:00"
+    "CreationDate":  "2021-05-14T10:54:05-07:00"
   },
   "GeneralSpecs":
   {
@@ -15,7 +15,7 @@
     {
       "Name": "chgray-keyboard",
       "GUID": "63686772-6179-42d6-9b65-79626f617264",
-      "Revision": "rev?"
+      "Revision": "Yeet2"
     },
     "Size":
     {
