@@ -166,26 +166,6 @@ Wire Wire Line
 Wire Wire Line
 	800  5950 800  700 
 Wire Wire Line
-	2150 5750 2000 5750
-Wire Wire Line
-	2000 5750 2000 7150
-Wire Wire Line
-	2000 7150 2150 7150
-$Comp
-L power:GND #PWR01
-U 1 1 6093A5EC
-P 2000 7650
-F 0 "#PWR01" H 2000 7400 50  0001 C CNN
-F 1 "GND" H 2005 7477 50  0000 C CNN
-F 2 "" H 2000 7650 50  0001 C CNN
-F 3 "" H 2000 7650 50  0001 C CNN
-	1    2000 7650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2000 7150 2000 7600
-Connection ~ 2000 7150
-Wire Wire Line
 	7300 3700 4750 3700
 Wire Wire Line
 	4750 3700 4750 6550
@@ -242,28 +222,11 @@ F 3 "~" H 7300 6900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7100 6600 6600 6600
-Wire Wire Line
-	6600 6600 6600 7600
-Wire Wire Line
-	6600 7600 2000 7600
-Connection ~ 2000 7600
-Wire Wire Line
-	2000 7600 2000 7650
-Wire Wire Line
 	6800 6250 6800 3950
-Wire Wire Line
-	6700 6050 6700 7200
-Wire Wire Line
-	6700 7200 7100 7200
-Wire Wire Line
-	7600 7200 8100 7200
 Wire Wire Line
 	8100 7200 8100 6150
 Wire Wire Line
 	8100 6150 8250 6150
-Wire Wire Line
-	7600 6600 7950 6600
 Wire Wire Line
 	7950 6600 7950 6000
 Wire Wire Line
@@ -280,8 +243,6 @@ Wire Wire Line
 	7000 6450 7000 6700
 Wire Wire Line
 	7000 6700 7100 6700
-Wire Wire Line
-	4550 6050 6700 6050
 Wire Wire Line
 	2150 6450 1650 6450
 Wire Wire Line
@@ -313,4 +274,48 @@ NoConn ~ 7600 7000
 NoConn ~ 7600 7100
 NoConn ~ 7600 6900
 NoConn ~ 7600 6800
+Wire Wire Line
+	7600 7200 8100 7200
+$Comp
+L power:+5V #PWR0101
+U 1 1 6123E4B4
+P 4200 10750
+F 0 "#PWR0101" H 4200 10600 50  0001 C CNN
+F 1 "+5V" H 4215 10923 50  0000 C CNN
+F 2 "" H 4200 10750 50  0001 C CNN
+F 3 "" H 4200 10750 50  0001 C CNN
+	1    4200 10750
+	1    0    0    -1  
+$EndComp
+Text GLabel 7100 7200 0    50   Input ~ 0
+PWR_5V
+Text GLabel 4200 10800 3    50   Input ~ 0
+PWR_5V
+Text GLabel 4550 6050 2    50   Input ~ 0
+PWR_5V
+Text GLabel 3900 10650 3    50   Input ~ 0
+TEENSY_GND
+Text GLabel 7100 6600 0    50   Input ~ 0
+TEENSY_GND
+Text GLabel 2150 5750 0    50   Input ~ 0
+TEENSY_GND
+Text GLabel 2150 7150 0    50   Input ~ 0
+TEENSY_GND
+$Comp
+L Cherry-Symbol:GND #PWR0102
+U 1 1 61266E57
+P 3900 10500
+F 0 "#PWR0102" H 3900 10500 30  0001 C CNN
+F 1 "GND" H 3900 10430 30  0001 C CNN
+F 2 "" H 3900 10500 50  0001 C CNN
+F 3 "" H 3900 10500 50  0001 C CNN
+	1    3900 10500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7600 6600 7950 6600
+Wire Wire Line
+	4200 10800 4200 10750
+Wire Wire Line
+	3900 10650 3900 10550
 $EndSCHEMATC
