@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# DIODE-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue
+# DIODE-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue-chgray-keyboard-rescue
 #
-DEF DIODE-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue D 0 40 N N 1 F N
+DEF DIODE-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue-chgray-keyboard-rescue D 0 40 N N 1 F N
 F0 "D" -100 -50 40 H V C CNN
-F1 "DIODE-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue" 0 50 40 H V C CNN
+F1 "DIODE-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue-chgray-keyboard-rescue" 0 50 40 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -16,11 +16,25 @@ X K 2 200 0 150 L 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
-# SK6812MINI-Cherry-Symbol
+# GND-Cherry-Symbol
 #
-DEF SK6812MINI-Cherry-Symbol D 0 10 Y Y 1 F N
+DEF GND-Cherry-Symbol #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 0 30 H I C CNN
+F1 "GND-Cherry-Symbol" 0 -70 30 H I C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 3 0 1 0 0 0 0 50 0 50 N
+P 4 0 1 0 -50 0 0 -50 50 0 -50 0 N
+X GND 1 0 50 0 D 30 30 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# SK6812MINI-Cherry-Symbol-chgray-keyboard-rescue
+#
+DEF SK6812MINI-Cherry-Symbol-chgray-keyboard-rescue D 0 10 Y Y 1 F N
 F0 "D" 200 225 50 H V R BNN
-F1 "SK6812MINI-Cherry-Symbol" 50 -225 50 H V L TNN
+F1 "SK6812MINI-Cherry-Symbol-chgray-keyboard-rescue" 50 -225 50 H V L TNN
 F2 "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm" 50 -300 50 H I L TNN
 F3 "" 100 -375 50 H I L TNN
 $FPLIST
@@ -43,11 +57,11 @@ X DIN 4 -300 0 100 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue
+# SWITCH_PUSH-Cherry-Symbol
 #
-DEF SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue SW 0 40 N N 1 F N
+DEF SWITCH_PUSH-Cherry-Symbol SW 0 40 N N 1 F N
 F0 "SW" 150 110 50 H V C CNN
-F1 "SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue" 0 -80 50 H V C CNN
+F1 "SWITCH_PUSH-Cherry-Symbol" 0 -80 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -55,6 +69,64 @@ S -170 50 170 60 0 1 0 N
 P 4 0 1 0 -40 60 -30 90 30 90 40 60 N
 X 1 1 -300 0 200 R 60 60 0 1 P I
 X 2 2 300 0 200 L 60 60 0 1 P I
+ENDDRAW
+ENDDEF
+#
+# SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue-chgray-keyboard-rescue
+#
+DEF SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue-chgray-keyboard-rescue SW 0 40 N N 1 F N
+F0 "SW" 150 110 50 H V C CNN
+F1 "SWITCH_PUSH-Cherry-Symbol-chgray-keyboard-rescue-Keys-rescue-Keys-rescue-Keys-rescue-chgray-keyboard-rescue" 0 -80 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -170 50 170 60 0 1 0 N
+P 4 0 1 0 -40 60 -30 90 30 90 40 60 N
+X 1 1 -300 0 200 R 60 60 0 1 P I
+X 2 2 300 0 200 L 60 60 0 1 P I
+ENDDRAW
+ENDDEF
+#
+# Teensy2.0_(C)-Teensy
+#
+DEF Teensy2.0_(C)-Teensy U 0 40 Y Y 1 F N
+F0 "U" 0 950 60 H V C CNN
+F1 "Teensy2.0_(C)-Teensy" 0 -950 60 H V C CNN
+F2 "" 100 -1050 60 H V C CNN
+F3 "" 100 -1050 60 H V C CNN
+DRAW
+S -1000 850 1000 -850 0 1 0 N
+X GND 1 -1200 750 200 R 50 50 1 1 W
+X PD3_INT3_TXD1 10 -1200 -150 200 R 50 50 1 1 B
+X PC6_OC3A_OC4A 11 -1200 -250 200 R 50 50 1 1 B
+X PC7_ICP3_OC4A 12 -1200 -350 200 R 50 50 1 1 B
+X PD5_XCK1_CTS 13 -1200 -450 200 R 50 50 1 1 B
+X VCC 14 -1200 -550 200 R 50 50 1 1 W
+X GND 15 -1200 -650 200 R 50 50 1 1 W
+X RST 16 -1200 -750 200 R 50 50 1 1 I
+X PD4_ADC8_ICP1 17 1200 -750 200 L 50 50 1 1 B
+X PD6_ADC9_T1_OC4D_LED 18 1200 -650 200 L 50 50 1 1 B
+X PD7_ADC10_T0_OC4D 19 1200 -550 200 L 50 50 1 1 B
+X PB0_SS 2 -1200 650 200 R 50 50 1 1 B
+X PB4_ADC11 20 1200 -450 200 L 50 50 1 1 B
+X PB5_ADC12_OC1A_OB4B 21 1200 -350 200 L 50 50 1 1 B
+X PB6_ADC13_OC1B_OC4B 22 1200 -250 200 L 50 50 1 1 B
+X PF7_ADC7 23 1200 -150 200 L 50 50 1 1 B
+X PF6_ADC6 24 1200 -50 200 L 50 50 1 1 B
+X PF5_ADC5 25 1200 50 200 L 50 50 1 1 B
+X PF4_ADC4 26 1200 150 200 L 50 50 1 1 B
+X PF1_ADC1 27 1200 250 200 L 50 50 1 1 B
+X PF0_ADC0 28 1200 350 200 L 50 50 1 1 B
+X VCC 29 1200 450 200 L 50 50 1 1 W
+X PB1_SCLK 3 -1200 550 200 R 50 50 1 1 B
+X PE6_INT6_AIN0 30 1200 550 200 L 50 50 1 1 B
+X AREF 31 1200 650 200 L 50 50 1 1 I
+X PB2_MOSI 4 -1200 450 200 R 50 50 1 1 B
+X PB3_MISO 5 -1200 350 200 R 50 50 1 1 B
+X PB7_OC0A_OC1C_RTS 6 -1200 250 200 R 50 50 1 1 B
+X PD0_INT0_SCL_OC0B 7 -1200 150 200 R 50 50 1 1 B
+X PD1_INT1_SDA 8 -1200 50 200 R 50 50 1 1 B
+X PD2_INT2_RXD1 9 -1200 -50 200 R 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
