@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
-Sheet 1 3
+Sheet 1 4
 Title ""
 Date ""
 Rev ""
@@ -318,4 +318,10 @@ Wire Wire Line
 	4200 10800 4200 10750
 Wire Wire Line
 	3900 10650 3900 10550
+$Sheet
+S -2250 10750 4350 2550
+U 60A82B52
+F0 "ATmega32U4-AU" 50
+F1 "microcontroller.sch" 50
+$EndSheet
 $EndSCHEMATC
