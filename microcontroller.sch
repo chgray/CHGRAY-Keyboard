@@ -14,32 +14,21 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L MCU_Microchip_ATmega:ATmega32U4-AU U2
-U 1 1 60A82FF7
-P 6000 3750
-F 0 "U2" H 6000 1861 50  0000 C CNN
-F 1 "ATmega32U4-AU" H 6000 1770 50  0000 C CNN
-F 2 "Package_QFP:TQFP-44_10x10mm_P0.8mm" H 6000 3750 50  0001 C CIN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf" H 6000 3750 50  0001 C CNN
-	1    6000 3750
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:R R4
 U 1 1 60A86D65
 P 6900 4350
 F 0 "R4" V 6693 4350 50  0000 C CNN
-F 1 "R10K" V 6784 4350 50  0000 C CNN
+F 1 "R10K" V 6800 4350 50  0000 C CNN
 F 2 "" V 6830 4350 50  0001 C CNN
 F 3 "~" H 6900 4350 50  0001 C CNN
 	1    6900 4350
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR012
+L power:GND #PWR013
 U 1 1 60A87FCE
 P 7050 4350
-F 0 "#PWR012" H 7050 4100 50  0001 C CNN
+F 0 "#PWR013" H 7050 4100 50  0001 C CNN
 F 1 "GND" V 7055 4222 50  0000 R CNN
 F 2 "" H 7050 4350 50  0001 C CNN
 F 3 "" H 7050 4350 50  0001 C CNN
@@ -49,10 +38,10 @@ $EndComp
 Wire Wire Line
 	6600 4350 6750 4350
 $Comp
-L power:GND #PWR08
+L power:GND #PWR09
 U 1 1 60A89E63
 P 5900 5550
-F 0 "#PWR08" H 5900 5300 50  0001 C CNN
+F 0 "#PWR09" H 5900 5300 50  0001 C CNN
 F 1 "GND" H 5905 5377 50  0000 C CNN
 F 2 "" H 5900 5550 50  0001 C CNN
 F 3 "" H 5900 5550 50  0001 C CNN
@@ -60,10 +49,10 @@ F 3 "" H 5900 5550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR010
+L power:GND #PWR011
 U 1 1 60A8ACF7
 P 6000 5550
-F 0 "#PWR010" H 6000 5300 50  0001 C CNN
+F 0 "#PWR011" H 6000 5300 50  0001 C CNN
 F 1 "GND" H 6005 5377 50  0000 C CNN
 F 2 "" H 6000 5550 50  0001 C CNN
 F 3 "" H 6000 5550 50  0001 C CNN
@@ -71,10 +60,10 @@ F 3 "" H 6000 5550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VCC #PWR07
+L power:VCC #PWR08
 U 1 1 60A8BA34
 P 5900 1950
-F 0 "#PWR07" H 5900 1800 50  0001 C CNN
+F 0 "#PWR08" H 5900 1800 50  0001 C CNN
 F 1 "VCC" H 5915 2123 50  0000 C CNN
 F 2 "" H 5900 1950 50  0001 C CNN
 F 3 "" H 5900 1950 50  0001 C CNN
@@ -82,10 +71,10 @@ F 3 "" H 5900 1950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VCC #PWR09
+L power:VCC #PWR010
 U 1 1 60A8C7C2
 P 6000 1950
-F 0 "#PWR09" H 6000 1800 50  0001 C CNN
+F 0 "#PWR010" H 6000 1800 50  0001 C CNN
 F 1 "VCC" H 6015 2123 50  0000 C CNN
 F 2 "" H 6000 1950 50  0001 C CNN
 F 3 "" H 6000 1950 50  0001 C CNN
@@ -93,10 +82,10 @@ F 3 "" H 6000 1950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VCC #PWR011
+L power:VCC #PWR012
 U 1 1 60A8CCBE
 P 6100 1950
-F 0 "#PWR011" H 6100 1800 50  0001 C CNN
+F 0 "#PWR012" H 6100 1800 50  0001 C CNN
 F 1 "VCC" H 6115 2123 50  0000 C CNN
 F 2 "" H 6100 1950 50  0001 C CNN
 F 3 "" H 6100 1950 50  0001 C CNN
@@ -329,10 +318,10 @@ PB0
 Wire Wire Line
 	6600 2250 6800 2250
 $Comp
-L power:VCC #PWR?
+L power:VCC #PWR07
 U 1 1 60AAA3DE
 P 4900 3050
-F 0 "#PWR?" H 4900 2900 50  0001 C CNN
+F 0 "#PWR07" H 4900 2900 50  0001 C CNN
 F 1 "VCC" V 4915 3177 50  0000 L CNN
 F 2 "" H 4900 3050 50  0001 C CNN
 F 3 "" H 4900 3050 50  0001 C CNN
@@ -341,4 +330,112 @@ F 3 "" H 4900 3050 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4900 3050 5400 3050
+Text HLabel 6800 2350 2    50   Input ~ 0
+PB1
+Wire Wire Line
+	6600 2350 6800 2350
+Text HLabel 6800 2450 2    50   Input ~ 0
+PB2
+Wire Wire Line
+	6600 2450 6800 2450
+Text HLabel 6800 2550 2    50   Input ~ 0
+PB3
+Wire Wire Line
+	6600 2550 6800 2550
+Text HLabel 6800 2650 2    50   Input ~ 0
+PB4
+Wire Wire Line
+	6600 2650 6800 2650
+Text HLabel 6800 2750 2    50   Input ~ 0
+PB5
+Wire Wire Line
+	6600 2750 6800 2750
+Text HLabel 6800 2850 2    50   Input ~ 0
+PB6
+Wire Wire Line
+	6600 2850 6800 2850
+Text HLabel 6800 2950 2    50   Input ~ 0
+PB7
+Wire Wire Line
+	6600 2950 6800 2950
+Text HLabel 6800 3450 2    50   Input ~ 0
+PD0
+Wire Wire Line
+	6600 3450 6800 3450
+Text HLabel 6800 3550 2    50   Input ~ 0
+PD1
+Wire Wire Line
+	6600 3550 6800 3550
+Text HLabel 6800 3650 2    50   Input ~ 0
+PD2
+Wire Wire Line
+	6600 3650 6800 3650
+Text HLabel 6800 3750 2    50   Input ~ 0
+PD3
+Wire Wire Line
+	6600 3750 6800 3750
+Text HLabel 6800 3850 2    50   Input ~ 0
+PD4
+Wire Wire Line
+	6600 3850 6800 3850
+Text HLabel 6800 3950 2    50   Input ~ 0
+PD5
+Wire Wire Line
+	6600 3950 6800 3950
+Text HLabel 6800 4050 2    50   Input ~ 0
+PD6
+Wire Wire Line
+	6600 4050 6800 4050
+Text HLabel 6800 4150 2    50   Input ~ 0
+PD7
+Wire Wire Line
+	6600 4150 6800 4150
+Text HLabel 6800 4450 2    50   Input ~ 0
+PE6
+Wire Wire Line
+	6600 4450 6800 4450
+Text HLabel 6800 4650 2    50   Input ~ 0
+PF0
+Wire Wire Line
+	6600 4650 6800 4650
+Text HLabel 6800 4750 2    50   Input ~ 0
+PF1
+Wire Wire Line
+	6600 4750 6800 4750
+Text HLabel 6800 4850 2    50   Input ~ 0
+PF4
+Wire Wire Line
+	6600 4850 6800 4850
+Text HLabel 6800 4950 2    50   Input ~ 0
+PF5
+Wire Wire Line
+	6600 4950 6800 4950
+Text HLabel 6800 5050 2    50   Input ~ 0
+PF6
+Wire Wire Line
+	6600 5050 6800 5050
+Text HLabel 6800 5150 2    50   Input ~ 0
+PF7
+Wire Wire Line
+	6600 5150 6800 5150
+$Comp
+L MCU_Microchip_ATmega:ATmega32U4-AU U2
+U 1 1 60A82FF7
+P 6000 3750
+F 0 "U2" H 6000 1861 50  0000 C CNN
+F 1 "ATmega32U4-AU" H 6000 1770 50  0000 C CNN
+F 2 "Package_QFP:TQFP-44_10x10mm_P0.8mm" H 6000 3750 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf" H 6000 3750 50  0001 C CNN
+	1    6000 3750
+	1    0    0    -1  
+$EndComp
+Text HLabel 6800 3150 2    50   Input ~ 0
+PC6
+Wire Wire Line
+	6600 3150 6800 3150
+Text HLabel 6800 3250 2    50   Input ~ 0
+PC7
+Wire Wire Line
+	6600 3250 6800 3250
+NoConn ~ 5400 2850
 $EndSCHEMATC
