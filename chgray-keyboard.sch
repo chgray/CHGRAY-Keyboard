@@ -40,47 +40,47 @@ F20 "KEY_COL12" I L 5000 6700 50
 F21 "KEY_COL13" I L 5000 6800 50 
 $EndSheet
 $Sheet
-S 8250 5700 1600 600 
+S 8000 4850 550  550 
 U 6096EA02
 F0 "RGB" 50
 F1 "RGB-Circuit.sch" 50
-F2 "5V" I L 8250 6150 50 
-F3 "VDD" I L 8250 6000 50 
-F4 "INPUT" I L 8250 5850 50 
+F2 "5V" I L 8000 5300 50 
+F3 "VDD" I L 8000 5150 50 
+F4 "INPUT" I L 8000 5000 50 
 $EndSheet
 $Comp
 L Connector_Generic:Conn_02x07_Odd_Even J1
 U 1 1 609EE309
-P 7300 6900
-F 0 "J1" H 7350 7417 50  0000 C CNN
-F 1 "Conn_01x01_Female" H 7350 7326 50  0000 C CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_2x07_P1.27mm_Vertical" H 7300 6900 50  0001 C CNN
-F 3 "~" H 7300 6900 50  0001 C CNN
-	1    7300 6900
+P 7050 6050
+F 0 "J1" H 7100 6567 50  0000 C CNN
+F 1 "Conn_01x01_Female" H 7100 6476 50  0000 C CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_2x07_P1.27mm_Vertical" H 7050 6050 50  0001 C CNN
+F 3 "~" H 7050 6050 50  0001 C CNN
+	1    7050 6050
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8100 7200 8100 6150
+	7850 6350 7850 5300
 Wire Wire Line
-	8100 6150 8250 6150
+	7850 5300 8000 5300
 Wire Wire Line
-	7950 6600 7950 6000
+	7700 5750 7700 5150
 Wire Wire Line
-	7950 6000 8250 6000
+	7700 5150 8000 5150
 Wire Wire Line
-	7600 6700 8050 6700
+	7350 5850 7800 5850
 Wire Wire Line
-	8050 6700 8050 5850
+	7800 5850 7800 5000
 Wire Wire Line
-	8050 5850 8250 5850
-NoConn ~ 7100 7000
-NoConn ~ 7100 7100
-NoConn ~ 7600 7000
-NoConn ~ 7600 7100
-NoConn ~ 7600 6900
-NoConn ~ 7600 6800
+	7800 5000 8000 5000
+NoConn ~ 6850 6150
+NoConn ~ 6850 6250
+NoConn ~ 7350 6150
+NoConn ~ 7350 6250
+NoConn ~ 7350 6050
+NoConn ~ 7350 5950
 Wire Wire Line
-	7600 7200 8100 7200
+	7350 6350 7850 6350
 $Comp
 L power:+5V #PWR02
 U 1 1 6123E4B4
@@ -96,7 +96,7 @@ Text GLabel 10150 4350 3    50   Input ~ 0
 PWR_5V
 Text GLabel 9850 4200 3    50   Input ~ 0
 TEENSY_GND
-Text GLabel 7100 6600 0    50   Input ~ 0
+Text GLabel 6850 5750 0    50   Input ~ 0
 TEENSY_GND
 $Comp
 L Cherry-Symbol:GND #PWR01
@@ -110,7 +110,7 @@ F 3 "" H 9850 4050 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	7600 6600 7950 6600
+	7350 5750 7700 5750
 Wire Wire Line
 	10150 4350 10150 4300
 Wire Wire Line
@@ -230,12 +230,12 @@ NoConn ~ 3500 7500
 NoConn ~ 3500 7600
 NoConn ~ 4050 5400
 NoConn ~ 4050 5550
-Text GLabel 7100 7200 0    50   Input ~ 0
+Text GLabel 6850 6350 0    50   Input ~ 0
 PWR_5V
-NoConn ~ 7100 6800
-NoConn ~ 7100 6900
+NoConn ~ 6850 5950
+NoConn ~ 6850 6050
 Text GLabel 4050 5300 2    50   Input ~ 0
 LED_DATA
-Text GLabel 7100 6700 0    50   Input ~ 0
+Text GLabel 6850 5850 0    50   Input ~ 0
 LED_DATA
 $EndSCHEMATC
