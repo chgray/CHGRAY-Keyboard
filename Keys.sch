@@ -34,7 +34,7 @@ U 1 1 58965EBD
 P 2000 2000
 F 0 "TAB1" H 2150 2110 50  0000 C CNN
 F 1 "10" H 2000 1920 50  0000 C CNN
-F 2 "daprice-keyswitches:Stabilizer_MX_1.25u" H 2000 2000 60  0001 C CNN
+F 2 "daprice-keyswitches:Stabilizer_MX_1.5u" H 2000 2000 60  0001 C CNN
 F 3 "" H 2000 2000 60  0001 C CNN
 	1    2000 2000
 	1    0    0    -1  
@@ -86,7 +86,7 @@ U 1 1 603E8C3D
 P 1950 2950
 F 0 "CAPS1" H 2100 3060 50  0000 C CNN
 F 1 "20" H 1950 2870 50  0000 C CNN
-F 2 "daprice-keyswitches:Stabilizer_MX_1.5u" H 1950 2950 60  0000 C CNN
+F 2 "daprice-keyswitches:Stabilizer_MX_1.75u" H 1950 2950 60  0000 C CNN
 F 3 "" H 1950 2950 60  0001 C CNN
 	1    1950 2950
 	1    0    0    -1  
@@ -142,7 +142,7 @@ U 1 1 6056C037
 P 2750 3900
 F 0 "LEFT-SHIFT1" H 2900 4010 50  0000 C CNN
 F 1 "31" H 2750 3820 50  0000 C CNN
-F 2 "daprice-keyswitches:Stabilizer_MX_2u" H 2750 3900 60  0001 C CNN
+F 2 "daprice-keyswitches:Stabilizer_MX_2.25u" H 2750 3900 60  0001 C CNN
 F 3 "" H 2750 3900 60  0001 C CNN
 	1    2750 3900
 	1    0    0    -1  
@@ -155,12 +155,12 @@ Wire Wire Line
 	2450 3700 2450 3900
 Connection ~ 1650 3700
 $Comp
-L Cherry-Symbol:SWITCH_PUSH SW2
+L Cherry-Symbol:SWITCH_PUSH LEFT_CTRL1
 U 1 1 60585067
 P 1950 4850
-F 0 "SW2" H 2100 4960 50  0000 C CNN
+F 0 "LEFT_CTRL1" H 2100 4960 50  0000 C CNN
 F 1 "40" H 1950 4770 50  0000 C CNN
-F 2 "daprice-keyswitches:Kailh_socket_MX" H 1950 4850 60  0001 C CNN
+F 2 "daprice-keyswitches:Stabilizer_MX_1.25u" H 1950 4850 60  0001 C CNN
 F 3 "" H 1950 4850 60  0001 C CNN
 	1    1950 4850
 	1    0    0    -1  
@@ -218,12 +218,12 @@ Wire Wire Line
 	2450 5550 2450 5750
 Connection ~ 1650 5550
 $Comp
-L Cherry-Symbol:SWITCH_PUSH SW8
+L Cherry-Symbol:SWITCH_PUSH LEFT_FN1
 U 1 1 6058507A
 P 2750 4850
-F 0 "SW8" H 2900 4960 50  0000 C CNN
+F 0 "LEFT_FN1" H 2900 4960 50  0000 C CNN
 F 1 "41" H 2750 4770 50  0000 C CNN
-F 2 "daprice-keyswitches:Kailh_socket_MX" H 2750 4850 60  0001 C CNN
+F 2 "daprice-keyswitches:Stabilizer_MX_1.25u" H 2750 4850 60  0001 C CNN
 F 3 "" H 2750 4850 60  0001 C CNN
 	1    2750 4850
 	1    0    0    -1  
@@ -558,7 +558,7 @@ U 1 1 6062F352
 P 3800 4850
 F 0 "WinKey1" H 3950 4960 50  0000 C CNN
 F 1 "42" H 3800 4770 50  0000 C CNN
-F 2 "daprice-keyswitches:Stabilizer_MX_1.5u" H 3800 4850 60  0001 C CNN
+F 2 "daprice-keyswitches:Stabilizer_MX_1.25u" H 3800 4850 60  0001 C CNN
 F 3 "" H 3800 4850 60  0001 C CNN
 	1    3800 4850
 	1    0    0    -1  
@@ -604,12 +604,12 @@ Wire Wire Line
 	4300 5550 4300 5750
 Connection ~ 3500 5550
 $Comp
-L Cherry-Symbol:SWITCH_PUSH SW19
+L Cherry-Symbol:SWITCH_PUSH LEFT_ALT1
 U 1 1 6062F37E
 P 4600 4850
-F 0 "SW19" H 4750 4960 50  0000 C CNN
+F 0 "LEFT_ALT1" H 4750 4960 50  0000 C CNN
 F 1 "43" H 4600 4770 50  0000 C CNN
-F 2 "daprice-keyswitches:Kailh_socket_MX" H 4600 4850 60  0001 C CNN
+F 2 "daprice-keyswitches:Stabilizer_MX_1.25u" H 4600 4850 60  0001 C CNN
 F 3 "" H 4600 4850 60  0001 C CNN
 	1    4600 4850
 	1    0    0    -1  
@@ -1801,7 +1801,7 @@ U 1 1 607F54F4
 P 9950 5750
 F 0 "Backspace1" H 10100 5860 50  0000 C CNN
 F 1 "59" H 9950 5670 50  0000 C CNN
-F 2 "daprice-keyswitches:Stabilizer_MX_1.25u" H 9950 5750 60  0001 C CNN
+F 2 "daprice-keyswitches:Stabilizer_MX_2u" H 9950 5750 60  0001 C CNN
 F 3 "" H 9950 5750 60  0001 C CNN
 	1    9950 5750
 	1    0    0    -1  
@@ -2293,7 +2293,7 @@ U 1 1 60AE6AA1
 P 11550 1300
 F 0 "ENTER1" H 11700 1410 50  0000 C CNN
 F 1 "011" H 11550 1220 50  0000 C CNN
-F 2 "daprice-keyswitches:Stabilizer_MX_1.75u" H 11550 1300 60  0001 C CNN
+F 2 "daprice-keyswitches:Stabilizer_MX_2.25u" H 11550 1300 60  0001 C CNN
 F 3 "" H 11550 1300 60  0001 C CNN
 	1    11550 1300
 	1    0    0    -1  
@@ -2314,12 +2314,12 @@ $EndComp
 Wire Wire Line
 	11450 1600 11200 1600
 $Comp
-L Cherry-Symbol:SWITCH_PUSH SW59
+L Cherry-Symbol:SWITCH_PUSH Slash1
 U 1 1 60AE6AAF
 P 11550 2000
-F 0 "SW59" H 11700 2110 50  0000 C CNN
+F 0 "Slash1" H 11700 2110 50  0000 C CNN
 F 1 "111" H 11550 1920 50  0000 C CNN
-F 2 "daprice-keyswitches:Kailh_socket_MX" H 11550 2000 60  0001 C CNN
+F 2 "daprice-keyswitches:Stabilizer_MX_1.5u" H 11550 2000 60  0001 C CNN
 F 3 "" H 11550 2000 60  0001 C CNN
 	1    11550 2000
 	1    0    0    -1  
