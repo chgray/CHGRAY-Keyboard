@@ -52,7 +52,7 @@ F 3 "" H 3900 2025 50  0001 L TNN
 	1    3800 2400
 	1    0    0    -1  
 $EndComp
-Text GLabel 1600 950  2    50   Input ~ 0
+Text GLabel 1600 800  2    50   Input ~ 0
 LED_5V
 Text HLabel 1300 800  0    50   Input ~ 0
 5V
@@ -857,7 +857,7 @@ Wire Wire Line
 	1300 950  1600 950 
 Wire Wire Line
 	1300 800  1600 800 
-Text GLabel 1600 800  2    50   Input ~ 0
+Text GLabel 1600 950  2    50   Input ~ 0
 LED_GND
 $Comp
 L Device:C C72

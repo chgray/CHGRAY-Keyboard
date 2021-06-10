@@ -107,75 +107,75 @@ Wire Wire Line
 Wire Wire Line
 	9850 4200 9850 4100
 $Sheet
-S 3500 5200 550  2450
+S 2500 5200 550  2450
 U 60A82B52
 F0 "ATmega32U4-AU" 50
 F1 "microcontroller.sch" 50
-F2 "PB0" I L 3500 6900 50 
-F3 "PB1" I L 3500 6800 50 
-F4 "PB2" I L 3500 6700 50 
-F5 "PB3" I L 3500 6600 50 
-F6 "PB4" I L 3500 6500 50 
-F7 "PB5" I L 3500 6400 50 
-F8 "PB6" I L 3500 6300 50 
-F9 "PB7" I L 3500 6200 50 
-F10 "PD0" I L 3500 6000 50 
-F11 "PD1" I L 3500 5900 50 
-F12 "PD2" I L 3500 5800 50 
-F13 "PD3" I L 3500 5700 50 
-F14 "PD4" I L 3500 5600 50 
-F15 "PD5" I L 3500 5500 50 
-F16 "PD6" I L 3500 5400 50 
-F17 "PD7" I L 3500 5300 50 
-F18 "PE6" I R 4050 5300 50 
-F19 "PF0" I L 3500 7600 50 
-F20 "PF1" I L 3500 7500 50 
-F21 "PF4" I L 3500 7400 50 
-F22 "PF5" I L 3500 7300 50 
-F23 "PF6" I L 3500 7200 50 
-F24 "PF7" I L 3500 7100 50 
-F25 "PC6" I R 4050 5550 50 
-F26 "PC7" I R 4050 5400 50 
+F2 "PB0" I L 2500 6900 50 
+F3 "PB1" I L 2500 6800 50 
+F4 "PB2" I L 2500 6700 50 
+F5 "PB3" I L 2500 6600 50 
+F6 "PB4" I L 2500 6500 50 
+F7 "PB5" I L 2500 6400 50 
+F8 "PB6" I L 2500 6300 50 
+F9 "PB7" I L 2500 6200 50 
+F10 "PD0" I L 2500 6000 50 
+F11 "PD1" I L 2500 5900 50 
+F12 "PD2" I L 2500 5800 50 
+F13 "PD3" I L 2500 5700 50 
+F14 "PD4" I L 2500 5600 50 
+F15 "PD5" I L 2500 5500 50 
+F16 "PD6" I L 2500 5400 50 
+F17 "PD7" I L 2500 5300 50 
+F18 "PE6" I R 3050 5300 50 
+F19 "PF0" I R 3050 5850 50 
+F20 "PF1" I R 3050 5700 50 
+F21 "PF4" I L 2500 7400 50 
+F22 "PF5" I L 2500 7300 50 
+F23 "PF6" I L 2500 7200 50 
+F24 "PF7" I L 2500 7100 50 
+F25 "PC6" I R 3050 5550 50 
+F26 "PC7" I R 3050 5400 50 
 $EndSheet
-Text GLabel 3500 5300 0    50   Input ~ 0
+Text GLabel 2500 5300 0    50   Input ~ 0
 COL0
-Text GLabel 3500 5400 0    50   Input ~ 0
+Text GLabel 2500 5400 0    50   Input ~ 0
 COL1
-Text GLabel 3500 5500 0    50   Input ~ 0
+Text GLabel 2500 5500 0    50   Input ~ 0
 COL2
-Text GLabel 3500 5600 0    50   Input ~ 0
+Text GLabel 2500 5600 0    50   Input ~ 0
 COL3
-Text GLabel 3500 5700 0    50   Input ~ 0
+Text GLabel 2500 5700 0    50   Input ~ 0
 COL4
-Text GLabel 3500 5800 0    50   Input ~ 0
+Text GLabel 2500 5800 0    50   Input ~ 0
 COL5
-Text GLabel 3500 5900 0    50   Input ~ 0
+Text GLabel 2500 5900 0    50   Input ~ 0
 COL6
-Text GLabel 3500 6000 0    50   Input ~ 0
+Text GLabel 2500 6000 0    50   Input ~ 0
 COL7
-Text GLabel 3500 6200 0    50   Input ~ 0
+Text GLabel 2500 6200 0    50   Input ~ 0
 COL8
-Text GLabel 3500 6500 0    50   Input ~ 0
+Text GLabel 2500 6500 0    50   Input ~ 0
 COL11
-Text GLabel 3500 6600 0    50   Input ~ 0
+Text GLabel 2500 6600 0    50   Input ~ 0
 COL12
-Text GLabel 3500 6700 0    50   Input ~ 0
+Text GLabel 2500 6700 0    50   Input ~ 0
 COL13
-Text GLabel 3500 6800 0    50   Input ~ 0
+Text GLabel 2500 6800 0    50   Input ~ 0
 ROW0
-Text GLabel 3500 6900 0    50   Input ~ 0
+Text GLabel 2500 6900 0    50   Input ~ 0
 ROW1
-Text GLabel 3500 7100 0    50   Input ~ 0
+Text GLabel 2500 7100 0    50   Input ~ 0
 ROW2
-Text GLabel 3500 6300 0    50   Input ~ 0
+Text GLabel 2500 6300 0    50   Input ~ 0
 COL9
-Text GLabel 3500 6400 0    50   Input ~ 0
+Text GLabel 2500 6400 0    50   Input ~ 0
 COL10
-Text GLabel 3500 7200 0    50   Input ~ 0
+Text GLabel 2500 7200 0    50   Input ~ 0
 ROW3
-Text GLabel 3500 7300 0    50   Input ~ 0
+Text GLabel 2500 7300 0    50   Input ~ 0
 ROW4
-Text GLabel 3500 7400 0    50   Input ~ 0
+Text GLabel 2500 7400 0    50   Input ~ 0
 ROW5
 Text GLabel 5000 5400 0    50   Input ~ 0
 COL0
@@ -217,15 +217,15 @@ Text GLabel 5000 7400 0    50   Input ~ 0
 ROW4
 Text GLabel 5000 7500 0    50   Input ~ 0
 ROW5
-NoConn ~ 3500 7500
-NoConn ~ 3500 7600
-NoConn ~ 4050 5400
-NoConn ~ 4050 5550
+NoConn ~ 3050 5700
+NoConn ~ 3050 5850
+NoConn ~ 3050 5400
+NoConn ~ 3050 5550
 Text GLabel 6850 6350 0    50   Input ~ 0
 PWR_5V
 NoConn ~ 6850 5950
 NoConn ~ 6850 6050
-Text GLabel 4050 5300 2    50   Input ~ 0
+Text GLabel 3050 5300 2    50   Input ~ 0
 LED_DATA
 Text GLabel 6850 5850 0    50   Input ~ 0
 LED_DATA
