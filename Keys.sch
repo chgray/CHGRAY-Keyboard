@@ -997,7 +997,7 @@ U 1 1 607C82C5
 P 6400 5750
 F 0 "RIGHT-SHIFT1" H 6550 5860 50  0000 C CNN
 F 1 "55" H 6400 5670 50  0000 C CNN
-F 2 "daprice-keyswitches:Stabilizer_MX_2.25u" H 6400 5750 60  0001 C CNN
+F 2 "daprice-keyswitches:Stabilizer_MX_2.75u" H 6400 5750 60  0001 C CNN
 F 3 "" H 6400 5750 60  0001 C CNN
 	1    6400 5750
 	1    0    0    -1  
@@ -2366,12 +2366,12 @@ $EndComp
 Wire Wire Line
 	11450 3250 11200 3250
 $Comp
-L Cherry-Symbol:SWITCH_PUSH SW61
+L Cherry-Symbol:SWITCH_PUSH RightMeta1
 U 1 1 60AE6ACB
 P 11550 3900
-F 0 "SW61" H 11700 4010 50  0000 C CNN
+F 0 "RightMeta1" H 11700 4010 50  0000 C CNN
 F 1 "311" H 11550 3820 50  0000 C CNN
-F 2 "daprice-keyswitches:Kailh_socket_MX" H 11550 3900 60  0001 C CNN
+F 2 "daprice-keyswitches:Stabilizer_MX_1.25u" H 11550 3900 60  0001 C CNN
 F 3 "" H 11550 3900 60  0001 C CNN
 	1    11550 3900
 	1    0    0    -1  
