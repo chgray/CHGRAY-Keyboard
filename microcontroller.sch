@@ -412,7 +412,7 @@ P 2200 6100
 F 0 "C85" H 2315 6146 50  0000 L CNN
 F 1 "0.1u" H 2315 6055 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 2238 5950 50  0001 C CNN
-F 3 "C696366" H 2200 6100 50  0001 C CNN
+F 3 "C696366;  used C696367 as alt due to inventory shortage" H 2200 6100 50  0001 C CNN
 	1    2200 6100
 	1    0    0    -1  
 $EndComp
@@ -423,7 +423,7 @@ P 3450 6100
 F 0 "C88" H 3565 6146 50  0000 L CNN
 F 1 "0.1u" H 3565 6055 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 3488 5950 50  0001 C CNN
-F 3 "C696366" H 3450 6100 50  0001 C CNN
+F 3 "C696366;  used C696367 as alt due to inventory shortage" H 3450 6100 50  0001 C CNN
 	1    3450 6100
 	1    0    0    -1  
 $EndComp
@@ -434,7 +434,7 @@ P 2650 6100
 F 0 "C86" H 2765 6146 50  0000 L CNN
 F 1 "0.1u" H 2765 6055 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 2688 5950 50  0001 C CNN
-F 3 "C696366" H 2650 6100 50  0001 C CNN
+F 3 "C696366;  used C696367 as alt due to inventory shortage" H 2650 6100 50  0001 C CNN
 	1    2650 6100
 	1    0    0    -1  
 $EndComp
@@ -445,7 +445,7 @@ P 3050 6100
 F 0 "C87" H 3165 6146 50  0000 L CNN
 F 1 "0.1u" H 3165 6055 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 3088 5950 50  0001 C CNN
-F 3 "C696366" H 3050 6100 50  0001 C CNN
+F 3 "C696366;  used C696367 as alt due to inventory shortage" H 3050 6100 50  0001 C CNN
 	1    3050 6100
 	1    0    0    -1  
 $EndComp
@@ -472,7 +472,7 @@ P 3850 6100
 F 0 "C89" H 3965 6146 50  0000 L CNN
 F 1 "0.1u" H 3965 6055 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 3888 5950 50  0001 C CNN
-F 3 "C696366" H 3850 6100 50  0001 C CNN
+F 3 "C696366;  used C696367 as alt due to inventory shortage" H 3850 6100 50  0001 C CNN
 	1    3850 6100
 	1    0    0    -1  
 $EndComp
