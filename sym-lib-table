@@ -1,4 +1,5 @@
 (sym_lib_table
   (lib (name Cherry-Symbol)(type Legacy)(uri ${KIPRJMOD}/submodules/Cherry/components.lib)(options "")(descr ""))
   (lib (name Teensy)(type Legacy)(uri ${KIPRJMOD}/submodules/kicad_teensy/teensy.lib)(options "")(descr ""))
+  (lib (name chgray-keyboard-rescue)(type Legacy)(uri ${KIPRJMOD}/chgray-keyboard-rescue.lib)(options "")(descr ""))
 )
