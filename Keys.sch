@@ -13,7 +13,7 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 1500 6750 3    60   Input ~ 0
+Text HLabel 1500 7650 3    60   Input ~ 0
 KEY_COL0
 Text HLabel 1050 1000 0    60   Input ~ 0
 KEY_ROW0
@@ -55,7 +55,7 @@ Wire Wire Line
 Connection ~ 1700 1850
 Text HLabel 1050 1850 0    60   Input ~ 0
 KEY_ROW1
-Text HLabel 2400 6700 3    60   Input ~ 0
+Text HLabel 2400 7600 3    60   Input ~ 0
 KEY_COL1
 Wire Wire Line
 	1050 1000 1700 1000
@@ -416,14 +416,8 @@ Wire Wire Line
 	2400 5150 2400 6050
 Wire Wire Line
 	2650 6050 2400 6050
-Connection ~ 2400 6050
-Wire Wire Line
-	2400 6050 2400 6700
 Wire Wire Line
 	1850 6050 1500 6050
-Connection ~ 1500 6050
-Wire Wire Line
-	1500 6050 1500 6750
 $Comp
 L Cherry-Symbol:SWITCH_PUSH SW13
 U 1 1 6062F126
@@ -435,7 +429,7 @@ F 3 "" H 3850 1300 60  0001 C CNN
 	1    3850 1300
 	1    0    0    -1  
 $EndComp
-Text HLabel 3350 6750 3    60   Input ~ 0
+Text HLabel 3350 7650 3    60   Input ~ 0
 KEY_COL2
 $Comp
 L Cherry-Symbol:SWITCH_PUSH SW15
@@ -473,7 +467,7 @@ Wire Wire Line
 Wire Wire Line
 	3550 2000 3550 1850
 Connection ~ 3550 1850
-Text HLabel 4250 6700 3    60   Input ~ 0
+Text HLabel 4250 7600 3    60   Input ~ 0
 KEY_COL3
 $Comp
 L Cherry-Symbol:SWITCH_PUSH SW16
@@ -609,7 +603,7 @@ U 1 1 6062F37E
 P 4600 4850
 F 0 "LEFT_ALT1" H 4750 4960 50  0000 C CNN
 F 1 "43" H 4600 4770 50  0000 C CNN
-F 2 "daprice-keyswitches:Stabilizer_MX_1.25u" H 4600 4850 60  0001 C CNN
+F 2 "daprice-keyswitches:Kailh_socket_MX" H 4600 4850 60  0001 C CNN
 F 3 "" H 4600 4850 60  0001 C CNN
 	1    4600 4850
 	1    0    0    -1  
@@ -800,14 +794,8 @@ Wire Wire Line
 	4250 5150 4250 6050
 Wire Wire Line
 	4500 6050 4250 6050
-Connection ~ 4250 6050
-Wire Wire Line
-	4250 6050 4250 6700
 Wire Wire Line
 	3700 6050 3350 6050
-Connection ~ 3350 6050
-Wire Wire Line
-	3350 6050 3350 6750
 Wire Wire Line
 	2450 1000 3550 1000
 Connection ~ 2450 1000
@@ -839,7 +827,7 @@ F 3 "" H 5650 1300 60  0001 C CNN
 	1    5650 1300
 	1    0    0    -1  
 $EndComp
-Text HLabel 5150 6750 3    60   Input ~ 0
+Text HLabel 5150 7650 3    60   Input ~ 0
 KEY_COL4
 $Comp
 L Cherry-Symbol:SWITCH_PUSH SW26
@@ -877,7 +865,7 @@ Wire Wire Line
 Wire Wire Line
 	5350 2000 5350 1850
 Connection ~ 5350 1850
-Text HLabel 6050 6700 3    60   Input ~ 0
+Text HLabel 6050 7600 3    60   Input ~ 0
 KEY_COL5
 $Comp
 L Cherry-Symbol:SWITCH_PUSH SW27
@@ -962,7 +950,7 @@ U 1 1 607C82B1
 P 5600 4850
 F 0 "LEFT-SPACE1" H 5750 4960 50  0000 C CNN
 F 1 "44" H 5600 4770 50  0000 C CNN
-F 2 "daprice-keyswitches:Stabilizer_MX_2.25u" H 5600 4850 60  0001 C CNN
+F 2 "daprice-keyswitches:Kailh_socket_MX" H 5600 4850 60  0001 C CNN
 F 3 "" H 5600 4850 60  0001 C CNN
 	1    5600 4850
 	1    0    0    -1  
@@ -1204,14 +1192,8 @@ Wire Wire Line
 	6050 5150 6050 6050
 Wire Wire Line
 	6300 6050 6050 6050
-Connection ~ 6050 6050
-Wire Wire Line
-	6050 6050 6050 6700
 Wire Wire Line
 	5500 6050 5150 6050
-Connection ~ 5150 6050
-Wire Wire Line
-	5150 6050 5150 6750
 Wire Wire Line
 	6050 3250 6050 4200
 Wire Wire Line
@@ -1237,7 +1219,7 @@ F 3 "" H 7450 1300 60  0001 C CNN
 	1    7450 1300
 	1    0    0    -1  
 $EndComp
-Text HLabel 6950 6750 3    60   Input ~ 0
+Text HLabel 6950 7650 3    60   Input ~ 0
 KEY_COL6
 $Comp
 L Cherry-Symbol:SWITCH_PUSH SW37
@@ -1275,7 +1257,7 @@ Wire Wire Line
 Wire Wire Line
 	7150 2000 7150 1850
 Connection ~ 7150 1850
-Text HLabel 7850 6700 3    60   Input ~ 0
+Text HLabel 7850 7600 3    60   Input ~ 0
 KEY_COL7
 $Comp
 L Cherry-Symbol:SWITCH_PUSH SW38
@@ -1411,7 +1393,7 @@ U 1 1 607D877C
 P 8200 4850
 F 0 "RIGHT-SPACE1" H 8350 4960 50  0000 C CNN
 F 1 "47" H 8200 4770 50  0000 C CNN
-F 2 "daprice-keyswitches:Stabilizer_MX_2.25u" H 8200 4850 60  0001 C CNN
+F 2 "daprice-keyswitches:Stabilizer_MX_1.25u" H 8200 4850 60  0001 C CNN
 F 3 "" H 8200 4850 60  0001 C CNN
 	1    8200 4850
 	1    0    0    -1  
@@ -1602,14 +1584,8 @@ Wire Wire Line
 	7850 5150 7850 6050
 Wire Wire Line
 	8100 6050 7850 6050
-Connection ~ 7850 6050
-Wire Wire Line
-	7850 6050 7850 6700
 Wire Wire Line
 	7300 6050 6950 6050
-Connection ~ 6950 6050
-Wire Wire Line
-	6950 6050 6950 6750
 Wire Wire Line
 	7850 3250 7850 4200
 Wire Wire Line
@@ -1635,7 +1611,7 @@ F 3 "" H 9200 1300 60  0001 C CNN
 	1    9200 1300
 	1    0    0    -1  
 $EndComp
-Text HLabel 8700 6750 3    60   Input ~ 0
+Text HLabel 8700 7650 3    60   Input ~ 0
 KEY_COL8
 $Comp
 L Cherry-Symbol:SWITCH_PUSH SW48
@@ -1673,7 +1649,7 @@ Wire Wire Line
 Wire Wire Line
 	8900 2000 8900 1850
 Connection ~ 8900 1850
-Text HLabel 9600 6700 3    60   Input ~ 0
+Text HLabel 9600 7600 3    60   Input ~ 0
 KEY_COL9
 Wire Wire Line
 	8900 1000 9650 1000
@@ -1819,7 +1795,7 @@ U 1 1 607F54FE
 P 9950 4850
 F 0 "SW52" H 10100 4960 50  0000 C CNN
 F 1 "49" H 9950 4770 50  0000 C CNN
-F 2 "daprice-keyswitches:Kailh_socket_MX" H 9950 4850 60  0001 C CNN
+F 2 "CherryKeys:CHERRY_PCB_625H" H 9950 4850 60  0001 C CNN
 F 3 "" H 9950 4850 60  0001 C CNN
 	1    9950 4850
 	1    0    0    -1  
@@ -2010,14 +1986,8 @@ Wire Wire Line
 	9600 5150 9600 6050
 Wire Wire Line
 	9850 6050 9600 6050
-Connection ~ 9600 6050
-Wire Wire Line
-	9600 6050 9600 6700
 Wire Wire Line
 	9050 6050 8700 6050
-Connection ~ 8700 6050
-Wire Wire Line
-	8700 6050 8700 6750
 Wire Wire Line
 	9600 3250 9600 4200
 Wire Wire Line
@@ -2049,7 +2019,7 @@ Wire Wire Line
 	11000 1300 11000 1600
 Wire Wire Line
 	10400 1000 10400 1300
-Text HLabel 10350 6750 3    60   Input ~ 0
+Text HLabel 10350 7650 3    60   Input ~ 0
 KEY_COL10
 $Comp
 L Cherry-Symbol:SWITCH_PUSH SW4
@@ -2261,9 +2231,6 @@ F 3 "C129828" H 10800 6050 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	10600 6050 10350 6050
-Connection ~ 10350 6050
-Wire Wire Line
-	10350 6050 10350 6750
 Connection ~ 10350 5150
 Wire Wire Line
 	10350 5150 10350 6050
@@ -2443,13 +2410,10 @@ F 3 "C129828" H 11650 6050 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	11450 6050 11200 6050
-Text HLabel 11200 6750 3    60   Input ~ 0
+Text HLabel 11200 7650 3    60   Input ~ 0
 KEY_COL11
 Wire Wire Line
-	11200 6050 11200 6750
-Wire Wire Line
 	11200 6050 11200 5150
-Connection ~ 11200 6050
 Connection ~ 11200 2300
 Wire Wire Line
 	11200 2300 11200 1600
@@ -2671,13 +2635,10 @@ F 3 "C129828" H 12500 6050 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	12300 6050 12050 6050
-Text HLabel 12050 6750 3    60   Input ~ 0
+Text HLabel 12050 7650 3    60   Input ~ 0
 KEY_COL12
 Wire Wire Line
-	12050 6050 12050 6750
-Wire Wire Line
 	12050 6050 12050 5150
-Connection ~ 12050 6050
 Connection ~ 12050 2300
 Wire Wire Line
 	12050 2300 12050 1600
@@ -2873,13 +2834,10 @@ F 3 "C129828" H 13350 6050 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	13150 6050 12900 6050
-Text HLabel 12900 6750 3    60   Input ~ 0
+Text HLabel 12900 7650 3    60   Input ~ 0
 KEY_COL13
 Wire Wire Line
-	12900 6050 12900 6750
-Wire Wire Line
 	12900 6050 12900 5150
-Connection ~ 12900 6050
 Connection ~ 12900 2300
 Wire Wire Line
 	12900 2300 12900 1600
@@ -2931,4 +2889,387 @@ Connection ~ 12100 4650
 Connection ~ 11250 4650
 Connection ~ 11250 5550
 Connection ~ 12100 5550
+$Comp
+L Cherry-Symbol:SWITCH_PUSH SW2
+U 1 1 6132FB8D
+P 1950 6650
+F 0 "SW2" H 2100 6760 50  0000 C CNN
+F 1 "50" H 1950 6570 50  0000 C CNN
+F 2 "daprice-keyswitches:Kailh_socket_MX" H 1950 6650 60  0001 C CNN
+F 3 "" H 1950 6650 60  0001 C CNN
+	1    1950 6650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2250 6650 2250 6950
+Wire Wire Line
+	1650 6650 1650 6450
+Wire Wire Line
+	1650 6450 1050 6450
+$Comp
+L Cherry-Symbol:SWITCH_PUSH SW8
+U 1 1 6132FB96
+P 2750 6650
+F 0 "SW8" H 2900 6760 50  0000 C CNN
+F 1 "51" H 2750 6570 50  0000 C CNN
+F 2 "daprice-keyswitches:Kailh_socket_MX" H 2750 6650 60  0001 C CNN
+F 3 "" H 2750 6650 60  0001 C CNN
+	1    2750 6650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3050 6650 3050 6950
+Wire Wire Line
+	1650 6450 2450 6450
+Wire Wire Line
+	2450 6450 2450 6650
+Connection ~ 1650 6450
+$Comp
+L Cherry-Symbol:DIODE D170
+U 1 1 6132FBA0
+P 2850 6950
+F 0 "D170" H 2850 6758 40  0000 C CNN
+F 1 "DIODE" H 2850 6834 40  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 2850 6950 50  0001 C CNN
+F 3 "C129828" H 2850 6950 50  0001 C CNN
+	1    2850 6950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Cherry-Symbol:DIODE D169
+U 1 1 6132FBA6
+P 2050 6950
+F 0 "D169" H 2050 6758 40  0000 C CNN
+F 1 "DIODE" H 2050 6834 40  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 2050 6950 50  0001 C CNN
+F 3 "C129828" H 2050 6950 50  0001 C CNN
+	1    2050 6950
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1500 6050 1500 6950
+Wire Wire Line
+	2400 6050 2400 6950
+Wire Wire Line
+	2650 6950 2400 6950
+Connection ~ 2400 6950
+Wire Wire Line
+	2400 6950 2400 7600
+Wire Wire Line
+	1850 6950 1500 6950
+Connection ~ 1500 6950
+Wire Wire Line
+	1500 6950 1500 7650
+$Comp
+L Cherry-Symbol:SWITCH_PUSH SW19
+U 1 1 6132FBB4
+P 3800 6650
+F 0 "SW19" H 3950 6760 50  0000 C CNN
+F 1 "52" H 3800 6570 50  0000 C CNN
+F 2 "daprice-keyswitches:Kailh_socket_MX" H 3800 6650 60  0001 C CNN
+F 3 "" H 3800 6650 60  0001 C CNN
+	1    3800 6650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4100 6650 4100 6950
+Wire Wire Line
+	3500 6650 3500 6450
+$Comp
+L Cherry-Symbol:SWITCH_PUSH SW59
+U 1 1 6132FBBC
+P 4600 6650
+F 0 "SW59" H 4750 6760 50  0000 C CNN
+F 1 "53" H 4600 6570 50  0000 C CNN
+F 2 "daprice-keyswitches:Kailh_socket_MX" H 4600 6650 60  0001 C CNN
+F 3 "" H 4600 6650 60  0001 C CNN
+	1    4600 6650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4900 6650 4900 6950
+Wire Wire Line
+	4300 6450 4300 6650
+Connection ~ 3500 6450
+$Comp
+L Cherry-Symbol:DIODE D172
+U 1 1 6132FBC5
+P 4700 6950
+F 0 "D172" H 4700 6758 40  0000 C CNN
+F 1 "DIODE" H 4700 6834 40  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 4700 6950 50  0001 C CNN
+F 3 "C129828" H 4700 6950 50  0001 C CNN
+	1    4700 6950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Cherry-Symbol:DIODE D171
+U 1 1 6132FBCB
+P 3900 6950
+F 0 "D171" H 3900 6758 40  0000 C CNN
+F 1 "DIODE" H 3900 6834 40  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 3900 6950 50  0001 C CNN
+F 3 "C129828" H 3900 6950 50  0001 C CNN
+	1    3900 6950
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3350 6050 3350 6950
+Wire Wire Line
+	4250 6050 4250 6950
+Wire Wire Line
+	4500 6950 4250 6950
+Connection ~ 4250 6950
+Wire Wire Line
+	4250 6950 4250 7600
+Wire Wire Line
+	3700 6950 3350 6950
+Connection ~ 3350 6950
+Wire Wire Line
+	3350 6950 3350 7650
+Wire Wire Line
+	2450 6450 3500 6450
+Connection ~ 2450 6450
+$Comp
+L Cherry-Symbol:SWITCH_PUSH SW61
+U 1 1 6132FBDB
+P 5600 6650
+F 0 "SW61" H 5750 6760 50  0000 C CNN
+F 1 "54" H 5600 6570 50  0000 C CNN
+F 2 "daprice-keyswitches:Kailh_socket_MX" H 5600 6650 60  0001 C CNN
+F 3 "" H 5600 6650 60  0001 C CNN
+	1    5600 6650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5900 6650 5900 6950
+Wire Wire Line
+	5300 6650 5300 6450
+$Comp
+L Cherry-Symbol:SWITCH_PUSH RIGHT-SHIFT2
+U 1 1 6132FBE3
+P 6400 6650
+F 0 "RIGHT-SHIFT2" H 6550 6760 50  0000 C CNN
+F 1 "55" H 6400 6570 50  0000 C CNN
+F 2 "daprice-keyswitches:Kailh_socket_MX" H 6400 6650 60  0001 C CNN
+F 3 "" H 6400 6650 60  0001 C CNN
+	1    6400 6650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6700 6650 6700 6950
+Wire Wire Line
+	6100 6450 6100 6650
+Connection ~ 5300 6450
+$Comp
+L Cherry-Symbol:DIODE D174
+U 1 1 6132FBEC
+P 6500 6950
+F 0 "D174" H 6500 6758 40  0000 C CNN
+F 1 "DIODE" H 6500 6834 40  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 6500 6950 50  0001 C CNN
+F 3 "C129828" H 6500 6950 50  0001 C CNN
+	1    6500 6950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Cherry-Symbol:DIODE D173
+U 1 1 6132FBF2
+P 5700 6950
+F 0 "D173" H 5700 6758 40  0000 C CNN
+F 1 "DIODE" H 5700 6834 40  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 5700 6950 50  0001 C CNN
+F 3 "C129828" H 5700 6950 50  0001 C CNN
+	1    5700 6950
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5150 6050 5150 6950
+Wire Wire Line
+	6050 6050 6050 6950
+Wire Wire Line
+	6300 6950 6050 6950
+Connection ~ 6050 6950
+Wire Wire Line
+	6050 6950 6050 7600
+Wire Wire Line
+	5500 6950 5150 6950
+Connection ~ 5150 6950
+Wire Wire Line
+	5150 6950 5150 7650
+Wire Wire Line
+	3500 6450 4300 6450
+$Comp
+L Cherry-Symbol:SWITCH_PUSH SW74
+U 1 1 6132FC01
+P 7400 6650
+F 0 "SW74" H 7550 6760 50  0000 C CNN
+F 1 "56" H 7400 6570 50  0000 C CNN
+F 2 "daprice-keyswitches:Kailh_socket_MX" H 7400 6650 60  0001 C CNN
+F 3 "" H 7400 6650 60  0001 C CNN
+	1    7400 6650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7700 6650 7700 6950
+Wire Wire Line
+	7100 6650 7100 6450
+$Comp
+L Cherry-Symbol:SWITCH_PUSH SW75
+U 1 1 6132FC09
+P 8200 6650
+F 0 "SW75" H 8350 6760 50  0000 C CNN
+F 1 "57" H 8200 6570 50  0000 C CNN
+F 2 "daprice-keyswitches:Kailh_socket_MX" H 8200 6650 60  0001 C CNN
+F 3 "" H 8200 6650 60  0001 C CNN
+	1    8200 6650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8500 6650 8500 6950
+Wire Wire Line
+	7900 6450 7900 6650
+Connection ~ 7100 6450
+$Comp
+L Cherry-Symbol:DIODE D176
+U 1 1 6132FC12
+P 8300 6950
+F 0 "D176" H 8300 6758 40  0000 C CNN
+F 1 "DIODE" H 8300 6834 40  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 8300 6950 50  0001 C CNN
+F 3 "C129828" H 8300 6950 50  0001 C CNN
+	1    8300 6950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Cherry-Symbol:DIODE D175
+U 1 1 6132FC18
+P 7500 6950
+F 0 "D175" H 7500 6758 40  0000 C CNN
+F 1 "DIODE" H 7500 6834 40  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 7500 6950 50  0001 C CNN
+F 3 "C129828" H 7500 6950 50  0001 C CNN
+	1    7500 6950
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6950 6050 6950 6950
+Wire Wire Line
+	7850 6050 7850 6950
+Wire Wire Line
+	8100 6950 7850 6950
+Connection ~ 7850 6950
+Wire Wire Line
+	7850 6950 7850 7600
+Wire Wire Line
+	7300 6950 6950 6950
+Connection ~ 6950 6950
+Wire Wire Line
+	6950 6950 6950 7650
+Wire Wire Line
+	5300 6450 6100 6450
+$Comp
+L Cherry-Symbol:SWITCH_PUSH SW76
+U 1 1 6132FC27
+P 9150 6650
+F 0 "SW76" H 9300 6760 50  0000 C CNN
+F 1 "58" H 9150 6570 50  0000 C CNN
+F 2 "daprice-keyswitches:Kailh_socket_MX" H 9150 6650 60  0001 C CNN
+F 3 "" H 9150 6650 60  0001 C CNN
+	1    9150 6650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9450 6650 9450 6950
+Wire Wire Line
+	8850 6650 8850 6450
+$Comp
+L Cherry-Symbol:DIODE D177
+U 1 1 6132FC3F
+P 9250 6950
+F 0 "D177" H 9250 6758 40  0000 C CNN
+F 1 "DIODE" H 9250 6834 40  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 9250 6950 50  0001 C CNN
+F 3 "C129828" H 9250 6950 50  0001 C CNN
+	1    9250 6950
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9050 6950 8700 6950
+Connection ~ 8700 6950
+Wire Wire Line
+	8700 6950 8700 7650
+Wire Wire Line
+	7100 6450 7900 6450
+Connection ~ 4300 6450
+Wire Wire Line
+	4300 6450 5300 6450
+Connection ~ 6100 6450
+Wire Wire Line
+	6100 6450 7100 6450
+Connection ~ 7900 6450
+Connection ~ 1500 6050
+Connection ~ 2400 6050
+Connection ~ 3350 6050
+Connection ~ 4250 6050
+Connection ~ 5150 6050
+Connection ~ 6050 6050
+Connection ~ 6950 6050
+Connection ~ 7850 6050
+Connection ~ 8700 6050
+Connection ~ 9600 6050
+Connection ~ 10350 6050
+Connection ~ 11200 6050
+Connection ~ 12050 6050
+Connection ~ 12900 6050
+Text HLabel 1050 6450 0    60   Input ~ 0
+KEY_ROW6
+Wire Wire Line
+	12050 6050 12050 7650
+Wire Wire Line
+	11200 6050 11200 7650
+Wire Wire Line
+	10350 6050 10350 7650
+Wire Wire Line
+	12900 6050 12900 7650
+$Comp
+L Cherry-Symbol:SWITCH_PUSH SW77
+U 1 1 618310EC
+P 9950 6650
+F 0 "SW77" H 10100 6760 50  0000 C CNN
+F 1 "58" H 9950 6570 50  0000 C CNN
+F 2 "daprice-keyswitches:Stabilizer_MX_1.25u" H 9950 6650 60  0001 C CNN
+F 3 "" H 9950 6650 60  0001 C CNN
+	1    9950 6650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10250 6650 10250 6950
+$Comp
+L Cherry-Symbol:DIODE D178
+U 1 1 618310F4
+P 10050 6950
+F 0 "D178" H 10050 6758 40  0000 C CNN
+F 1 "DIODE" H 10050 6834 40  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 10050 6950 50  0001 C CNN
+F 3 "C129828" H 10050 6950 50  0001 C CNN
+	1    10050 6950
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8700 6050 8700 6950
+Wire Wire Line
+	7900 6450 8850 6450
+Wire Wire Line
+	9600 6050 9600 6950
+Wire Wire Line
+	9850 6950 9600 6950
+Connection ~ 9600 6950
+Wire Wire Line
+	9600 6950 9600 7600
+Wire Wire Line
+	9650 6650 9650 6450
+Wire Wire Line
+	9650 6450 8850 6450
+Connection ~ 8850 6450
 $EndSCHEMATC
