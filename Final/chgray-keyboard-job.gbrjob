@@ -5,9 +5,9 @@
     {
       "Vendor":      "KiCad",
       "Application": "Pcbnew",
-      "Version":     "(5.1.9)-1"
+      "Version":     "(5.1.10)-1"
     },
-    "CreationDate":  "2021-06-12T15:25:05-07:00"
+    "CreationDate":  "2021-09-06T18:30:35-07:00"
   },
   "GeneralSpecs":
   {
@@ -19,8 +19,8 @@
     },
     "Size":
     {
-      "X": 377.544,
-      "Y": 105.637
+      "X": 352.804,
+      "Y": 120.801
     },
     "LayerNumber": 2,
     "BoardThickness":  1.600
@@ -48,26 +48,6 @@
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "chgray-keyboard-F_Paste.gbr",
-      "FileFunction":  "SolderPaste,Top",
-      "FilePolarity":  "Positive"
-    },
-    {
-      "Path":  "chgray-keyboard-B_Paste.gbr",
-      "FileFunction":  "SolderPaste,Bot",
-      "FilePolarity":  "Positive"
-    },
-    {
-      "Path":  "chgray-keyboard-F_SilkS.gbr",
-      "FileFunction":  "Legend,Top",
-      "FilePolarity":  "Positive"
-    },
-    {
-      "Path":  "chgray-keyboard-B_SilkS.gbr",
-      "FileFunction":  "Legend,Bot",
-      "FilePolarity":  "Positive"
-    },
-    {
       "Path":  "chgray-keyboard-F_Mask.gbr",
       "FileFunction":  "SolderMask,Top",
       "FilePolarity":  "Negative"
@@ -85,14 +65,6 @@
   ],
   "MaterialStackup":
   [
-    {
-      "Type":  "Legend",
-      "Notes":  "Layer F.SilkS"
-    },
-    {
-      "Type":  "SolderPaste",
-      "Notes":  "Layer F.Paste"
-    },
     {
       "Type":  "SolderMask",
       "Notes":  "Layer F.Mask"
@@ -113,14 +85,6 @@
     {
       "Type":  "SolderMask",
       "Notes":  "Layer B.Mask"
-    },
-    {
-      "Type":  "SolderPaste",
-      "Notes":  "Layer B.Paste"
-    },
-    {
-      "Type":  "Legend",
-      "Notes":  "Layer B.SilkS"
     }
   ]
 }
