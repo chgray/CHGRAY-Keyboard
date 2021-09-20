@@ -25,3 +25,17 @@ qmk c2json -km default -kb handwired/ckey -o foo.json ./keyboards/handwired/ckey
 
 # Parts 
 Purchased LED's ffrom https://www.adafruit.com/product/4960
+
+
+# KiCad
+ - to make the file load pcbnew and then do File->Fabrication Options. 
+	A) Change Ref to Designator
+	B) Rot to Rotation
+	C) Side to Layer
+	D) X to "Mid X"
+	E) Y to "Mid Y"
+ 
+ - to make the BOM load eeschema and then do BOM -> bom2csv
+	A) Change Reference to "Designator"
+	B) Change Datasheet to "JLCPCB Part #"
+	C) Value to Comment
