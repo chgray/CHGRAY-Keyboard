@@ -1,4 +1,4 @@
-Reference, Value, Footprint, Datasheet
+Designator, Comment, Footprint, JLCPCB Part #
 "J1","Conn_01x01_Female","Connector_PinHeader_1.27mm:PinHeader_2x07_P1.27mm_Vertical","~"
 "D95","LED","CHGRAY_LED:LED_WS2812-2020","C965555"
 "D100","LED","CHGRAY_LED:LED_WS2812-2020","C965555"
