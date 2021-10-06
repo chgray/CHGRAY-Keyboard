@@ -65,48 +65,17 @@ Wire Wire Line
 	6500 2900 6500 2050
 Wire Wire Line
 	6500 2050 6700 2050
-NoConn ~ 5550 3200
-NoConn ~ 5550 3300
 NoConn ~ 6050 3200
-NoConn ~ 6050 3300
 NoConn ~ 6050 3100
 NoConn ~ 6050 3000
 Wire Wire Line
 	6050 3400 6550 3400
-$Comp
-L power:+5V #PWR02
-U 1 1 6123E4B4
-P 5550 4150
-F 0 "#PWR02" H 5550 4000 50  0001 C CNN
-F 1 "+5V" H 5565 4323 50  0000 C CNN
-F 2 "" H 5550 4150 50  0001 C CNN
-F 3 "" H 5550 4150 50  0001 C CNN
-	1    5550 4150
-	1    0    0    -1  
-$EndComp
-Text GLabel 5550 4200 3    50   Input ~ 0
+Text GLabel 1950 2250 2    50   Input ~ 0
 PWR_5V
-Text GLabel 5250 4050 3    50   Input ~ 0
+Text GLabel 5350 2800 0    50   Input ~ 0
 TEENSY_GND
-Text GLabel 5550 2800 0    50   Input ~ 0
-TEENSY_GND
-$Comp
-L Cherry-Symbol:GND #PWR01
-U 1 1 61266E57
-P 5250 3900
-F 0 "#PWR01" H 5250 3900 30  0001 C CNN
-F 1 "GND" H 5250 3830 30  0001 C CNN
-F 2 "" H 5250 3900 50  0001 C CNN
-F 3 "" H 5250 3900 50  0001 C CNN
-	1    5250 3900
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	6050 2800 6400 2800
-Wire Wire Line
-	5550 4200 5550 4150
-Wire Wire Line
-	5250 4050 5250 3950
 Text GLabel 1400 1450 0    50   Input ~ 0
 COL0
 Text GLabel 1400 1550 0    50   Input ~ 0
@@ -192,8 +161,6 @@ NoConn ~ 1950 2000
 NoConn ~ 1950 1700
 Text GLabel 5550 3400 0    50   Input ~ 0
 PWR_5V
-NoConn ~ 5550 3000
-NoConn ~ 5550 3100
 Text GLabel 1950 1450 2    50   Input ~ 0
 LED_DATA
 Text GLabel 5550 2900 0    50   Input ~ 0
@@ -244,5 +211,49 @@ F24 "PF7" I L 1400 3250 50
 F25 "PC6" I R 1950 1700 50 
 F26 "PC7" I R 1950 1550 50 
 F27 "TEENSY_GND" I R 1950 3700 50 
+F28 "ATMEL_VCC" O R 1950 2250 50 
+F29 "RESET" I R 1950 3150 50 
 $EndSheet
+NoConn ~ 6050 3300
+$Comp
+L power:VCC #PWR0101
+U 1 1 6167CAC7
+P 5650 3650
+F 0 "#PWR0101" H 5650 3500 50  0001 C CNN
+F 1 "VCC" H 5665 3823 50  0000 C CNN
+F 2 "" H 5650 3650 50  0001 C CNN
+F 3 "" H 5650 3650 50  0001 C CNN
+	1    5650 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5550 3400 5550 3650
+Wire Wire Line
+	5550 3650 5650 3650
+$Comp
+L Cherry-Symbol:GND #PWR0102
+U 1 1 6167DD57
+P 5550 2550
+F 0 "#PWR0102" H 5550 2550 30  0001 C CNN
+F 1 "GND" H 5550 2480 30  0001 C CNN
+F 2 "" H 5550 2550 50  0001 C CNN
+F 3 "" H 5550 2550 50  0001 C CNN
+	1    5550 2550
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5550 2600 5550 2800
+Wire Wire Line
+	5350 2800 5550 2800
+Connection ~ 5550 2800
+Text GLabel 5550 3000 0    50   Input ~ 0
+COL12
+Text GLabel 5550 3100 0    50   Input ~ 0
+COL13
+Text GLabel 5550 3200 0    50   Input ~ 0
+ROW0
+Text GLabel 1950 3150 2    50   Input ~ 0
+RESET
+Text GLabel 5550 3300 0    50   Input ~ 0
+RESET
 $EndSCHEMATC
