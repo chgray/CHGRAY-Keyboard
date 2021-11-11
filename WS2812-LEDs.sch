@@ -851,9 +851,9 @@ F 3 "C965555" H 3900 9725 50  0001 L TNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1300 950  1600 950 
+	1300 950  1450 950 
 Wire Wire Line
-	1300 800  1600 800 
+	1300 800  1450 800 
 Text GLabel 1600 950  2    50   Input ~ 0
 LED_GND
 $Comp
@@ -2907,8 +2907,6 @@ Wire Wire Line
 	6800 9650 6800 9800
 Wire Wire Line
 	6200 9650 6200 9800
-Text GLabel 6200 10400 3    50   Input ~ 0
-LED_GND
 Text GLabel 6800 10400 3    50   Input ~ 0
 LED_GND
 $Comp
@@ -3202,4 +3200,36 @@ Wire Wire Line
 Text GLabel 12200 10400 3    50   Input ~ 0
 LED_GND
 NoConn ~ 12500 10100
+$Comp
+L power:GND #PWR0104
+U 1 1 6191A723
+P 1450 1050
+F 0 "#PWR0104" H 1450 800 50  0001 C CNN
+F 1 "GND" H 1455 877 50  0000 C CNN
+F 2 "" H 1450 1050 50  0001 C CNN
+F 3 "" H 1450 1050 50  0001 C CNN
+	1    1450 1050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1450 1050 1450 950 
+Connection ~ 1450 950 
+Wire Wire Line
+	1450 950  1600 950 
+Text GLabel 6200 10400 3    50   Input ~ 0
+LED_GND
+$Comp
+L power:+5V #PWR0105
+U 1 1 61931210
+P 1450 800
+F 0 "#PWR0105" H 1450 650 50  0001 C CNN
+F 1 "+5V" H 1465 973 50  0000 C CNN
+F 2 "" H 1450 800 50  0001 C CNN
+F 3 "" H 1450 800 50  0001 C CNN
+	1    1450 800 
+	1    0    0    -1  
+$EndComp
+Connection ~ 1450 800 
+Wire Wire Line
+	1450 800  1600 800 
 $EndSCHEMATC

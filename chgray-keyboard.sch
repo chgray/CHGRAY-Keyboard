@@ -25,54 +25,12 @@ F 3 "~" H 6000 6100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6800 5350 6950 5350
+	6800 5350 6850 5350
 Wire Wire Line
 	6650 5200 6950 5200
 NoConn ~ 6300 6200
 NoConn ~ 6300 6100
 NoConn ~ 6300 6000
-Text GLabel 2200 5250 2    50   Input ~ 0
-PWR_5V
-Text GLabel 1650 4450 0    50   Input ~ 0
-COL0
-Text GLabel 1650 4550 0    50   Input ~ 0
-COL1
-Text GLabel 1650 4650 0    50   Input ~ 0
-COL2
-Text GLabel 1650 4750 0    50   Input ~ 0
-COL3
-Text GLabel 1650 4850 0    50   Input ~ 0
-COL4
-Text GLabel 1650 4950 0    50   Input ~ 0
-COL5
-Text GLabel 1650 5050 0    50   Input ~ 0
-COL6
-Text GLabel 1650 5150 0    50   Input ~ 0
-COL7
-Text GLabel 1650 5350 0    50   Input ~ 0
-COL8
-Text GLabel 1650 5650 0    50   Input ~ 0
-COL11
-Text GLabel 1650 5750 0    50   Input ~ 0
-COL12
-Text GLabel 1650 5850 0    50   Input ~ 0
-COL13
-Text GLabel 1650 5950 0    50   Input ~ 0
-ROW0
-Text GLabel 1650 6050 0    50   Input ~ 0
-ROW1
-Text GLabel 1650 6250 0    50   Input ~ 0
-ROW2
-Text GLabel 1650 5450 0    50   Input ~ 0
-COL9
-Text GLabel 1650 5550 0    50   Input ~ 0
-COL10
-Text GLabel 1650 6350 0    50   Input ~ 0
-ROW3
-Text GLabel 1650 6450 0    50   Input ~ 0
-ROW4
-Text GLabel 1650 6550 0    50   Input ~ 0
-ROW5
 Text GLabel 4150 4550 0    50   Input ~ 0
 COL0
 Text GLabel 4150 4650 0    50   Input ~ 0
@@ -113,13 +71,8 @@ Text GLabel 4150 6550 0    50   Input ~ 0
 ROW4
 Text GLabel 4150 6650 0    50   Input ~ 0
 ROW5
-NoConn ~ 2200 4850
-NoConn ~ 2200 5000
-NoConn ~ 2200 4700
 Text GLabel 6800 5350 0    50   Input ~ 0
 PWR_5V
-Text GLabel 2200 4450 2    50   Input ~ 0
-LED_DATA
 Text GLabel 6950 5050 0    50   Input ~ 0
 LED_DATA
 $Sheet
@@ -133,68 +86,13 @@ F4 "INPUT" I L 6950 5050 50
 $EndSheet
 Text GLabel 4150 6750 0    50   Input ~ 0
 ROW6
-Text GLabel 2200 4550 2    50   Input ~ 0
-ROW6
-Text GLabel 2200 6700 2    50   Input ~ 0
-TEENSY_GND
-$Sheet
-S 1650 4350 550  2450
-U 60A82B52
-F0 "ATmega32U4-AU" 50
-F1 "microcontroller.sch" 50
-F2 "PB0" I L 1650 6050 50 
-F3 "PB1" I L 1650 5950 50 
-F4 "PB2" I L 1650 5850 50 
-F5 "PB3" I L 1650 5750 50 
-F6 "PB4" I L 1650 5650 50 
-F7 "PB5" I L 1650 5550 50 
-F8 "PB6" I L 1650 5450 50 
-F9 "PB7" I L 1650 5350 50 
-F10 "PD0" I L 1650 5150 50 
-F11 "PD1" I L 1650 5050 50 
-F12 "PD2" I L 1650 4950 50 
-F13 "PD3" I L 1650 4850 50 
-F14 "PD4" I L 1650 4750 50 
-F15 "PD5" I L 1650 4650 50 
-F16 "PD6" I L 1650 4550 50 
-F17 "PD7" I L 1650 4450 50 
-F18 "PE6" I R 2200 4450 50 
-F19 "PF0" I R 2200 5000 50 
-F20 "PF1" I R 2200 4850 50 
-F21 "PF4" I L 1650 6550 50 
-F22 "PF5" I L 1650 6450 50 
-F23 "PF6" I L 1650 6350 50 
-F24 "PF7" I L 1650 6250 50 
-F25 "PC6" I R 2200 4700 50 
-F26 "PC7" I R 2200 4550 50 
-F27 "TEENSY_GND" I R 2200 6700 50 
-F28 "ATMEL_VCC" O R 2200 5250 50 
-F29 "RESET" I R 2200 6150 50 
-$EndSheet
 NoConn ~ 6300 6300
-$Comp
-L power:VCC #PWR0101
-U 1 1 6167CAC7
-P 6900 5600
-F 0 "#PWR0101" H 6900 5450 50  0001 C CNN
-F 1 "VCC" H 6915 5773 50  0000 C CNN
-F 2 "" H 6900 5600 50  0001 C CNN
-F 3 "" H 6900 5600 50  0001 C CNN
-	1    6900 5600
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6800 5350 6800 5600
-Wire Wire Line
-	6800 5600 6900 5600
 Text GLabel 5800 6000 0    50   Input ~ 0
 COL12
 Text GLabel 5800 6100 0    50   Input ~ 0
 COL13
 Text GLabel 5800 6200 0    50   Input ~ 0
 ROW0
-Text GLabel 2200 6150 2    50   Input ~ 0
-RESET
 Text GLabel 5800 6300 0    50   Input ~ 0
 RESET
 Connection ~ 6650 5200
@@ -251,4 +149,105 @@ LED_DATA
 NoConn ~ 6300 5800
 NoConn ~ 6300 5900
 NoConn ~ 6300 6400
+Text GLabel 2200 6150 2    50   Input ~ 0
+RESET
+$Sheet
+S 1650 4350 550  2450
+U 60A82B52
+F0 "ATmega32U4-AU" 50
+F1 "microcontroller.sch" 50
+F2 "PB0" I L 1650 6050 50 
+F3 "PB1" I L 1650 5950 50 
+F4 "PB2" I L 1650 5850 50 
+F5 "PB3" I L 1650 5750 50 
+F6 "PB4" I L 1650 5650 50 
+F7 "PB5" I L 1650 5550 50 
+F8 "PB6" I L 1650 5450 50 
+F9 "PB7" I L 1650 5350 50 
+F10 "PD0" I L 1650 5150 50 
+F11 "PD1" I L 1650 5050 50 
+F12 "PD2" I L 1650 4950 50 
+F13 "PD3" I L 1650 4850 50 
+F14 "PD4" I L 1650 4750 50 
+F15 "PD5" I L 1650 4650 50 
+F16 "PD6" I L 1650 4550 50 
+F17 "PD7" I L 1650 4450 50 
+F18 "PE6" I R 2200 4450 50 
+F19 "PF0" I R 2200 5000 50 
+F20 "PF1" I R 2200 4850 50 
+F21 "PF4" I L 1650 6550 50 
+F22 "PF5" I L 1650 6450 50 
+F23 "PF6" I L 1650 6350 50 
+F24 "PF7" I L 1650 6250 50 
+F25 "PC6" I R 2200 4700 50 
+F26 "PC7" I R 2200 4550 50 
+F27 "TEENSY_GND" I R 2200 6700 50 
+F28 "ATMEL_VCC" O R 2200 5250 50 
+F29 "RESET" I R 2200 6150 50 
+$EndSheet
+Text GLabel 2200 6700 2    50   Input ~ 0
+TEENSY_GND
+Text GLabel 2200 4550 2    50   Input ~ 0
+ROW6
+Text GLabel 2200 4450 2    50   Input ~ 0
+LED_DATA
+NoConn ~ 2200 4700
+NoConn ~ 2200 5000
+NoConn ~ 2200 4850
+Text GLabel 1650 6550 0    50   Input ~ 0
+ROW5
+Text GLabel 1650 6450 0    50   Input ~ 0
+ROW4
+Text GLabel 1650 6350 0    50   Input ~ 0
+ROW3
+Text GLabel 1650 5550 0    50   Input ~ 0
+COL10
+Text GLabel 1650 5450 0    50   Input ~ 0
+COL9
+Text GLabel 1650 6250 0    50   Input ~ 0
+ROW2
+Text GLabel 1650 6050 0    50   Input ~ 0
+ROW1
+Text GLabel 1650 5950 0    50   Input ~ 0
+ROW0
+Text GLabel 1650 5850 0    50   Input ~ 0
+COL13
+Text GLabel 1650 5750 0    50   Input ~ 0
+COL12
+Text GLabel 1650 5650 0    50   Input ~ 0
+COL11
+Text GLabel 1650 5350 0    50   Input ~ 0
+COL8
+Text GLabel 1650 5150 0    50   Input ~ 0
+COL7
+Text GLabel 1650 5050 0    50   Input ~ 0
+COL6
+Text GLabel 1650 4950 0    50   Input ~ 0
+COL5
+Text GLabel 1650 4850 0    50   Input ~ 0
+COL4
+Text GLabel 1650 4750 0    50   Input ~ 0
+COL3
+Text GLabel 1650 4650 0    50   Input ~ 0
+COL2
+Text GLabel 1650 4550 0    50   Input ~ 0
+COL1
+Text GLabel 1650 4450 0    50   Input ~ 0
+COL0
+Text GLabel 2200 5250 2    50   Input ~ 0
+PWR_5V
+$Comp
+L power:+5V #PWR0101
+U 1 1 61933D61
+P 6850 5350
+F 0 "#PWR0101" H 6850 5200 50  0001 C CNN
+F 1 "+5V" H 6865 5523 50  0000 C CNN
+F 2 "" H 6850 5350 50  0001 C CNN
+F 3 "" H 6850 5350 50  0001 C CNN
+	1    6850 5350
+	-1   0    0    1   
+$EndComp
+Connection ~ 6850 5350
+Wire Wire Line
+	6850 5350 6950 5350
 $EndSCHEMATC
