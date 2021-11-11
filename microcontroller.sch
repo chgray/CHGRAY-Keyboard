@@ -238,8 +238,6 @@ Wire Wire Line
 Wire Wire Line
 	5400 3350 5200 3350
 Wire Wire Line
-	5200 3350 5200 4350
-Wire Wire Line
 	5200 4550 4600 4550
 $Comp
 L power:VCC #PWR07
@@ -270,8 +268,6 @@ F 3 "C28323" H 4400 5050 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4550 5050 5300 5050
-Wire Wire Line
-	5300 5050 5300 4350
 Wire Wire Line
 	5300 3550 5400 3550
 Wire Wire Line
@@ -506,11 +502,8 @@ F 3 "C17561" H 4450 4550 50  0001 C CNN
 	1    4450 4550
 	0    1    1    0   
 $EndComp
-Text HLabel 3600 2850 0    50   Input ~ 0
+Text HLabel 3750 5050 0    50   Input ~ 0
 TEENSY_GND
-Wire Wire Line
-	3600 2700 3600 2850
-Connection ~ 3600 2700
 Wire Wire Line
 	6100 1850 6500 1850
 Wire Wire Line
@@ -520,12 +513,12 @@ ATMEL_VCC
 $Comp
 L MCU_Microchip_ATmega:ATmega32U4-MU U1
 U 1 1 6161C1B1
-P 5300 2550
-F 0 "U1" H 5300 661 50  0000 C CNN
-F 1 "ATmega32U4-MU" H 5200 350 50  0000 C CNN
-F 2 "Package_DFN_QFN:QFN-44-1EP_7x7mm_P0.5mm_EP5.2x5.2mm" H 5300 2550 50  0001 C CIN
-F 3 "C112161" H 5300 2550 50  0001 C CNN
-	1    5300 2550
+P 6000 3750
+F 0 "U1" H 6000 1861 50  0000 C CNN
+F 1 "ATmega32U4-MU" H 5900 1550 50  0000 C CNN
+F 2 "Package_DFN_QFN:QFN-44-1EP_7x7mm_P0.5mm_EP5.2x5.2mm" H 6000 3750 50  0001 C CIN
+F 3 "C112161" H 6000 3750 50  0001 C CNN
+	1    6000 3750
 	1    0    0    -1  
 $EndComp
 Text HLabel 5400 1400 2    50   Input ~ 0
@@ -552,10 +545,8 @@ Wire Wire Line
 Connection ~ 4500 2700
 Wire Wire Line
 	4500 2700 5150 2700
-Connection ~ 5300 4350
 Wire Wire Line
-	5300 4350 5300 3550
-Connection ~ 5200 4350
+	5200 3350 5200 4550
 Wire Wire Line
-	5200 4350 5200 4550
+	5300 3550 5300 5050
 $EndSCHEMATC
