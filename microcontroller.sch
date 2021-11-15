@@ -510,17 +510,6 @@ Wire Wire Line
 	6500 1850 6500 1400
 Text HLabel 6500 1400 0    50   Output ~ 0
 ATMEL_VCC
-$Comp
-L MCU_Microchip_ATmega:ATmega32U4-MU U1
-U 1 1 6161C1B1
-P 6000 3750
-F 0 "U1" H 6000 1861 50  0000 C CNN
-F 1 "ATmega32U4-MU" H 5900 1550 50  0000 C CNN
-F 2 "Package_DFN_QFN:QFN-44-1EP_7x7mm_P0.5mm_EP5.2x5.2mm" H 6000 3750 50  0001 C CIN
-F 3 "C112161" H 6000 3750 50  0001 C CNN
-	1    6000 3750
-	1    0    0    -1  
-$EndComp
 Text HLabel 5400 1400 2    50   Input ~ 0
 RESET
 $Comp
@@ -549,4 +538,15 @@ Wire Wire Line
 	5200 3350 5200 4550
 Wire Wire Line
 	5300 3550 5300 5050
+$Comp
+L MCU_Microchip_ATmega:ATmega32U4-AU U1
+U 1 1 618DD3F7
+P 6000 3750
+F 0 "U1" H 6000 1861 50  0000 C CNN
+F 1 "ATmega32U4-AU" H 6000 1770 50  0000 C CNN
+F 2 "Package_QFP:TQFP-44_10x10mm_P0.8mm" H 6000 3750 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf" H 6000 3750 50  0001 C CNN
+	1    6000 3750
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
