@@ -13,24 +13,8 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L Connector_Generic:Conn_02x07_Odd_Even J1
-U 1 1 609EE309
-P 6000 6100
-F 0 "J1" H 6050 6617 50  0000 C CNN
-F 1 "Conn_01x01_Female" H 6050 6526 50  0000 C CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_2x07_P1.27mm_Vertical" H 6000 6100 50  0001 C CNN
-F 3 "~" H 6000 6100 50  0001 C CNN
-	1    6000 6100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6800 5350 6850 5350
 Wire Wire Line
 	6650 5200 6950 5200
-NoConn ~ 6300 6200
-NoConn ~ 6300 6100
-NoConn ~ 6300 6000
 Text GLabel 4150 4550 0    50   Input ~ 0
 COL0
 Text GLabel 4150 4650 0    50   Input ~ 0
@@ -71,7 +55,7 @@ Text GLabel 4150 6550 0    50   Input ~ 0
 ROW4
 Text GLabel 4150 6650 0    50   Input ~ 0
 ROW5
-Text GLabel 6800 5350 0    50   Input ~ 0
+Text GLabel 6950 5350 0    50   Input ~ 0
 PWR_5V
 Text GLabel 6950 5050 0    50   Input ~ 0
 LED_DATA
@@ -86,14 +70,13 @@ F4 "INPUT" I L 6950 5050 50
 $EndSheet
 Text GLabel 4150 6750 0    50   Input ~ 0
 ROW6
-NoConn ~ 6300 6300
-Text GLabel 5800 6000 0    50   Input ~ 0
+Text GLabel 5800 6050 0    50   Input ~ 0
 COL12
-Text GLabel 5800 6100 0    50   Input ~ 0
+Text GLabel 5800 6150 0    50   Input ~ 0
 COL13
-Text GLabel 5800 6200 0    50   Input ~ 0
+Text GLabel 5800 6250 0    50   Input ~ 0
 ROW0
-Text GLabel 5800 6300 0    50   Input ~ 0
+Text GLabel 5800 6350 0    50   Input ~ 0
 RESET
 Connection ~ 6650 5200
 Wire Wire Line
@@ -140,29 +123,12 @@ F20 "KEY_COL12" I L 4150 5850 50
 F21 "KEY_COL13" I L 4150 5950 50 
 F22 "KEY_ROW6" I L 4150 6750 50 
 $EndSheet
-Text GLabel 5800 5800 0    50   Input ~ 0
+Text GLabel 5800 5850 0    50   Input ~ 0
 TEENSY_GND
-Text GLabel 5800 6400 0    50   Input ~ 0
+Text GLabel 5800 6450 0    50   Input ~ 0
 PWR_5V
-Text GLabel 5800 5900 0    50   Input ~ 0
+Text GLabel 5800 5950 0    50   Input ~ 0
 LED_DATA
-NoConn ~ 6300 5800
-NoConn ~ 6300 5900
-NoConn ~ 6300 6400
-$Comp
-L power:+5V #PWR0101
-U 1 1 61933D61
-P 6850 5350
-F 0 "#PWR0101" H 6850 5200 50  0001 C CNN
-F 1 "+5V" H 6865 5523 50  0000 C CNN
-F 2 "" H 6850 5350 50  0001 C CNN
-F 3 "" H 6850 5350 50  0001 C CNN
-	1    6850 5350
-	-1   0    0    1   
-$EndComp
-Connection ~ 6850 5350
-Wire Wire Line
-	6850 5350 6950 5350
 Text GLabel 2200 5250 2    50   Input ~ 0
 PWR_5V
 Text GLabel 1650 4450 0    50   Input ~ 0
@@ -250,4 +216,15 @@ F29 "RESET" I R 2200 6150 50
 $EndSheet
 Text GLabel 2200 6150 2    50   Input ~ 0
 RESET
+$Comp
+L Connector:Conn_01x07_Female J1
+U 1 1 61B06490
+P 6000 6150
+F 0 "J1" H 6028 6176 50  0000 L CNN
+F 1 "Conn_01x07_Female" H 6028 6085 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical" H 6000 6150 50  0001 C CNN
+F 3 "~" H 6000 6150 50  0001 C CNN
+	1    6000 6150
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

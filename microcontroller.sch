@@ -64,7 +64,7 @@ L power:VCC #PWR010
 U 1 1 60A8BA34
 P 5900 1950
 F 0 "#PWR010" H 5900 1800 50  0001 C CNN
-F 1 "VCC" H 5700 2150 50  0000 C CNN
+F 1 "VCC" H 5800 2000 50  0000 C CNN
 F 2 "" H 5900 1950 50  0001 C CNN
 F 3 "" H 5900 1950 50  0001 C CNN
 	1    5900 1950
@@ -99,7 +99,7 @@ P 4500 2550
 F 0 "Y1-16hz1" V 4454 2681 50  0000 L CNN
 F 1 "Crystal" V 4545 2681 50  0000 L CNN
 F 2 "CHGRAY-Keyboard:JLC_PCB_C718667" H 4500 2200 50  0000 C CNN
-F 3 "C718667" H 4550 2400 50  0000 C CNN
+F 3 "C111377" H 4550 2400 50  0000 C CNN
 	1    4500 2550
 	0    1    1    0   
 $EndComp
@@ -179,8 +179,6 @@ F 3 "" H 4350 650 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5400 2250 5400 1400
-Wire Wire Line
-	5400 1400 4350 1400
 Wire Wire Line
 	4350 1400 3950 1400
 Wire Wire Line
@@ -504,11 +502,7 @@ F 3 "C17561" H 4450 4550 50  0001 C CNN
 $EndComp
 Text HLabel 3750 5050 0    50   Input ~ 0
 TEENSY_GND
-Wire Wire Line
-	6100 1850 6500 1850
-Wire Wire Line
-	6500 1850 6500 1400
-Text HLabel 6500 1400 0    50   Output ~ 0
+Text HLabel 5900 1850 1    50   Output ~ 0
 ATMEL_VCC
 Text HLabel 5400 1400 2    50   Input ~ 0
 RESET
@@ -538,13 +532,25 @@ Wire Wire Line
 	5200 3350 5200 4550
 Wire Wire Line
 	5300 3550 5300 5050
+Text HLabel 6100 1850 1    50   Output ~ 0
+ATMEL_VCC
+Text HLabel 7050 -250 1    50   Output ~ 0
+ATMEL_VCC
+Wire Wire Line
+	4350 1400 5400 1400
+Text HLabel 7350 -100 1    50   Output ~ 0
+ATMEL_VCC
+Text HLabel 6000 1850 1    50   Output ~ 0
+ATMEL_VCC
+Text HLabel 4950 3050 3    50   Output ~ 0
+ATMEL_VCC
 $Comp
-L MCU_Microchip_ATmega:ATmega32U4RC-AU U1
-U 1 1 6193204F
+L MCU_Microchip_ATmega:ATmega32U4-MU U1
+U 1 1 61AF3258
 P 6000 3750
 F 0 "U1" H 6000 1861 50  0000 C CNN
-F 1 "ATmega32U4RC-AU" H 6000 1600 50  0000 C CNN
-F 2 "Package_QFP:TQFP-44_10x10mm_P0.8mm" H 6000 3750 50  0001 C CIN
+F 1 "ATmega32U4-MU" H 6000 1770 50  0000 C CNN
+F 2 "Package_DFN_QFN:QFN-44-1EP_7x7mm_P0.5mm_EP5.2x5.2mm" H 6000 3750 50  0001 C CIN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf" H 6000 3750 50  0001 C CNN
 	1    6000 3750
 	1    0    0    -1  
