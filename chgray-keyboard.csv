@@ -1,5 +1,5 @@
 Designator, Comment, Footprint, JLCPCB Part #
-"J1","Conn_01x01_Female","Connector_PinHeader_1.27mm:PinHeader_2x07_P1.27mm_Vertical","~"
+"J1","Conn_01x07_Female","Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical","~"
 "D95","LED","CHGRAY_LED:LED_WS2812-2020","C965555"
 "D100","LED","CHGRAY_LED:LED_WS2812-2020","C965555"
 "D105","LED","CHGRAY_LED:LED_WS2812-2020","C965555"
@@ -385,7 +385,7 @@ Designator, Comment, Footprint, JLCPCB Part #
 "SW58","69","daprice-keyswitches:Stabilizer_MX_1.25u",""
 "D70","DIODE","CHGRAY-Keyboard:D_SOD-123FL","C64898"
 "R4","R10k","Resistor_SMD:R_1206_3216Metric","C17902"
-"Y1-16hz1","Crystal","CHGRAY-Keyboard:JLC_PCB_C718667","C718667"
+"Y1-16hz1","Crystal","CHGRAY-Keyboard:JLC_PCB_C718667","C111377"
 "C107","22p","Capacitor_SMD:C_0805_2012Metric","C1804"
 "R1","R10k","Resistor_SMD:R_1206_3216Metric","C17902"
 "SW_RESET1","SW_Push","CHGRAY_LED:SW_SPST_JLC_PCB_C520860","C520860"
@@ -399,4 +399,4 @@ Designator, Comment, Footprint, JLCPCB Part #
 "C106","10u","Capacitor_SMD:C_0805_2012Metric","C15850"
 "C108","22p","Capacitor_SMD:C_0805_2012Metric","C1804"
 "R3","22R","Resistor_SMD:R_0805_2012Metric","C17561"
-"U1","ATmega32U4RC-AU","Package_QFP:TQFP-44_10x10mm_P0.8mm","http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf"
+"U1","ATmega32U4-MU","Package_DFN_QFN:QFN-44-1EP_7x7mm_P0.5mm_EP5.2x5.2mm","http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf"
