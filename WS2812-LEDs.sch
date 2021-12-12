@@ -3195,11 +3195,12 @@ Wire Wire Line
 	12200 9650 12200 9800
 Text GLabel 12200 10400 3    50   Input ~ 0
 LED_GND
-NoConn ~ 12500 10100
 Text GLabel 6200 10400 3    50   Input ~ 0
 LED_GND
 Wire Wire Line
 	1300 800  1600 800 
 Wire Wire Line
 	1300 950  1600 950 
+Text HLabel 12500 10100 2    50   Input ~ 0
+LED_OUT
 $EndSCHEMATC

@@ -59,15 +59,6 @@ Text GLabel 6950 5350 0    50   Input ~ 0
 PWR_5V
 Text GLabel 6950 5050 0    50   Input ~ 0
 LED_DATA
-$Sheet
-S 6950 4900 550  550 
-U 6096EA02
-F0 "RGB" 50
-F1 "WS2812-LEDs.sch" 50
-F2 "5V" I L 6950 5350 50 
-F3 "VDD" I L 6950 5200 50 
-F4 "INPUT" I L 6950 5050 50 
-$EndSheet
 Text GLabel 4150 6750 0    50   Input ~ 0
 ROW6
 Text GLabel 5800 6050 0    50   Input ~ 0
@@ -217,14 +208,28 @@ $EndSheet
 Text GLabel 2200 6150 2    50   Input ~ 0
 RESET
 $Comp
-L Connector:Conn_01x07_Female J1
+L Connector:Conn_01x08_Female J1
 U 1 1 61B06490
 P 6000 6150
 F 0 "J1" H 6028 6176 50  0000 L CNN
 F 1 "Conn_01x07_Female" H 6028 6085 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical" H 6000 6150 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 6000 6150 50  0001 C CNN
 F 3 "~" H 6000 6150 50  0001 C CNN
 	1    6000 6150
 	1    0    0    -1  
 $EndComp
+Text GLabel 7500 5250 2    50   Input ~ 0
+LED_OUT
+$Sheet
+S 6950 4900 550  550 
+U 6096EA02
+F0 "RGB" 50
+F1 "WS2812-LEDs.sch" 50
+F2 "5V" I L 6950 5350 50 
+F3 "VDD" I L 6950 5200 50 
+F4 "INPUT" I L 6950 5050 50 
+F5 "LED_OUT" I R 7500 5250 50 
+$EndSheet
+Text GLabel 5800 6550 0    50   Input ~ 0
+LED_OUT
 $EndSCHEMATC
