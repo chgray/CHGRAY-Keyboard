@@ -189,7 +189,7 @@ Designator, Comment, Footprint, JLCPCB Part #
 "SW58","69","daprice-keyswitches:Stabilizer_MX_1.25u",""
 "D70","DIODE","CHGRAY-Keyboard:D_SOD-123FL","C64898"
 "R4","R10k","Resistor_SMD:R_1206_3216Metric","C17902"
-"Y1-16hz1","Crystal","CHGRAY-Keyboard:JLC_PCB_C111377","C111377"
+"Y1","Crystal","CHGRAY-Keyboard:JLC_PCB_C111377","C111377"
 "C107","22p","Capacitor_SMD:C_0805_2012Metric","C1804"
 "R1","R10k","Resistor_SMD:R_1206_3216Metric","C17902"
 "SW_RESET1","SW_Push","CHGRAY_LED:SW_SPST_JLC_PCB_C520860","C520860"

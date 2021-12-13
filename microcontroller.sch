@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 4
+Sheet 3 4
 Title ""
 Date ""
 Rev ""
@@ -93,10 +93,10 @@ F 3 "" H 6100 1950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Crystal Y1-16hz1
+L Device:Crystal Y1
 U 1 1 60A8D8F1
 P 4500 2550
-F 0 "Y1-16hz1" V 4454 2681 50  0000 L CNN
+F 0 "Y1" V 4454 2681 50  0000 L CNN
 F 1 "Crystal" V 4545 2681 50  0000 L CNN
 F 2 "CHGRAY-Keyboard:JLC_PCB_C111377" H 4500 2200 50  0000 C CNN
 F 3 "C111377" H 4550 2400 50  0000 C CNN

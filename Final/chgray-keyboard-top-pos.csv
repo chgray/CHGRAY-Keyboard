@@ -1,4 +1,4 @@
-Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+Designator,Val,Package,Mid X, Mid Y,Rotation,Layer
 "C1","C104  0.1uF 100nF","C_0402_1005Metric",146.920000,-28.174800,0.000000,top
 "C2","C104  0.1uF 100nF","C_0402_1005Metric",49.454100,-66.167000,180.000000,top
 "C3","C104  0.1uF 100nF","C_0402_1005Metric",337.185000,-66.274800,0.000000,top
@@ -383,4 +383,4 @@ Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
 "SW77","511","Kailh_socket_MX",331.165000,-114.046000,0.000000,top
 "SW_RESET1","SW_Push","SW_SPST_JLC_PCB_C520860",318.960000,-116.776000,90.000000,top
 "U1","ATmega32U4-MU","QFN-44-1EP_7x7mm_P0.5mm_EP5.2x5.2mm",319.342000,-28.321000,0.000000,top
-"Y1-16hz1","Crystal","JLC_PCB_C111377",318.834000,-56.760500,90.000000,top
+"Y1","Crystal","JLC_PCB_C111377",318.834000,-56.760500,90.000000,top
