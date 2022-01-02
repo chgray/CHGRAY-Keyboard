@@ -23,6 +23,13 @@ The general guide to send PRs to QMK is https://docs.qmk.fm/#/contributing; ther
 qmk c2json -km default -kb handwired/ckey -o foo.json ./keyboards/handwired/ckey/keymaps/default/keymap.c
 
 
+# To Make the keyplate
+	1. in notepad replace Eco.User1 with Edge.Cuts
+	2. from pcbnew export the Edge.Cuts layer as a DXF
+	3. import this back into pcbnew
+	4. Delete all the active components and then manually patch up things
+
+
 # Parts 
 Purchased LED's ffrom https://www.adafruit.com/product/4960
 
