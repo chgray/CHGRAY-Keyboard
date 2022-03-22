@@ -117,11 +117,7 @@ $EndComp
 Wire Wire Line
 	5150 2400 5150 2450
 Wire Wire Line
-	5150 2450 5400 2450
-Wire Wire Line
 	5150 2700 5150 2650
-Wire Wire Line
-	5150 2650 5400 2650
 Wire Wire Line
 	3900 2400 3600 2400
 Wire Wire Line
@@ -198,62 +194,6 @@ F 3 "" H 3950 1050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:USB_B_Mini J2
-U 1 1 60A99543
-P 3750 4400
-F 0 "J2" H 3807 4867 50  0000 C CNN
-F 1 "USB_B_Mini" H 3807 4776 50  0000 C CNN
-F 2 "CHGRAY-Keyboard:USB_Mini-B_Wuerth_65100516121_Horizontal" H 3900 4350 50  0001 C CNN
-F 3 "C69074" H 3900 4350 50  0001 C CNN
-	1    3750 4400
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R2
-U 1 1 60A9BEA4
-P 4450 4350
-F 0 "R2" V 4243 4350 50  0000 C CNN
-F 1 "22R" V 4450 4350 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 4380 4350 50  0001 C CNN
-F 3 "C17561" H 4450 4350 50  0001 C CNN
-	1    4450 4350
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	4050 4500 4300 4500
-Wire Wire Line
-	4300 4500 4300 4550
-Wire Wire Line
-	4050 4400 4300 4400
-Wire Wire Line
-	4300 4400 4300 4350
-Wire Wire Line
-	4600 4350 5150 4350
-Wire Wire Line
-	5150 4350 5150 3250
-Wire Wire Line
-	5150 3250 5400 3250
-Wire Wire Line
-	5400 3350 5200 3350
-Wire Wire Line
-	5200 4550 4600 4550
-$Comp
-L power:VCC #PWR07
-U 1 1 60AA0262
-P 4250 4050
-F 0 "#PWR07" H 4250 3900 50  0001 C CNN
-F 1 "VCC" H 4265 4223 50  0000 C CNN
-F 2 "" H 4250 4050 50  0001 C CNN
-F 3 "" H 4250 4050 50  0001 C CNN
-	1    4250 4050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4050 4200 4250 4200
-Wire Wire Line
-	4250 4200 4250 4050
-NoConn ~ 4050 4600
-$Comp
 L Device:C C109
 U 1 1 60AA1797
 P 4400 5050
@@ -269,12 +209,7 @@ Wire Wire Line
 Wire Wire Line
 	5300 3550 5400 3550
 Wire Wire Line
-	3650 4800 3750 4800
-Wire Wire Line
 	4250 5050 3750 5050
-Wire Wire Line
-	3750 5050 3750 4800
-Connection ~ 3750 4800
 Text HLabel 6800 2250 2    50   Input ~ 0
 PB0
 Wire Wire Line
@@ -290,8 +225,6 @@ F 3 "" H 4900 3050 50  0001 C CNN
 	1    4900 3050
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	4900 3050 5400 3050
 Text HLabel 6800 2350 2    50   Input ~ 0
 PB1
 Wire Wire Line
@@ -489,18 +422,7 @@ F 3 "C1804" H 4050 2700 50  0001 C CNN
 	1    4050 2700
 	0    1    1    0   
 $EndComp
-$Comp
-L Device:R R3
-U 1 1 60BDEC5A
-P 4450 4550
-F 0 "R3" V 4243 4550 50  0000 C CNN
-F 1 "22R" V 4450 4550 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 4380 4550 50  0001 C CNN
-F 3 "C17561" H 4450 4550 50  0001 C CNN
-	1    4450 4550
-	0    1    1    0   
-$EndComp
-Text HLabel 3750 5050 0    50   Input ~ 0
+Text HLabel 900  5800 3    50   Input ~ 0
 TEENSY_GND
 Text HLabel 5900 1850 1    50   Output ~ 0
 ATMEL_VCC
@@ -529,8 +451,6 @@ Connection ~ 4500 2700
 Wire Wire Line
 	4500 2700 5150 2700
 Wire Wire Line
-	5200 3350 5200 4550
-Wire Wire Line
 	5300 3550 5300 5050
 Text HLabel 6100 1850 1    50   Output ~ 0
 ATMEL_VCC
@@ -545,14 +465,132 @@ ATMEL_VCC
 Text HLabel 4950 3050 3    50   Output ~ 0
 ATMEL_VCC
 $Comp
+L Connector:USB_C_Plug P1
+U 1 1 623F9E72
+P 1200 4200
+F 0 "P1" H 1307 5467 50  0000 C CNN
+F 1 "USB_C_Plug" H 1307 5376 50  0000 C CNN
+F 2 "" H 1350 4200 50  0001 C CNN
+F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 1350 4200 50  0001 C CNN
+	1    1200 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R7
+U 1 1 623FF1E3
+P 1950 3700
+F 0 "R7" V 1750 3700 50  0000 C CNN
+F 1 "R5.1k" V 1834 3700 50  0000 C CNN
+F 2 "https://cdn.sparkfun.com/assets/4/4/f/2/a/Qwiic_Pro_Micro_V2_0_USB_C_Schematic.pdf" V 1880 3700 50  0001 C CNN
+F 3 "~" H 1950 3700 50  0001 C CNN
+	1    1950 3700
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R8
+U 1 1 623FFEAC
+P 1950 3900
+F 0 "R8" V 1743 3900 50  0000 C CNN
+F 1 "R5.1k" V 2050 4400 50  0000 C CNN
+F 2 "https://cdn.sparkfun.com/assets/4/4/f/2/a/Qwiic_Pro_Micro_V2_0_USB_C_Schematic.pdf" V 1880 3900 50  0001 C CNN
+F 3 "~" H 1950 3900 50  0001 C CNN
+	1    1950 3900
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R5
+U 1 1 624012BF
+P 1950 3400
+F 0 "R5" V 1743 3400 50  0000 C CNN
+F 1 "R5.1k" V 1834 3400 50  0000 C CNN
+F 2 "https://cdn.sparkfun.com/assets/4/4/f/2/a/Qwiic_Pro_Micro_V2_0_USB_C_Schematic.pdf" V 1880 3400 50  0001 C CNN
+F 3 "~" H 1950 3400 50  0001 C CNN
+	1    1950 3400
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR016
+U 1 1 62409BA8
+P 2100 3500
+F 0 "#PWR016" H 2100 3250 50  0001 C CNN
+F 1 "GND" V 2105 3372 50  0000 R CNN
+F 2 "" H 2100 3500 50  0001 C CNN
+F 3 "" H 2100 3500 50  0001 C CNN
+	1    2100 3500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR04
+U 1 1 62406734
+P 2100 3400
+F 0 "#PWR04" H 2100 3150 50  0001 C CNN
+F 1 "GND" V 2105 3272 50  0000 R CNN
+F 2 "" H 2100 3400 50  0001 C CNN
+F 3 "" H 2100 3400 50  0001 C CNN
+	1    2100 3400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R6
+U 1 1 62402467
+P 1950 3500
+F 0 "R6" V 1743 3500 50  0000 C CNN
+F 1 "R5.1k" V 1834 3500 50  0000 C CNN
+F 2 "https://cdn.sparkfun.com/assets/4/4/f/2/a/Qwiic_Pro_Micro_V2_0_USB_C_Schematic.pdf" V 1880 3500 50  0001 C CNN
+F 3 "~" H 1950 3500 50  0001 C CNN
+	1    1950 3500
+	0    1    1    0   
+$EndComp
+NoConn ~ 1800 4200
+NoConn ~ 1800 4300
+NoConn ~ 1800 4500
+NoConn ~ 1800 4600
+NoConn ~ 1800 4800
+NoConn ~ 1800 4900
+NoConn ~ 1800 5100
+NoConn ~ 1800 5200
+NoConn ~ 1800 5400
+NoConn ~ 1800 5500
+$Comp
+L power:VCC #PWR0101
+U 1 1 624575D3
+P 1800 3050
+F 0 "#PWR0101" H 1800 2900 50  0001 C CNN
+F 1 "VCC" H 1815 3223 50  0000 C CNN
+F 2 "" H 1800 3050 50  0001 C CNN
+F 3 "" H 1800 3050 50  0001 C CNN
+	1    1800 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1800 3200 1800 3050
+Text HLabel 1200 5800 3    50   Input ~ 0
+TEENSY_GND
+Text HLabel 3750 5050 0    50   Input ~ 0
+TEENSY_GND
+Wire Wire Line
+	4900 3050 5400 3050
+Wire Wire Line
+	5150 2650 5400 2650
+Wire Wire Line
+	5150 2450 5400 2450
+Text GLabel 5400 3350 0    50   Input ~ 0
+D-
+Text GLabel 5400 3250 0    50   Input ~ 0
+D+
+$Comp
 L MCU_Microchip_ATmega:ATmega32U4-MU U1
 U 1 1 61AF3258
 P 6000 3750
 F 0 "U1" H 6000 1861 50  0000 C CNN
-F 1 "ATmega32U4-MU" H 6000 1770 50  0000 C CNN
+F 1 "ATmega32U4-MU" H 6000 1600 50  0000 C CNN
 F 2 "Package_DFN_QFN:QFN-44-1EP_7x7mm_P0.5mm_EP5.2x5.2mm" H 6000 3750 50  0001 C CIN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf" H 6000 3750 50  0001 C CNN
 	1    6000 3750
 	1    0    0    -1  
 $EndComp
+Text GLabel 2100 3700 2    50   Input ~ 0
+D-
+Text GLabel 2100 3900 2    50   Input ~ 0
+D+
 $EndSCHEMATC
