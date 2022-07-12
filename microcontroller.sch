@@ -545,7 +545,7 @@ ATMEL_VCC
 Text HLabel 4950 3050 3    50   Output ~ 0
 ATMEL_VCC
 $Comp
-L MCU_Microchip_ATmega:ATmega32U4-MU U1
+L Cherry-Symbol:ATmega32U4-AU U1
 U 1 1 61AF3258
 P 6000 3750
 F 0 "U1" H 6000 1861 50  0000 C CNN
