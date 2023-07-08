@@ -1,0 +1,7 @@
+(fp_lib_table
+  (lib (name CherryKeys)(type KiCad)(uri "$(KIPRJMOD)/submodules/Cherry/footprints.pretty")(options "")(descr ""))
+  (lib (name Teensy_Pretty)(type KiCad)(uri "$(KIPRJMOD)/submodules/Teensy_Pretty")(options "")(descr ""))
+  (lib (name daprice-keyswitches)(type KiCad)(uri "$(KIPRJMOD)/submodules/daprice-keyswitches")(options "")(descr ""))
+  (lib (name CHGRAY_LED)(type KiCad)(uri "$(KIPRJMOD)/CHGRAY_LED")(options "")(descr ""))
+  (lib (name CHGRAY-Keyboard)(type KiCad)(uri ${KIPRJMOD}/CHGRAY-Keyboard.pretty)(options "")(descr ""))
+)
