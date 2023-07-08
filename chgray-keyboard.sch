@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
-Sheet 1 2
+Sheet 1 4
 Title ""
 Date ""
 Rev ""
@@ -13,232 +13,223 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Wire Wire Line
+	6650 5200 6950 5200
+Text GLabel 4150 4550 0    50   Input ~ 0
+COL0
+Text GLabel 4150 4650 0    50   Input ~ 0
+COL1
+Text GLabel 4150 4750 0    50   Input ~ 0
+COL2
+Text GLabel 4150 4850 0    50   Input ~ 0
+COL3
+Text GLabel 4150 4950 0    50   Input ~ 0
+COL4
+Text GLabel 4150 5050 0    50   Input ~ 0
+COL5
+Text GLabel 4150 5150 0    50   Input ~ 0
+COL6
+Text GLabel 4150 5250 0    50   Input ~ 0
+COL7
+Text GLabel 4150 5450 0    50   Input ~ 0
+COL8
+Text GLabel 4150 5750 0    50   Input ~ 0
+COL11
+Text GLabel 4150 5850 0    50   Input ~ 0
+COL12
+Text GLabel 4150 5950 0    50   Input ~ 0
+COL13
+Text GLabel 4150 6050 0    50   Input ~ 0
+ROW0
+Text GLabel 4150 6150 0    50   Input ~ 0
+ROW1
+Text GLabel 4150 6350 0    50   Input ~ 0
+ROW2
+Text GLabel 4150 5550 0    50   Input ~ 0
+COL9
+Text GLabel 4150 5650 0    50   Input ~ 0
+COL10
+Text GLabel 4150 6450 0    50   Input ~ 0
+ROW3
+Text GLabel 4150 6550 0    50   Input ~ 0
+ROW4
+Text GLabel 4150 6650 0    50   Input ~ 0
+ROW5
+Text GLabel 6950 5350 0    50   Input ~ 0
+PWR_5V
+Text GLabel 6950 5050 0    50   Input ~ 0
+LED_DATA
+Text GLabel 4150 6750 0    50   Input ~ 0
+ROW6
+Text GLabel 5800 6050 0    50   Input ~ 0
+COL12
+Text GLabel 5800 6150 0    50   Input ~ 0
+COL13
+Text GLabel 5800 6250 0    50   Input ~ 0
+ROW0
+Text GLabel 5800 6350 0    50   Input ~ 0
+RESET
+Connection ~ 6650 5200
+Wire Wire Line
+	6450 5200 6650 5200
+Wire Wire Line
+	6650 5000 6650 5200
+$Comp
+L Cherry-Symbol:GND #PWR0102
+U 1 1 6167DD57
+P 6650 4950
+F 0 "#PWR0102" H 6650 4950 30  0001 C CNN
+F 1 "GND" H 6650 4880 30  0001 C CNN
+F 2 "" H 6650 4950 50  0001 C CNN
+F 3 "" H 6650 4950 50  0001 C CNN
+	1    6650 4950
+	-1   0    0    1   
+$EndComp
+Text GLabel 6450 5200 0    50   Input ~ 0
+TEENSY_GND
 $Sheet
-S 7300 1800 2100 1850
+S 4150 4350 750  2950
 U 589645BF
 F0 "Keyboard Keys" 60
 F1 "Keys.sch" 60
-F2 "KEY_COL0" I L 7300 2000 60 
-F3 "KEY_ROW0" I R 9400 1950 60 
-F4 "KEY_ROW1" I R 9400 2150 60 
-F5 "KEY_COL1" I L 7300 2150 60 
-F6 "KEY_ROW2" I R 9400 2350 50 
-F7 "KEY_ROW3" I R 9400 2550 50 
-F8 "KEY_ROW4" I R 9400 2750 50 
-F9 "KEY_ROW5" I R 9400 2900 50 
-F10 "KEY_COL2" I L 7300 2300 50 
-F11 "KEY_COL3" I L 7300 2450 50 
+F2 "KEY_COL0" I L 4150 4550 60 
+F3 "KEY_ROW0" I L 4150 6050 60 
+F4 "KEY_ROW1" I L 4150 6150 60 
+F5 "KEY_COL1" I L 4150 4650 60 
+F6 "KEY_ROW2" I L 4150 6350 50 
+F7 "KEY_ROW3" I L 4150 6450 50 
+F8 "KEY_ROW4" I L 4150 6550 50 
+F9 "KEY_ROW5" I L 4150 6650 50 
+F10 "KEY_COL2" I L 4150 4750 50 
+F11 "KEY_COL3" I L 4150 4850 50 
+F12 "KEY_COL4" I L 4150 4950 50 
+F13 "KEY_COL5" I L 4150 5050 50 
+F14 "KEY_COL6" I L 4150 5150 50 
+F15 "KEY_COL7" I L 4150 5250 50 
+F16 "KEY_COL8" I L 4150 5450 50 
+F17 "KEY_COL9" I L 4150 5550 50 
+F18 "KEY_COL10" I L 4150 5650 50 
+F19 "KEY_COL11" I L 4150 5750 50 
+F20 "KEY_COL12" I L 4150 5850 50 
+F21 "KEY_COL13" I L 4150 5950 50 
+F22 "KEY_ROW6" I L 4150 6750 50 
 $EndSheet
-Wire Wire Line
-	9600 1950 9600 1500
-Wire Wire Line
-	9600 1500 1350 1500
-Wire Wire Line
-	1350 1500 1350 4950
-Wire Wire Line
-	1150 5050 1150 1300
-Wire Wire Line
-	1150 1300 9750 1300
-Wire Wire Line
-	9750 1300 9750 2150
-Wire Wire Line
-	1350 4950 2250 4950
-Wire Wire Line
-	2250 5050 1150 5050
-Wire Wire Line
-	7300 2000 1650 2000
-Wire Wire Line
-	9750 2150 9400 2150
-Wire Wire Line
-	9400 1950 9600 1950
-Wire Wire Line
-	1650 2000 1650 3750
-Wire Wire Line
-	1650 3750 2250 3750
-Wire Wire Line
-	2250 3850 1500 3850
-Wire Wire Line
-	1500 3850 1500 2150
-Wire Wire Line
-	1500 2150 7300 2150
-Wire Wire Line
-	9400 2350 9950 2350
-Wire Wire Line
-	9950 2350 9950 1000
-Wire Wire Line
-	9950 1000 1000 1000
-Wire Wire Line
-	1000 1000 1000 4850
-Wire Wire Line
-	1000 4850 2250 4850
-NoConn ~ 4550 3850
-NoConn ~ 4550 3950
-NoConn ~ 4550 4050
-NoConn ~ 4550 4250
-NoConn ~ 4550 4350
-NoConn ~ 4550 4450
-NoConn ~ 4550 4550
-NoConn ~ 4550 4750
-NoConn ~ 4550 4850
-NoConn ~ 4550 4950
-NoConn ~ 4550 5050
-NoConn ~ 4550 5150
-NoConn ~ 4550 5250
-NoConn ~ 4550 5550
-NoConn ~ 4550 6050
-NoConn ~ 4550 6150
-NoConn ~ 4550 6250
-NoConn ~ 4550 6350
-NoConn ~ 4550 6450
-NoConn ~ 4550 6550
-NoConn ~ 4550 6650
-NoConn ~ 4550 6750
-NoConn ~ 4550 6850
-NoConn ~ 4550 6950
-NoConn ~ 4550 7050
-NoConn ~ 4550 7150
-NoConn ~ 4550 7250
-NoConn ~ 2250 7250
-NoConn ~ 2250 7150
-NoConn ~ 2250 7050
-NoConn ~ 2250 6950
-NoConn ~ 2250 6850
-NoConn ~ 2250 6650
-NoConn ~ 2250 6550
-NoConn ~ 2250 6450
-NoConn ~ 2250 6350
-NoConn ~ 2250 6250
-NoConn ~ 2250 5950
-NoConn ~ 2250 5750
-NoConn ~ 2250 5650
-NoConn ~ 2250 5450
-NoConn ~ 2250 4550
-NoConn ~ 2250 4650
-NoConn ~ 2250 4750
-NoConn ~ 2250 4450
-NoConn ~ 2250 4350
-NoConn ~ 2250 4250
-NoConn ~ 2250 4150
-NoConn ~ 2250 4050
-NoConn ~ 2250 3950
-NoConn ~ 2250 3650
-NoConn ~ 2250 3050
-NoConn ~ 2250 3150
-NoConn ~ 2250 3250
-NoConn ~ 2250 3350
-NoConn ~ 2250 3450
-NoConn ~ 2250 3550
-Wire Wire Line
-	9400 2550 10050 2550
-Wire Wire Line
-	10050 2550 10050 850 
-Wire Wire Line
-	10050 850  900  850 
-Wire Wire Line
-	900  850  900  5150
-Wire Wire Line
-	800  5250 800  700 
-Wire Wire Line
-	800  700  10150 700 
-Wire Wire Line
-	10150 700  10150 2750
-Wire Wire Line
-	10150 2750 9400 2750
-Wire Wire Line
-	10250 2900 10250 550 
-Wire Wire Line
-	10250 550  700  550 
-Wire Wire Line
-	2250 5250 800  5250
-Wire Wire Line
-	900  5150 2250 5150
-Wire Wire Line
-	10250 2900 9400 2900
-NoConn ~ 2250 5350
-Wire Wire Line
-	2250 5850 700  5850
-Wire Wire Line
-	700  550  700  5850
+Text GLabel 5800 5850 0    50   Input ~ 0
+TEENSY_GND
+Text GLabel 5800 6450 0    50   Input ~ 0
+PWR_5V
+Text GLabel 5800 5950 0    50   Input ~ 0
+LED_DATA
+Text GLabel 2200 5250 2    50   Input ~ 0
+PWR_5V
+Text GLabel 1650 4450 0    50   Input ~ 0
+COL0
+Text GLabel 1650 4550 0    50   Input ~ 0
+COL1
+Text GLabel 1650 4650 0    50   Input ~ 0
+COL2
+Text GLabel 1650 4750 0    50   Input ~ 0
+COL3
+Text GLabel 1650 4850 0    50   Input ~ 0
+COL4
+Text GLabel 1650 4950 0    50   Input ~ 0
+COL5
+Text GLabel 1650 5050 0    50   Input ~ 0
+COL6
+Text GLabel 1650 5150 0    50   Input ~ 0
+COL7
+Text GLabel 1650 5350 0    50   Input ~ 0
+COL8
+Text GLabel 1650 5650 0    50   Input ~ 0
+COL11
+Text GLabel 1650 5750 0    50   Input ~ 0
+COL12
+Text GLabel 1650 5850 0    50   Input ~ 0
+COL13
+Text GLabel 1650 5950 0    50   Input ~ 0
+ROW0
+Text GLabel 1650 6050 0    50   Input ~ 0
+ROW1
+Text GLabel 1650 6250 0    50   Input ~ 0
+ROW2
+Text GLabel 1650 5450 0    50   Input ~ 0
+COL9
+Text GLabel 1650 5550 0    50   Input ~ 0
+COL10
+Text GLabel 1650 6350 0    50   Input ~ 0
+ROW3
+Text GLabel 1650 6450 0    50   Input ~ 0
+ROW4
+Text GLabel 1650 6550 0    50   Input ~ 0
+ROW5
+NoConn ~ 2200 4850
+NoConn ~ 2200 5000
+NoConn ~ 2200 4700
+Text GLabel 2200 4450 2    50   Input ~ 0
+LED_DATA
+Text GLabel 2200 4550 2    50   Input ~ 0
+ROW6
+Text GLabel 2200 6700 2    50   Input ~ 0
+TEENSY_GND
+$Sheet
+S 1650 4350 550  2450
+U 60A82B52
+F0 "ATmega32U4-AU" 50
+F1 "microcontroller.sch" 50
+F2 "PB0" I L 1650 6050 50 
+F3 "PB1" I L 1650 5950 50 
+F4 "PB2" I L 1650 5850 50 
+F5 "PB3" I L 1650 5750 50 
+F6 "PB4" I L 1650 5650 50 
+F7 "PB5" I L 1650 5550 50 
+F8 "PB6" I L 1650 5450 50 
+F9 "PB7" I L 1650 5350 50 
+F10 "PD0" I L 1650 5150 50 
+F11 "PD1" I L 1650 5050 50 
+F12 "PD2" I L 1650 4950 50 
+F13 "PD3" I L 1650 4850 50 
+F14 "PD4" I L 1650 4750 50 
+F15 "PD5" I L 1650 4650 50 
+F16 "PD6" I L 1650 4550 50 
+F17 "PD7" I L 1650 4450 50 
+F18 "PE6" I R 2200 4450 50 
+F19 "PF0" I R 2200 5000 50 
+F20 "PF1" I R 2200 4850 50 
+F21 "PF4" I L 1650 6550 50 
+F22 "PF5" I L 1650 6450 50 
+F23 "PF6" I L 1650 6350 50 
+F24 "PF7" I L 1650 6250 50 
+F25 "PC6" I R 2200 4700 50 
+F26 "PC7" I R 2200 4550 50 
+F27 "TEENSY_GND" I R 2200 6700 50 
+F28 "ATMEL_VCC" O R 2200 5250 50 
+F29 "RESET" I R 2200 6150 50 
+$EndSheet
+Text GLabel 2200 6150 2    50   Input ~ 0
+RESET
 $Comp
-L chgray-keyboard-rescue:Teensy3.5-Teensy Teensy-Part1
-U 1 1 605697C1
-P 3400 5100
-F 0 "Teensy-Part1" H 3400 7839 60  0000 C CNN
-F 1 "Teensy3.5" H 3400 7733 60  0000 C CNN
-F 2 "Teensy_Pretty:Teensy35_36" H 3400 7627 60  0000 C CNN
-F 3 "https://www.pjrc.com/teensy/card8a_rev2.pdf" H 3400 7521 60  0000 C CNN
-F 4 "https://www.pjrc.com/teensy/pinout.html" H 3400 7423 50  0000 C CNN "Pinouts"
-	1    3400 5100
+L Connector:Conn_01x08_Female J1
+U 1 1 61B06490
+P 6000 6150
+F 0 "J1" H 6028 6176 50  0000 L CNN
+F 1 "Conn_01x07_Female" H 6028 6085 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 6000 6150 50  0001 C CNN
+F 3 "~" H 6000 6150 50  0001 C CNN
+	1    6000 6150
 	1    0    0    -1  
 $EndComp
-NoConn ~ 4550 3150
-NoConn ~ 4550 3250
-NoConn ~ 4550 3350
-NoConn ~ 4550 3450
-NoConn ~ 4550 3550
-NoConn ~ 4550 5650
-NoConn ~ 4550 5750
-NoConn ~ 4550 4650
-$Comp
-L power:GND #PWR0101
-U 1 1 60644219
-P 1750 7500
-F 0 "#PWR0101" H 1750 7250 50  0001 C CNN
-F 1 "GND" H 1755 7327 50  0000 C CNN
-F 2 "" H 1750 7500 50  0001 C CNN
-F 3 "" H 1750 7500 50  0001 C CNN
-	1    1750 7500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2250 5550 1750 5550
-Wire Wire Line
-	1750 5550 1750 6750
-Wire Wire Line
-	2250 6750 1750 6750
-Connection ~ 1750 6750
-Wire Wire Line
-	1750 6750 1750 7500
-Wire Wire Line
-	2250 2950 1750 2950
-Wire Wire Line
-	1750 2950 1750 5550
-Connection ~ 1750 5550
-Wire Wire Line
-	4550 5350 4900 5350
-Wire Wire Line
-	4900 5350 4900 5450
-Wire Wire Line
-	4900 5450 4550 5450
-$Comp
-L power:GND #PWR0102
-U 1 1 6064C2E8
-P 4900 7550
-F 0 "#PWR0102" H 4900 7300 50  0001 C CNN
-F 1 "GND" H 4905 7377 50  0000 C CNN
-F 2 "" H 4900 7550 50  0001 C CNN
-F 3 "" H 4900 7550 50  0001 C CNN
-	1    4900 7550
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4900 5450 4900 7550
-Connection ~ 4900 5450
-NoConn ~ 4550 2950
-NoConn ~ 4550 3050
-Wire Wire Line
-	2250 6050 200  6050
-Wire Wire Line
-	200  6050 200  2300
-Wire Wire Line
-	200  2300 7300 2300
-Wire Wire Line
-	7300 2450 300  2450
-Wire Wire Line
-	300  2450 300  6150
-Wire Wire Line
-	300  6150 2250 6150
-NoConn ~ 4550 3650
-NoConn ~ 4550 3750
-NoConn ~ 4550 4150
+Text GLabel 7500 5250 2    50   Input ~ 0
+LED_OUT
+$Sheet
+S 6950 4900 550  550 
+U 6096EA02
+F0 "RGB" 50
+F1 "WS2812-LEDs.sch" 50
+F2 "5V" I L 6950 5350 50 
+F3 "VDD" I L 6950 5200 50 
+F4 "INPUT" I L 6950 5050 50 
+F5 "LED_OUT" I R 7500 5250 50 
+$EndSheet
+Text GLabel 5800 6550 0    50   Input ~ 0
+LED_OUT
 $EndSCHEMATC

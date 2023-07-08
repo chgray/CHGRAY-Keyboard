@@ -1,6 +1,5 @@
 (sym_lib_table
-  (lib (name Cherry-Symbol)(type Legacy)(uri C:/Source/CHGRAY-Keyboard/submodules/Cherry/components.lib)(options "")(descr ""))
-  (lib (name Teensy)(type Legacy)(uri C:/Source/CHGRAY-Keyboard/submodules/kicad_teensy/teensy.lib)(options "")(descr ""))
-  (lib (name Keys-rescue)(type Legacy)(uri ${KIPRJMOD}/Keys-rescue.lib)(options "")(descr "")(disabled))
-  (lib (name chgray-keyboard-rescue)(type Legacy)(uri ${KIPRJMOD}/chgray-keyboard-rescue.lib)(options "")(descr ""))
+  (lib (name Cherry-Symbol)(type Legacy)(uri ${KIPRJMOD}/submodules/Cherry/components.lib)(options "")(descr ""))
+  (lib (name Teensy)(type Legacy)(uri ${KIPRJMOD}/submodules/kicad_teensy/teensy.lib)(options "")(descr ""))
+  (lib (name chgray-keyboard-rescue)(type Legacy)(uri ${KIPRJMOD}/chgray-keyboard-rescue.lib)(options "")(descr "")(disabled))
 )
